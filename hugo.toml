@@ -1,0 +1,79 @@
+languageCode = "en-us"
+title = "Visualization Snacks"
+subtitle = "Visualization Guidance in Bite-Sized Pieces"
+theme = ["559Theme","mainroad"]
+
+# this seems to make things more robust to different deployments
+baseURL = ""
+relativeURLs = true
+canonifyURLs = true
+enableGitInfo = true
+
+# unsafe, but useful...
+enableInlineShortcodes = true
+
+# a basic menu
+[[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = -1000
+[[menu.main]]
+    identifier = "lessons"
+    url = "/lessons/"
+    name = "Lessons"
+    weight = 1
+[[menu.main]]
+    indentifier = "tutorials"
+    url = "/tutorials/"
+    name = "Tutorials"
+    weight = 2
+[[menu.main]]
+    indentifier = "resources"
+    url = "/resources/"
+    name = "Resources"
+    weight = 3
+[[menu.main]]
+    indentifier = "about"
+    url = "/about/"
+    name = "About"
+    weight = 10
+
+  
+
+[Params]
+post_meta = ["section","date","taglist","categories"]
+mainSections = ["posts", "weeks-in-vis"]
+dateformat = "January 2, 2006"
+copyright = "Michael Gleicher"
+copyrightDate = "2024"
+subtitle = "Course Web for the Fall 2024 Data Visualization Class"
+# archive = "Archive of the Fall 2024 Class"
+# archivenote = "This web page is from the Fall 2024 CS765 (Data Visualization) class."
+# ImportantPages = ["getting-started","schedule","policies", "communications", "pages/parts-of-class", "syllabus","vis", "exercises","all-readings", "allpages"]
+thisweek = "this00.md"
+themestyle = "new"
+recentSections = ["posts","assigns", "weeks-in-vis", "pages"]
+# this needs to be a SITE variable (for list.html)
+paginate = 15
+
+[Params.sidebar]
+home = "right"
+list = "right"
+single = "right"
+widgets = ["archive","lunr","thisweek","important","links","recents","categories","taglist"]
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    lineNos = true
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
