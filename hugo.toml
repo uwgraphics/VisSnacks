@@ -1,6 +1,5 @@
 languageCode = "en-us"
 title = "Visualization Snacks"
-subtitle = "Visualization Guidance in Bite-Sized Pieces"
 theme = ["559Theme","mainroad"]
 
 # this seems to make things more robust to different deployments
@@ -29,6 +28,16 @@ enableInlineShortcodes = true
     name = "Tutorials"
     weight = 2
 [[menu.main]]
+    indentifier = "summaries"
+    url = "/summaries/"
+    name = "Summaries"
+    weight = 3
+[[menu.main]]
+    indentifier = "critiques"
+    url = "/critiques/"
+    name = "Critiques"
+    weight = 3
+[[menu.main]]
     indentifier = "resources"
     url = "/resources/"
     name = "Resources"
@@ -42,14 +51,13 @@ enableInlineShortcodes = true
   
 
 [Params]
+subtitle = "Visualization Knowledge in Bite-Sized Pieces"
 post_meta = ["section","date","taglist","categories"]
-mainSections = ["posts", "weeks-in-vis"]
+mainSections = ["posts"]
 dateformat = "January 2, 2006"
 copyright = "Michael Gleicher"
 copyrightDate = "2024"
-subtitle = "Course Web for the Fall 2024 Data Visualization Class"
-# archive = "Archive of the Fall 2024 Class"
-# archivenote = "This web page is from the Fall 2024 CS765 (Data Visualization) class."
+
 # ImportantPages = ["getting-started","schedule","policies", "communications", "pages/parts-of-class", "syllabus","vis", "exercises","all-readings", "allpages"]
 thisweek = "this00.md"
 themestyle = "new"
