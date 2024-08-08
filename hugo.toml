@@ -3,9 +3,9 @@ title = "Visualization Snacks"
 theme = ["559Theme","mainroad"]
 
 # this seems to make things more robust to different deployments
-baseURL = ""
-relativeURLs = true
-canonifyURLs = true
+#baseURL = ""
+#relativeURLs = true
+#canonifyURLs = true
 enableGitInfo = true
 
 # unsafe, but useful...
@@ -57,7 +57,7 @@ mainSections = ["posts"]
 dateformat = "January 2, 2006"
 copyright = "Michael Gleicher"
 copyrightDate = "2024"
-errorBase = "https://pages.graphics.cs.wisc.edu/VisSnacks/"
+# errorBase = "https://pages.graphics.cs.wisc.edu/VisSnacks/"
 
 # ImportantPages = ["getting-started","schedule","policies", "communications", "pages/parts-of-class", "syllabus","vis", "exercises","all-readings", "allpages"]
 thisweek = "this00.md"
