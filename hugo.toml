@@ -2,8 +2,9 @@ languageCode = "en-us"
 title = "Visualization Snacks"
 theme = ["559Theme","mainroad"]
 
-# this seems to make things more robust to different deployments
+# baseURL must be set by the CLI options!
 #baseURL = ""
+# these old options are leftover from superstition
 #relativeURLs = true
 #canonifyURLs = true
 enableGitInfo = true
@@ -57,7 +58,6 @@ mainSections = ["posts"]
 dateformat = "January 2, 2006"
 copyright = "Michael Gleicher"
 copyrightDate = "2024"
-# errorBase = "https://pages.graphics.cs.wisc.edu/VisSnacks/"
 
 # ImportantPages = ["getting-started","schedule","policies", "communications", "pages/parts-of-class", "syllabus","vis", "exercises","all-readings", "allpages"]
 thisweek = "this00.md"
