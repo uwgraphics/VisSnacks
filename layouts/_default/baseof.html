@@ -61,6 +61,7 @@
         <p>Base URL: {{ .Site.BaseURL }}</p>
         {{- $testLogo := resources.Get "/svg/crest.svg" }}
         <p>Logo Link RelPermalink: {{ $testLogo.RelPermalink }}</p>
+        <p>Logo Link Permalink: {{ $testLogo.Permalink }}</p>
         <div class="wrapper flex">
 			<div class="primary">
                 {{- if isset .Page.Params "redirect" -}}
