@@ -5,3 +5,5 @@ draft = true
 +++
 
 This is the sample tutorial
+
+{{< debugurl >}}
