@@ -52,15 +52,17 @@ enableInlineShortcodes = true
 [Params]
 subtitle = "Visualization Knowledge in Bite-Sized Pieces"
 post_meta = ["section","date","taglist","categories"]
-mainSections = ["posts"]
 dateformat = "January 2, 2006"
 copyright = "Michael Gleicher. Using a CC-BY-NC-SA license"
 copyrightDate = "2024"
 
 # ImportantPages = ["getting-started","schedule","policies", "communications", "pages/parts-of-class", "syllabus","vis", "exercises","all-readings", "allpages"]
+ImportantPages = ["about"]
+ImportantPagesTitle = "Recommended Starting Points"
 thisweek = "this00.md"
 themestyle = "new"
-recentSections = ["posts","assigns", "weeks-in-vis", "pages"]
+recentSections = ["snacks","tutorials", "critiques", "papers", "resources"]
+mainSections = ["snacks","tutorials", "critiques", "papers", "resources"]
 # this needs to be a SITE variable (for list.html)
 paginate = 15
 
@@ -68,7 +70,7 @@ paginate = 15
 home = "right"
 list = "right"
 single = "right"
-widgets = ["archive","lunr","thisweek","important","links","recents","categories","taglist"]
+widgets = ["lunr","snackguide","important","links","recents","categories","taglist"]
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
