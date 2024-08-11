@@ -19,44 +19,42 @@ enableInlineShortcodes = true
     url = "/"
     weight = -1000
 [[menu.main]]
-    identifier = "lessons"
-    url = "/lessons/"
-    name = "Lessons"
+    identifier = "snacks"
+    url = "/snacks/"
+    name = "Snacks"
     weight = 1
 [[menu.main]]
-    indentifier = "tutorials"
+    identifier = "tutorials"
     url = "/tutorials/"
     name = "Tutorials"
     weight = 2
 [[menu.main]]
-    indentifier = "summaries"
-    url = "/summaries/"
-    name = "Summaries"
+    identifier = "papers"
+    url = "/papers/"
+    name = "Papers"
     weight = 3
 [[menu.main]]
-    indentifier = "critiques"
+    identifier = "critiques"
     url = "/critiques/"
     name = "Critiques"
     weight = 3
 [[menu.main]]
-    indentifier = "resources"
+    identifier = "resources"
     url = "/resources/"
     name = "Resources"
     weight = 3
 [[menu.main]]
-    indentifier = "about"
+    identifier = "about"
     url = "/about/"
     name = "About"
     weight = 10
-
-  
 
 [Params]
 subtitle = "Visualization Knowledge in Bite-Sized Pieces"
 post_meta = ["section","date","taglist","categories"]
 mainSections = ["posts"]
 dateformat = "January 2, 2006"
-copyright = "Michael Gleicher"
+copyright = "Michael Gleicher. Using a CC-BY-NC-SA license"
 copyrightDate = "2024"
 
 # ImportantPages = ["getting-started","schedule","policies", "communications", "pages/parts-of-class", "syllabus","vis", "exercises","all-readings", "allpages"]
