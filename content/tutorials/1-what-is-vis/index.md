@@ -354,3 +354,7 @@ To give you a sense of where this goes into my class (not necessarily in this or
 6. We need to consider **interaction** because it is a useful tool in designs.
 7. We need to think about some **core challenges** like scalability.
 8. We need to consider some examples of **challenging data types** (such as graphs and volumes)
+
+{{% genai %}}
+I used Generative Fill in Adobe Illustrator to create two of the position-on-common axis charts (the ones that have clocks).
+{{% /genai %}}

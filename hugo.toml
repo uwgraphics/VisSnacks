@@ -57,7 +57,7 @@ copyright = "Michael Gleicher. Using a CC-BY-NC-SA license"
 copyrightDate = "2024"
 
 # ImportantPages = ["getting-started","schedule","policies", "communications", "pages/parts-of-class", "syllabus","vis", "exercises","all-readings", "allpages"]
-ImportantPages = ["/","1-what-is-vis"]
+ImportantPages = ["/","1-what-is-vis","allpages"]
 ImportantPagesTitle = "Recommended Starting Points"
 thisweek = "this00.md"
 themestyle = "new"
