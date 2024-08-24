@@ -9,5 +9,5 @@ _build:
   list: never
 ---
 
-+ Links coming soon ...
-+ [Last Year's Course Web](https://pages.graphics.cs.wisc.edu/765-22/)
++ [2024 Course Web](https://pages.graphics.cs.wisc.edu/765-24/)
++ [2022 Course Web](https://pages.graphics.cs.wisc.edu/765-22/)
