@@ -15,7 +15,7 @@ If you haven’t seen my {{% link "1-what-is-vis" %}} post, you might want to st
 
 I like this example because it emphasizes how understanding the task (even if the task is hazy and only becomes clearer in the design process) allows us to make design choices that make things easier to see (see the EASY-TO-SEE for that concept). It also emphasizes the 4 different types of design choices.
 
-Starting with the basic points from {{% link "1-what-is-vis" %}}:
+Starting with the 4-step recipe from {{% link "1-what-is-vis" "How to make a good visualization" %}}:
 
 + **The Task**: I need to look at the grade distribution for my class and get a sense if it’s reasonable / fair. (more tasks may emerge as I look at the data)
 
@@ -29,7 +29,7 @@ Note that my task is a bit hazy, it will became clearer as we progressed.
 
 ## Design Aspects
 
-I like to think of visualizations as being made up of four components:
+I like to think of visualizations as being made up of four components (see {{< link "1-what-is-vis" "How do we make a design?" >}}):
 
 1. Data Transformations
 2. Layouts
@@ -40,13 +40,13 @@ I am going to describe this as a “game” in the sense of something where we h
 
 ## The initial design
 
-I’ll start with an initial design – the first thing that comes to mind. Just look at the table in Excel the way the data comes to me. In some sense, this is the way the data comes to us:
+I’ll start with an initial design – the first thing that comes to mind. Just look at the table in Excel the way the data comes to me. In some sense, this is the way the data comes to us (click to see bigger/readable pictures):
 
-{{% resource-image src="initial.webp" %}}
+{{% rimage width="150" src="initial.webp" %}}
 
 Here are the first few rows:
 
-{{% resource-image src="initial-zoom-top.webp" %}}
+{{% rimage width="500" src="initial-zoom-top.webp" %}}
 
 Note: you can click on the thumbnails to see the whole visualization. I do recommend that you look at them and get a sense of how they "work" (or not).
 

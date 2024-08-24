@@ -99,13 +99,13 @@ I like this example because it shows that you can be creative with implementatio
 
 Let me make a simpler example in English with some small fake data. I met with 7 students, some students work on robots, and some work on Vis. I put the times into Excel and made a treemap:
 
-{{< figure rsrc="students-treemap.png" width="200" caption="A Tree Map made from Fake Data" >}}
+{{< rimage src="students-treemap.png" width="400" caption="A Tree Map made from Fake Data" >}}
 
 Again, notice there are things you can tell pretty quickly. I spend a about half my time on each topic, although I spend a bit more on robots (orange) than vis (blue). You can tell I spent about a quarter of the time with Student 4 (upper right). Some things are less easy to see quickly, such as "which student did I spend the least amount of time with". The fact that these "tasks" are easier or harder is the nature of the design: TreeMaps are generally good for showing part/whole relationships. 
 
 This point might be clearer with another chart of the same data:
 
-{{< figure rsrc="students-column.png" caption="A Chart made from Fake Data" >}}
+{{< rimage src="students-column.png" width="500" caption="A Chart made from Fake Data" >}}
 
 This is a very familiar chart type. You can tell very quickly that Student 1 had the least amount of time, or that Student 6 got 30 minutes. In order to see "did I spend more time with orange or blue students" or "was blue about 50%" you would need to do some mental arithmetic.  
 
@@ -129,8 +129,9 @@ Some advantages to thinking in terms of encodings:
 
 - We can understand how the encodings communicate, which help us reason about whether using a particular encoding is likely to be effective for a particular task.
 - We can use these understandings for many different possible charts.
+- We can mix and match encodings. (notice that in both charts, I encode "topic" with color)
 
-Once we learn that position along a common axis encodings are good for reading precise values and seeing the largest / smallest, then I will know that many different visualizations based on this will be good for those tasks.
+Once we learn that position along a common axis encodings are good for reading precise values and seeing the largest / smallest, then I will know that many different visualizations based on this will be good for those tasks. Color is good for showing a small set of categories and can be added to many kinds of charts (combined with other encodings).
 
 Here are 9 different visualizations of this same data with "position on common axis" encodings:
 
@@ -140,9 +141,11 @@ The key building block of the designs - position on common axis encodings - make
 
 And, to add one more point about naming: here is another visualization of that same fake data:
 
-{{< figure rsrc="students-table.png" caption="A Chart made from (the same) Fake Data" >}}
+{{< rimage width="250" src="students-table.png" caption="A Chart made from (the same) Fake Data" >}}
 
-Yes, in my mind a table is a visualization - and quite a good one at that!
+Yes, in my mind a table is a visualization. They are very good for some tasks. See {{< link "2-table-example" >}} for an example of how the ideas discussed below can applied to a table.
+
+But, the point... my "method" is to think in terms of building blocks and principles, not chart types. It doesn't matter what we call things, it matters that we make choices that serve the viewer's tasks.
 
 ## How to make Visualizations: Design
 
@@ -153,14 +156,6 @@ Design (as a verb) is another term that is difficult to define, but worth discus
 The idea is that what makes something design is that you actually think about the choices. You don't just do any old thing - you actively choose. This is why I can distinguish between "bad design" (choices were made, but not well), and "not designed" (the choices weren't thought about).
 
 For this class or this website, the concept is that if you think about the choices you are making when creating a visualization, you will create better visualizations. But this holds true for almost anything you create. For example, if you are doing "Graphic Design" (for example, trying to make a nice looking and functional website or business card), the important thing is to consider the different choices that you are making.
-
-### Implications of the Definitions
-
-1. A core of this class will be understanding what makes for a good visualization, and what we can do to design them.
-2. Figuring out what good visualization to make (designing it) is important, we don't want to waste our time implementing bad visualizations.
-3. Understanding the principles and process of visualization can help us figure out what visualizations will be good before we invest too much energy in making them.
-4. Generating ideas for visualization and making sure they are good (and will lead to good designs when they are fully implemented) is my preferred approach. Finding ways to "prototype" ideas so we can assess them before investing too much energy is important.
-5. Implementating the design once you have it is not a focus in this class. It is a detail. A sometimes challenging detail. And it is definitely a practical concern: a great design isn't of much value if you can't make it real.
 
 ## What are good visualizations?
 
@@ -182,6 +177,8 @@ This would be a great place for an example - but I am not putting it into the do
 
 So, if you want an easy way to assess a visualization, ask yourself "what does this picture let me see easily?"
 
+**Aside:** there might be other goals. I am assuming we are creating a visualization to communicate. If we had another intent we might prefer visualizations with different qualities, for example if our goal was to show off our programming skill, we might prefer fancier visualizations even if they communicate poorly. Arguably, even in this case the ideas apply: a fancy visualization might let the viewer see that the developer is a good programmer, even if it doesn't help the viewer learn anything about the data.
+
 ### Bad Visualizations
 
 Another way to think about wanting to make good visualizations is that we want to avoid bad ones. There are a few different types of "bad" visualizations - these are things we want to avoid.
@@ -200,6 +197,14 @@ Again, this would be a great place for examples, but I am not putting them into 
 
 It is tempting to list a bunch of rules that will help you avoid making a bad visualization. In most cases, you can figure out that the rule is trying to help you avoid making the wrong thing easy to see, or the right thing harder to see. But, rather than trying to learn a lot of specific rules of things to avoid (or to do), I think it's better to try to understand the general principles of what makes things easy (or hard) to see. This is why the class will focus on principles.
 
+### Implications of the Definitions
+
+1. A core of this class will be understanding what makes for a good visualization, and what we can do to design them.
+2. Figuring out what good visualization to make (designing it) is important, we don't want to waste our time implementing bad visualizations.
+3. Understanding the principles and process of visualization can help us figure out what visualizations will be good before we invest too much energy in making them.
+4. Generating ideas for visualization and making sure they are good (and will lead to good designs when they are fully implemented) is my preferred approach. Finding ways to "prototype" ideas so we can assess them before investing too much energy is important.
+5. Implementating the design once you have it is not a focus in this class. It is a detail. A sometimes challenging detail. And it is definitely a practical concern: a great design isn't of much value if you can't make it real.
+
 ## Fancy and Custom Visualizations
 
 Note that a good visualization doesn't have to been fancy - it has to be effective / get the job done. In fact, using a standard design is often desirable: you don't need to teach people how to use a new design, and you can probably find an existing implementation.
@@ -214,7 +219,7 @@ This might suggest that as a visualization expert, you need to learn many differ
 
 ## How to make a good visualization
 
-The description above leads to a pretty simple recipe. Basically, there are three things to think about (that come from the definition):
+The description above leads to a pretty simple **recipe**. Basically, there are three things to think about (that come from the definition):
 
 1. *Why* are you making this visualization? Who are you trying to help? What are you trying to help them do? I refer to the latter as the "task" - and it's usually more important than the who part.
 2. *What* data are you trying to use to achieve this task?
@@ -260,6 +265,8 @@ Task is an informal, fuzzy notion. It doesn’t always get explicitly written do
 One other detail on task: there is a range of kinds of tasks. There are abstract tasks and concrete application tasks. This is actually a spectrum/continuum.
 
 While task is the most central thing, it’s also hard to talk about. We lack good, rigorous ways to talk about it.  For the longest time, it meant that it didn’t get discussed enough (in the literature, in my class, in my work, ...). The fact that it is hard shouldn’t get in the way of us trying to get better at thinking about it. We particularly lack good ways to talk about different levels of task abstraction.
+
+
 Where I start...
 
 When I talk to a new (potential) domain collaborator, I always start with the question "tell me about your science." I want to know the big picture (the why) – because without it, it’s hard to have context.
@@ -303,13 +310,13 @@ We'll learn how to choose these different components, and use them together. We 
 
 Creating a visualization is about making those choices for a design so that the result is effective for the task... but how can you choose wisely?
 
-Part of it is trial and error. Sorry. But, this is why we emphasize prototype and critique so much.
+Part of it is trial and error. Sorry. We learn by examples. Reflecting on examples that we make (prototyping), and examining examples of others carefully (critique).
 
 But there are things we can use that can hopefully help us make better choices. Some examples (which are, of course, things we'll study in class):
 
-+ *Principles of Design* - General ideas on how to make things that are "nice" visually and communicate effectively. These principles are the same if you're designing a visualization, a web page, your resume, ... - so they are good principles to learn!
 + *Principles of Visualization* - Over time, people in the field have gotten some ideas about what works and what doesn't. Sometimes, this folklore is made up and may not be true. Other times, it comes from experience or has been proven by experiments.
 + *Principles of Perception* - Understanding how people see (as in how the visual system works and how the brain interprets images) provides a lot of useful clues as to what designs will (and won't) work.
++ *Principles of Visual Design* - General ideas on how to make things that are "nice" visually and communicate effectively. These principles are the same if you're designing a visualization, a web page, your resume, ... - so they are good principles to learn!
 + *Examples* - Looking at existing examples - both good and bad - can help us. Sometimes, we can gain intuitions so we can make new designs. Other times, standard solutions provide us with answers, or at least a starting point.
 
 ## But what about implementation?
@@ -336,7 +343,7 @@ That said, all too often there are other factors that make us want to take the e
 
 ## Now What?
 
-To give you a sense of where this goes (not necessarily in this order) ...
+To give you a sense of where this goes into my class (not necessarily in this order) ...
 
 1. We need to understand **why** we use visualization. Why can (well designed) pictures help people do things?
 2. We need to be prepared with **critique** and **redesign** techniques that we can use to explore the ideas by examining examples.
