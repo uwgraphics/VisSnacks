@@ -8,7 +8,7 @@ resourcethumb: ware-vis-thinking.jpg
 weight: 3
 ---
 
-This is a thin little book (I know several people who read it in one sitting) that discusses the psychology of visual perception and its relationship to visualization and design. It’s not very deep, but its a great place to get started in appreciating how understanding how we see can help us be better designers.
+This is a thin little book (I know several people who read it in one sitting) that discusses the psychology of visual perception and its relationship to visualization and design. It’s not very deep, but it's a great place to get started in appreciating how understanding how we see can help us be better designers.
 
 <!--more-->
 

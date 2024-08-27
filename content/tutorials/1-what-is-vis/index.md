@@ -9,7 +9,7 @@ weight: 1
 ---
 
 
-This gives you a sense of what **my** thoughts on what Visualization is, and how we best go about creating them. By defining visualization in a clear and operational manner, we can get better organize our thinking about what it means to do visualization well (which is our goal), how we should go about doing it, and what we need to learn to do it.
+This gives you a sense of **my** thoughts on what Visualization is, and how we best go about creating them. By defining visualization in a clear and operational manner, we can better organize our thinking about what it means to do visualization well (which is our goal), how we should go about doing it, and what we need to learn to do it.
 
 <!--more-->
 
@@ -17,7 +17,7 @@ This gives you a sense of what **my** thoughts on what Visualization is, and how
 
 1. A **visualization** is a picture that helps someone do something.
 2. Implementation is not the central concern.
-3. A Good Visualization is one that is effective at helper the viewer achieve their task. A good visualization is a picture that makes it easy for the viewer to see the thing they need to see
+3. A Good Visualization is one that is effective at helping the viewer achieve their task. A good visualization is a picture that makes it easy for the viewer to see the thing they need to see.
 4. Good visualizations usually need to be designed (created by intentional choice).
 5. Good visualizations don't have to be fancy.
 6. Don't bother solving the wrong problem well.
@@ -50,7 +50,7 @@ Note: there is an alternate purpose of providing a brief dose of visualization i
 
 You might think of this as a summary of the most important points of the whole semester condensed into a single blog posting.
 
-This is adapted from my usual first lecture in class - except that it doesn't have as many fun example pictures. However, since lots of people don't get to see that lecture, this tries to get the main point. And even if you do get to see the lecture, it's a reminder of the key points.
+This is adapted from my usual first lecture in class - except that it doesn't have as many fun example pictures. However, since lots of people don't get to see that lecture, this tries to get to the main point. And even if you do get to see the lecture, it's a reminder of the key points.
 
 ## What is Visualization?
 
@@ -65,11 +65,11 @@ All three of these parts (1) picture, (2) person, and (3) task are important and
 
 First, there's the picture part. Basically, a visualization is something that you look at (it is "visual"). You might argue that we should relax the "look at" and bring other senses to bear (e.g., auralization to communicate data via sounds). However, while there are similarities between vision and other senses, there are enough differences that I think its best to focus on visual things (things we see) for this discussion (and the class).
 
-I am using the word picture (since that's usually what it is) as place holder , but it might be a moving picture (like an animation), or might not be a picture in a traditional sense. For example:
+I am using the word picture (since that's usually what it is) as place holder, but it might be a moving picture (like an animation), or it might not be a picture in a traditional sense. For example:
 
 {{< figure rsrc="snow-bar-chart.jpg" caption="One way to implement a bar chart." attr="from dataphys.org" attrlink="http://dataphys.org/list/a-snow-chart-of-mobility-in-science/" alt="Bar Chart of Snow" >}}
 
-A physical object that you look at can be a visualization (like the blocks of snow or lego model in a picture below). Or a visualization could be an animation, or a sketch on the back of a napkin, or some interactive thing on a screen.
+A physical object that you look at can be a visualization (like the blocks of snow or the lego model in a picture below). Or a visualization could be an animation, or a sketch on the back of a napkin, or some interactive thing on a screen.
 
 Implementations can take many forms. I'm not going to suggest you make snow sculptures (like the pictures above), but maybe prototyping with Legos (picture below) is a way to try things out.  Your choice of implementation strategy is almost always dictated by practical issues (where you need to show your visualization, what tools are available, ...). The appropriate tools change quickly. The principles of choosing what to make with them do not.
 
@@ -79,7 +79,7 @@ Implementations can take many forms. I'm not going to suggest you make snow scul
 
 The important part of the definition is that it helps someone do something. What makes a picture a visualization is a sense of purpose: it's going to be used for something.
 
-Central to my definition of visualization is that it focuses on this sense of "task" - the picture is meant to do something, so we should think about what it is trying to do to make sure it really can help someone do the thing its meant to do.
+Central to my definition of visualization is that it focuses on this sense of "task" - the picture is meant to do something, so we should think about what it is trying to do to make sure it really can help someone do the thing it's meant to do.
 
 The definition doesn't necessary say that the visualization *succeeds* at helping someone do something. We can certainly have bad visualizations that don't help. *Effective visualizations* (good visualizations) are pictures that really do help their intended audience achieve the task.
 
@@ -95,7 +95,7 @@ Let's try the lesson with an example...
 
 {{< figure rsrc="legoTreeMap*" caption="A Tree Map made of Lego" attrlink="http://dataphys.org/list/poland-budget-presented-with-lego-bricks/" attr="from dataphys.org" alt="Tree Map made of Legos" >}}
 
-I like this example because it shows that you can be creative with implementations. The visualization is a *TreeMap* - it is a fairly common design. The fact that it was made with Legos (rather than, say, Excel or JavaScript) less important to how it communicates, than the fact that it is a TreeMap, which enables the viewer to do certain things. For example, you can pretty quickly tell that large gray area in the upper right is a bit more than a quarter of the whole. There are other things this design is less good for. The fact that it is Legos is less important (although, it is cute).
+I like this example because it shows that you can be creative with implementations. The visualization is a *TreeMap* - it is a fairly common design. The fact that it was made with Legos (rather than, say, Excel or JavaScript) is less important to how it communicates than the fact that it is a TreeMap, which enables the viewer to do certain things. For example, you can pretty quickly tell that large gray area in the upper right is a bit more than a quarter of the whole. There are other things this design is less good for. The fact that it is Legos is less important (although, it is cute).
 
 Let me make a simpler example in English with some small fake data. I met with 7 students, some students work on robots, and some work on Vis. I put the times into Excel and made a treemap:
 
@@ -143,13 +143,13 @@ And, to add one more point about naming: here is another visualization of that s
 
 {{< rimage width="250" src="students-table.png" caption="A Chart made from (the same) Fake Data" >}}
 
-Yes, in my mind a table is a visualization. They are very good for some tasks. See {{< link "2-table-example" >}} for an example of how the ideas discussed below can applied to a table.
+Yes, in my mind a table is a visualization. They are very good for some tasks. See {{< link "2-table-example" >}} for an example of how the ideas discussed below can be applied to a table.
 
 But, the point... my "method" is to think in terms of building blocks and principles, not chart types. It doesn't matter what we call things, it matters that we make choices that serve the viewer's tasks.
 
 ## How to make Visualizations: Design
 
-Design (as a verb) is another term that is difficult to define, but worth discussing. Defining design is a whole philosophical debate – but that definition I am about to give is one I like, and will work with for the moment. The dictionary definition says something about planning how to make something. For the purposes of class / our discussion, I will define design:
+Design (as a verb) is another term that is difficult to define, but worth discussing. Defining design is a whole philosophical debate – but the definition I am about to give is one I like, and will work with for the moment. The dictionary definition says something about planning how to make something. For the purposes of class / our discussion, I will define design:
 
 > Design (v): the act of making purposeful choices in the creation of something.
 
@@ -163,17 +163,17 @@ To make a good visualization, we need to decide what a good visualization is. An
 
 Defining "good" visualizations will be a major topic in this class. Evaluation considers how we decide if a visualization is good or not. At a high level, the definition of visualization provides an answer:
 
-> A **good** visualization is one that *effectively* serves it intended purpose (helping the audience do the thing the visualization was meant to help them do).
+> A **good** visualization is one that *effectively* serves its intended purpose (helping the audience do the thing the visualization was meant to help them do).
 
 Exactly how to measure whether a visualization does what it needs to do is more challenging, and is a topic we'll come back to.
 
-Here's a second, way to think about good visualizations:
+Here's a second way to think about good visualizations:
 
 > A **good** visualization is a picture that makes it easy for the viewer to see the thing they need to see (in order to do the thing the visualization was meant to help them do).
 
-This simple definition is something we will keep coming back to. The reason that we like visualizations is that pictures can make some things easy to see. The human visual system (it's more than just saying "our eyes") is remarkably good at looking at something an extracting some things from a picture, very quickly, and without much effort. A well chosen picture (i.e., a well designed visualization) can make useful things easy to see.
+This simple definition is something we will keep coming back to. The reason that we like visualizations is that pictures can make some things easy to see. The human visual system (it's more than just saying "our eyes") is remarkably good at looking at something and extracting some things from a picture, very quickly, and without much effort. A well chosen picture (i.e., a well designed visualization) can make useful things easy to see.
 
-This would be a great place for an example - but I am not putting it into the document. We'll look at a lot of examples over the course of the semester. Looking at, and learning from examples will be one of our key tools for learning!
+This would be a great place for an example - but I am not putting it into the document. We'll look at a lot of examples over the course of the semester. Looking at and learning from examples will be one of our key tools for learning!
 
 So, if you want an easy way to assess a visualization, ask yourself "what does this picture let me see easily?"
 
@@ -191,7 +191,7 @@ The definition of bad visualization is tricky, because there are many ways for a
 
 Notice how this connects to task. There is something that the viewer should see (in order to achieve their task). Maybe the visualization does not make it easy to see this. Worse, it might distract you: it makes something else easy to see. And, there is the really bad case where the visualization is actively misleading: the thing that is easy to see is actually wrong.
 
-In some cases, a visualization can actively mislead someone. More often visualizations often just fail to make things easy to see.
+In some cases, a visualization can actively mislead someone. More often visualizations just fail to make things easy to see.
 
 Again, this would be a great place for examples, but I am not putting them into the document now.
 
@@ -207,15 +207,15 @@ It is tempting to list a bunch of rules that will help you avoid making a bad vi
 
 ## Fancy and Custom Visualizations
 
-Note that a good visualization doesn't have to been fancy - it has to be effective / get the job done. In fact, using a standard design is often desirable: you don't need to teach people how to use a new design, and you can probably find an existing implementation.
+Note that a good visualization doesn't have to be fancy - it has to be effective / get the job done. In fact, using a standard design is often desirable: you don't need to teach people how to use a new design, and you can probably find an existing implementation.
 
-Here’s my favorite analogy. You go to the doctor’s office because you feel sick. The last thing you want to hear is "that’s a novel and interesting problem! we need to devise a novel treatment. let’s write a grant proposal and hire some research assistants..." No, you want to hear "I’ve seen that before. No problem. Take two aspirin and see me in the morning."
+Here’s my favorite analogy. You go to the doctor’s office because you feel sick. The last thing you want to hear is "That’s a novel and interesting problem! We need to devise a novel treatment. Let’s write a grant proposal and hire some research assistants..." No, you want to hear "I’ve seen that before. No problem. Take two aspirin and see me in the morning."
 
 As visualization practitioners, our goal is to be able to look at a problem and make those kinds of prescriptions. *Task identification* and *abstraction* are key here. It’s how we can say "I’ve seen that before" and get to "take two scatterplots and see me in the morning."
 
 Most problems we encounter are similar to other common problems, and the answers have been well-tested over the years. We usually don't need a fancy new design: an existing, standard chart type probably will do the trick. Using a standard design has a lot of advantages: we don't need to invent it, we don't have to test it, we can use existing implementations, we don't need to train the viewers to interpret them, ...
 
-This might suggest that as a visualization expert, you need to learn many different kinds of charts and rules about when they are appropriate. However, another path is to understand the design of charts in terms of the basic building blocks, and they basic principles by which these building blocks are put together. This is the approach to how we design visualizations.
+This might suggest that as a visualization expert, you need to learn many different kinds of charts and rules about when they are appropriate. However, another path is to understand the design of charts in terms of the basic building blocks, and the basic principles by which these building blocks are put together. This is the approach to how we design visualizations.
 
 ## How to make a good visualization
 
@@ -237,7 +237,7 @@ The steps are iterative: at the end of each step (ideally) you do some evaluatio
 
 Sometimes the steps don't happen in order. For example, you really want to use a particular tool, try out a new algorithm, or make things a particular color, so you go looking for something to make with these details.
 
-Sometimes, the process seems to start with #2 (Data): one gets some data and needs to figure out what to do with it. But this is actually an initial task: find what is interesting in the data. Often there is an iterative cycle - as the designer  understands the data more, they can refine the task.
+Sometimes, the process seems to start with #2 (Data): one gets some data and needs to figure out what to do with it. But this is actually an initial task: find what is interesting in the data. Often there is an iterative cycle - as the designer understands the data more, they can refine the task.
 
 In a little more detail...
 
@@ -254,7 +254,7 @@ If all goes according to plan, you'll understand these 4 steps in the first few 
 
 The better that you understand what the visualization is trying to achieve (what will it help the viewer do), the more likely you will come up with a good solution. In the end, everything serves the tasks.
 
-Note the plural: you may have a set of tasks. Often, there isn’t just one at a time. There are a set of things that a set of someone's may want to do for a set of reasons.  And maybe your solution will address many of these.
+Note the plural: you may have a set of tasks. Often, there isn’t just one at a time. There are a set of things that a set of someone may want to do for a set of reasons. And maybe your solution will address many of these.
 
 I was going to say “it starts with the tasks,” but sometimes you start someplace else (like you have some data and say “I’d like to do something with it” – but even then, I would probably say you have a task: figure out what the right questions to ask are!). However, in those cases, it’s really important to remember that task is key: the sooner you get to “what is this thing going to do for someone,” the better off you are.
 
@@ -291,7 +291,7 @@ In terms of the class, a big part of what we’ll do is focus on design. What ar
 
 There are four main categories of things that we consider in designing a visualization. You can think of these as the kinds of choices you can make, or the kinds of building blocks you can build a visualization out of.
 
-1. **Data Transformations** - we compute some derived thing about the data that will be useful in one of the other steps
+1. **Data Transformations** - we compute some derived thing about the data that will be useful in one of the other steps.
 2. **Layout** - we decide where things go. Technically, this is a position encoding (see encodings below), but position is such an important thing, it gets it's own special category.
 3. **Encodings** - an encoding is how we choose to map a data variable to some "visual variable" (an attribute of what we see - like color). Position is a visual variable, but it's special enough that it becomes its own category (see layout).
 4. **Interaction** - taking user input is another thing you can do in a visualization. Often, input can be thought of as mapping input actions to changes in the visualization.
@@ -325,21 +325,21 @@ Actually realizing the design is the last part. Well, not really, since usually 
 
 If you were thinking “this is a CS class, we should focus on implementation,” you will be disappointed. As I’ve said, this class is more about how to figure out what the right picture to make is (e.g. the design) than how to make it. It's a waste of energy to spend time making the wrong picture.
 
-In the ideal world, you can think about implementation last – it’s an afterthought. In practice, the constraints of having to implement things will probably influence the kinds of designs you will want to consider. A design becomes less attractive if its too hard to build. In practice, there’s often a tradeoff between the practical issues of implementation and having the best design.
+In the ideal world, you can think about implementation last – it’s an afterthought. In practice, the constraints of having to implement things will probably influence the kinds of designs you will want to consider. A design becomes less attractive if it's too hard to build. In practice, there’s often a tradeoff between the practical issues of implementation and having the best design.
 
 Even within implementation, there is a spectrum of levels. I like to think of this as "fidelity of prototypes." In a sense, you can think of a back-of-the-napkin sketch as an implementation of a design. Most likely an incomplete, non-final one, but an concrete instantiation. It might be a good enough implementation that you can evaluate your design and decide if you want to pursue the design further (and make a higher-fidelity prototype). If you’re lucky, a crude prototype might just solve the actual problem.
 
 One thing I like to stress is the importance of prototyping to explore designs. It’s best to try out lots of ideas, and see if you can figure out their problems before investing a lot in implementing them. Good "Designers" (graphic designers, industrial designers, ...) usually like to explore an entire space of designs – by using very crude "implementations" (e.g. sketches).
 
-Data analysis tools – things like Excel (yes, excel will turn out to be my favorite visualization tools) or Tableau or … – often let you prototype lots of different things with your data. This “playing” with data – re-ordering it, making various kinds of pictures with it, looking at it all kinds of different ways – is actually a form of rapid prototyping. You can explore a lot of designs easily – often to decide that they don’t solve your problem – but sometimes to see that some of the simple elements actually can help. This “playing with data” (if you can do it) is a lot like sketching a lot of visual designs.
+Data analysis tools – things like Excel (yes, Excel will turn out to be my favorite visualization tools) or Tableau or … – often let you prototype lots of different things with your data. This “playing” with data – re-ordering it, making various kinds of pictures with it, looking at it all kinds of different ways – is actually a form of rapid prototyping. You can explore a lot of designs easily – often to decide that they don’t solve your problem – but sometimes to see that some of the simple elements actually can help. This “playing with data” (if you can do it) is a lot like sketching a lot of visual designs.
 
-Having a good toolbox so that you can implement your designs is useful. If you don’t have one, you will be limited in what designs you can explore, and won’t be able to choose designs that you can’t realize (that’s not quite true: if you can come up with a great design, you may be able to get someone else to implement it). Part of my premise for this class (or at least this instantiation of it) is that we can all have different toolboxes – some students might be wizard programmers, some might be fabulous artists – but we all can have some common basic tools (e.g. sketching), and we can all explore designs using out respective toolboxes.
+Having a good toolbox so that you can implement your designs is useful. If you don’t have one, you will be limited in what designs you can explore, and won’t be able to choose designs that you can’t realize (that’s not quite true: if you can come up with a great design, you may be able to get someone else to implement it). Part of my premise for this class (or at least this instantiation of it) is that we can all have different toolboxes – some students might be wizard programmers, some might be fabulous artists – but we all can have some common basic tools (e.g. sketching), and we can all explore designs using our respective toolboxes.
 
 Now, if you’re saying "but I want visualization to be about writing fancy programs using complex data analysis methods and algorithms and spiffy programming things ..." let me give you a bit of caution.
 
 Building a custom visualization solution by programming should be a last resort. You should really believe that your problem cannot be solved by some easier method. Going back to the medical analogy, writing a program for a new design is like inventing a completely new (and therefore untested) treatment. Yes, if your patient has a mysterious disease and is going to die you want to take these drastic measures. Or, you might do an experiment if you believe that you can afford the risk on this patient in order to learn something to save the next ones (this is the excuse we use as researchers).
 
-That said, all too often there are other factors that make us want to take the extreme measure. Sometimes, we just want to practice our inventive skills. Sometimes our "customers" think they want to have something novel (don’t make it look too easy!). Sometimes we really want to try out some implementation idea, or show off some challenging design idea. And sometimes, it might just be easier to re-implement a standard design than to figure out how to make an "easy" tool do what we want. (you’d be amazed how often I’ve found myself writing Python code for scatterplots because I wasn’t in the mood to wrestle with Excel). Sometimes, it’s hard to find a decent “easy” tool for something that should be easy (like graph layout).
+That said, all too often there are other factors that make us want to take the extreme measure. Sometimes, we just want to practice our inventive skills. Sometimes our "customers" think they want to have something novel (don’t make it look too easy!). Sometimes we really want to try out some implementation idea, or show off some challenging design idea. And sometimes, it might just be easier to re-implement a standard design than to figure out how to make an "easy" tool do what we want. (You’d be amazed how often I’ve found myself writing Python code for scatterplots because I wasn’t in the mood to wrestle with Excel). Sometimes, it’s hard to find a decent “easy” tool for something that should be easy (like graph layout).
 
 ## Now What?
 
@@ -356,5 +356,5 @@ To give you a sense of where this goes into my class (not necessarily in this or
 8. We need to consider some examples of **challenging data types** (such as graphs and volumes)
 
 {{% genai %}}
-I used Generative Fill in Adobe Illustrator to create two of the position-on-common axis charts (the ones that have clocks).
+I used Generative Fill in Adobe Illustrator to create two of the position-on-common-axis charts (the ones that have clocks).
 {{% /genai %}}

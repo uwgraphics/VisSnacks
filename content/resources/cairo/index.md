@@ -13,7 +13,7 @@ Alberto Cairo is a designer and journalist who has become a visualization educat
 <!--more-->
 
 {{< resource-image src="functional.jpg" class="list__thumbnail" alt="The Functional Art Cover" >}}
-Alberto Cairo’s books "The Functional Art" and "The Truthful Art" art are both excellent visualization books. Cairo is a designer who focuses on journalism visualizations, so his target is more for journalists and creators of “information graphics.” But he has such a keen eye, writes well, and brings enough of the “academic vis” concepts to his work that his books make them really valuable to a wide audience. His writing style – which makes very clear what is his opinions, and what is more factual (unlike, say, Tufte) – is very accessible, and the book is full of nice examples.
+Alberto Cairo’s books "The Functional Art" and "The Truthful Art" art are both excellent visualization books. Cairo is a designer who focuses on journalism visualizations, so his target is more for journalists and creators of “information graphics.” But he has such a keen eye, writes well, and brings enough of the “academic vis” concepts to his work that his books make them really valuable to a wide audience. His writing style – which makes very clear what is his opinion, and what is more factual (unlike, say, Tufte) – is very accessible, and the book is full of nice examples.
 
 His books are open minded (he sees both sides of the various debates), and provide a good balance between the artist/designer prospective, the psychologist perspective, and the Tufte-ist perspective.
 
