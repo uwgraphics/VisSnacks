@@ -11,7 +11,7 @@ Jacques Bertin was a French cartographer who had lots of ideas about visualizati
 
 <!--more-->
 
-Bertin's books, while historically interesting, are not really suitable for class. They are hard to read. A part of the problem is that they are translated from French (and it shows). Part of it is that he was thinking in very formal ways, trying to define things very particularly. Another problem is that things are so old that they lack context: he was doing things by hand, and had little way to use color.
+Bertin's books, while historically interesting, are not really suitable for class. They are hard to read. A part of the problem is that they are translated from French (and it shows). Part of it is that he was thinking in very formal ways, trying to define things very particularly. Another problem is that things are so old that they lack context: he was doing things by hand and had little way to use color.
 
 Most of his key ideas have been re-discovered by others since he wrote them. So, we'll see lots of references to Bertin throughout the class, but you won't be required to read the original sources.
 

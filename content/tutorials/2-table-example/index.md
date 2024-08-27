@@ -7,7 +7,7 @@ tags: []
 weight: 3
 ---
 
-I will use a simple example (using a data table) to show how the basic concepts of visualization can be applied. This is mainly to illustrate the "4 design moves" introduced in {{< link 1-what-is-vis >}}
+I will use a simple example (a data table) to show how the basic concepts of visualization can be applied. This is mainly to illustrate the "4 design moves" introduced in {{< link 1-what-is-vis >}}
 
 <!--more-->
 
@@ -21,11 +21,11 @@ Starting with the 4-step recipe from {{% link "1-what-is-vis" "How to make a goo
 
 + **The Data/Resources**: I have a table of student names (not shown), scores and grades. It’s in an excel spreadsheet – so I’d prefer to keep things there. I don’t have very much development resources (this is often done at the grading deadline).
 
-+ **The Design**: I have chosen to use a table, since it’s easy in excel. And it may be good enough (especially with design tweaks). In this example, I focus on improving the table, rather than trying something completely different. A side note: tables are remarkably effective visualizations.
++ **The Design**: I have chosen to use a table, since it’s easy in Excel. And it may be good enough (especially with design tweaks). In this example, I focus on improving the table, rather than trying something completely different. A side note: tables are remarkably effective visualizations.
 
 + **The Details (including implementation)**: We'll change a lot of the design details, but the implementation will be Excel (since that's what I was using to do grading). A side effect of this: it shows that you can do useful visualization stuff with simple tools (this is all in Excel).
 
-Note that my task is a bit hazy, it will became clearer as we progressed.
+Note that my task is a bit hazy, it will become clearer as we progressed.
 
 ## Design Aspects
 
@@ -66,7 +66,7 @@ While my task is hazy, I do know that many of my specific questions fall into th
 
 After applying this visualization, notice that some things are much easier to see / do. Notice how much faster you can count the number of As, or estimate the median score.
 
-Exercise here: thing about what we have made easier to do by this design decision, and what we might have made harder. There are some things that are easier to do with the initial design.
+Exercise here: think about what we have made easier to do by this design decision, and what we might have made harder. There are some things that are easier to do with the initial design.
 
 Actually, I accidentally chopped off the bottom 5 students because they didn't fit on the screen. That motivates the next change...
 
@@ -96,7 +96,7 @@ And note: the reason I consider this “winning” is that I am able to do the t
 
 ## About that 4th "Move" type (interaction)
 
-I am not talking about interaction here - partially, because I am showing you static visualizations (so it isn't an option). But you might notice that my process was interactive: I was using the features of excel to change the visualization to interactively expose the information I wanted to see.
+I am not talking about interaction here - partially, because I am showing you static visualizations (so it isn't an option). But you might notice that my process was interactive: I was using the features of Excel to change the visualization to interactively expose the information I wanted to see.
 
 ## Lessons
 

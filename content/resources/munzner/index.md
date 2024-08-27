@@ -12,11 +12,11 @@ This is the closest thing to a "primary textbook" for my class. The course share
 
 <!--more-->
 
-**UW Students:** You can access the book through the library [(catalog page)](https://search.library.wisc.edu/catalog/9913040404802121), there is a hard to find link to access it from the publisher [(this still works)](https://www-taylorfrancis-com.ezproxy.library.wisc.edu/books/9780429088902).  If you want to buy it, you can [find it online](http://amzn.to/2hsH7HZ).
+**UW Students:** You can access the book through the library [(catalog page)](https://search.library.wisc.edu/catalog/9913040404802121), or there is a hard to find link to access it from the publisher [(this still works)](https://www-taylorfrancis-com.ezproxy.library.wisc.edu/books/9780429088902).  If you want to buy it, you can [find it online](http://amzn.to/2hsH7HZ).
 
 {{< resource-image src="vad.png" class="list__thumbnail" alt="Munzner Cover" >}}
 
-This is a "graduate level computer science" textbook – that shares a similar philosophy to how I like to think about (and teach) visualization. It’s really good at giving you a way to think about visualization, and some examples of how the ideas are applied. It is of limited use as a reference book, and it doesn’t talk about practical issues at all. Over the course of the semester we will read almost all chapters of Munzer’s book.
+This is a "graduate level computer science" textbook that shares a similar philosophy to how I like to think about (and teach) visualization. It’s really good at giving you a way to think about visualization, and some examples of how the ideas are applied. It is of limited use as a reference book, and it doesn’t talk about practical issues at all. Over the course of the semester we will read almost all chapters of Munzer’s book.
 
 This book will give you a good way to think about visualization. It’s not about the details, or the specific techniques. It totally avoids the discussion of how to do implementation. Tamara (I refer to her by first name, since we’ve been friends for a long time) has thought long and hard about this stuff, and has a coherent way to talk about it.
 
