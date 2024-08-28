@@ -13,6 +13,8 @@ This gives you a sense of **my** thoughts on what Visualization is, and how we b
 
 <!--more-->
 
+**Warning:** this document is a little skewed towards the "vis is more than just implementation" message, because the original purpose of this document was to explain to CS students why my class doesn't focus on implementation.
+
 ## The Key Points
 
 1. A **visualization** is a picture that helps someone do something.
@@ -40,7 +42,7 @@ This document is basically a written form of the introductory lecture I like to 
 It has a long history, and it has evolved (which is why it keeps getting longer - please bear with me, this is important stuff).
 
 The original purpose of this document was to give a sense of the philosophy behind the class, which is really my philosophy of visualization. It explains why my ideas on visualization lead to the specific class design. A lot of the "philosophy of the class" has been moved to class documents
-([2024 version](https://pages.graphics.cs.wisc.edu/765-24/) 
+([2024 version](https://pages.graphics.cs.wisc.edu/765-24/pages/what-is-this-class/) 
 [2022 version](https://pages.graphics.cs.wisc.edu/765-22/pages/what-is-class-and-why/) - others are similar). 
 I point out this history, because it may explain the unusual form of the document. It also explains the over-emphasis on de-emphasizing implementation (I want to warn students this isn't the typical CS programming class).
 
