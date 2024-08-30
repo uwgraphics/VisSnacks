@@ -8,16 +8,16 @@ A surprising amount of visualization design and analysis can be wrapped up in th
 
 <!--more-->
 
-I am always looking for a shorcut that I can give to people to help them do Visualization better. Is there one easy thing that will help a lot? This is my current favorite: "Think about what a visualization makes easy to see?"
+I am always looking for a shorcut that I can give to people to help them do Visualization better. Is there one easy thing that will help a lot? This is my current favorite: **Ask "What does this visualization make easy to see?"**
 
 The biggest short cut - Always emember the "prime directive:" **Task First!** (hopefully you got that from {{< link "1-what-is-vis" >}}) - is harder to make direct use of. The "easy-to-see" shortcut is so simple, and can be used by everyone on day one (it is in {{< link "1-what-is-vis" "Tutorial 1" >}}), but less prominent.
 
 You can ask the question in both directions:
 
-1. Critique: Ask "What does this visualization make easy to see?" (and, correspondingly, what does it *not* make easy to see).
+1. Critique: Ask "What does this visualization make easy to see?" (and, correspondingly, "what does it *not* make easy to see?").
 2. Design: Ask "What do I want to make easy to see?" 
 
-If the answers don't match, clearly there is room for improvement...
+If the answers don't match, there is room for improvement...
 
 You might wonder... "how do I know what is easy to see?"
 
