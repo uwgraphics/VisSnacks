@@ -18,7 +18,7 @@ attrlink - link for the attribution (default is "")
 */}}
 {{- $page := . }}
 {{- $name := .Get "src" }}
-{{- if $name }}{{- else }}{{errorf "resource-image needs a src argument" }}{{- end}}
+{{- if $name }}{{- else }}{{errorf "rimage needs a src argument" }}{{- end}}
 {{- $width := .Get "width" | default "300" }}
 {{- $size := (printf "%vx%v" $width 5000) }}
 {{- $alt := .Get "alt" | default $name }}
@@ -46,5 +46,5 @@ attrlink - link for the attribution (default is "")
     {{- end }}
 </figure>
 {{- else}}
-    {{  errorf "resource-image couldn't open '%s':" $name -}}
+    {{  errorf "rimage couldn't open '%s':" $name -}}
 {{- end}}
