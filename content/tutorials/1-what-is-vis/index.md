@@ -256,7 +256,7 @@ If all goes according to plan, you'll understand these 4 steps in the first few 
 
 The better that you understand what the visualization is trying to achieve (what will it help the viewer do), the more likely you will come up with a good solution. In the end, everything serves the tasks.
 
-Note the plural: you may have a set of tasks. Often, there isn’t just one at a time. There are a set of things that a set of someone may want to do for a set of reasons. And maybe your solution will address many of these.
+Note the plural: you may have a set of tasks. Often, there isn’t just one at a time. There are a set of things that a set of someones may want to do for a set of reasons. And maybe your solution will address many of these.
 
 I was going to say “it starts with the tasks,” but sometimes you start someplace else (like you have some data and say “I’d like to do something with it” – but even then, I would probably say you have a task: figure out what the right questions to ask are!). However, in those cases, it’s really important to remember that task is key: the sooner you get to “what is this thing going to do for someone,” the better off you are.
 
