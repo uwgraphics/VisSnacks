@@ -14,6 +14,6 @@ Core lesson: think about what a visualization makes easy to see. Different repre
 This comes from a New York Times story this morning [title](https://www.nytimes.com/interactive/2024/08/27/business/economy/jobs-election-county.html). Curiously, this page doesn't show up well in my web browser, the images are from the mobile app (on an iPad).
 
 Here is the "headline" (what appeared in the app that intrigued me):
-{{< rimage rsrc="waj-headline.png" >}}
+{{< rimage src="waj-headline.png" >}}
 
 What caught my eye (from a visualization perspective) was how the irregular nature of counties made it difficult for me to really see what was going on. 
