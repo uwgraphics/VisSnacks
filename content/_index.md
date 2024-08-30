@@ -20,12 +20,12 @@ What you'll find (the sections of the site)...
 
 + {{< link "Snacks" >}} - these are the core "lessons" written explicitly for this site. The idea is to have a form that allows for quick consumption. The goal is to provide the main idea quickly, but then to provide the background afterwards. The why follows the what.
 
-+ [Tutorials](/tutorials) - these are written "documents" that were originally created for my class, or that don't have the stylized form of the {{< link Snacks >}}. They tend to be longer. 
++ {{<link tutorials>}} - these are written "documents" that were originally created for my class, or that don't have the stylized form of the {{< link Snacks >}}. They tend to be longer. 
 
-+ [Critiques](/critiques) - are examinations of specific visualizations. The idea of a critique is to examine something closely to learn from it (not just to criticize). 
++ {{<link critiques>}} - are examinations of specific visualizations. The idea of a critique is to examine something closely to learn from it (not just to criticize). 
 
-+ [Papers](/papers) - are my summaries/discussions of papers (or other documents). The idea is that I read them, so you don't have to.
++ {{<link papers>}} - are my summaries/discussions of papers (or other documents). The idea is that I read them, so you don't have to.
 
-+ [Resources](/resources) - descriptions of books and other things that might be helpful.
++ {{<link resources>}} - descriptions of books and other things that might be helpful.
 
 # A listing of the most recent postings...
