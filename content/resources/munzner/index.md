@@ -1,11 +1,10 @@
 ---
 title: 'Munzner: Visualization Analysis and Design'
-date: 2022-08-29 22:00:00-05:00
+date: 2024-08-24 22:00:00-05:00
 draft: false
 categories: []
 tags: [books]
 resourcethumb: vad.png
-weight: 1
 ---
 
 This is the closest thing to a "primary textbook" for my class. The course shares a similar philosophy to the book, and we'll read almost all of the chapters. The UW library has electronic copies, so students do not need to buy it.

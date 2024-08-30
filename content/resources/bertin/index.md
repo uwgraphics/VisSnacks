@@ -1,6 +1,6 @@
 ---
 title: Bertin's Books (Semiology of Graphics)
-date: 2022-08-29 22:00:00-05:00
+date: 2024-08-23 22:00:00-05:00
 draft: false
 categories: []
 tags: [books]

@@ -1,11 +1,10 @@
 ---
 title: 'Cairo: The Truthful Art and The Functional Art'
-date: 2022-08-29 22:00:00-05:00
+date: 2024-08-24 22:00:00-05:00
 draft: false
 categories: []
 tags: [books]
 resourcethumb: truthful.png
-weight: 2
 ---
 
 Alberto Cairo is a designer and journalist who has become a visualization educator. He has written some excellent books on visualization. I use excerpts from his books "The Functional Art" and "The Truthful Art" in my class.
