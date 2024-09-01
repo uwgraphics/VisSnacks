@@ -1,7 +1,7 @@
 +++
 title = 'Discussing Design'
 date = 2024-08-31T09:44:08-04:00
-draft = true
+draft = false
 categories = []
 tags = ["books"]
 toc = false
@@ -23,7 +23,9 @@ Designers and artists don’t own critique. Critique is for anyone who wants to 
 The first chapter of the book is available as a "preview".
 I think this is such a great resource that I require students in my class to read it. I strongly recommend that **everyone** reads it, because critique is such a useful skill.
 
-The book has great examples, and is presented in an interesting style with "cartoon aliens" playing the roles of critics, both good and bad.
+The book has great examples, and is presented in an interesting style with "cartoon aliens" playing the roles of critics, both good and bad. 
+
+The book is focused on more traditional critique settings: meetings where the designer reviews a design with critics with the goal of getting ideas for iterative improvement. The ideas apply more broadly.
 
 Part of the {{<link critiques>}} section of this site is for me to develop my own critique skills through practice. Hopefully, you will see me internalizing the lessons from Discussing Design.
 

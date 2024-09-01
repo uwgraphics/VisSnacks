@@ -1,7 +1,7 @@
 +++
 title = 'Tutorial 4: Critique'
 date = 2024-08-31T06:18:16-05:00
-draft = true
+draft = false
 categories = []
 tags = []
 toc = false
@@ -12,9 +12,11 @@ weight = 4
 
 <!--more-->
 
+{{<draft-only>}}
+
 This tutorial will give you a quick guide on how to do critique with the goal of helping you get started at improving your critique practice, or at least to appreciate why the examples in {{<link "critiques">}} are the way they are. The simple "rules and formulas" here are good for beginners (including me) to get started. Maybe with practice, I won't need them - but I think that experienced designers have internalized the lessons.
 
-Critique is really useful for Vis. In the context of this site, I will use critique to analyze examples in order to try to distill their lessons, often to reinforce more general principles. In the practice of doing design, critique is often a way of understanding a prototype so that we can generate ideas on how we might iterate. Re-Design (see {{<anchorlink "Re-Design">}} below) often involves critique (at least implicitly), but not all critique involves re-design. 
+Critique is really useful for Vis. In the context of this site, I will use critique to analyze examples in order to try to distill their lessons, often to reinforce more general principles. In the practice of doing design, critique is often a way of understanding a prototype so that we can generate ideas on how we might iterate. Re-Design (see {{%anchorlink "Re-Design"%}} below) often involves critique (at least implicitly), but not all critique involves re-design. 
 
 Critique is really useful beyond Vis. This is why I emphasize it in my class.
 {{<quote "Discussing Design, p. xi">}}
@@ -25,11 +27,11 @@ What I've learned (see {{%anchorlink "Historical Note" %}}) is that critique is 
 
 ## Getting Started
 
-I want to emphasize that **critique** (examining and discussing something to learn from it) is different than **criticize** (identify/describe the faults in something).
+I emphasize that **critique** (examining and discussing something to learn from it) is different than **criticize** (identify/describe the faults in something).
 
 Central to critique is that there is some thing that you are examining to discuss. In our case, it will usually be a visualization. 
 
-In performing critique, I recommend setting a few ground rules:
+In performing critique, I recommend setting a few ground rules (these are paraphrased by Irene, a former student in my class):
 
 1. Know the purpose of the work
 2. Say something good
@@ -37,6 +39,33 @@ In performing critique, I recommend setting a few ground rules:
 4. Don’t dictate
 5. It’s about the work, not the person
 
+Which I alter/re-order into a slightly longer list of "advice":
+
+1. Critique as if the person is there (Critique the work, not the person)
+2. Understand/Examine first (Understand context and the object before reacting)
+3. Connect to intents (if you were trying to X then Y)
+4. Consider choices (what choice was made? how could the decision have been informed? (principles!))
+5.  Do not prescribe
+
+### 1. Know the Purpose - establish the goals and context
+
+Understanding the context of the object - what was it intended for - is important because the design really needs to be examined in terms of how well it achieves its goals.
+
+For a Visualization, this usually means the task or message that the visualization is trying to convey, which often requires examining what the visualization is for. In doing visualization critiques, we often see the visualization out of the context it is meant to appear. For example, we see a figure from an article (newspaper or academic article) without the context of the story it is trying to support. We should establish enough of the "story" so that we can understand the visualization and its intended message/usage.
+
+Sometimes, you might ignore the context. "I (as critic) don't care what this visualization is about, I want to use this as an opportunity to explore this element." But even in these cases, it is useful to have context/purpose as it helps avoiding other problems (like blaming the designer for something that weren't trying to do).
+
+### 2. Say Something Good
+
+The point here is to show understanding of the object. It's less about saying something nice to be kind to the designer (to warm them up before knocking them down), but rather to show that you have taken the effort to appreciate what has been done (for better or worse).
+
+I change this to "understand/examine first". This is related: if you don't try to understand and examine first, you might respond with the first detail (often negative) that catches your attention. These "initial yuck responses" are rarely constructive. (Although, they are useful - if you have an "initial yuck response" be aware of it, and then come back to figure out why).
+
+### 3. Be Specific
+
+I generalize this (Irene said "be specific about problems"). 
+
+Vague and general statements are less easy to learn from or connect to principles, guidance, or potential changes.
 
 ## Historical Note
 
@@ -51,3 +80,4 @@ Over the years, I evolved that exercise. The biggest difference: I now do it the
 A second improvement came when I discovered the book "discussing design". This is an entire book dedicated to teaching critique. The intro chapter (that the authors/publisher generously make available for free) is a fabulous tutorial on critique. The chapter is required reading in my class. The book gave me is a structured "formula" for doing critique (Objective, Aspect, Inform/Principle).
 
 Part of the Vis Snacks project is to force me to do more critique (in written form) in order to improve **my** critique practice. I invite you to critique along with me to improve yours. 
+{{</draft-only>}}
