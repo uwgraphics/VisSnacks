@@ -31,7 +31,9 @@ I emphasize that **critique** (examining and discussing something to learn from 
 
 Central to critique is that there is some thing that you are examining to discuss. In our case, it will usually be a visualization. 
 
-In performing critique, I recommend setting a few ground rules (these are paraphrased by Irene, a former student in my class):
+Critique is usually described as a conversation where the designer is present (to help understand the design to get ideas for iteration). My observation: the same things that make critique work well as a conversation with the designer can also make it work well when the designer isn't there, and the goal is more about learning (to draw conclusions from a specific example).  
+
+In performing critique, I recommend setting a few ground rules (these are paraphrased from Irene, a former student in my class):
 
 1. Know the purpose of the work
 2. Say something good
@@ -46,6 +48,26 @@ Which I alter/re-order into a slightly longer list of "advice":
 3. Connect to intents (if you were trying to X then Y)
 4. Consider choices (what choice was made? how could the decision have been informed? (principles!))
 5.  Do not prescribe
+
+## An initial example...
+
+I wanted an initial example to show what can go wrong in a critique. This is easiest if it's something bad (so it's easy to find things to talk about). And since the critique errors often are painful for the designer/creator, I wanted someone easy to pick on... So I asked Microsoft Co-Pilot (ChatGPT/Dall-E) to make something...
+
+{{<rimage src="CoPilot-BarChart-Colorful3.png" caption="An intentionally bad chart made by CoPilot." >}}
+
+Yuck. That is so terrible that I am not sure I can critique it.
+
+Notice how unhelpful that last line was. You aren't going to learn much from me saying it. In class I say "try to say something more constructive than yuck."
+
+Let me try again...
+
+If the goal is to create an image we can use for learning about critique, a chart with too many things go on might be too distracting. Consider simpler examples that will be easier to identify specific features.
+
+OK... Here's another image from a slightly tuned prompt...
+
+{{<rimage src="CoPilot-BarChart-Colorful3.png" caption="An intentionally bad chart made by CoPilot." >}}
+
+
 
 ### 1. Know the Purpose - establish the goals and context
 
@@ -81,3 +103,7 @@ A second improvement came when I discovered the book "discussing design". This i
 
 Part of the Vis Snacks project is to force me to do more critique (in written form) in order to improve **my** critique practice. I invite you to critique along with me to improve yours. 
 {{</draft-only>}}
+
+{{<genai>}}
+The 3D Bar Chart images were made by Microsoft CoPilot from a prompt that encouraged it to make something terrible.
+{{</genai>}}
