@@ -33,7 +33,7 @@ Practice looking at visualizations and asking yourself "what does this make easy
 
 Here's a visualization from the New York Times:
 
-{{<rimage src="nyt-clean-energy.png" width="500" caption="Maps of percentage of households taking advantage of two different tax credits, by state" attr="from the NY Times" attrlink="https://www.nytimes.com/interactive/2024/08/08/climate/tax-credits-solar-panels-home-efficiency.html" >}}
+{{<rimage src="nyt-clean-energy.png" width="500" caption="Maps of percentage of households taking advantage of two different tax credits, by state." attr="from the NY Times" attrlink="https://www.nytimes.com/interactive/2024/08/08/climate/tax-credits-solar-panels-home-efficiency.html" >}}
 
 Before reading further, try this yourself. List a bunch of things that are easy for you to see. What questions can this visualization answer easily? What questions come to your mind? Are they easy or hard to see the answers to?
 
