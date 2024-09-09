@@ -41,7 +41,7 @@ attrlink - link for the attribution (default is "")
         {{- with $attrlink }}
             <a href="{{ . }}">
         {{- end -}}
-        {{- $attr | markdownify -}}
+        &nbsp;{{- $attr | markdownify -}}
         {{- if $attrlink }}</a>{{ end }}</p></figcaption>
     {{- end }}
 </figure>
