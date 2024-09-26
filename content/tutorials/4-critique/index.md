@@ -3,7 +3,7 @@ title = 'Tutorial 4: Critique'
 date = 2024-08-31T06:18:16-05:00
 draft = false
 categories = []
-tags = []
+tags = ["critique"]
 toc = false
 weight = 4
 +++
@@ -41,13 +41,28 @@ In performing critique, I recommend setting a few ground rules (these are paraph
 4. Don’t dictate
 5. It’s about the work, not the person
 
-Which I alter/re-order into a slightly longer list of "advice":
+Which I alter/re-order into a list of "advice":
 
 1. Critique as if the person is there (Critique the work, not the person)
 2. Understand/Examine first (Understand context and the object before reacting)
 3. Connect to intents (if you were trying to X then Y)
 4. Consider choices (what choice was made? how could the decision have been informed? (principles!))
 5.  Do not prescribe
+
+The {{<link discussing-design>}} book has a nice formula. If you follow this stylized approach, you won't commit the worst mistakes, and will probably be steered towards effective formula:
+
+1. Be clear about the objective.
+2. Be specific about the aspect of the design.
+3. Describe why/how the aspect works (or doesn't) for the objective, with a principle.
+
+This is very stylized, but it really does help us novice critiquers (judging from my classes):
+
+If **objective** then **decision** could be informed by **principle.**
+
+The book teaches this with great cartoons, here is an example:
+
+{{<rimage src="discussing-design-alien-critique.png" caption="Stylized form of critique from the book Discussing Design." attr="From the book Discussing Design, used without permission." attrlink="http://www.discussingdesign.com/">}}
+
 
 ## An initial example...
 
@@ -67,8 +82,6 @@ OK... Here's another image from a slightly tuned prompt...
 
 {{<rimage src="CoPilot-BarChart-Colorful3.png" caption="An intentionally bad chart made by CoPilot." >}}
 
-
-
 ### 1. Know the Purpose - establish the goals and context
 
 Understanding the context of the object - what was it intended for - is important because the design really needs to be examined in terms of how well it achieves its goals.
@@ -85,9 +98,61 @@ I change this to "understand/examine first". This is related: if you don't try t
 
 ### 3. Be Specific
 
-I generalize this (Irene said "be specific about problems"). 
+I generalize this (Irene said "be specific about problems").
 
 Vague and general statements are less easy to learn from or connect to principles, guidance, or potential changes.
+
+### 4. Don't Dictate
+
+The goal is to inform - to learn from the example. Not (just) to say what you think should have been done instead. 
+
+So often, a "you should X" could be responded to as "yeah, I tried that and here are a bunch of other problems that come up." Or "why did you pick that."
+
+Example to consider: If the goal is to draw attention to those key words, they should stand out from the rest of the text.
+
+1. I would make them red. *tried that, and my client hates red text*
+2. Consider ways to make them contrast the other plain black text. For example, red would be very different. *I can't do red, but maybe another non-black color would provide enough contrast, especially if I find other ways to create contrast such as using italics.*
+
+### 5. It's about the work, not the person
+
+Keep focused on what you are critiquing. Good designers make bad things sometimes (maybe they were rushed, or exploring something risky, or having a bad day).
+
+If there is a problem, don't assume that the creator doesn't know better. If there is something good, don't assume that the creator has the same reasoning that you do. 
+
+Critique is different than assessment: if your goal is to judge the person/process (to give them/it a grade), then you are doing something different from critique.
+
+## Do I have to use the stylized form?
+
+The me the stylized form is: *If **objective** then **decision** could be **informed by principle.**
+
+Do you have to use this? No - I suspect expert critiquers (experienced designers) don't critique in this stylized way. But in my class, I force us all to start with the stylized form
+
+Notice how the stylized form steers away from the worst problems.
+
+- It gets away from offending the creator as it gives them an out. "If the goal was X" let's the creator say "that wasn't my goal" or even "that wasn't my priority".
+- The focus on a decision not only makes this about a specific aspect (giving the critique focus) but also steers towards something you can do something about. 
+- Connecting the objective and decision keeps things on track - doing it with a principle helps provide rationale (so its more than opinion) and helps bring in general principles so that learning can generalize beyond the examples. It also helps generate ideas (by suggesting options, rather than a specific choice).
+
+## Besides Critique
+
+The {{<link discussing-design>}} book emphasizes that critique is only one of many forms of dialog. This was good food for thought for me. Here is my list, adapted from theirs:
+
+- Critique is not **opinion.** You are entitled to your opinion and personal taste. But you should own it as your opinion. It's OK for you to say "I dislike purple text" or even "If your goal is to make things that everyone likes, consider that there are some people like me who dislike purple." I am allowed to dislike purple - but I should "own" that opinion.
+- Critique is not **assessment.** The goal of critique is not an absolute judgment of good or bad, it to gain understanding. Critique is about the object being critiqued (although, the process that made it might be relevant). Critique might be useful in assessment. For example, critique might point out how a design could be better informed by principles. Assessment could say "the student who made it was supposed to be considering those principles, so I can infer something about their understanding of the principles from the design."
+- Critique is not **direction.** The goal is to understand the design, which might suggest alternatives. It shouldn't (just) be trying to prescribe an alternative. 
+- Critique is not the only kind of **feedback**. In fact, critique can be used for things other than feedback. 
+
+## Re-Design and Critique
+
+One place where critique is powerful is in understanding a design to see what different choices might be made. These different choices can be called "re-design" or iteration.
+
+Critique is a really powerful tool in doing re-design (or design iteration), because it helps understand the current design and how it might be improved (or the good things that should be preserved). 
+
+The stylized form can be helpful: it can point to specific choices that could be made differently, leading to different designs that can be critiqued (possibly in a comparitive crtitique where it is examined with alternatives to understand how to choose).
+
+I recommend this posting (from two visualization experts) as a great discussion of redesign with good examples:
+
++ **Design and Redesign** [(Medium posting)](https://medium.com/@hint_fm/design-and-redesign-4ab77206cf9) by Fernanda Viegas and Martin Wattenberg
 
 ## Historical Note
 

@@ -1,12 +1,17 @@
 +++
 title = 'Phone App Time Graphs'
 date = 2024-09-09T13:10:36-05:00
-draft = true
+draft = false
+resourcethumb = "garmin-steps.png"
+tags = []
+principles = []
 +++
 
 In this snack, we look at "value over time" graphs in two different iPhone apps. It's a good opportunity to connect design and task with a comparative critique.
 
 <!--more-->
+
+{{<lesson 1 "Tasks are important for design decisions. Maybe more important than data types." "Task first" >}}
 
 Here is a graph from the app from my water heater (yes, water heaters have apps nowawadays):
 
@@ -28,3 +33,6 @@ Of course, the water heater folks may have had different tasks in mind.
 
 This is a good opportunity for comparitive visualization (comparing visualizations - as opposed to visualization of comparison). What tasks are each visualization good for? What are the different in choices in each design, and how do they affect the effectiveness for different tasks?
 
+Arguably, these are different data types: the step counts are discrete (so they need to be binned over periods of time), electric usage could be the rate (instantaneous usage) which is a continuous signal, and therefore the line graph is more appropriate. But the units on the graph are kilowatt hours (which are amounts, not rates) - it could be the per day usage. 
+
+There are pros and cons to both designs (binned vs. continuous). The decision should really consider task, not just data type. 
