@@ -1,7 +1,7 @@
 +++
 title = 'Cairo Discrete Line'
 date = 2024-10-09T13:24:31-05:00
-draft = true
+draft = false
 +++
 
 Line charts can be used (with caution) even when the X axis is neither interval or continuous.
@@ -30,3 +30,5 @@ The student asked why connecting the dots was a valid choice (at first, he didn'
 4. I might argue it is an interval/continuous axis – if we think of it as “life stages” – it is totally sensible to think about being halfway between stage 1 and stage 2, or even the slope as "the rate of decrease in influence as we move between life stages".
 
 One thing that strikes me in the image: my eye does follow the slopes. For example, the trend in the red line (Television) as we go from Xers, to Boomers, to Mature (3,4,5) is a pretty constant slope. Is this the wrong thing being easy to see? In this graph, I think that slopes could be meaningful - the rate at which things decrease as we move through life stages. It is not an unreasonable thing to think about (at least qualitatively).
+
+But this observation works conversely: if the slope wasn't meaningful, a non-meaningful thing would be easy to see. 
