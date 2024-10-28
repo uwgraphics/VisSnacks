@@ -2,6 +2,7 @@
 title = 'Tutorial 3: What is Easy to See?'
 date = 2024-08-28T09:11:21-05:00
 draft = false
+weight = 3
 +++
 
 A surprising amount of visualization design and analysis can be wrapped up in the single question "What does this visualization make easy to see?"

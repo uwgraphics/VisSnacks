@@ -1,0 +1,46 @@
+{{/*
+	- hacked by gleicher to include summaries of sections  
+		- as part of how this works, a default pagination of 12 is given
+	- also hacked to be parameterized...
+		top_pagination - to put pagination controls on the top 
+        paginate - allow section pages to set their own pagination 
+        
+    we add the TOC in case you want a toc for the list (which is weird, but useful for course webs) - but it doesn't actually work correctly
+    (since it only works on the Content)
+    */}}
+{{ define "main" }}
+<main class="main list" role="main">
+	{{- $section := . }}
+	{{- with .Title }}
+	<header class="main__header">
+		<h1 class="main__title">{{ . }}</h1>
+	</header>
+	{{- end }}
+    {{- partial "post_toc.html" . -}}
+	{{- with .Content }}
+	<div class="content main__content clearfix">
+		{{ . }}
+	</div>
+	{{- end }}
+	{{/* explicitly create the paginator - give it the page list
+		 for some reason, this includes the Sections (whereas, the default does not
+		 also - use a default rather than an if (which mainroad did) 
+         make the paginator look in multiple places for the count (page, site, ...)
+		*/}}
+    {{- $perpage := ( .Params.paginate | default (.Site.Params.paginate | default 12 )) -}}
+    {{ $paginator := .Paginate (where .Site.RegularPages.ByDate "Type" "in" .Site.Params.mainSections) }}
+
+	{{- if (.Params.top_pagination | default .Site.Params.top_pagination) }}
+		{{ partial "pagination.html" . }}
+	{{- end }}
+	{{- range .Paginator.Pages.ByDate }}
+		{{- if $section.Params.visual_summary -}}
+			{{- .Render "visual_sum" }}
+		{{- else }}
+			{{- .Render "summary" }}
+		{{- end }}
+	{{- end }}
+	{{/* put pagination inside of block */}}
+	{{ partial "pagination.html" . }}
+</main>
+{{ end }}

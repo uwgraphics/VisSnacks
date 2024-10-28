@@ -2,6 +2,7 @@
 title = 'Cairo Discrete Line'
 date = 2024-10-09T13:24:31-05:00
 draft = false
+resourcethumb = "cairo-discrete-lines.png"
 +++
 
 Line charts can be used (with caution) even when the X axis is neither interval or continuous.
