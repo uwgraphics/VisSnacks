@@ -18,3 +18,8 @@ What does this mean to do:
 - the task of figuring out the task (question) is a real one - but make sure it's not a crutch
 - design decisions should connect 
 - use who/what/where/why/when/how to refine task and connect to design decisions
+
+
+
+Write the goal first
+Make a table. And then say why it doesn't work
