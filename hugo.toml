@@ -64,7 +64,10 @@ themestyle = "new"
 recentSections = ["snacks","tutorials", "critiques", "papers", "resources"]
 mainSections = ["snacks","tutorials", "critiques", "papers", "resources"]
 # this needs to be a SITE variable (for list.html)
-paginate = 15
+# this was depricated in Hugo 128
+# paginate = 15
+[pagination]
+  pagerSize = 15
 
 [Params.sidebar]
 home = "right"
