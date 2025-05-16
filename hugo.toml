@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Visualization Snacks"
-theme = ["559Theme","mainroad"]
+theme = ["559Theme","roadster"]
 
 # baseURL must be set by the CLI options!
 #baseURL = ""
