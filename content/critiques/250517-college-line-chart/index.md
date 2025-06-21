@@ -1,7 +1,7 @@
 +++
 title = 'College Attendance Line Chart'
 date = 2025-05-17T08:52:47-05:00
-draft = true
+draft = false
 resourcethumb = "250517-women-outpace-nyt-web.png"
 +++
 
@@ -95,9 +95,40 @@ Another difference in the original charts was the choice of how the groups are e
 
 Is this a significant difference? I don't know. If we were printing in black and white, the line styles would be an advantage. The line styles are definitely color-blind safe. In principle, there is more of a "color association" than a "line style association" (i.e., I don't associate dashes with men, but I might associate blue with men).
 
+I explicitly chose not to use "gender stereotype" colors, as this is considered a bad practice. There is a whole art to picking the colors in a way that maximizes the association (so the viewer is more likely to associate each line with the correct group). In principle, the viewer *should* look at the key - but why make them do the extra work? This applies not only to first noticing the encoding, but also remembering it.
+
+## Other possibilities - Redesign
+
+These "critiques" look at the details, but they don't necessarily suggest what else we might do for this scenario, or a similar scenario we might encounter. It is difficult to make any prescriptions without more context - we are mainly trying to understand the rammifications of the designers' choices.
+
+To aid in exploring, I will pick objectives - note that this might not be what the original designer had in mind.
+
+1. I am stuck with the measure that we have (percentage of high school grads going to college) - without much control that this might not be the most informative measure.
+2. The viewer gain a sense of the overall trend.
+3. The viewer gain a sense of the gap and its trend.
+4. I need to be able to do this quickly, without a lot of custom tooling (i.e., using my limited abilities in Tableau).
+
+Before reading about what I might try, you might want to think for a moment about what you might do. In fact, you can take the data and try yourself.
+
+My first reaction is that achieving both goals 2 and 3 are tricky - there is a tension between them. This comes out in the trucated axis example (above): the non-truncated axis shows the trend well, the truncated zooms in on the difference. But even zoomed in on the difference, the trend in the differences is hard (for me) to see - because because what I am shown (the individual groups) vary with the overall trend.
+
+Considering a different strategy: I want the viewer to see two things, maybe I should show each explicitly. I can compute the gap and show it - since its a percentage, it can go on the same axis as the overall trend.
+
+{{<rimage src="difference.svg" caption="Showing the trend in college enrollment (percent of high school grads enrolling) and the gap between women and men on a single chart.">}}
+
+We can see all sorts of good and bad in this. For example, it wastes a lot of space in the middle. I could try something different (using different scales)
+
+{{<rimage src="Differences-Dual-Chart.svg" caption="Showing the trend in college enrollment (percent of high school grads enrolling) and the gap between women and men on a separate charts.">}}
+
+I'll leave it to you to decide which one you prefer - or what else might be worth trying. This is critique practice - you can try to examine a specific decision, and/or generate other options.
+
+One other thing to mention: notice that I chose a different "derived" quantity here than in the "ratios against totals" example above. Why did I do a simple difference this time, but the ratios in the earlier example? I have no good reason - the ratios were the first thing that came to mind. When I did these latter charts, I thought to try the simple difference. This choice of the derived quantity is a choice - and is worth thinking through.
+
 ## Going Farther
 
 There is a ton of data on this topic from the [Institute of Education Sciences](https://nces.ed.gov/ipeds/SummaryTables/).
+
+If you want to play with the data, I have a [csv file]({{<resource-link "college-enrollment-rates-bls.csv">}}), or you can even look at my [Tableau workbook]({{<resource-link "CollegeLineCharts.twb">}}).
 
 
 {{<genai>}}
