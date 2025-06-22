@@ -5,8 +5,8 @@ draft = false
 resourcethumb = "250517-women-outpace-nyt-web.png"
 +++
 
-This is a lesson on Axis Truncation for Line Graphs. It was inspired by a graph in 
-today's [New York Times](https://www.nytimes.com/2025/05/13/upshot/boys-falling-behind-data.html). 
+This is a lesson on Axis Truncation for Line Graphs. It was inspired by a graph in the [New York Times](https://www.nytimes.com/2025/05/13/upshot/boys-falling-behind-data.html). 
+<!--more-->
 I like the example because (1) Axis Trucation was on my mind (from {{<lnk "240830-yeping-axis" "a previous critique">}}), (2) this seems to be a reasonable use of Axis Truncation, and (3) the data (and an alternate plot) were easily available, so we can do comparative critique and try some redesign variants ourselves.
 
 First, here's the line graph from the New York Times, this is a screenshot from my phone:
