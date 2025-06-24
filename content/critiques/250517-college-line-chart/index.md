@@ -3,6 +3,7 @@ title = 'College Attendance Line Chart'
 date = 2025-05-17T08:52:47-05:00
 draft = false
 resourcethumb = "250517-women-outpace-nyt-web.png"
+tags = ["with data"]
 +++
 
 This is a lesson on Axis Truncation for Line Graphs. It was inspired by a graph in the [New York Times](https://www.nytimes.com/2025/05/13/upshot/boys-falling-behind-data.html). 

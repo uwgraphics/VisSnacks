@@ -4,6 +4,7 @@ date = 2025-06-22T08:20:39-05:00
 draft = false
 basedon = "https://www.nytimes.com/interactive/2024/08/27/business/economy/jobs-election-county.html"
 resourcethumb = "jobs-counties-country.png"
+tags = ["with data"]
 +++
 
 Core lesson: think about what a visualization makes easy to see. Different representations make some things easier, and harder. And some issues with dealing with geographic data in the US. 

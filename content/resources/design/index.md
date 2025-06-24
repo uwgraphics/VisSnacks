@@ -3,7 +3,7 @@ title: Books on Design
 date: 2022-08-29 22:00:00-05:00
 draft: false
 categories: []
-tags: []
+tags: [books]
 ---
 
 Students often ask for resources on Graphic Design. I'll suggest two books that have been readings in class in the past (and might be this year if we do the Graphic Design module): "The Non-Designer's Design Book" and "Design for Hackers: Reverse Engineering Beauty."

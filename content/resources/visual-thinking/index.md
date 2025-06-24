@@ -3,7 +3,7 @@ title: 'Ware: Visual Thinking for Information Design'
 date: 2022-08-29 22:00:00-05:00
 draft: false
 categories: []
-tags: []
+tags: [books]
 resourcethumb: ware-vis-thinking.jpg
 ---
 
