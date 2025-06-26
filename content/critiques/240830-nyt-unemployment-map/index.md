@@ -100,7 +100,7 @@ Let's try a comparitive critique...
 
 Actually, I'll leave the comparitive critique as an excersize for the reader. It is easy to complain about the details in mine (I neither spent time tweaking, nor have the Tableau skills) - so try to focus on the general concepts of the design. What does the dots make easier to see? What does it make harder to see? 
 
-If you want to play with this yourself, I've provided the [(csv file)](emplvl_comparison.csv) and the Tableau workbook [(twbx file)](Unemp-Fixes.twb).
+If you want to play with this yourself, I've provided the [(csv file)](emplvl_comparison.csv) and the Tableau workbook [(twbx file)](Unemp-Fixes.twbx).
 
 {{<genai>}}
 I used [Claude](https://claude.ai) to find the data and get instructions on how to get exactly what I wanted. The prompt was "provide an excel file that has the number of employed people in each county in the US for the years 2019 and 2023".

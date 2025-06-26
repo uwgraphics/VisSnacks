@@ -129,7 +129,7 @@ One other thing to mention: notice that I chose a different "derived" quantity h
 
 There is a ton of data on this topic from the [Institute of Education Sciences](https://nces.ed.gov/ipeds/SummaryTables/).
 
-If you want to play with the data, I have a [csv file]({{<resource-link "college-enrollment-rates-bls.csv">}}), or you can even look at my [Tableau workbook]({{<resource-link "CollegeLineCharts.twb">}}).
+If you want to play with the data, I have a [csv file]({{<resource-link "college-enrollment-rates-bls.csv">}}), or you can even look at my [Tableau workbook]({{<resource-link "CollegeLineCharts.twbx">}}).
 
 
 {{<genai>}}
