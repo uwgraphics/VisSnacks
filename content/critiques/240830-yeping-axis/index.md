@@ -61,6 +61,10 @@ Here is the final figure, if you're curious...
 
 ## Takeaway...
 
+Don't make the wrong thing easy to see! 
+
+Be careful when truncating axes is a corallary to the more fundamental principle: make the right thing easy to see, don't make the wrong thing easy to see.
+
 With an improved figure (and some other writing fixes), the paper was accepted at a journal. You can see the figure in the paper: Yeping Wang and Michael Gleicher. [Anytime Planning for End-Effector Trajectory Tracking](https://graphics.cs.wisc.edu/Papers/2025/WG25/). IEEE Robotics and Automation Letters, 10, 2025. [(DOI)](http://dx.doi.org/10.1109/LRA.2025.3540633).
 
 But, the big lesson for Visualization: **Don't make the wrong thing easy to see!**

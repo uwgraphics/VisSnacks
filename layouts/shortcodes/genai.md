@@ -1,4 +1,4 @@
 <div class="dimbox">
     <h4>GenAI Disclosure:</h4>
-    {{ .Inner }}
+    {{ .Inner | markdownify }}
 </div>{{ "<!-- end genAI disclosure -->" | safeHTML }}

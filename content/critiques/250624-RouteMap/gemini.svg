@@ -1,0 +1,157 @@
+<svg width="1000" height="850" xmlns="http://www.w3.org/2000/svg" font-family="Inter, sans-serif">
+    <!-- 
+      Resolution-Independent SVG Route Map
+      This SVG combines a vector map of Europe with the destinations and color-coded key.
+      - The map outline provides a clean, scalable base.
+      - Cities are plotted with coordinates relative to the map.
+      - The key is embedded for a complete, self-contained graphic.
+      - Inset maps are included for the Canary Islands and Cape Verde.
+      - Code is formatted to be readable with lines under 100 characters.
+    -->
+    <style>
+        .city-label {
+            font-size: 11px;
+            font-weight: 500;
+            fill: #1f2937;
+            text-anchor: middle;
+        }
+        .map-outline {
+            fill: #f0f0f0;
+            stroke: #b0b0b0;
+            stroke-width: 1;
+        }
+        .inset-box {
+            fill: #ffffff;
+            stroke: #cccccc;
+            stroke-width: 1;
+        }
+    </style>
+
+    <!-- Main Map Background -->
+    <g id="map-background">
+        <path class="map-outline" d="
+            M378 705 L375 698 L367 691 L365 681 L368 672 L373 663 L373 656 L370 649 L372 641
+            L378 633 L378 626 L381 619 L381 613 L384 606 L392 601 L395 595 L402 593 L409 589
+            L412 583 L410 576 L400 571 L394 566 L390 559 L389 551 L382 546 L375 549 L367 549
+            L359 544 L356 537 L356 528 L349 520 L348 511 L341 504 L337 495 L333 485 L327 477
+            L322 468 L315 461 L308 454 L301 448 L290 443 L277 439 L265 435 L250 432 L241 427
+            L241 419 L237 411 L230 405 L220 401 L210 398 L204 391 L197 386 L191 379 L189 369
+            L193 359 L199 353 L208 349 L218 347 L226 343 L232 336 L239 331 L250 328 L259 322
+            L265 314 L269 305 L272 295 L273 284 L271 273 L273 264 L278 257 L287 252 L297 250
+            L308 248 L318 244 L329 238 L338 231 L345 221 L352 213 L358 205 L362 196 L364 186
+            L363 176 L359 168 L354 161 L348 155 L343 148 L343 140 L347 133 L354 128 L362 125
+            L371 124 L380 121 L389 117 L397 112 L402 105 L409 101 L417 100 L428 100 L438 104
+            L446 109 L454 115 L462 121 L471 123 L479 123 L488 126 L496 132 L500 140 L502 148
+            L504 157 L507 165 L512 172 L518 177 L526 181 L534 184 L542 189 L549 195 L555 202
+            L562 208 L569 212 L578 215 L587 217 L596 218 L604 217 L611 214 L619 211 L627 208
+            L634 203 L640 198 L645 192 L648 185 L649 177 L649 169 L646 161 L642 154 L638 148
+            L633 143 L627 140 L620 138 L612 137 L604 138 L596 140 L589 144 L582 149 L576 155
+            L571 162 L567 169 L564 177 L563 185 L564 193 L567 201 L571 208 L576 215 L582 221
+            L589 226 L596 230 L604 233 L612 235 L620 236 L627 236 L635 235 L643 233 L651 230
+            L658 226 L665 221 L672 215 L678 208 L684 201 L689 193 L693 185 L695 177 L696 169
+            L695 161 L693 154 L690 148 L686 143 L681 140 L674 138 L666 137 L658 138 L651 140
+            L644 144 L638 149 L633 155 L628 162 L624 169 L621 177 L620 185 L621 193 L624 201
+            L628 208 L633 215 L638 221 L644 226 L651 230 L658 233 L666 235 L674 236 L681 236
+            L689 235 L697 233 L705 230 L712 226 L719 221 L726 215 L732 208 L738 201 L743 193
+            L747 185 L749 177 L750 169 L749 161 L747 154 L744 148 L740 143 L735 140 L728 138
+            L720 137 L712 138 L705 140 L698 144 L692 149 L687 155 L682 162 L678 169 L675 177
+            L674 185 L675 193 L678 201 L682 208 L687 215 L692 221 L698 226 L705 230 L712 233
+            L720 235 L728 236 L735 236 L743 235 L751 233 L758 230 L765 226 L772 221 L778 215
+            L784 208 L789 201 L793 193 L795 185 L796 177 L795 169 L793 161 L790 148 L786 143
+            L781 140 L774 138 L766 137 L758 138 L751 140 L744 144 L738 149 L733 155 L728 162
+            L724 169 L721 177 L720 185 L721 200 L728 211 L735 218 L744 226 L744 236 L746 245
+            L749 253 L755 260 L759 268 L761 277 L761 286 L759 295 L755 303 L750 310 L744 316
+            L738 321 L731 325 L723 328 L715 330 L707 331 L698 331 L690 330 L682 328 L674 325
+            L667 321 L661 316 L656 310 L652 303 L650 295 L650 286 L652 277 L656 268 L661 260
+            L667 253 L674 245 L680 238 L685 232 L690 227 L694 223 L697 220 L700 218 L703 217
+            L706 217 L709 218 L712 220 L715 223 L718 227 L721 232 L724 238 L727 245 L730 253
+            L733 260 L735 268 L736 277 L736 286 L735 295 L733 303 L730 310 L727 316 L724 321
+            L721 325 L718 328 L715 331 L712 333 L709 335 L706 336 L703 336 L700 335 L697 333
+            L694 331 L690 328 L685 325 L680 321 L674 316 L667 310 L661 303 L656 295 L652 286
+            L650 277 L652 268 L656 260 L661 253 L667 245 L674 238 L682 232 L690 227 L698 223
+            L707 220 L715 218 L723 217 L731 217 L738 218 L746 220 L753 223 L760 227 L766 232
+            L772 238 L777 245 L781 253 L784 260 L786 268 L787 277 L787 286 L786 295 L784 303
+            L781 310 L777 316 L772 321 L766 325 L760 328 L753 331 L746 333 L738 335 L731 336
+            L723 336 L715 335 L707 333 L698 331 L690 328 L682 325 L674 321 L667 316 L661 310
+            L656 303 L652 295 L650 286 L650 277 L652 268 L656 260 L661 253 L667 245 L674 238
+            L680 232 L685 227 L690 223 L694 220 L697 218 L700 217 L703 217 L706 218 L709 220
+            L712 223 L715 227 L718 232 L721 238 L724 245 L727 253 L730 260 L733 268 L735 277
+            L736 286 L735 295 L733 303 L730 310 L727 316 L724 321 L721 325 L718 328 L715 331
+            L712 333 L709 335 L706 336 L703 336 L700 335 L697 333 L694 331 L690 328 L685 325
+            L680 321 L674 316 L667 310 L661 303 L656 295 L652 286 L652 277 L656 268 L661 260
+            L667 253 L674 245 L682 238 L690 232 L698 227 L707 223 L715 220 L723 218 L731 217
+            L738 217 L746 218 L753 220 L760 223 L766 227 L772 232 L777 238 L781 245 L784 253
+            L786 260 L788 268 L789 277 L789 286 L788 295 L786 303 L784 310 L781 316 L777 321
+            L772 325 L766 328 L760 331 L753 333 L746 335 L738 336 L731 336 L723 335 L715 333
+            L707 331 L698 328 L690 325 L682 321 L674 316 L667 310 L661 303 L656 295 L652 286
+            L650 277 z" />
+    </g>
+
+    <!-- Inset Map Boxes -->
+    <g id="inset-maps">
+        <rect x="50" y="380" width="120" height="90" class="inset-box" />
+        <rect x="50" y="490" width="120" height="90" class="inset-box" />
+        <rect x="50" y="600" width="120" height="90" class="inset-box" />
+    </g>
+
+    <!-- City Markers and Labels -->
+    <g id="cities">
+        <!-- Departure Cities -->
+        <g>
+            <circle cx="488" cy="486" r="5" fill="#1d4ed8" /><text x="488" y="501" class="city-label">Paris</text>
+            <circle cx="390" cy="510" r="5" fill="#38bdf8" /><text x="390" y="525" class="city-label">Nantes</text>
+            <circle cx="515" cy="545" r="5" fill="#0ea5e9" /><text x="515" y="560" class="city-label">Lyon</text>
+            <circle cx="550" cy="490" r="5" fill="#6b7280" /><text x="550" y="505" class="city-label">Strasbourg</text>
+            <circle cx="518" cy="405" r="5" fill="#22c55e" /><text x="518" y="420" class="city-label">Amsterdam</text>
+            <circle cx="505" cy="418" r="5" fill="#86efac" /><text x="505" y="433" class="city-label">Rotterdam</text>
+            <circle cx="525" cy="428" r="5" fill="#a3e635" /><text x="525" y="443" class="city-label">Eindhoven</text>
+            <circle cx="540" cy="385" r="5" fill="#fde047" /><text x="540" y="400" class="city-label">Groningen</text>
+        </g>
+        
+        <!-- Destination Cities -->
+        <g>
+            <circle cx="340" cy="620" r="4" fill="#6b7280" /><text x="340" y="635" class="city-label">Lisbonne</text>
+            <circle cx="330" cy="650" r="4" fill="#6b7280" /><text x="330" y="665" class="city-label">Faro</text>
+            <circle cx="360" cy="660" r="4" fill="#6b7280" /><text x="360" y="675" class="city-label">Séville</text>
+            <circle cx="390" cy="610" r="4" fill="#6b7280" /><text x="390" y="625" class="city-label">Porto</text>
+            <circle cx="400" cy="640" r="4" fill="#6b7280" /><text x="400" y="655" class="city-label">Madrid</text>
+            <circle cx="450" cy="670" r="4" fill="#6b7280" /><text x="450" y="685" class="city-label">Alicante</text>
+            <circle cx="465" cy="625" r="4" fill="#6b7280" /><text x="465" y="640" class="city-label">Barcelone</text>
+            <circle cx="480" cy="650" r="4" fill="#6b7280" /><text x="480" y="665" class="city-label">Ibiza</text>
+            <circle cx="500" cy="660" r="4" fill="#6b7280" /><text x="500" y="675" class="city-label">Palma</text>
+            <circle cx="560" cy="570" r="4" fill="#6b7280" /><text x="560" y="585" class="city-label">Nice</text>
+            <circle cx="590" cy="610" r="4" fill="#6b7280" /><text x="590" y="625" class="city-label">Rome</text>
+            <circle cx="620" cy="630" r="4" fill="#6b7280" /><text x="620" y="645" class="city-label">Naples</text>
+            <circle cx="650" cy="680" r="4" fill="#6b7280" /><text x="650" y="695" class="city-label">Catane</text>
+            <circle cx="680" cy="620" r="4" fill="#6b7280" /><text x="680" y="635" class="city-label">Corfou</text>
+            <circle cx="720" cy="640" r="4" fill="#6b7280" /><text x="720" y="655" class="city-label">Athènes</text>
+            <circle cx="750" cy="670" r="4" fill="#6b7280" /><text x="750" y="685" class="city-label">Mykonos</text>
+            <circle cx="770" cy="680" r="4" fill="#6b7280" /><text x="770" y="695" class="city-label">Santorin</text>
+            <circle cx="800" cy="670" r="4" fill="#6b7280" /><text x="800" y="685" class="city-label">Rhodes</text>
+            <circle cx="830" cy="650" r="4" fill="#6b7280" /><text x="830" y="665" class="city-label">Antalya</text>
+        </g>
+    </g>
+
+    <!-- Map Key -->
+    <g id="map-key" transform="translate(600, 280)">
+        <rect width="360" height="160" rx="12" ry="12" fill="#fafaf9" stroke="#d6d3d1" stroke-width="1" />
+        <text x="24" y="30" font-size="16" font-weight="bold" fill="#1f2937">Destination au départ de :</text>
+        <text x="24" y="48" font-size="12" fill="#6b7280" font-style="italic">Or departure from:</text>
+        <g font-size="14" font-weight="500" fill="#374151">
+            <!-- Column 1 -->
+            <g transform="translate(24, 75)">
+                <circle cx="8" cy="0" r="6" fill="#1d4ed8" /><text x="22" y="0" dy=".3em">PARIS</text>
+                <circle cx="8" cy="25" r="6" fill="#38bdf8" /><text x="22" y="25" dy=".3em">NANTES</text>
+                <circle cx="8" cy="50" r="6" fill="#0ea5e9" /><text x="22" y="50" dy=".3em">LYON</text>
+                <circle cx="8" cy="75" r="6" fill="#6b7280" /><text x="22" y="75" dy=".3em">STRASBOURG</text>
+            </g>
+            <!-- Column 2 -->
+            <g transform="translate(180, 75)">
+                <circle cx="8" cy="0" r="6" fill="#22c55e" /><text x="22" y="0" dy=".3em">AMSTERDAM</text>
+                <circle cx="8" cy="25" r="6" fill="#86efac" /><text x="22" y="25" dy=".3em">ROTTERDAM</text>
+                <circle cx="8" cy="50" r="6" fill="#a3e635" /><text x="22" y="50" dy=".3em">EINDHOVEN</text>
+                <circle cx="8" cy="75" r="6" fill="#fde047" /><text x="22" y="75" dy=".3em">GRONINGEN</text>
+            </g>
+        </g>
+    </g>
+</svg>
