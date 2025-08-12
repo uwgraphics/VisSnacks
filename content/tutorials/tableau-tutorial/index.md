@@ -6,7 +6,7 @@ tags = ["tableau"]
 categories = []
 +++
 
-This is a tutorial on how to get started with Tableau using the Census Data set I used in my 2024 Class. It will walk you through what I did to make a few initial pictures. This will show you some of the quirks of Tableau, and the dataset. 
+This is a tutorial on how to get started with Tableau. It is targeted for CS765 students (but should be OK for anyone). I am using the Census Data set I used in my 2024 Class. The tutorial will walk you through what I did to make a few initial pictures. This will show you some of the quirks of Tableau, and the dataset. 
 
 <!--more-->
 
@@ -24,7 +24,7 @@ My (non-expert) take:
 
 **Warning:** The Tableau term for a variable is a **field** (this is database terminology). I will often use the term variable.
 
-{{<expand-boxed "About the Data">}}
+{{<expand-boxed "About the data used in this tutorial">}}
 If you want to try this yourself (encouraged) with the same data I am using...
 
 This is a data set we created for a set of "Design Exercises" in my 2024 CS765 Data Visualization class. It is problematic in some ways - and should not be used for serious analysis. You can read about on the [CS765-24 Census Data Page](https://pages.graphics.cs.wisc.edu/765-24/pages/census-data/) - although use this links here to download it.
