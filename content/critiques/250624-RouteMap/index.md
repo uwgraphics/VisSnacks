@@ -101,7 +101,7 @@ For me, the two big lessons:
 
 {{<genai>}}
 
-I used Gemini to convert my crappy cell-phone pictures of the Transavia map to SVG version. This worked amazingly well for legend, so I got greedy and tried it for the whole map. It didn't work so well. To see as far as I was able to get (using my limited prompting skills and patience) you can look at [the best I was able to get]({{<resource-link "gemini-3.svg">}}).
+I used Gemini to convert my crappy cell-phone pictures of the Transavia map to SVG version. This worked amazingly well for the legend, so I got greedy and tried it for the whole map. It didn't work so well. To see as far as I was able to get (using my limited prompting skills and patience) you can look at [the best I was able to get]({{<resource-link "gemini-3.svg">}}).
 
 I was slightly more successful at getting gemini to re-create the detail view. But it is clear that the washed out colors, overlapping dots, and indistinct patterns make it too hard for its vision model to identify the circles: {{<resource-link "transavia-detail-gemini.svg">}}. Even when the prompt said "Recreate this map as a resolution independent SVG image. Use circles for the colored circular marks next to each city. Match the colors and positions of the circles in the map as closely as possible. Each city many have more than one circle. Format the SVG file so that no line has more than 120 characters. ignore the gray background."
 
