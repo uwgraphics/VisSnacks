@@ -10,6 +10,8 @@ This is a tutorial on how to get started with Tableau. It is targeted for CS765 
 
 <!--more-->
 
+## A Tableau Tutorial For Class
+
 Learning Tableau is a bit tricky. It's a big complicated system. But worse, it is based on some tricky concepts (that will make more sense if you know the visualization and database theory). My experience is you can figure out a lot by poking at things and trying. But it helps to see a few examples, and to have someone help get your data set up initially. 
 
 Here, I'll walk you through what I did to make the first pictures for class. I'll give you the resulting workbook, so you don't have to do this yourself. But it's probably worth going through it just to practice pushing the buttons.
