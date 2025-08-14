@@ -4,6 +4,7 @@ date = 2025-08-12T07:00:00-05:00
 draft = false
 tags = ["tableau"]
 categories = []
+weight = 10
 +++
 
 This is a tutorial on how to get started with Tableau. It is targeted for CS765 students (but should be OK for anyone). I am using the Census Data set I used in my 2024 Class. The tutorial will walk you through what I did to make a few initial pictures. This will show you some of the quirks of Tableau, and the dataset. 
