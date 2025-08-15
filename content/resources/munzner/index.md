@@ -11,7 +11,12 @@ This is the closest thing to a "primary textbook" for my class. The course share
 
 <!--more-->
 
-**UW Students:** You can access the book through the library [(catalog page)](https://search.library.wisc.edu/catalog/9913040404802121), or there is a hard to find link to access it from the publisher [(this still works)](https://www-taylorfrancis-com.ezproxy.library.wisc.edu/books/9780429088902).  If you want to buy it, you can [find it online](http://amzn.to/2hsH7HZ).
+{{<expand-boxed "Library Access for UW Students">}}
+You can access this book online through the UW Library. For reasons I don't understand, there are two separate library records, each connecting with a different online publisher. I prefer the first one.
+
+1. The record for the physical book (from Taylor and Francis publishers) is [(link)](https://search.library.wisc.edu/catalog/9910211448302121/). This will lead you to Taylor and Francis EBooks where you can access the PDF and EPUB versions (you can either read in-browser or offline). The T&F ebook page is: [(link)](https://www-taylorfrancis-com.ezproxy.library.wisc.edu/books/mono/10.1201/b17511/visualization-analysis-design-tamara-munzner).
+2. There is a [link](https://search.library.wisc.edu/catalog/9913040404802121) for the "online only" version. But this leads to the O'Reilly online library, which only provides in an-browser reading experience (as far as I can tell). It is [(here)](https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/visualization-analysis-and/9781466508910/K14708_C000.xhtml) if you want it.
+{{</expand-boxed>}}
 
 {{< resource-image src="vad.png" class="list__thumbnail" alt="Munzner Cover" >}}
 
