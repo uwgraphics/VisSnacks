@@ -34,7 +34,7 @@ This is a data set we created for a set of "Design Exercises" in my 2024 CS765 D
 
 Briefly, the data set was pulled from [USDA Census Data](https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/) on September 6, 2024. Cat (the TA) joined the data based on FIPS code (see below) and removed aggregate regions (state and country level).
 
-The CSV file is {{<resource-link "county_census_2023-24_raw.csv">}}. The resulting Tableau workbook from the tutorial is {{<resource-link "Census-Tutorial.twb">}}. I should be able to embed the data in the workbook (using a twbx file), but this didn't work for me. You need to download both.
+The CSV file is {{<resource-file "county_census_2023-24_raw.csv">}}. The resulting Tableau workbook from the tutorial is {{<resource-file "Census-Tutorial.twb">}}. I should be able to embed the data in the workbook (using a twbx file), but this didn't work for me. You need to download both.
 {{</expand-boxed>}}
 
 ## Getting Started
@@ -304,4 +304,4 @@ Now we've been through a basic walkthrough to make some charts in Tableau. Over 
 
 Now you can make your own visualizations!
 
-The CSV file is {{<resource-link "county_census_2023-24_raw.csv">}}. The resulting Tableau workbook from the tutorial is {{<resource-link "Census-Tutorial.twb">}}. I should be able to embed the data in the workbook (using a twbx file), but this didn't work for me. You need to download both.
+The CSV file is {{<resource-file "county_census_2023-24_raw.csv">}}. The resulting Tableau workbook from the tutorial is {{<resource-file "Census-Tutorial.twb">}}. I should be able to embed the data in the workbook (using a twbx file), but this didn't work for me. You need to download both.

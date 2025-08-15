@@ -22,7 +22,7 @@ A quick walkthrough of showing how to get started with Tableau. The data set is 
 
 For the class assignment, we'll work with life expectancy data taken from a [class assignment](https://teaching.vda.univie.ac.at/vis/25s/a1.html) at the University of Vienna. 
 
-Here is the data as a CSV file: {{<resource-link "life-expectance.csv">}}. 
+Here is the data as a CSV file: {{<resource-file "life-expectancy.csv">}}. 
 
 It's usually a good idea to have a look at the data to have a sense of what to expect. Here, the file is simple: there are just 4 columns. 
 
