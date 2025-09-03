@@ -96,7 +96,7 @@ Another difference in the original charts was the choice of how the groups are e
 
 Is this a significant difference? I don't know. If we were printing in black and white, the line styles would be an advantage. The line styles are definitely color-blind safe. In principle, there is more of a "color association" than a "line style association" (i.e., I don't associate dashes with men, but I might associate blue with men).
 
-I explicitly chose not to use "gender stereotype" colors, as this is considered a bad practice. There is a whole art to picking the colors in a way that maximizes the association (so the viewer is more likely to associate each line with the correct group). In principle, the viewer *should* look at the key - but why make them do the extra work? This applies not only to first noticing the encoding, but also remembering it.
+I explicitly chose not to use "gender stereotype" colors, as this is considered a bad practice (see [this article](https://www.datawrapper.de/blog/gendercolor) for a nice discussion). There is a whole art to picking the colors in a way that maximizes the association (so the viewer is more likely to associate each line with the correct group). In principle, the viewer *should* look at the key - but why make them do the extra work? This applies not only to first noticing the encoding, but also remembering it.
 
 ## Other possibilities - Redesign
 
