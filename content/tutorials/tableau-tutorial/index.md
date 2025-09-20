@@ -19,6 +19,8 @@ Here, I'll walk you through what I did to make the first pictures for class. I'l
 
 I am not a Tableau expert - and (when I made this tutorial) I haven't used it in 2 years, so this was "re-learning" for me (I had only used it for class). I am doing this with Tableau Desktop on a Mac. Cat (the 2024 TA) checked that the instructions work online (and provided some pictures where things are different).
 
+> 2025 Update: You might need to use Tableau public for class. I have done this tutorial using it, so I can confirm it works. If you want to see the results [check here](https://public.tableau.com/views/CensusTest1_17582999265960/Rate200020192021?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link). You can copy the workbook and play with it.
+
 This is more of a "walkthrough" than a "tutorial" - I am going to show you what I did, with minimal explanation of the concepts behind it. But, from experience, understanding these concepts is what makes Tableau make sense.
 
 My (non-expert) take: 
