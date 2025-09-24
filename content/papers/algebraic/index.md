@@ -48,7 +48,7 @@ The paper has a set of simple examples, drawn from many different types of visua
 
 ## Do you still need to read this paper?
 
-The basic idea is simple - and you probably get it from my one sentence summary "visual changes should be proportional to data changes". However, the paper does such a nice job of expressing this concept with a formalism that I recommend reading it. The formalism allows them to get at nuance beyond my over-simplification. And they have good examples.
+The basic idea is simple - and you probably get it from my one sentence summary "visual changes should be proportional to data changes". However, the paper does such a nice job of expressing this concept with a formalism that I recommend reading it. The formalism allows the authors to get at nuance beyond my over-simplification. And they have good examples.
 
 And it is a great example of an application of formalism for visualization.
 
