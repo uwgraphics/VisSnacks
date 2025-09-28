@@ -67,9 +67,10 @@ This paper isn't specific to comparison. It also focused on summarization (and c
 
 ## What does an LLM say?
 
-Here is what Gemini gave me when I gave it the PDF and asked it "Summarize this paper concisely".
+Here is what Gemini gave me when I gave it the PDF and asked it "Summarize this paper concisely".  (it provided citations into the text, which was handy - but hard to translate onto this page)
 
-Based on the paper provided, here is a concise summary (it provided citations into the text, which was handy - but hard to translate onto this page):
+Based on the paper provided, here is a concise summary:
+
 The paper "Considerations for Visualizing Comparison" by Michael Gleicher presents a conceptual framework to aid in the design of visualization tools that support comparison tasks. The author posits that while comparison is a common challenge in data analysis, existing design frameworks offer little specific guidance for creating effective solutions.
 
 The proposed framework consists of four sequential considerations to help designers abstract a comparison problem, identify its challenges, and map them to potential solutions:
