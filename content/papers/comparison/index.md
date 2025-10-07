@@ -46,6 +46,12 @@ I find that understanding things in terms of the categories of the three-threes 
 
 The paper uses some examples that we were working on at the time (taken from papers I wrote with students). It really was the case that the comparison strategy was a "secret weapon" for coming up with good solutions to hard problems. (OK, having great students is a not-so-secret weapon).
 
+## Do you still need to read the paper?
+
+I can't be objective on this one. I like this paper!
+
+I feel like the paper does a decent job of explaining why and how to use the three threes. I find this to be a useful way to think. And our success at applying these ideas to actually build systems speaks to its success. 
+
 ## The "Other Comparison Paper"
 
 In 2011, soon after I started talking about the three threes, some colleagues challenged me on it: do all designs fit neatly into the design categories? To test this, we (well, the students/post-docs at the time) did a survey to find all the comparison visualizations we could, and see if they fell into the categories. They did.
@@ -56,6 +62,8 @@ We wrote this up as a paper:
 While this paper gets cited a lot, I recommend the newer paper. I believe that the reason this paper gets cited so much is for the basic idea (which is described better in later papers). It is only part of the story (the third of the three-threes), and the examples are old.
 
 To make matters worse: of all of the three-threes, the designs are the most problematic. The papers (even the 2017 ones) define the categories in a problematic way - which some other papers have pointed out. I don't think it is wrong - just don't get too hung up on the precise definitions. It doesn't matter if you call something "juxtaposition" or "superposition" - it's more about the concepts.
+
+If you are going to read one, read the later comparison paper. I really believe it ("Considerations of comparisons") completely supercedes this one (the 2011 InfoVis journal survey).
 
 ## The Summaries Paper
 
