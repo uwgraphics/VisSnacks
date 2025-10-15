@@ -20,8 +20,8 @@ Critique is a valuable skill for a lot more than just Visualization. To quote th
 Designers and artists don’t own critique. Critique is for anyone who wants to improve anything that they are building or doing. Critique isn’t a ‘design’ skill, it’s a life skill.
 {{</quote>}}
 
-The first chapter of the book is available as a "preview".
-I think this is such a great resource that I require students in my class to read it. I strongly recommend that **everyone** reads it, because critique is such a useful skill.
+The first chapter of the book is available as a ["preview"](https://cdn.oreillystatic.com/oreilly/booksamplers/9781491902400_sampler.pdf) although that link is well hidden.
+I think this (first chapter) is such a great resource that I require students in my class to read it. I strongly recommend that **everyone** reads it, because critique is such a useful skill.
 
 The book has great examples, and is presented in an interesting style with "cartoon aliens" playing the roles of critics, both good and bad. 
 

@@ -53,7 +53,7 @@ Which I alter/re-order into a list of "advice":
 
 To make critique easier, I recommend starting with stating critique using a stylized formula. Everything you "say" should be in this stylized form. Once you get practice doing this form, you may learn to critique well without it - but the form is a nice set of "training wheels".
 
-The stylized form comes from the  {{<link discussing-design>}} book. If you follow this stylized approach, you won't commit the worst mistakes, and will probably be steered towards effective critique:
+The stylized form comes from the  {{<link discussing-design>}} book ([first chapter preview](https://cdn.oreillystatic.com/oreilly/booksamplers/9781491902400_sampler.pdf)). If you follow this stylized approach, you won't commit the worst mistakes, and will probably be steered towards effective critique:
 
 1. Be clear about the objective.
 2. Be specific about the aspect of the design.
