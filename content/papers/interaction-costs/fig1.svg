@@ -1,0 +1,110 @@
+<svg width="650" height="700" viewBox="0 0 650 700" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .stage {
+      fill: #f0f0f0;
+      stroke: #333;
+      stroke-width: 1;
+      rx: 5;
+      ry: 5;
+    }
+    .cost-label {
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+      fill: #000;
+    }
+    .norman-stage {
+      font-family: Arial, sans-serif;
+      font-style: italic;
+      font-size: 11px;
+      fill: #555;
+    }
+    .gulf-box {
+      stroke-dasharray: 5 5;
+      stroke-width: 1;
+    }
+    .gulf-label {
+      font-family: Arial, sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    .title {
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .citation {
+        font-family: Arial, sans-serif;
+        font-size: 10px;
+        fill: #444;
+    }
+  </style>
+
+  <text x="325" y="30" text-anchor="middle" class="title">A Framework of Interaction Costs</text>
+  <text x="325" y="55" text-anchor="middle" class="citation">Inspired by Norman’s Seven Stages of Action. Three gulfs are used for organization.</text>
+
+  <!-- Markers for arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#000" />
+    </marker>
+  </defs>
+
+  <!-- GULF OF GOAL FORMATION (Cost 1) -->
+  <rect x="50" y="80" width="550" height="100" class="gulf-box" style="fill:#ffffee; stroke:#aa0;" />
+  <text x="325" y="100" text-anchor="middle" class="gulf-label" style="fill:#aa0;">Gulf of Goal Formation (Covers Cost 1)</text>
+  <text x="325" y="120" text-anchor="middle" class="norman-stage">Norman's Stage: Forming the Goal (Approximate)</text>
+  
+  <rect x="175" y="140" width="300" height="30" class="stage" />
+  <text x="185" y="160" class="cost-label">1. Decision costs to form goals</text>
+  <text x="440" y="160" class="citation"></text>
+
+  <!-- GULF OF EXECUTION (Costs 2, 3, 4) -->
+  <rect x="50" y="200" width="550" height="225" class="gulf-box" style="fill:#e0e0ff; stroke:#00a;" />
+  <text x="325" y="220" text-anchor="middle" class="gulf-label" style="fill:#00a;">Gulf of Execution (Covers Costs 2–4): Difference between user intentions and system actions</text>
+
+  <rect x="175" y="240" width="300" height="30" class="stage" />
+  <text x="185" y="260" class="cost-label">2. System-power costs to form system operations</text>
+  <text x="440" y="260" class="citation"></text>
+  <text x="325" y="280" text-anchor="middle" class="norman-stage">Norman's Stage: Intention &amp; Sequence of Actions (Approximate)</text>
+
+  <rect x="175" y="310" width="300" height="30" class="stage" />
+  <text x="185" y="330" class="cost-label">3. Multiple input mode costs to form physical sequences</text>
+  <text x="440" y="330" class="citation"></text>
+  
+  <rect x="175" y="370" width="300" height="30" class="stage" />
+  <text x="185" y="390" class="cost-label">4. Physical-motion costs to execute sequences</text>
+  <text x="440" y="390" class="citation"></text>
+  <text x="325" y="410" text-anchor="middle" class="norman-stage">Norman's Stage: Execution (Approximate)</text>
+  
+  <!-- GULF OF EVALUATION (Costs 5, 6, 7) -->
+  <rect x="50" y="440" width="550" height="235" class="gulf-box" style="fill:#e0ffe0; stroke:#0a0;" />
+  <text x="325" y="460" text-anchor="middle" class="gulf-label" style="fill:#0a0;">Gulf of Evaluation (Covers Costs 5–7): Effort to interpret state and determine outcome</text>
+
+  <rect x="175" y="480" width="300" height="30" class="stage" />
+  <text x="185" y="500" class="cost-label">5. Visual-cluttering costs to perceive state</text>
+  <text x="440" y="500" class="citation"></text>
+  <text x="325" y="520" text-anchor="middle" class="norman-stage">Norman's Stage: Perceive State (Approximate)</text>
+
+  <rect x="175" y="550" width="300" height="30" class="stage" />
+  <text x="185" y="570" class="cost-label">6. View-change costs to interpret perception</text>
+  <text x="440" y="570" class="citation"></text>
+
+  <rect x="175" y="610" width="300" height="30" class="stage" />
+  <text x="185" y="630" class="cost-label">7. State-change costs to evaluate interpretation</text>
+  <text x="440" y="630" class="citation"></text>
+  <text x="325" y="650" text-anchor="middle" class="norman-stage">Norman's Stage: Evaluate Interpretation (Approximate)</text>
+
+  <!-- Arrows representing the cyclical flow -->
+  <path d="M 325 170 L 325 240" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 325 270 L 325 310" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 325 340 L 325 370" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 325 400 L 325 480" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 325 510 L 325 550" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 325 580 L 325 610" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Closing the loop (7 back to 1) -->
+  <path d="M 175 625 C 100 660, 100 130, 175 130" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="70" y="665" class="citation">Cycle back to Goal Formation (Decision Costs)</text>
+</svg>
