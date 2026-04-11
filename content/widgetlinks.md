@@ -9,6 +9,7 @@ build:
   list: never
 ---
 
++ [2025 CS765 Course Web](https://pages.graphics.cs.wisc.edu/765-25/)
 + [2024 CS765 Course Web](https://pages.graphics.cs.wisc.edu/765-24/)
 + [2022 CS765 Course Web](https://pages.graphics.cs.wisc.edu/765-22/)
 + {{<link allpages>}}
