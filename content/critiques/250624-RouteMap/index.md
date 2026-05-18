@@ -2,6 +2,7 @@
 title = 'Airline Route Maps: An interesting Solution to a Node-Link Problem'
 date = 2025-06-24T07:19:35-05:00
 draft = false
+resourcethumb = 'delta.png'
 +++
 
 Let's look at the "Airline Route Maps" (the ones that are in the back of an airline magazine) as a way to explore the importance of task and how understanding task and data can lead to novel designs. It will show us a different way to think about node link diagrams more generally.
