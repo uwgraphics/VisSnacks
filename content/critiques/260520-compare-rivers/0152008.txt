@@ -1,0 +1,41 @@
+Author	Colton, G.W.
+Date	1869
+Short Title	Mountains and Rivers in the World.
+Publisher	G. W & C. B. Colton & Co.
+Publisher Location	New York
+Type	Atlas Map
+Obj Height cm	44
+Obj Width cm	64
+Note	Comparative chart showing river lengths and receiving water bodies. Another portion shows relative mountain heights and active volcanos as grouped by continent.
+Reference	cfP4348.
+World Area	World
+Subject	Rivers
+Subject	Mountains; Rivers
+Subject	Data Visualization
+Full Title	Mountains & Rivers. Published by G. W. & C. B. Colton & Co., No. 172 William St. New York.
+List No	0152.008
+Series No	8
+Page No	4-5
+Publication Author	Colton, G.W.
+Publication Author	Fisher, Richard Swainson
+Pub Date	1869
+Pub Title	Colton's General Atlas, Containing One Hundred And Eighty Steel Plate Maps And Plans, On One Hundred And Nineteen Imperial Folio Sheets, Drawn By G. Woolworth Colton. Letter-Press Descriptions, Geographical, Statistical, And Historical, By Richard Swainson Fisher. New York: G.W. & C.B. Colton, No. 172 William Street. 1869. Entered ... 1863, by J.H. Colton ... New York.
+Pub Reference	cfP4348.
+Pub Note	This edition changes the U.S. map, adds Wyoming to the North America map, adds the map of the northwest states and several other maps (but not to the U.S. map). Has an unusual Alaska map. In several of the western maps (Iowa, etc.) the phrase "Township Map of..." that appeared in the 1868 atlas, is dropped. Florida and New Jersey are enlarged to double page. Relief shown by hachures. Political units (mostly counties) shown in color.
+Pub List No	0152.000
+Pub Type	World Atlas
+Pub Maps	101
+Pub Height cm	45
+Pub Width cm	39
+Image No	0152008
+Download 1	<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/D5005/0152008.sid target=_blank>Full Image Download in MrSID Format</a>
+Download 2	<a href="https://www.extensis.com/support/geoviewer-9" target="_blank">GeoViewer for JP2 and SID files</a>
+Authors	Colton, G.W.
+AI-Generated Summary	The work titled "Mountains & Rivers" was authored by G.W. Colton and published in 1869 by G. W. & C. B. Colton & Co. in New York. It is part of a world atlas, with dimensions of 64 cm in width and 44 cm in height. This piece is a comparative chart that visually represents the lengths of major rivers and the heights of significant mountains and active volcanoes, grouped by continent. The chart is part of a broader atlas collection, noted under Pub List No 0152.000 and List No 0152.008.<br><br>Composition and Medium:<br>
+The chart is a lithographic print that utilizes color to distinguish between different geographical features. The rivers are depicted vertically on the left side of the chart, cascading downwards, while the mountains are arrayed to the right, depicted in perspective to highlight their relative heights. The use of color helps differentiate between continents and emphasizes volcanic activity with small plumes of smoke.<br><br>Style and Subject Matter:<br>
+This work is a prime example of 19th-century data visualization. The style is both informative and decorative, with intricate border designs framing the chart. It uses a mix of illustration and typography to convey complex geographical data in an accessible format. The subject matter focuses on comparative geography, offering viewers a way to visually understand the scale and size of the world's natural features.<br><br>Cultural and Historical Context:<br>
+During the mid-19th century, there was a growing interest in exploration and understanding the natural world, driven by scientific curiosity and colonial expansion. Atlases like this one were tools for education and exploration, presenting data that was crucial for navigation, trade, and the dissemination of geographical knowledge. The inclusion of both rivers and mountains highlights the importance of these features in shaping human civilization, influencing settlement patterns, and impacting climate and weather.<br><br>Notable Features:<br>
+- Rivers: The rivers are drawn with meticulous detail, labeled with their names and lengths. They are organized from longest to shortest, providing a clear comparison.
+  
+- Mountains and Volcanoes: The mountains are depicted in a stylized, almost three-dimensional form, with the highest peaks prominently labeled. The active volcanoes are marked with smoke, indicating their status.<br><br>- Continental Grouping: Mountains and volcanoes are grouped by continent, which aids in visual comparison across different parts of the world.<br><br>- Decorative Elements: The elaborate border and the artistic representation of natural features reflect the aesthetic values of the period, where maps were both practical tools and works of art.<br><br>Significance:<br>
+This atlas map serves as a historical document, capturing the state of geographical knowledge in the 19th century. It reflects the era's technological capabilities in printing and cartography, as well as the cultural emphasis on exploration and understanding the planet's physical characteristics. The work is not only a tool for learning but also an artifact that conveys the human fascination with the earth's grandeur and diversity.

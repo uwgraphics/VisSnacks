@@ -55,6 +55,7 @@ post_meta = ["section","date","taglist","categories"]
 dateformat = "January 2, 2006"
 copyright = "Michael Gleicher. Using a CC-BY-NC-SA license"
 copyrightDate = "2024"
+customCss = ["css/tooltip.scss"]
 
 # ImportantPages = ["getting-started","schedule","policies", "communications", "pages/parts-of-class", "syllabus","vis", "exercises","all-readings", "allpages"]
 ImportantPages = ["/","1-what-is-vis","allpages"]
