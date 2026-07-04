@@ -16,7 +16,7 @@ This tutorial will give you a quick guide on how to do critique with the goal of
 
 > This tutorial is heavily influenced by Chapter 1 of *Discussing Design* (I describe the book at {{<link "discussing-design">}}). I used Claude to help me make sure this tutorial stands alone without it.
 
-Critique is really useful for Vis. In the context of this site, I will use critique to analyze examples in order to try to distill their lessons, often to reinforce more general principles. In the practice of doing design, critique is often a way of understanding a prototype so that we can generate ideas on how we might iterate. Re-Design (see {{%anchorlink "Re-Design"%}} below) often involves critique (at least implicitly), but not all critique involves re-design. 
+Critique is really useful for Vis. In the context of this site, I will use critique to analyze examples in order to try to distill their lessons, often to reinforce more general principles. In the practice of doing design, critique is often a way of understanding a prototype so that we can generate ideas on how we might iterate. Re-Design (see {{<anchorlink "Re-Design-And-Critique">}} below) often involves critique (at least implicitly), but not all critique involves re-design. 
 
 Critique is really useful beyond Vis. This is why I emphasize it in my class.
 {{<quote "Discussing Design, p. xi">}}

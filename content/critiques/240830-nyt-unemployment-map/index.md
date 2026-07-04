@@ -4,7 +4,7 @@ date = 2025-06-22T08:20:39-05:00
 draft = false
 basedon = "https://www.nytimes.com/interactive/2024/08/27/business/economy/jobs-election-county.html"
 resourcethumb = "jobs-counties-country.png"
-tags = ["with data"]
+tags = ["with-data"]
 +++
 
 Core lesson: think about what a visualization makes easy to see. Different representations make some things easier, and harder. And some issues with dealing with geographic data in the US. 
@@ -21,7 +21,7 @@ Let's start with the country-wide map (since it's the top thing in the article),
 
 {{<rimage width=500 src="jobs-counties-country.png" attr="from the NYTimes" caption="Changes in employment for each county in the US." attrlink="https://www.nytimes.com/interactive/2024/08/27/business/economy/jobs-election-county.html">}}
 
-What caught my eye (from a visualization perspective) was how the irregular nature of counties made it difficult for me to really see what was going on. That isn't {{<link "4-critique" "critique">}}. Let's see what I can learn from it.
+What caught my eye (from a visualization perspective) was how the irregular nature of counties made it difficult for me to really see what was going on. That isn't {{<lnk "4-critique" "critique">}}. Let's see what I can learn from it.
 
 What I **want** to see (this is an approximation of what the designer's goals were - I don't really know there intent) is where in the country jobs are growing/shrinking. From the title, I should expect to learn that different places fared differently - I want to know where, and how much. 
 
