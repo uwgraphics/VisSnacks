@@ -56,7 +56,7 @@ Of course, this might have been the point: 10 new jobs might make a huge differe
 
 To understand the design, I'd like to compare it with some more standard alternatives. I can't get the exact same, data, but I can try to get something close.
 
-I pulled 2023 and 2020 (the website didn't have 2019) from the US Bureau of Labor Statistics [Employment and Wages Data Viewer](https://data.bls.gov/cew/apps/data_views/data_views.htm#tab=Tables). I pulled "All Counties, One Industry, All Ownerships, Total all industries" for [2023 Q4](https://data.bls.gov/cew/data/api/2023/4/industry/10.csv) and [2020 Q1](https://data.bls.gov/cew/data/api/2020/1/industry/10.csv). I had Co-Pilot write a script to aggregate the data [(script)](./unemp2.py) [(csv)](./emplvl_comparison.csv).
+I pulled 2023 and 2020 (the website didn't have 2019) from the US Bureau of Labor Statistics [Employment and Wages Data Viewer](https://data.bls.gov/cew/apps/data_views/data_views.htm#tab=Tables). I pulled "All Counties, One Industry, All Ownerships, Total all industries" for [2023 Q4](https://data.bls.gov/cew/data/api/2023/4/industry/10.csv) and [2020 Q1](https://data.bls.gov/cew/data/api/2020/1/industry/10.csv). I had Co-Pilot write a script to aggregate the data [(script)]({{<resource-link "unemp2.py">}}) [(csv)]({{<resource-link "emplvl_comparison.csv">}}).
 
 {{<expand "A Data Mistake...">}}
 I initially tried this using the Q4 data from 2020, and got a very different result. In December of 2020, unemployment was high because of the pandemic. Most places experienced job growth from that low point.
@@ -100,7 +100,7 @@ Let's try a comparitive critique...
 
 Actually, I'll leave the comparitive critique as an excersize for the reader. It is easy to complain about the details in mine (I neither spent time tweaking, nor have the Tableau skills) - so try to focus on the general concepts of the design. What does the dots make easier to see? What does it make harder to see? 
 
-If you want to play with this yourself, I've provided the [(csv file)](emplvl_comparison.csv) and the Tableau workbook [(twbx file)](Unemp-Fixes.twbx).
+If you want to play with this yourself, I've provided the [(csv file)]({{<resource-link "emplvl_comparison.csv">}}) and the Tableau workbook [(twbx file)]({{<resource-link "Unemp-Fixed.twbx">}}).
 
 {{<genai>}}
 I used [Claude](https://claude.ai) to find the data and get instructions on how to get exactly what I wanted. The prompt was "provide an excel file that has the number of employed people in each county in the US for the years 2019 and 2023".

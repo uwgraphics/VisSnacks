@@ -98,5 +98,14 @@ unsafe= true
     ordered = false
     startLevel = 2
 
-[build]
+# Only publish page-bundle files that are actually linked/rendered (i.e. something
+# calls .RelPermalink/.Permalink on them, via shortcodes like rimage, resource-image,
+# resource-link, resource-file). Unreferenced files dropped into a bundle stay private.
+# NOTE: publishResources is a PAGE build option, not a site [build] key — it only takes
+# effect via front matter or this config-level cascade. To make a bundle file public,
+# link it through a resource shortcode; a raw Markdown [x](./file) link will NOT publish it.
+[[cascade]]
+  [cascade._target]
+    path = "/**"
+  [cascade._build]
     publishResources = false
