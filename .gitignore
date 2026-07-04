@@ -1,5 +1,6 @@
 .hugo_build.lock
 /resources/
 public/
+tmp/
 content/snacks/cairo-discrete-line/IEEEVIS-Panel-2024-Kirby.ppt
 *~*.twbr

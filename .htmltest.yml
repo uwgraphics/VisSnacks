@@ -1,0 +1,12 @@
+# htmltest config — validates the built site's internal integrity.
+# Main purpose: catch links/images pointing at a file that was never published
+# (e.g. a raw Markdown link to a bundle file — publishResources=false does NOT
+# publish those). Also catches broken internal links and dead #anchors.
+# Run against a build made with baseURL "/" (see build.sh).
+DirectoryPath: public
+CheckExternal: false        # internal integrity only: fast, offline, no flaky external URLs
+CheckInternal: true
+CheckInternalHash: true     # validate in-page #anchors
+CheckImages: true
+IgnoreAltMissing: true      # the theme logo (crest.svg) has no alt; not our concern
+IgnoreInternalEmptyHash: true
