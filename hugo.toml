@@ -105,7 +105,7 @@ unsafe= true
 # effect via front matter or this config-level cascade. To make a bundle file public,
 # link it through a resource shortcode; a raw Markdown [x](./file) link will NOT publish it.
 [[cascade]]
-  [cascade._target]
+  [cascade.target]
     path = "/**"
-  [cascade._build]
+  [cascade.build]
     publishResources = false
