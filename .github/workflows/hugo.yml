@@ -34,7 +34,7 @@ jobs:
       # Goal: keep CI on the same Hugo version used for local development, so
       # builds don't drift between local and CI. When you upgrade Hugo locally
       # (`hugo version`), update this value to match exactly.
-      HUGO_VERSION: 0.163.3
+      HUGO_VERSION: 0.164.0
     steps:
       - name: Install Hugo CLI
         run: |
