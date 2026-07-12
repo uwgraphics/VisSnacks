@@ -1,6 +1,6 @@
 locale = "en-us"
 title = "Visualization Snacks"
-theme = ["559Theme","roadster"]
+theme = ["559Theme"]
 
 # Recent Hugo versions (v0.162.0+, CVE-2026-50133 fix) deny text/html content
 # files under content/ by default. The 559Theme ships content/lunr-search.html,
