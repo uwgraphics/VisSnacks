@@ -15,7 +15,7 @@ If you haven’t seen my {{% link "1-what-is-vis" %}} post, you might want to st
 
 I like this example because it emphasizes how understanding the task (even if the task is hazy and only becomes clearer in the design process) allows us to make design choices that make things easier to see (see the EASY-TO-SEE for that concept). It also emphasizes the 4 different types of design choices.
 
-Starting with the 4-step recipe from {{% link "1-what-is-vis" "How to make a good visualization" %}}:
+Starting with the 4-step recipe from {{% link page="1-what-is-vis" anchor="How to make a good visualization" %}}:
 
 + **The Task**: I need to look at the grade distribution for my class and get a sense if it’s reasonable / fair. (more tasks may emerge as I look at the data)
 
@@ -29,7 +29,7 @@ Note that my task is a bit hazy, it will become clearer as we progressed.
 
 ## Design Aspects
 
-I like to think of visualizations as being made up of four components (see {{< link "1-what-is-vis" "How do we make a design?" >}}):
+I like to think of visualizations as being made up of four components (see {{< link page="1-what-is-vis" anchor="How do we make a design?" >}}):
 
 1. Data Transformations
 2. Layouts

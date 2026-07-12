@@ -8,7 +8,7 @@ tags = ["with-data"]
 
 This is a lesson on Axis Truncation for Line Graphs. It was inspired by a graph in the [New York Times](https://www.nytimes.com/2025/05/13/upshot/boys-falling-behind-data.html). 
 <!--more-->
-I like the example because (1) Axis Trucation was on my mind (from {{<lnk "240830-yeping-axis" "a previous critique">}}), (2) this seems to be a reasonable use of Axis Truncation, and (3) the data (and an alternate plot) were easily available, so we can do comparative critique and try some redesign variants ourselves.
+I like the example because (1) Axis Trucation was on my mind (from {{< link page="240830-yeping-axis" text="a previous critique" >}}), (2) this seems to be a reasonable use of Axis Truncation, and (3) the data (and an alternate plot) were easily available, so we can do comparative critique and try some redesign variants ourselves.
 
 First, here's the line graph from the New York Times, this is a screenshot from my phone:
 {{<rimage src="250517-women-outpace-nyt-phone.png" caption="A line graph comparing college attendance rates for men and women over time." attr="from the New York Time" attrlink="https://www.nytimes.com/2025/05/13/upshot/boys-falling-behind-data.html">}}

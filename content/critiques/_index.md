@@ -8,4 +8,4 @@ draft = false
 
 In many cases, I also use **redesign** where I try to explore alterntives as a way to learn. 
 
-Learning to critique  - *that is, learning to learn by examining examples* - is a useful skill unto itself (one we emphasize is class). There is a {{<lnk "4-critique" "Tutorial on Critique">}} that gives some basic strategies for learning to learn from examples. It suggests a stylized way to do critique (that I recommend in class). The critiques here do not follow the formula - but they all are attempts to learn lessons by looking at examples.
+Learning to critique  - *that is, learning to learn by examining examples* - is a useful skill unto itself (one we emphasize is class). There is a {{< link page="4-critique" text="Tutorial on Critique" >}} that gives some basic strategies for learning to learn from examples. It suggests a stylized way to do critique (that I recommend in class). The critiques here do not follow the formula - but they all are attempts to learn lessons by looking at examples.

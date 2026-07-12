@@ -11,7 +11,7 @@ A surprising amount of visualization design and analysis can be wrapped up in th
 
 I am always looking for a shorcut that I can give to people to help them do Visualization better. Is there one easy thing that will help a lot? This is my current favorite: **Ask "What does this visualization make easy to see?"**
 
-The biggest short cut - Always emember the "prime directive:" **Task First!** (hopefully you got that from {{< link "1-what-is-vis" >}}) - is harder to make direct use of. The "easy-to-see" shortcut is so simple, and can be used by everyone on day one (it is in {{<lnk "1-what-is-vis" "Tutorial 1" >}}), but less prominent.
+The biggest short cut - Always emember the "prime directive:" **Task First!** (hopefully you got that from {{< link "1-what-is-vis" >}}) - is harder to make direct use of. The "easy-to-see" shortcut is so simple, and can be used by everyone on day one (it is in {{< link page="1-what-is-vis" text="Tutorial 1" >}}), but less prominent.
 
 You can ask the question in both directions:
 
