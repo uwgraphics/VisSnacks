@@ -3,7 +3,7 @@ title = "Visualization Snacks"
 theme = ["559Theme"]
 
 # Recent Hugo versions (v0.162.0+, CVE-2026-50133 fix) deny text/html content
-# files under content/ by default. The 559Theme ships content/lunr-search.html,
+# files under content/ by default. The 559Theme ships content/search.html,
 # so we must allowlist exactly the content media types actually used here:
 # Markdown (.md) across the site and HTML (.html) in the theme.
 [security]
@@ -56,7 +56,7 @@ enableInlineShortcodes = true
     name = "About"
     weight = 10
 
-[Params]
+[params]
 subtitle = "Visualization Knowledge in Bite-Sized Pieces"
 post_meta = ["section","date","taglist","categories"]
 dateformat = "January 2, 2006"
@@ -68,7 +68,6 @@ customCss = ["css/tooltip.scss"]
 ImportantPages = ["/","1-what-is-vis","allpages"]
 ImportantPagesTitle = "Recommended Starting Points"
 thisweek = "this00.md"
-themestyle = "new"
 recentSections = ["snacks","tutorials", "critiques", "papers", "resources"]
 mainSections = ["snacks","tutorials", "critiques", "papers", "resources"]
 # this needs to be a SITE variable (for list.html)
@@ -77,11 +76,14 @@ mainSections = ["snacks","tutorials", "critiques", "papers", "resources"]
 [pagination]
   pagerSize = 15
 
-[Params.sidebar]
+[params.style]
+preset = "uw-serif"
+
+[params.sidebar]
 home = "right"
 list = "right"
 single = "right"
-widgets = ["lunr","snackguide","important","links","recents","categories","taglist"]
+widgets = ["search","snackguide","important","links","recents","categories","taglist"]
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
