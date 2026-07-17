@@ -22,7 +22,7 @@ The alternative is to reason with building blocks. We can describe (almost) any 
 
 (Interaction is another building block - it gets its own discussion later.)
 
-With building blocks, chart types stop being things to memorize and become things to understand: a chart type is just a bundle of encoding choices that someone found useful enough to name. That means we can take designs apart to see why they work (or don't), compare alternatives choice-by-choice, and put the pieces together in new ways when the standard charts don't fit. This idea of decomposing charts is useful enough that I've written more about it: see {{<link "charts-are-encodings">}}.
+With building blocks, chart types stop being things to memorize and become things to understand: a chart type is just a bundle of encoding choices that someone found useful enough to name. That means we can take designs apart to see why they work (or don't), compare alternatives choice-by-choice, and put the pieces together in new ways when the standard charts don't fit. This idea of decomposing charts is useful enough that I've written more about it: see {{<link "/snacks/charts-are-encodings">}}.
 
 A caveat on terminology: I'll use "encoding" loosely for the whole idea of mapping data to visual things. Munzner (and others) distinguish between *encoding* (data to visual properties) and *layout/arrangement* (where things go). Cartographers (usually) don't need the distinction: in a map, position encodes position.
 

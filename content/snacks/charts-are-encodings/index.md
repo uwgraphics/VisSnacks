@@ -26,7 +26,7 @@ Written this way, "which chart do I use?" stops being a rule to memorize and bec
 
 {{<rimage src="line-vs-dot.png" caption="The same data as a line chart and a dot chart. (Fake data.)" attr="Figure by Mike (well, his robot assistant).">}}
 
-Connecting the dots isn't free decoration: the line implies you could interpolate between points, and it makes slopes easy to see. Try it on the figure above with different meanings for the X axis. If X is *day of the experiment*, the line is helpful: between-day trends mean something. If X is *student ID number*, the line is nonsense: there is no "halfway between student 3 and student 4," and the slopes you can't help seeing are meaningless. (If X is *position along a road*... it depends what you're measuring.) The chart names "line chart" and "dot chart" hide this reasoning; the encodings expose it. For a nice real-world example of when connecting discrete points is defensible, see {{<link "cairo-discrete-line">}}.
+Connecting the dots isn't free decoration: the line implies you could interpolate between points, and it makes slopes easy to see. Try it on the figure above with different meanings for the X axis. If X is *day of the experiment*, the line is helpful: between-day trends mean something. If X is *student ID number*, the line is nonsense: there is no "halfway between student 3 and student 4," and the slopes you can't help seeing are meaningless. (If X is *position along a road*... it depends what you're measuring.) The chart names "line chart" and "dot chart" hide this reasoning; the encodings expose it. For a nice real-world example of when connecting discrete points is defensible, see {{<link "/snacks/cairo-discrete-line">}}.
 
 ## Same Encoding, Different Names
 
