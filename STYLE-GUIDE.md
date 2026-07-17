@@ -52,6 +52,9 @@ All sections share the voice; they differ in form:
 - **Papers** (`content/papers/`) — "I read it so you don't have to": informal summaries/discussions of papers, often Mike's own, with the story the paper couldn't tell. Include full citations with (web) and (doi) links.
 - **Resources** (`content/resources/`) — descriptions of books and other helpful things, with honest assessments ("Is the book perfect? Not by a long shot.") and practical access notes.
 - **Rants** (`content/rants/`) — opinionated essays. Most opinion-forward; still constructive.
+- **Modules** (`content/modules/`) — lecture-replacement pages for the flipped CS765: one page per course module topic, drawing on the lecture *and* its readings. Unlike other pages, these **lean self-sufficient**: students are not expected to do the other readings, so the page carries the key content itself, with readings as "want more" pointers. Still snack-spirit: brief, key points first.
+
+**Sidebars and sub-snacks.** When a page wants a multi-paragraph digression, three options in order of preference: (1) if the digression stands alone, make it its own short snack and replace it in the main page with one sentence of the key idea plus a link ("for more, see..."); (2) if it doesn't stand alone, put it in an `expand` box (a style cheat Mike uses a lot); (3) leave it inline only if it's short. Use the spin-off-snack move sparingly — links break flow — but remember the multi-paragraph digression breaks flow too.
 
 ## Mechanics
 
@@ -93,3 +96,9 @@ Image credit matters: everything not made by Mike gets `attr`/`attrlink`, and qu
 3. **End every draft session with a verification list**: specific claims, attributions, dates, named studies, and placeholder-marked spots that Mike should check rather than trust. Put it in the chat/report, not in the page.
 4. **Disclose AI involvement with `{{< genai >}}`** at the bottom of the page, describing what the AI actually did (e.g., "Claude drafted this page from Mike's 2025 lecture deck; Mike edited."). Match the pattern at the end of `content/tutorials/4-critique/index.md`.
 5. `queue.md` at the repo root tracks the writing backlog; worth a glance for context on what's planned.
+
+## More commentary from Mike (not Claude)
+
+- prefer pictures and examples; use visualization to teach visualization
+- encourage the reader to "see it themself" in a visualization
+  
