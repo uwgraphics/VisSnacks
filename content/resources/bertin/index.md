@@ -19,7 +19,7 @@ But, if you're really interested in visualization, the books are amazing. So man
 
 ### Semiology of Graphics
 
-{{< resource-image src="bertin.jpg" class="list__thumbnail" alt="Bertin Cover" >}}
+{{< rimage src="bertin.jpg" width="235" class="list__thumbnail" alt="Bertin Cover" >}}
 
 Bertin's most famous book is **Semiology of Graphics.** It was published in 1967 as *Semiologie graphique: les diagrammes, les réseaux, les cartes*. There was a 1980s translation (published by the University of Wisconsin Press!), but it is out of print and hard to find. There is a 2010 translation that is printed in a really nice new edition by ESRI press (map makers). It's a well-produced book, the images are wonderful. The new translation is much better, but it still is hard to read (both because French doesn't translate well, and becuase the ideas are dense).
 

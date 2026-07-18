@@ -69,7 +69,7 @@ First, there's the picture part. Basically, a visualization is something that yo
 
 I am using the word picture (since that's usually what it is) as place holder, but it might be a moving picture (like an animation), or it might not be a picture in a traditional sense. For example:
 
-{{< figure rsrc="snow-bar-chart.jpg" caption="One way to implement a bar chart." attr="from dataphys.org" attrlink="http://dataphys.org/list/a-snow-chart-of-mobility-in-science/" alt="Bar Chart of Snow" >}}
+{{< rimage src="snow-bar-chart.jpg" width="native" caption="One way to implement a bar chart." attr="from dataphys.org" attrlink="http://dataphys.org/list/a-snow-chart-of-mobility-in-science/" alt="Bar Chart of Snow" >}}
 
 A physical object that you look at can be a visualization (like the blocks of snow or the lego model in a picture below). Or a visualization could be an animation, or a sketch on the back of a napkin, or some interactive thing on a screen.
 
@@ -95,7 +95,7 @@ My goal (in this page/site/class) is to teach you how to design/create *good* vi
 
 Let's try the lesson with an example...
 
-{{< figure rsrc="legoTreeMap*" caption="A Tree Map made of Lego" attrlink="http://dataphys.org/list/poland-budget-presented-with-lego-bricks/" attr="from dataphys.org" alt="Tree Map made of Legos" >}}
+{{< rimage src="legoTreeMap*" width="native" caption="A Tree Map made of Lego" attrlink="http://dataphys.org/list/poland-budget-presented-with-lego-bricks/" attr="from dataphys.org" alt="Tree Map made of Legos" >}}
 
 I like this example because it shows that you can be creative with implementations. The visualization is a *TreeMap* - it is a fairly common design. The fact that it was made with Legos (rather than, say, Excel or JavaScript) is less important to how it communicates than the fact that it is a TreeMap, which enables the viewer to do certain things. For example, you can pretty quickly tell that large gray area in the upper right is a bit more than a quarter of the whole. There are other things this design is less good for. The fact that it is Legos is less important (although, it is cute).
 
@@ -137,7 +137,7 @@ Once we learn that position along a common axis encodings are good for reading p
 
 Here are 9 different visualizations of this same data with "position on common axis" encodings:
 
-{{< figure rsrc="students-9-ai.png" caption="9 visualizations that use position-on-common-axis encodings to encode the same Fake Data. The left two on the bottom row were generated with AI fill in Adobe Illustrator and distorted the data. The amount of the distortion of the bottom center is shown by the bottom right visualization." >}}
+{{< rimage src="students-9-ai.png" width="700" caption="9 visualizations that use position-on-common-axis encodings to encode the same Fake Data. The left two on the bottom row were generated with AI fill in Adobe Illustrator and distorted the data. The amount of the distortion of the bottom center is shown by the bottom right visualization." >}}
 
 The key building block of the designs - position on common axis encodings - makes it possible for us to know what tasks they are all well suited for. For example, they are all good for quickly finding the biggest, or comparing two individuals. The differences in the visualizations do matter (e.g., the ones that don't correctly encode the data are problematic, the big circles create some ambiguity in values, etc.). Details are important, but only if you get the basics right. And those details can also be driven by principles (like, be careful about distorting the data).
 

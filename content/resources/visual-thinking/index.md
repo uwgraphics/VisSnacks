@@ -19,6 +19,6 @@ Note: there is a 2022 revision of the book (the title changed subtly). We will u
 
 UW Students: The [(UW Library Page)](https://search.library.wisc.edu/catalog/9913396202902121) provides access to the entire book.
 
-{{< resource-image src="ware-vis-thinking.jpg" >}}
+{{< rimage src="ware-vis-thinking.jpg" width="native" >}}
 
 

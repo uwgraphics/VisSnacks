@@ -18,7 +18,7 @@ You can access this book online through the UW Library. For reasons I don't unde
 2. There is a [link](https://search.library.wisc.edu/catalog/9913040404802121) for the "online only" version. But this leads to the O'Reilly online library, which only provides in an-browser reading experience (as far as I can tell). It is [(here)](https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/visualization-analysis-and/9781466508910/K14708_C000.xhtml) if you want it.
 {{</expand-boxed>}}
 
-{{< resource-image src="vad.png" class="list__thumbnail" alt="Munzner Cover" >}}
+{{< rimage src="vad.png" width="235" class="list__thumbnail" alt="Munzner Cover" >}}
 
 This is a "graduate level computer science" textbook that shares a similar philosophy to how I like to think about (and teach) visualization. It’s really good at giving you a way to think about visualization, and some examples of how the ideas are applied. It is of limited use as a reference book, and it doesn’t talk about practical issues at all. Over the course of the semester we will read almost all chapters of Munzer’s book.
 

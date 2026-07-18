@@ -60,7 +60,7 @@ For my task, this table isn’t great – I want to know things like “Am I giv
 
 For my first design move, I’m going to choose to change the layout (the positions of the elements). Right now I’m using the position on the Y axis to tell me student number. This is useful if I need to find a specific student, but less good for seeing the grade distribution. So, I will change the layout: I’ll sort by the average.
 
-{{% resource-image src="sorted.webp" %}}
+{{< rimage src="sorted.webp" width="250" >}}
 
 While my task is hazy, I do know that many of my specific questions fall into the general category of "understand distribution." Hopefully, when you look at the new table (click on the thumbnail), you will notice that some things are "easier to see". There are a whole bunch of principles at play here (for example, using a "position encoding" to make a particular variable easier to interpret).
 
@@ -78,7 +78,7 @@ While the sorted table is better for understanding the distribution, it is still
 
 So, I’ll apply a color encoding – using excel’s color range feature – on the rounded grades.
 
-{{% resource-image src="colored.webp" %}}
+{{< rimage src="colored.webp" width="250" >}}
 
 Now, I think I’m starting to win the game. I can really quickly see the proportion of each grade this distribution is giving – even in the thumbail! It’s pretty clear that there aren’t many As, but there aren’t many failures either.
 
@@ -88,7 +88,7 @@ But, it does raise a new question task: are there students who are being hurt by
 
 I can make a new “derived” column that is the difference between the rounded grade and the average. This directly measures what rounding does to people. And to skip a step, I can color code it: I’ll use a red/blue diverging scale (you’ll learn about these later, but they are built into excel). That way, red means someone hurt by rounding, blue is someone helped.
 
-{{% resource-image src="transformed.webp" %}}
+{{< rimage src="transformed.webp" width="250" >}}
 
 Now I think I’ve won this round of the visualization game. To do my task of getting a sense of who is most hurt by rounding, I can look for dark red – if I want to make it even easier, I can sort by that column! (use interaction)
 

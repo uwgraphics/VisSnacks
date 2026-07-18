@@ -11,7 +11,7 @@ Edward Tufte's books are probably the most famous (or infamous) books on visuali
 
 <!--more-->
 
-{{< resource-image src="vdqi.gif" >}}
+{{< rimage src="vdqi.gif" width="native" >}}
 
 Tufte is an important character in the story of visualization. He asserts his strong opinions as fact even though they are often just his personal taste, examples of bad reasoning, not supported by evidence, or flat out wrong. You can read my discussion of this from the [2015 class](https://graphics.cs.wisc.edu/WP/vis15/2014/12/24/not-the-textbook-tuftes-books/). We'll also read some counterpoint to him, so you'll be able to appreciate it. Cairo's *The Functional Art* has a nicely balanced discussion of Tufte, which we'll read. I recommend a critique of his critique style by [Wattenberg and Viegas](https://medium.com/@hint_fm/design-and-redesign-4ab77206cf9). 
 
