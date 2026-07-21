@@ -8,7 +8,7 @@ tags = ["with-data"]
 
 This is a lesson on Axis Truncation for Line Graphs. It was inspired by a graph in the [New York Times](https://www.nytimes.com/2025/05/13/upshot/boys-falling-behind-data.html). 
 <!--more-->
-I like the example because (1) Axis Trucation was on my mind (from {{< link page="240830-yeping-axis" text="a previous critique" >}}), (2) this seems to be a reasonable use of Axis Truncation, and (3) the data (and an alternate plot) were easily available, so we can do comparative critique and try some redesign variants ourselves.
+I like the example because (1) Axis Trucation was on my mind (from {{<link page="240830-yeping-axis" text="a previous critique">}}), (2) this seems to be a reasonable use of Axis Truncation, and (3) the data (and an alternate plot) were easily available, so we can do comparative critique and try some redesign variants ourselves.
 
 First, here's the line graph from the New York Times, this is a screenshot from my phone:
 {{<rimage src="250517-women-outpace-nyt-phone.png" caption="A line graph comparing college attendance rates for men and women over time." attr="from the New York Time" attrlink="https://www.nytimes.com/2025/05/13/upshot/boys-falling-behind-data.html">}}
@@ -28,8 +28,8 @@ Here is a very similar chart - it's effectively the same data (over a shorter ra
 {{<expand "Side by Side for Easier Comparitive Critique">}}
 
 <div style="display:flex">
-{{<rimage src="college-enrollment-rates-bls.svg" width="300" >}}
-{{<rimage src="250517-women-outpace-nyt-phone.png" width="300" >}}
+{{<rimage src="college-enrollment-rates-bls.svg" width="300">}}
+{{<rimage src="250517-women-outpace-nyt-phone.png" width="300">}}
 </div>
 {{</expand>}}
 
@@ -86,7 +86,7 @@ To me, they tell very different stories. With the whole range, I see that the bi
 
 The "conventional wisdom" says that it can be OK to truncate axes for a line chart, but some of the "science" says it is almost always a bad idea. Even astute viewers will sometimes miss the axes (there's a paper on this). So we need to ask our usual question in two ways: (1) What does this chart make easy to see? and (2) What would this chart make easy to see if the axes is misread?
 
-For this case, a misreading isn't catastrophic. A viewer might over emphasize the variance (the variance is about the same as the trend), or pay too much attention to a spike (the negative blue downward dip in 2016 is huge!). But the overall message is still relatively similar - there isn't too big a trend, green is consistently higher, there is variance. Contrast this to the {{<link "240830-yeping-axis" >}} example, where a misreading of the truncation gives a completely different message. 
+For this case, a misreading isn't catastrophic. A viewer might over emphasize the variance (the variance is about the same as the trend), or pay too much attention to a spike (the negative blue downward dip in 2016 is huge!). But the overall message is still relatively similar - there isn't too big a trend, green is consistently higher, there is variance. Contrast this to the {{<link "240830-yeping-axis">}} example, where a misreading of the truncation gives a completely different message. 
 
 Axis truncation deserves its own lesson - coming at some point.
 

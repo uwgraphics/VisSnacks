@@ -22,4 +22,4 @@ Some of the alternatives...
 3. If you are more interested in the human element and how psychology connects to visualization, {{<link visual-thinking>}} is a great starting point, and is  a thin book you can read quickly. You still might want to read Cairo first to get a broader perspective.
 4. If you want a practical "let me make something quickly", I still recommend Cairo to get a perspective on how to think about what is the right thing to make. I don't have suggestions for good "tool specific" or highly practical books. What I find is that once you have the foundations, you can pick up the tools from web resources.
 
-There are a lot of books out there... and I've only looked at a few of them. You can see some ideas in the {{<link resources >}} section or the {{<link books>}} tag.
+There are a lot of books out there... and I've only looked at a few of them. You can see some ideas in the {{<link resources>}} section or the {{<link books>}} tag.

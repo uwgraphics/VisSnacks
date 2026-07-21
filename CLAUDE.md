@@ -15,9 +15,10 @@ Working material for the lecture-to-tutorial project lives in `_lecture_experime
 5. **Stage inputs before spawning agents.** Give subagents exact file paths to pre-staged local inputs and a closed reading list; forbid wandering. Have them write outputs to named files, not just their final message.
 6. **Fresh sessions for batch work.** Long sessions reprocess their whole context on every call. When a batch is planned, write the plan to a file and run it from a new session whose only instruction is "resume per <file>".
 7. **Long-running batches: split across agents, run in parallel, one topic-cluster each** — a failure then costs one cluster, not the batch.
+8. **Hugo shortcode spacing.** Write `{{<foo ...>}}` / `{{%foo ...%}}` — no space touching the opening `{{<`/`{{%` or the closing `>}}`/`%}}`. (Space between the shortcode name and its args is normal and expected.) Semantically identical to the spaced form, but the no-space form gets correct syntax highlighting in VSCode. Check with `hugo-shortcode-spacing` (in `~/bin`; bare invocation reports violations, `--fix` rewrites, `--diff` previews).
 
 ## Site-specific notes
 
-- Internal links: use full logical paths in the `link` shortcode (`{{< link "/snacks/foo" >}}`); bare names have failed to resolve for new/draft pages. Pages that cross-link must be published together (the shortcode errors on missing pages and breaks the build).
+- Internal links: use full logical paths in the `link` shortcode (`{{<link "/snacks/foo">}}`); bare names have failed to resolve for new/draft pages. Pages that cross-link must be published together (the shortcode errors on missing pages and breaks the build).
 - I can't run Hugo in the Cowork sandbox (no network for the binary); ask Mike to run `build.sh` / `hugo serve -D`, or run it directly when in Claude Code with local shell access.
 - pip in the sandbox needs `--break-system-packages`; python-pptx and matplotlib are the workhorses (see `_lecture_experiment/tools/`).

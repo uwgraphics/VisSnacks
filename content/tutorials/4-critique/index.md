@@ -25,7 +25,7 @@ Designers and artists don’t own critique. Critique is for anyone who wants to 
 
 Critique also does something for a *group* that is easy to miss. The Discussing Design book (Chapter 1) lists team benefits: critique builds a shared vocabulary (groups that critique together end up talking about designs the same way), it finds consensus grounded in objectives (rather than in who argues loudest), and it directs iteration to where it is needed. In my class, the first one is part of a not-so-secret agenda: critiquing together is how we develop a shared vocabulary for talking about visualizations.
 
-What I've learned (see {{<anchorlink "Historical Note" >}}) is that critique is a skill that you can get better at with practice. The {{<link critiques>}} are practice for me, as well a chance to look at some designs and learn from them. If you're trying to become better at Vis, I recommend trying to become better at critique.
+What I've learned (see {{<anchorlink "Historical Note">}}) is that critique is a skill that you can get better at with practice. The {{<link critiques>}} are practice for me, as well a chance to look at some designs and learn from them. If you're trying to become better at Vis, I recommend trying to become better at critique.
 
 ## Getting Started
 
@@ -83,7 +83,7 @@ Notice how I stated a goal, a problem (relatively specific), and then a principl
 
 I wanted an initial example to show what can go wrong in a critique. This is easiest if it's something bad (so it's easy to find things to talk about). And since the critique errors often are painful for the designer/creator, I wanted someone easy to pick on... So I asked Microsoft Co-Pilot (ChatGPT/Dall-E) to make something...
 
-{{<rimage src="CoPilot-BarChart-Colorful3.png" caption="An intentionally bad chart made by CoPilot." >}}
+{{<rimage src="CoPilot-BarChart-Colorful3.png" caption="An intentionally bad chart made by CoPilot.">}}
 
 > Yuck. That is so terrible that I am not sure I can critique it.
 
@@ -107,11 +107,11 @@ Let's try the stylized form...
 
 Notice how this is non-antagonistic. We give the designer an out "I wasn't trying to create an image for learning about visualization critique, I was trying to obey the prompt." The critique identifies the aspect and why it might be a problem. It tries to evoke the principle (too many things are distracting, simplicity makes it easier to identify things).
 
-{{< comment >}}
+{{<comment>}}
 OK... Here's another image from a slightly tuned prompt...
 
-{{<rimage src="CoPilot-BarChart-Colorful3.png" caption="An intentionally bad chart made by CoPilot." >}}
-{{< /comment >}}
+{{<rimage src="CoPilot-BarChart-Colorful3.png" caption="An intentionally bad chart made by CoPilot.">}}
+{{</comment>}}
 
 ### 1. Know the Purpose - establish the goals and context
 

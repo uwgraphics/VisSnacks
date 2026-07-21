@@ -7,15 +7,15 @@ tags: []
 weight: 2
 ---
 
-I will use a simple example (a data table) to show how the basic concepts of visualization can be applied. This is mainly to illustrate the "4 design moves" introduced in {{< link 1-what-is-vis >}}
+I will use a simple example (a data table) to show how the basic concepts of visualization can be applied. This is mainly to illustrate the "4 design moves" introduced in {{<link 1-what-is-vis>}}
 
 <!--more-->
 
-If you haven’t seen my {{% link "1-what-is-vis" %}} post, you might want to start there. I usually do this example in lecture, so you may have seen it before.
+If you haven’t seen my {{%link "1-what-is-vis"%}} post, you might want to start there. I usually do this example in lecture, so you may have seen it before.
 
 I like this example because it emphasizes how understanding the task (even if the task is hazy and only becomes clearer in the design process) allows us to make design choices that make things easier to see (see the EASY-TO-SEE for that concept). It also emphasizes the 4 different types of design choices.
 
-Starting with the 4-step recipe from {{% link page="1-what-is-vis" anchor="How to make a good visualization" %}}:
+Starting with the 4-step recipe from {{%link page="1-what-is-vis" anchor="How to make a good visualization"%}}:
 
 + **The Task**: I need to look at the grade distribution for my class and get a sense if it’s reasonable / fair. (more tasks may emerge as I look at the data)
 
@@ -29,7 +29,7 @@ Note that my task is a bit hazy, it will become clearer as we progressed.
 
 ## Design Aspects
 
-I like to think of visualizations as being made up of four components (see {{< link page="1-what-is-vis" anchor="How do we make a design?" >}}):
+I like to think of visualizations as being made up of four components (see {{<link page="1-what-is-vis" anchor="How do we make a design?">}}):
 
 1. Data Transformations
 2. Layouts
@@ -42,11 +42,11 @@ I am going to describe this as a “game” in the sense of something where we h
 
 I’ll start with an initial design – the first thing that comes to mind. Just look at the table in Excel the way the data comes to me. In some sense, this is the way the data comes to us (click to see bigger/readable pictures):
 
-{{% rimage width="150" src="initial.webp" %}}
+{{%rimage width="150" src="initial.webp"%}}
 
 Here are the first few rows:
 
-{{% rimage width="500" src="initial-zoom-top.webp" %}}
+{{%rimage width="500" src="initial-zoom-top.webp"%}}
 
 Note: you can click on the thumbnails to see the whole visualization. I do recommend that you look at them and get a sense of how they "work" (or not).
 
@@ -60,7 +60,7 @@ For my task, this table isn’t great – I want to know things like “Am I giv
 
 For my first design move, I’m going to choose to change the layout (the positions of the elements). Right now I’m using the position on the Y axis to tell me student number. This is useful if I need to find a specific student, but less good for seeing the grade distribution. So, I will change the layout: I’ll sort by the average.
 
-{{% resource-image src="sorted.webp" %}}
+{{%resource-image src="sorted.webp"%}}
 
 While my task is hazy, I do know that many of my specific questions fall into the general category of "understand distribution." Hopefully, when you look at the new table (click on the thumbnail), you will notice that some things are "easier to see". There are a whole bunch of principles at play here (for example, using a "position encoding" to make a particular variable easier to interpret).
 
@@ -78,7 +78,7 @@ While the sorted table is better for understanding the distribution, it is still
 
 So, I’ll apply a color encoding – using excel’s color range feature – on the rounded grades.
 
-{{% resource-image src="colored.webp" %}}
+{{%resource-image src="colored.webp"%}}
 
 Now, I think I’m starting to win the game. I can really quickly see the proportion of each grade this distribution is giving – even in the thumbail! It’s pretty clear that there aren’t many As, but there aren’t many failures either.
 
@@ -88,7 +88,7 @@ But, it does raise a new question task: are there students who are being hurt by
 
 I can make a new “derived” column that is the difference between the rounded grade and the average. This directly measures what rounding does to people. And to skip a step, I can color code it: I’ll use a red/blue diverging scale (you’ll learn about these later, but they are built into excel). That way, red means someone hurt by rounding, blue is someone helped.
 
-{{% resource-image src="transformed.webp" %}}
+{{%resource-image src="transformed.webp"%}}
 
 Now I think I’ve won this round of the visualization game. To do my task of getting a sense of who is most hurt by rounding, I can look for dark red – if I want to make it even easier, I can sort by that column! (use interaction)
 

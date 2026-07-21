@@ -11,7 +11,7 @@ In this snack, we look at "value over time" graphs in two different iPhone apps.
 
 <!--more-->
 
-{{<lesson 1 "Tasks are important for design decisions. Maybe more important than data types." "Task first" >}}
+{{<lesson 1 "Tasks are important for design decisions. Maybe more important than data types." "Task first">}}
 
 Here is a graph from the app from my water heater (yes, water heaters have apps nowawadays):
 

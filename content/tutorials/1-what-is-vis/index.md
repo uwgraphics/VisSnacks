@@ -69,7 +69,7 @@ First, there's the picture part. Basically, a visualization is something that yo
 
 I am using the word picture (since that's usually what it is) as place holder, but it might be a moving picture (like an animation), or it might not be a picture in a traditional sense. For example:
 
-{{< figure rsrc="snow-bar-chart.jpg" caption="One way to implement a bar chart." attr="from dataphys.org" attrlink="http://dataphys.org/list/a-snow-chart-of-mobility-in-science/" alt="Bar Chart of Snow" >}}
+{{<figure rsrc="snow-bar-chart.jpg" caption="One way to implement a bar chart." attr="from dataphys.org" attrlink="http://dataphys.org/list/a-snow-chart-of-mobility-in-science/" alt="Bar Chart of Snow">}}
 
 A physical object that you look at can be a visualization (like the blocks of snow or the lego model in a picture below). Or a visualization could be an animation, or a sketch on the back of a napkin, or some interactive thing on a screen.
 
@@ -95,19 +95,19 @@ My goal (in this page/site/class) is to teach you how to design/create *good* vi
 
 Let's try the lesson with an example...
 
-{{< figure rsrc="legoTreeMap*" caption="A Tree Map made of Lego" attrlink="http://dataphys.org/list/poland-budget-presented-with-lego-bricks/" attr="from dataphys.org" alt="Tree Map made of Legos" >}}
+{{<figure rsrc="legoTreeMap*" caption="A Tree Map made of Lego" attrlink="http://dataphys.org/list/poland-budget-presented-with-lego-bricks/" attr="from dataphys.org" alt="Tree Map made of Legos">}}
 
 I like this example because it shows that you can be creative with implementations. The visualization is a *TreeMap* - it is a fairly common design. The fact that it was made with Legos (rather than, say, Excel or JavaScript) is less important to how it communicates than the fact that it is a TreeMap, which enables the viewer to do certain things. For example, you can pretty quickly tell that large gray area in the upper right is a bit more than a quarter of the whole. There are other things this design is less good for. The fact that it is Legos is less important (although, it is cute).
 
 Let me make a simpler example in English with some small fake data. I met with 7 students, some students work on robots, and some work on Vis. I put the times into Excel and made a treemap:
 
-{{< rimage src="students-treemap.png" width="400" caption="A Tree Map made from Fake Data" >}}
+{{<rimage src="students-treemap.png" width="400" caption="A Tree Map made from Fake Data">}}
 
 Again, notice there are things you can tell pretty quickly. I spend a about half my time on each topic, although I spend a bit more on robots (orange) than vis (blue). You can tell I spent about a quarter of the time with Student 4 (upper right). Some things are less easy to see quickly, such as "which student did I spend the least amount of time with". The fact that these "tasks" are easier or harder is the nature of the design: TreeMaps are generally good for showing part/whole relationships. 
 
 This point might be clearer with another chart of the same data:
 
-{{< rimage src="students-column.png" width="500" caption="A Chart made from Fake Data" >}}
+{{<rimage src="students-column.png" width="500" caption="A Chart made from Fake Data">}}
 
 This is a very familiar chart type. You can tell very quickly that Student 1 had the least amount of time, or that Student 6 got 30 minutes. In order to see "did I spend more time with orange or blue students" or "was blue about 50%" you would need to do some mental arithmetic.  
 
@@ -137,15 +137,15 @@ Once we learn that position along a common axis encodings are good for reading p
 
 Here are 9 different visualizations of this same data with "position on common axis" encodings:
 
-{{< figure rsrc="students-9-ai.png" caption="9 visualizations that use position-on-common-axis encodings to encode the same Fake Data. The left two on the bottom row were generated with AI fill in Adobe Illustrator and distorted the data. The amount of the distortion of the bottom center is shown by the bottom right visualization." >}}
+{{<figure rsrc="students-9-ai.png" caption="9 visualizations that use position-on-common-axis encodings to encode the same Fake Data. The left two on the bottom row were generated with AI fill in Adobe Illustrator and distorted the data. The amount of the distortion of the bottom center is shown by the bottom right visualization.">}}
 
 The key building block of the designs - position on common axis encodings - makes it possible for us to know what tasks they are all well suited for. For example, they are all good for quickly finding the biggest, or comparing two individuals. The differences in the visualizations do matter (e.g., the ones that don't correctly encode the data are problematic, the big circles create some ambiguity in values, etc.). Details are important, but only if you get the basics right. And those details can also be driven by principles (like, be careful about distorting the data).
 
 And, to add one more point about naming: here is another visualization of that same fake data:
 
-{{< rimage width="250" src="students-table.png" caption="A Chart made from (the same) Fake Data" >}}
+{{<rimage width="250" src="students-table.png" caption="A Chart made from (the same) Fake Data">}}
 
-Yes, in my mind a table is a visualization. They are very good for some tasks. See {{< link "2-table-example" >}} for an example of how the ideas discussed below can be applied to a table.
+Yes, in my mind a table is a visualization. They are very good for some tasks. See {{<link "2-table-example">}} for an example of how the ideas discussed below can be applied to a table.
 
 But, the point... my "method" is to think in terms of building blocks and principles, not chart types. It doesn't matter what we call things, it matters that we make choices that serve the viewer's tasks.
 
@@ -300,7 +300,7 @@ There are four main categories of things that we consider in designing a visuali
 
 Another way to think about this is as "re-design" rather than design. We start with some visualization (a design), pick one of its choices (one of the 4 kinds of building blocks), and change it. I like to think of these like moves in a turn-based game, at each step I pick one of these things to either add (or change, if I am doing redesign).
 
-For a simple example of applying these four design elements in a redesign see {{% link "2-table-example" %}}.
+For a simple example of applying these four design elements in a redesign see {{%link "2-table-example"%}}.
 
 Almost everything we do in designing a visualization turns out to be making one of those 4 kinds of choices. Almost every visualization can be thought of in terms of these 4 building blocks.
 
@@ -357,6 +357,6 @@ To give you a sense of where this goes into my class (not necessarily in this or
 7. We need to think about some **core challenges** like scalability.
 8. We need to consider some examples of **challenging data types** (such as graphs and volumes)
 
-{{% genai %}}
+{{%genai%}}
 I used Generative Fill in Adobe Illustrator to create two of the position-on-common-axis charts (the ones that have clocks).
-{{% /genai %}}
+{{%/genai%}}

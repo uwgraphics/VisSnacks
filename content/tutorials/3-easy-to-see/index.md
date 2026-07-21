@@ -11,7 +11,7 @@ A surprising amount of visualization design and analysis can be wrapped up in th
 
 I am always looking for a shorcut that I can give to people to help them do Visualization better. Is there one easy thing that will help a lot? This is my current favorite: **Ask "What does this visualization make easy to see?"**
 
-The biggest short cut - Always emember the "prime directive:" **Task First!** (hopefully you got that from {{< link "1-what-is-vis" >}}) - is harder to make direct use of. The "easy-to-see" shortcut is so simple, and can be used by everyone on day one (it is in {{< link page="1-what-is-vis" text="Tutorial 1" >}}), but less prominent.
+The biggest short cut - Always emember the "prime directive:" **Task First!** (hopefully you got that from {{<link "1-what-is-vis">}}) - is harder to make direct use of. The "easy-to-see" shortcut is so simple, and can be used by everyone on day one (it is in {{<link page="1-what-is-vis" text="Tutorial 1">}}), but less prominent.
 
 You can ask the question in both directions:
 
@@ -34,7 +34,7 @@ Practice looking at visualizations and asking yourself "what does this make easy
 
 Here's a visualization from the New York Times:
 
-{{<rimage src="nyt-clean-energy.png" width="500" caption="Maps of percentage of households taking advantage of two different tax credits, by state." attr="from the NY Times" attrlink="https://www.nytimes.com/interactive/2024/08/08/climate/tax-credits-solar-panels-home-efficiency.html" >}}
+{{<rimage src="nyt-clean-energy.png" width="500" caption="Maps of percentage of households taking advantage of two different tax credits, by state." attr="from the NY Times" attrlink="https://www.nytimes.com/interactive/2024/08/08/climate/tax-credits-solar-panels-home-efficiency.html">}}
 
 Before reading further, try this yourself. List a bunch of things that are easy for you to see. What questions can this visualization answer easily? What questions come to your mind? Are they easy or hard to see the answers to?
 
@@ -46,8 +46,8 @@ Some questions are hard to answer (not easy to see). Where does Wisconsin rank a
 
 The "what does this make easy to see" becomes easier when you have two different visualizations of the same data. Using the simple example from {{<link 1-what-is-vis>}}:
 
-{{<rimage src="students-column.png" caption="A bar chart of the fake data" >}}
-{{<rimage src="students-treemap.png" caption="A treemap of the fake data" >}}
+{{<rimage src="students-column.png" caption="A bar chart of the fake data">}}
+{{<rimage src="students-treemap.png" caption="A treemap of the fake data">}}
 
 Even though I can't put them next to each other, they should be really easy to compare. Ask yourself: what can I see easily in the bar chart (but not the treemap)? What can I see easily in the treemap (but not the bar chart)? 
 
@@ -59,7 +59,7 @@ I think we can use the question to shape a lot of what we do in terms of visuali
 
 > What design choices should we make in order to make the things we want to see easy to see?
 
-The power of a visual representation is that it can make certain "things" easy to "see." The scare quotes are intentional because those are a bit handwavy - this is where the science should come in. The idea of "thing" gets at the notion of task (why are we making a visualization). See {{% link "1-what-is-vis" %}} to get at that core question of task. The "easy to see" is where visualization science comes in (how? does it work robustly for everyone? etc.). But for now, develop your intuitions. 
+The power of a visual representation is that it can make certain "things" easy to "see." The scare quotes are intentional because those are a bit handwavy - this is where the science should come in. The idea of "thing" gets at the notion of task (why are we making a visualization). See {{%link "1-what-is-vis"%}} to get at that core question of task. The "easy to see" is where visualization science comes in (how? does it work robustly for everyone? etc.). But for now, develop your intuitions. 
 
 What's amazing about this question:
 

@@ -20,13 +20,13 @@ And the real problem was even deeper... It might seem that this is a simple case
 
 Here's a figure from a (rejected) paper submission that a student and I made to a robotics workshop: 
 
-{{<rimage src="results-wafr.png" caption="A figure from a robotics paper showing 3 experiments applied on 2 testbeds. The figure shows what the robot does, but also graphs comparing the performance of our algorithm and a baseline." attr="Figure by Yeping Wang and Michael Gleicher" >}}
+{{<rimage src="results-wafr.png" caption="A figure from a robotics paper showing 3 experiments applied on 2 testbeds. The figure shows what the robot does, but also graphs comparing the performance of our algorithm and a baseline." attr="Figure by Yeping Wang and Michael Gleicher">}}
 
 This is a cool figure with a bunch of robots doing stuff (there are 6 experiments, although it is labeled as 3 experiments across 2 testbeds).  
 There are robots doing stuff! What's not to like? 
 The graphs show the performance of our new algorithm is way better than the baselines. But this isn't about the robotics, let's focus on one of the graphs...
 
-{{<rimage src="results-wafr-graph.png" width="500" caption="A graph of the performance of our new algorithm. Our algorithm is the orange line, the baseline is green (and the blue dot). The algorithm is meant to minimize joint movement (shown on the Y axis)." >}}
+{{<rimage src="results-wafr-graph.png" width="500" caption="A graph of the performance of our new algorithm. Our algorithm is the orange line, the baseline is green (and the blue dot). The algorithm is meant to minimize joint movement (shown on the Y axis).">}}
 
 Without telling you anything about the robotics problem - except that the problem is to minimize joint movement (shown on the Y axis), and that it's an incremental algorithm (the estimate gets better over time), what do you see in the graph? Our algorithm is shown in orange, and the baseline is shown in green.
 

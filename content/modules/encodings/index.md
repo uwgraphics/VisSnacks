@@ -38,7 +38,7 @@ Jacques Bertin was a French cartographer who worked out a theory of graphics in 
 
 Here is a more modern accounting of the channels:
 
-{{<rimage src="munzner-channels-fig5-3.png" width=500 caption="A few of the many visual channels." attr="Figure 5.3 of Munzner, *Visualization Analysis and Design*." >}}
+{{<rimage src="munzner-channels-fig5-3.png" width=500 caption="A few of the many visual channels." attr="Figure 5.3 of Munzner, *Visualization Analysis and Design*.">}}
 
 The list isn't fixed - people keep finding more (texture, motion, curvature, ...). What matters more than the full list is that channels have *properties*, and the properties determine what a channel can do:
 
@@ -57,14 +57,14 @@ And a warning about color, because everyone reaches for it first: color is not o
 
 Here's the same small dataset encoded four ways:
 
-{{<rimage src="four-channels.png" caption="The same five numbers, encoded with four different channels. (Made with fake data.)" attr="Figure by Mike (well, his robot assistant)." >}}
+{{<rimage src="four-channels.png" caption="The same five numbers, encoded with four different channels. (Made with fake data.)" attr="Figure by Mike (well, his robot assistant).">}}
 
 I'll bet you can rank these yourself: reading values (and seeing differences) is easy with position, decent with length, rough with area, and rougher with luminance. Your intuition here is backed by evidence - there is a whole research tradition of measuring how well people read different encodings, going back to Cleveland & McGill's experiments in 1984.
 
 {{<expand "The evidence (and a warning about experiments)">}}
 Cleveland & McGill asked people to make "elementary" judgments (like: what proportion is the smaller value of the larger?) using different encodings, and measured error. Their ranking - position, then length, then angle/slope, then area, then color - has held up remarkably well, including in a 2010 crowdsourced replication by Heer & Bostock.
 
-{{<rimage src="cleveland-mcgill-1984-stimuli.png" width=450 caption="Stimuli from Cleveland & McGill's position-length and position-angle experiments." attr="Figures from Cleveland & McGill, 1984." >}}
+{{<rimage src="cleveland-mcgill-1984-stimuli.png" width=450 caption="Stimuli from Cleveland & McGill's position-length and position-angle experiments." attr="Figures from Cleveland & McGill, 1984.">}}
 
 But be careful: experiments feel scientific and absolute. Ask what they measured (precise value reading), and whether that's *your* task. A channel that loses at precise reading might win at something else - like being noticeable at a distance, or making patterns visible. We'll come back to this when we discuss perception and evaluation.
 

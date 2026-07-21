@@ -18,7 +18,7 @@ I hesitate to give "rules," especially in terms of chart types. But the guidance
 So the "rules" suggest that line designs are good when the X axis is continuous and interval, acceptible if the X axis is interval, can be used with caution if it is ordered, and should be avoided for nominal categorical.
 
 A student brought this example from Cairo's book:
-{{< rimage src="cairo-discrete-lines.png" width=400 caption="A line graph with a discrete axis." attr="Figure 5.17 of Cairo's *The Truthful Art*, p. 140." >}}
+{{<rimage src="cairo-discrete-lines.png" width=400 caption="A line graph with a discrete axis." attr="Figure 5.17 of Cairo's *The Truthful Art*, p. 140.">}}
 
 The student asked why connecting the dots was a valid choice (at first, he didn't realize it was ordinal).
 

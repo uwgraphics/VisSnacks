@@ -51,7 +51,7 @@ By dividing the rivers by continent, it is easier to compare within a continent,
 
 Or, consider this variant showing "lakes" and islands:
 
-{{<rimage src="ColtonComparativeSizeofLakesandIslands_1862.jpg" attrlink="https://theantiquarium.com/products/comparative-size-of-lakes-and-islands" attr="The Antiquarium" caption="Comparative Size of Lakes and Islands from Colton, 1862." >}}
+{{<rimage src="ColtonComparativeSizeofLakesandIslands_1862.jpg" attrlink="https://theantiquarium.com/products/comparative-size-of-lakes-and-islands" attr="The Antiquarium" caption="Comparative Size of Lakes and Islands from Colton, 1862.">}}
 
 Even if the scales were the same (unclear if each of the quadrant of the map has the same scale), notice how hard it is to compare among the lakes or islands - even within a quadrant. Try to find the biggest few or smallest few. That said, I still like these kinds of comparisons: the put things close enough so you can compare, the details of layout to facilitate comparison is a detail.
 
