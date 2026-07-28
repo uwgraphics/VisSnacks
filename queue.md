@@ -4,18 +4,18 @@ Unordered todo list. Pointers: **(PLAN)** = `MODULE-DOCS-PLAN.md` · **(BRIEF)**
 
 ## Finish what's started
 
-- [ ] Encodings tutorial — review draft; pending edits: real terms for "Pareto mapping" + genai credit line; publish together with charts-are-encodings (cross-linked) (DRAFT, PLAN)
-- [ ] Charts Are Just Encodings in Disguise — review draft; decide merge-vs-differentiate with the old "Chart Typologies: it works no matter what you call it" idea (DRAFT)
-- [ ] Data Abstraction tutorial — review draft; verify NOIR cheat-sheet table; decide if NOIR splits into its own snack; wants figures (DRAFT, BRIEF, report in briefs/)
-- [ ] Pie Chart Experiment — long-standing draft snack; the perception/evaluation pages will want to link it (DRAFT)
-- [ ] My Favorite Visualization: rivers & mountains comparison — draft critique (DRAFT)
-- [ ] Re-Papering rant — draft explains the whole re-papering section; publish when first re-paperings do (DRAFT)
-- [ ] Problem Space paper page — replace the NotebookLM notes with a real page (DRAFT, SUMM)
+- [ ] Encodings tutorial — review draft; pending edits: real terms for "Pareto mapping" + genai credit line; publish together with charts-are-encodings (cross-linked) (DRAFT, PLAN) — `content/modules/encodings/index.md`
+- [ ] Charts Are Just Encodings in Disguise — review draft; decide merge-vs-differentiate with the old "Chart Typologies: it works no matter what you call it" idea (DRAFT) — `content/snacks/charts-are-encodings/index.md`
+- [ ] Data Abstraction tutorial — review draft; verify NOIR cheat-sheet table; decide if NOIR splits into its own snack; wants figures (DRAFT, BRIEF, report in briefs/) — `content/modules/data-abstraction/index.md`
+- [ ] Pie Chart Experiment — long-standing draft snack; the perception/evaluation pages will want to link it (DRAFT) — `content/snacks/pie-chart-experiment/index.md`
+- [ ] My Favorite Visualization: rivers & mountains comparison — draft critique (DRAFT) — `content/critiques/260520-compare-rivers/index.md`
+- [ ] Re-Papering rant — draft explains the whole re-papering section; publish when first re-paperings do (DRAFT) — `content/rants/repapering/index.md`
+- [ ] Problem Space paper page — replace the NotebookLM notes with a real page (DRAFT, SUMM) — `content/papers/problem-space/index.md`
 
 ## Core tutorial sequence (cleanup + the missing front door)
 
-- [ ] Tutorial 0: the prime directive — "make visualizations to address tasks." Working framing: what is vis? — and why the answer tells you how to do it and how to learn it. (The run-on-ness of that sentence is exactly Tutorial 1's disease; Tutorial 0 is the cure: one idea, short.) Stub exists at tutorials/0-how-to-vis (DRAFT stub)
-- [ ] Split Tutorial 1 — 6,700 words → some goes into Tutorial 0; keep a tightened core (definition, effectiveness); spin out pieces below; best done AFTER other tutorials exist to absorb material (PLAN, BRIEF: tutorial-1-revision)
+- [ ] Tutorial 0: the prime directive — "make visualizations to address tasks." Working framing: what is vis? — and why the answer tells you how to do it and how to learn it. (The run-on-ness of that sentence is exactly Tutorial 1's disease; Tutorial 0 is the cure: one idea, short.) Stub exists at tutorials/0-how-to-vis (DRAFT stub) — `content/tutorials/0-how-to-vis/index.md`
+- [ ] Split Tutorial 1 — 6,700 words → some goes into Tutorial 0; keep a tightened core (definition, effectiveness); spin out pieces below; best done AFTER other tutorials exist to absorb material (PLAN, BRIEF: tutorial-1-revision) — `content/tutorials/1-what-is-vis/index.md`
   - [ ] Why Visualize? — the four whys; own page or Tutorial 0/1 material; the four-authors summary (Cairo/Tufte/Ware/Card) is the gem (BRIEF, MINE)
   - [ ] Is a stop sign a visualization? — definition-edges snack (BRIEF, MINE)
 - [ ] Most important principles — "if you read only one page" snack; relation to Tutorial 0 needs deciding — may be the same page
