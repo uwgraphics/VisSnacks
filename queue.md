@@ -86,6 +86,12 @@ Unordered todo list. Pointers: **(PLAN)** = `MODULE-DOCS-PLAN.md` · **(BRIEF)**
 - [ ] Card/Mackinlay/Shneiderman intro; Leek & Peng; Shmueli; Zgraggen (summaries pending — see `_lecture_experiment/repapering-status.md`)
 - [ ] Possible: averages/visual-proxies papers, scagnostics, embedding-guidance papers (surfaced by MINE; verify which)
 
+## Things I want to do
+
+- [ ] Terrible Treemap https://www.insidehighered.com/news/students/academics/2025/08/29/survey-college-students-views-ai#
+- [ ] The Unreasonable Effectiveness of Pie Charts
+- [ ] Are tables visualizations? (Yes. and it is useful to think of them that way. And to think of other vis as tables (bar charts, matrices))
+
 ## Done
 
 - [x] NYT map critique
