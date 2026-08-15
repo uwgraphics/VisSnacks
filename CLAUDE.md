@@ -2,7 +2,7 @@
 
 Hugo site disseminating visualization knowledge (Mike Gleicher). Read `STYLE-GUIDE.md` before drafting or editing any page — it has voice, mechanics, and workflow rules (draft=true, leave uncommitted, verification list, genai disclosure).
 
-Working material for the lecture-to-tutorial project lives in `_lecture_experiment/` (gitignored — it holds ~2 GB of copyrighted lecture decks and reading PDFs): plans, briefs, deck extractions (`extracted/`), scripts (`tools/`). Check `_lecture_experiment/0718-Summary.md` for project state before redoing work.
+Working material for the lecture-to-tutorial project lives in `_lecture_experiment/` (gitignored — it holds ~2 GB of copyrighted lecture decks and reading PDFs): plans, briefs, deck extractions (`extracted/`). Check `_lecture_experiment/0718-Summary.md` for project state before redoing work.
 
 Working material for the **re-papering** project lives in `Workspace/Re-Papering/` (git-tracked): the AI reading summaries plus `status.md`, which is the resume file — read it before starting any summarizing or re-papering work. Re-papering is a separate, longer-lived project from the lecture experiment; the finished posts go in `content/papers/`.
 
@@ -25,4 +25,4 @@ Working material for the **re-papering** project lives in `Workspace/Re-Papering
 
 - Internal links: use full logical paths in the `link` shortcode (`{{<link "/snacks/foo">}}`); bare names have failed to resolve for new/draft pages. Pages that cross-link must be published together (the shortcode errors on missing pages and breaks the build).
 - I can't run Hugo in the Cowork sandbox (no network for the binary); ask Mike to run `build.sh` / `hugo serve -D`, or run it directly when in Claude Code with local shell access.
-- pip in the sandbox needs `--break-system-packages`; python-pptx and matplotlib are the workhorses (see `_lecture_experiment/tools/`).
+- pip in the sandbox needs `--break-system-packages`; python-pptx and matplotlib are the workhorses (see `Workspace/Tools/` — deck-mining and figure scripts, with a README). Locally, use the `p314` conda env. Note `tools/` at the repo root is a different thing: the site build/diff scripts.
