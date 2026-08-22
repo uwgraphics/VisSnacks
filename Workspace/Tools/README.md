@@ -28,6 +28,18 @@ present in the `p314` conda env:
 conda run -n p314 python Workspace/Tools/titles.py "_lecture_experiment/Lectures 25"/*.pptx
 ```
 
+**If `conda run` fails**, call the env's interpreter directly — it needs no conda
+machinery and works the same:
+
+```sh
+/opt/anaconda3/envs/p314/bin/python Workspace/Tools/titles.py "_lecture_experiment/Lectures 25"/*.pptx
+```
+
+(Seen 2026-08-22 in a sandboxed Claude Code session: `conda run` died in conda's own
+argument parsing — the rattler solver plugin panics with `Attempted to create a NULL
+object` when it can't reach the network/system configuration. Nothing to do with these
+scripts, and the direct-interpreter form sidesteps it entirely.)
+
 The lecture decks and reading PDFs these read live in `_lecture_experiment/`, which is
 gitignored (~2 GB of copyrighted course material). The scripts are tracked; their inputs
 are not.
