@@ -75,6 +75,6 @@ These files used to live in `_lecture_experiment/`, which is **gitignored** — 
 
 Re-papering and the lecture-to-tutorial experiment are **related but different projects**: the lecture experiment is a bounded experiment (turn 2025 lectures into snack tutorials), while re-papering is a standing editorial line of the site with its own section (`content/papers/`) and its own rant page. They overlapped only because both needed the same readings summarized.
 
-Still in `_lecture_experiment/` (correctly — it's bulk course material and lecture-experiment-specific working files): the reading PDFs, lecture decks, `extracted/` deck text, briefs, and the lecture-mining plan.
+Still in `_lecture_experiment/` (correctly — it's bulk course material and lecture-experiment-specific working files): the reading PDFs, lecture decks, `extracted/` deck text, and the lecture-mining plan. (The per-page **briefs** moved out to `Workspace/Briefs/` on 2026-08-22, for the same reason re-papering did — they're durable working notes, not bulk course material.)
 
 **Caution:** this directory is under source control and the repo may some day be made public. The book-chapter digests in particular (all 14 Munzner chapters, 10 Cairo chapters) are detailed enough to warrant a second thought before publishing — and note that git history is permanent, so deleting them later does not remove them from a published repo.

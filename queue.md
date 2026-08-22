@@ -1,12 +1,43 @@
 # VisSnacks Queue
 
-Unordered todo list. Pointers: **(PLAN)** = `MODULE-DOCS-PLAN.md` · **(BRIEF)** = starter brief in `_lecture_experiment/briefs/` · **(MINE)** = analyzed in `_lecture_experiment/lecture-mining-plan.md` (slide refs, figure candidates) · **(SUMM)** = AI reading summary ready in `_lecture_experiment/repapering-summaries-*.md` · **(DRAFT)** = draft page exists, needs review.
+Unordered todo list. Pointers: **(PLAN)** = `MODULE-DOCS-PLAN.md` · **(BRIEF)** = starter brief in `Workspace/Briefs/` · **(MINE)** = analyzed in `_lecture_experiment/lecture-mining-plan.md` (slide refs, figure candidates) · **(SUMM)** = AI reading summary ready in `Workspace/Re-Papering/summaries-*.md` · **(DRAFT)** = draft page exists, needs review.
+
+## Mike's ordering - Claude doesn't touch - Things detailed below
+
+Order by importance for class.
+- [ ] Look at 0718 - it has a "next steps for mike"
+
+From 0718
+- [ ] Review encodings
+- [ ] Review data abstraction
+- [ ] Review charts-are-encodings
+- [ ] Try looking at briefs
+
+Useful at start of class
+- [ ] Tutorial 0
+- [ ] Tutorial 1 Split
+- [ ] Critique Tutorial (pull in more book stuff, ready for class)
+- [ ] Re-papering rant
+- [ ] Favorite visualization
+
+Building Blocks pages
+- [ ] Abstraction definition from 765-25
+- [ ] Data Abstraction tutorial
+- [ ] Task Abstraction
+- [ ] Repapering Task Cubes
+- [ ] Repapering Munzner Tasks
+- [ ] Repapering Problem Space
+- [ ] Encodings Tutorial
+- [ ] Charts are encodings
+- [ ] Graphical Perception Tutorial (C&M repapering might be separate)
+- [ ] Low-level tasks
+
 
 ## Finish what's started
 
 - [ ] Encodings tutorial — review draft; pending edits: real terms for "Pareto mapping" + genai credit line; publish together with charts-are-encodings (cross-linked) (DRAFT, PLAN) — `content/modules/encodings/index.md`
-- [ ] Charts Are Just Encodings in Disguise — review draft; decide merge-vs-differentiate with the old "Chart Typologies: it works no matter what you call it" idea (DRAFT) — `content/snacks/charts-are-encodings/index.md`
-- [ ] Data Abstraction tutorial — review draft; verify NOIR cheat-sheet table; decide if NOIR splits into its own snack; wants figures (DRAFT, BRIEF, report in briefs/) — `content/modules/data-abstraction/index.md`
+- [ ] Charts Are Just Encodings in Disguise — review draft; decide merge-vs-differentiate with the old "Chart Typologies" idea. **New evidence** (`Workspace/Briefs/02-vis-basics.md`): the real argument is in lecture 2-M slides 5–38 (the LLM chart-naming experiment + the unemployment walkthrough), not 4-M — a tutorial's worth, which would swamp this 682-word snack. The compressed version here is the thin one and should probably become a pointer (DRAFT) — `content/snacks/charts-are-encodings/index.md`
+- [ ] Data Abstraction tutorial — review draft; verify NOIR cheat-sheet table; decide if NOIR splits into its own snack; wants figures (DRAFT, BRIEF, report in Workspace/Briefs/) — `content/modules/data-abstraction/index.md`
 - [ ] Pie Chart Experiment — long-standing draft snack; the perception/evaluation pages will want to link it (DRAFT) — `content/snacks/pie-chart-experiment/index.md`
 - [ ] My Favorite Visualization: rivers & mountains comparison — draft critique (DRAFT) — `content/critiques/260520-compare-rivers/index.md`
 - [ ] Re-Papering rant — draft explains the whole re-papering section; publish when first re-paperings do (DRAFT) — `content/rants/repapering/index.md`
@@ -16,9 +47,10 @@ Unordered todo list. Pointers: **(PLAN)** = `MODULE-DOCS-PLAN.md` · **(BRIEF)**
 
 - [ ] Tutorial 0: the prime directive — "make visualizations to address tasks." Working framing: what is vis? — and why the answer tells you how to do it and how to learn it. (The run-on-ness of that sentence is exactly Tutorial 1's disease; Tutorial 0 is the cure: one idea, short.) Stub exists at tutorials/0-how-to-vis (DRAFT stub) — `content/tutorials/0-how-to-vis/index.md`
 - [ ] Split Tutorial 1 — 6,700 words → some goes into Tutorial 0; keep a tightened core (definition, effectiveness); spin out pieces below; best done AFTER other tutorials exist to absorb material (PLAN, BRIEF: tutorial-1-revision) — `content/tutorials/1-what-is-vis/index.md`
-  - [ ] Why Visualize? — the four whys; own page or Tutorial 0/1 material; the four-authors summary (Cairo/Tufte/Ware/Card) is the gem (BRIEF, MINE)
-  - [ ] Is a stop sign a visualization? — definition-edges snack (BRIEF, MINE)
+  - [ ] Why Visualize? — **brief written** (`Workspace/Briefs/02-why-vis.md`): the four whys as the skeleton, "what are your alternatives?" is the slide nothing on the site covers, four-authors summary is the closer. Checked: Tutorial 1 poses this question in its "Now What?" list and never answers it, so redundancy risk is low — this is a real page, not Tutorial-1 leftovers. Needs §5–8 + the Tutorial 0 collision decision (BRIEF, MINE)
+  - [ ] Is a stop sign a visualization? — definition-edges snack; the brief argues it may belong *in* Why Visualize instead (definition judged by usefulness, not correctness) (BRIEF, MINE)
 - [ ] Most important principles — "if you read only one page" snack; relation to Tutorial 0 needs deciding — may be the same page
+- [ ] "Vis Basics" / What Different Charts Make Easy to See — 2-M slides 5–38: LLM chart-naming experiment, gallery critique, unemployment-by-state walkthrough. **Destination undecided on purpose: own page, the body of Tutorial 3 (1,061 words — it has the thesis and one example; this is the missing practice), or stay a lecture.** The fork is whether the LLM experiment gets published — as a lecture it's re-runnable yearly and improves; as a page it spoils a flagship exercise and dates. §1–4 done (BRIEF: vis-basics)
 - [ ] Landing page for the tutorials collection — blocked on the section-naming decision (PLAN)
 
 ## Lecture-derived tutorials, weeks 1–7 (briefs exist — fill §5–8 to unblock)
@@ -83,12 +115,12 @@ Unordered todo list. Pointers: **(PLAN)** = `MODULE-DOCS-PLAN.md` · **(BRIEF)**
 - [ ] Mackinlay 1986 (SUMM)
 - [ ] Bertini, Beyond Precision (SUMM — maybe resource page rather than re-papering)
 - [ ] North, Toward Measuring Visualization Insight (SUMM)
-- [ ] Card/Mackinlay/Shneiderman intro; Leek & Peng; Shmueli; Zgraggen (summaries pending — see `_lecture_experiment/repapering-status.md`)
+- [ ] Card/Mackinlay/Shneiderman intro; Leek & Peng; Shmueli; Zgraggen (summaries pending — see `Workspace/Re-Papering/status.md`)
 - [ ] Possible: averages/visual-proxies papers, scagnostics, embedding-guidance papers (surfaced by MINE; verify which)
 
 ## Things I want to do
 
-- [ ] Terrible Treemap https://www.insidehighered.com/news/students/academics/2025/08/29/survey-college-students-views-ai#
+- [ ] Terrible Treemap (started - in critiques) https://www.insidehighered.com/news/students/academics/2025/08/29/survey-college-students-views-ai#
 - [ ] The Unreasonable Effectiveness of Pie Charts
 - [ ] Are tables visualizations? (Yes. and it is useful to think of them that way. And to think of other vis as tables (bar charts, matrices))
 

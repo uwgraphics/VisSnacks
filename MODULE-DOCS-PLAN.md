@@ -2,7 +2,7 @@
 
 Working plan for the lecture-replacement writing project. Not site content. Revised 2026-07-17 after Mike's feedback. Sources: 2025 lecture decks, course module pages (https://pages.graphics.cs.wisc.edu/765-25/modules/), existing VisSnacks content.
 
-Per-page briefs (template + pre-filled starters) live in `_lecture_experiment/briefs/`.
+Per-page briefs (template + pre-filled starters) live in `Workspace/Briefs/`.
 
 ## Guiding distinctions (decided)
 
@@ -48,7 +48,7 @@ Ordered by the course arc. ★ = drafting priority.
 ## Process (decided)
 
 - **Batching:** draft 2–3 documents per session, review together.
-- **Briefs:** before drafting, Mike spends ~5 minutes per brief in `_lecture_experiment/briefs/`. The agent pre-fills everything recoverable from materials (module fit, learning goals, source mapping, notable slides); Mike fills the parts only he has (stories, cut/keep calls, contested takes).
+- **Briefs:** before drafting, Mike spends ~5 minutes per brief in `Workspace/Briefs/`. The agent pre-fills everything recoverable from materials (module fit, learning goals, source mapping, notable slides); Mike fills the parts only he has (stories, cut/keep calls, contested takes).
 - **Order:** Data Abstraction → Task Abstraction → Too Much Stuff → Evaluation → Implementation → Tufte snack → Tutorial-1 revision.
 - Standard guardrails from STYLE-GUIDE.md: draft=true, uncommitted, verification list, genai disclosure.
 
@@ -56,4 +56,4 @@ Ordered by the course arc. ★ = drafting priority.
 
 1. Where do the new tutorials ultimately live, and do they get numbers? (Placeholder: `content/modules/`. The encodings draft sits there now and moves when decided.)
 2. Merge or differentiate: charts-are-encodings snack vs. queue.md's "Chart Typologies - it works no matter what you call it."
-3. The 2024 story in lecture 2-M (slides 49–53) — what is it, and which page does it belong to?
+3. ~~The 2024 story in lecture 2-M (slides 49–53) — what is it, and which page does it belong to?~~ **ANSWERED (2026-08-22, via `Workspace/Briefs/02-why-vis.md`):** it's the AO Smith water-heater app, and it's already a published page — `content/snacks/app-time-graphs/` (2024-09-09), paired against the Garmin steps graph. New pages should link it, not re-tell it. Still open, smaller: slides 51–53's "Last Year And This Year" has material the snack doesn't (needs Mike).

@@ -2,7 +2,9 @@
 
 Hugo site disseminating visualization knowledge (Mike Gleicher). Read `STYLE-GUIDE.md` before drafting or editing any page — it has voice, mechanics, and workflow rules (draft=true, leave uncommitted, verification list, genai disclosure).
 
-Working material for the lecture-to-tutorial project lives in `_lecture_experiment/` (gitignored — it holds ~2 GB of copyrighted lecture decks and reading PDFs): plans, briefs, deck extractions (`extracted/`). Check `_lecture_experiment/0718-Summary.md` for project state before redoing work.
+Working material for the lecture-to-tutorial project lives in `_lecture_experiment/` (gitignored — it holds ~2 GB of copyrighted lecture decks and reading PDFs): plans and deck extractions (`extracted/`). Check `_lecture_experiment/0718-Summary.md` for project state before redoing work.
+
+**Per-page briefs live in `Workspace/Briefs/` (git-tracked)** — see its README. They're named `NN-topic.md`, where `NN` is the source lecture's week, so the directory sorts in course order. A brief is the unit of work before drafting: an agent fills §1–4 from the decks and course pages, Mike fills §5–8 (stories, cut/keep, contested takes). Read the brief before drafting its page, and record answers back into it when Mike settles a question.
 
 Working material for the **re-papering** project lives in `Workspace/Re-Papering/` (git-tracked): the AI reading summaries plus `status.md`, which is the resume file — read it before starting any summarizing or re-papering work. Re-papering is a separate, longer-lived project from the lecture experiment; the finished posts go in `content/papers/`.
 
