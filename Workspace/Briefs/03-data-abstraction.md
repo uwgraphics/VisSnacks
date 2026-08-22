@@ -2,7 +2,7 @@
 
 ## 1. The document (agent-filled)
 
-Tutorial. Working title: "Data Abstraction: Describing Data So We Can Use It." Placeholder location `content/modules/data-abstraction/`. Snack-tutorial length (shorter than Tutorial 4). Likely spin-off snack: NOIR levels of measurement (cairo-discrete-line already reaches for NOIR and has nowhere to point).
+Tutorial. Working title: "Data Abstraction: Describing Data So We Can Use It." Placeholder location `content/tutorials/data-abstraction/`. Snack-tutorial length (shorter than Tutorial 4). Likely spin-off snack: NOIR levels of measurement (cairo-discrete-line already reaches for NOIR and has nowhere to point).
 
 The course module page explicitly says: "A plan to make a 'data abstraction cheat sheet' - but I haven't yet." Decide: is the cheat sheet a section of this page, or the page's whole personality?
 
@@ -15,7 +15,7 @@ Module 2 (Building Blocks), lecture 3-W first half. Module outcome #2: "have a v
 - Lecture 3-W-Abstraction.pptx, slides ~9–33 (data half).
 - Munzner ch. 2 (Data Abstraction) — required reading; this page gives its main points.
 - The Scribbr levels-of-measurement page (module page recommends it for NOIR, which Munzner skips).
-- Existing neighbors: {{< link "/modules/encodings" >}}, cairo-discrete-line (NOIR), future Too-Much-Stuff page (binning/conversions).
+- Existing neighbors: {{<link "/tutorials/encodings">}}, cairo-discrete-line (NOIR), future Too-Much-Stuff page (binning/conversions).
 
 ## 4. High-value material in the slides (agent-filled)
 

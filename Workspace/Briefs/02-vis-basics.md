@@ -28,7 +28,7 @@ It then does it *once*, with a bar chart and a treemap of the fake student data.
 
 Course evidence for the same conclusion: Module 1 learning outcome #2 is *"To get some intuitions about 'what is easy to see' (as a way to appreciate effective visualizations)"* — which is Tutorial 3's outcome, not the encodings pages'. This material serves outcome #2.
 
-**What this is *not*:** an encodings page. `content/modules/encodings/` (drafted) and `content/snacks/charts-are-encodings/` (drafted, 682 words) handle decomposition-into-channels. This is upstream of that — the motivation you'd want a reader to have *before* decomposition looks worth the trouble. Slide 38 is literally the handoff: "Think about charts in terms of pieces — Encodings, Layouts, Transformations, (Interaction)."
+**What this is *not*:** an encodings page. `content/tutorials/encodings/` (drafted) and `content/snacks/charts-are-encodings/` (drafted, 682 words) handle decomposition-into-channels. This is upstream of that — the motivation you'd want a reader to have *before* decomposition looks worth the trouble. Slide 38 is literally the handoff: "Think about charts in terms of pieces — Encodings, Layouts, Transformations, (Interaction)."
 
 ## 2. Course fit (agent-filled)
 

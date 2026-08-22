@@ -8,7 +8,7 @@ Per-page briefs (template + pre-filled starters) live in `Workspace/Briefs/`.
 
 **VisSnacks vs. class.** VisSnacks is the textbook: timeless resources for everyone, that the class happens to be built around. The test for content: *is this useful to a reader who isn't in CS765?* Semester-specific material (schedules, assignments, this-year's-data walkthroughs, tool links that rot) stays on the course web; the knowledge goes in VisSnacks. Some redundancy between pages is acceptable, especially for the "why" backbone.
 
-**One collection, not two.** The "module doc" concept is retired: the new documents are *tutorials* that add to the existing collection (Tutorials 1–4). We hesitate to lump them together only for ordering ("start here" really means 1–4) and authorship (the new ones are AI-drafted from lectures, disclosed via `genai`). `content/modules/` stays as a placeholder folder while we see where this goes; section naming/numbering is deferred.
+**One collection, not two. — SETTLED 2026-08-22, and executed.** The new documents are *tutorials* in the existing collection. `content/modules/` is gone; the two drafts now live at `content/tutorials/encodings/` and `content/tutorials/data-abstraction/` at `weight` 30/31 — an unordered tail after the core sequence (1–4) and the Tableau class-support pages (10–20). Rationale: "module" is a *course* word, and the course is redesigned yearly; publishing it would have baked one year's class structure into permanent URLs. Ordering lives in `weight`, not in titles — so the tail stays additive. The "start here" framing for 1–4 is prose Mike writes in `content/tutorials/_index.md` (still to do), not a tag: a tag can't express order or *why this one next*.
 
 **In-class exercises.** Default: convert to short "Try it yourself" boxes. Use "in class, we often do this as an exercise" sparingly — it risks stealing the class's thunder. Per-page call, recorded in the brief.
 
@@ -27,7 +27,7 @@ Ordered by the course arc. ★ = drafting priority.
 
 3. ★ **Tutorial: Data Abstraction** — types of data (tables/fields/networks), attributes, NOIR, conversions. The course module page already promises a "data abstraction cheat sheet." NOIR may be the spin-off snack.
 4. ★ **Tutorial: Task Abstraction** — why task matters, the space of task descriptions, action×target, low-level tasks; "use formalisms when they are useful, don't get stuck on their details." Hardest without Mike; highest leverage. Related: finish **papers/problem-space** (assigned reading, currently a notes draft).
-5. **Tutorial: Encodings** — DRAFTED (`content/modules/encodings/`), plus drafted snack charts-are-encodings. Pending merge/differentiate decision vs. queue.md's "Chart Typologies" idea.
+5. **Tutorial: Encodings** — DRAFTED (`content/tutorials/encodings/`), plus drafted snack charts-are-encodings. Pending merge/differentiate decision vs. queue.md's "Chart Typologies" idea.
 6. **Snack: Composing designs (the 2-numbers exercise)** — currently folded into the encodings page as "Try It"; split only if that page needs shortening. Decide after review.
 7. **(No doc)** Tableau lecture — walkthrough tutorials exist; they're class-support, not VisSnacks-timeless. Possible someday-snack: "Tableau is the theory, embodied."
 
@@ -54,6 +54,6 @@ Ordered by the course arc. ★ = drafting priority.
 
 ## Remaining open questions
 
-1. Where do the new tutorials ultimately live, and do they get numbers? (Placeholder: `content/modules/`. The encodings draft sits there now and moves when decided.)
+1. ~~Where do the new tutorials ultimately live, and do they get numbers?~~ **ANSWERED 2026-08-22 and executed** — `content/tutorials/`, `weight` 30+, no numbers in titles. See "One collection, not two" above. Remaining sliver: Mike writes the "start here" prose in `content/tutorials/_index.md`, and Tutorial 0 (draft stub) has no `weight` yet, so it currently sorts last.
 2. Merge or differentiate: charts-are-encodings snack vs. queue.md's "Chart Typologies - it works no matter what you call it."
 3. ~~The 2024 story in lecture 2-M (slides 49–53) — what is it, and which page does it belong to?~~ **ANSWERED (2026-08-22, via `Workspace/Briefs/02-why-vis.md`):** it's the AO Smith water-heater app, and it's already a published page — `content/snacks/app-time-graphs/` (2024-09-09), paired against the Garmin steps graph. New pages should link it, not re-tell it. Still open, smaller: slides 51–53's "Last Year And This Year" has material the snack doesn't (needs Mike).

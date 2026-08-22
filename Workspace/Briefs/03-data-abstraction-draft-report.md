@@ -1,6 +1,6 @@
 # Draft Report: Data Abstraction module page
 
-Page: `content/modules/data-abstraction/index.md` (draft = true, uncommitted).
+Page: `content/tutorials/data-abstraction/index.md` (draft = true, uncommitted).
 
 ## 1. Verification list (check, don't trust)
 
@@ -10,7 +10,7 @@ Page: `content/modules/data-abstraction/index.md` (draft = true, uncommitted).
 - **Lecture number.** Deck slide 1 internally says "Lecture 3-M," but the brief and task both say this is 3-W (first half of the abstraction lecture). I used 3-W per the task. Confirm which is right for the genai box.
 - **John Snow "deaths by position."** From slide 19 as a rotation example. I kept it to one clause; verify it reads the way you intend (the slide just says "John Snow: Deaths by position").
 - **Tableau dimensions/measures = key/value.** Stated as fact; it's in the Munzner summary (2.6) and consistent with the slide's Tableau warning, but confirm you're happy equating them so directly.
-- **Cross-links resolve.** I used only `/modules/encodings`, `/snacks/cairo-discrete-line`, `/resources/munzner`. Confirm all three pages exist so the `link` shortcode doesn't build-error (encodings and cairo I read; munzner I did not open - the encodings page links it as `{{<link munzner>}}`, so the resource page should exist).
+- **Cross-links resolve.** I used only `/tutorials/encodings`, `/snacks/cairo-discrete-line`, `/resources/munzner`. Confirm all three pages exist so the `link` shortcode doesn't build-error (encodings and cairo I read; munzner I did not open - the encodings page links it as `{{<link munzner>}}`, so the resource page should exist).
 
 ## 2. Placeholders left
 

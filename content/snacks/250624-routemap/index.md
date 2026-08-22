@@ -2,6 +2,7 @@
 title = 'Airline Route Maps: An interesting Solution to a Node-Link Problem'
 date = 2025-06-24T07:19:35-05:00
 draft = false
+tags = ["critique"]
 resourcethumb = 'delta.png'
 +++
 

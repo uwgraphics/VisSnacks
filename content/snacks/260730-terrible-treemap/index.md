@@ -2,6 +2,7 @@
 title = 'Terrible Treemap'
 date = 2026-07-30T14:49:59-06:00
 draft = true
+tags = ["critique"]
 +++
 
 https://www.insidehighered.com/news/students/academics/2025/08/29/survey-college-students-views-ai#

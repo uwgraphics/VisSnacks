@@ -2,7 +2,7 @@
 
 ## 1. The document (agent-filled)
 
-Tutorial. Working title: "Evaluation: How Do We Know a Visualization Is Good?" Placeholder `content/modules/evaluation/`. The "Convince [who] that your [what] is [good how]" fill-in-the-blanks frame looks like the page's organizing device.
+Tutorial. Working title: "Evaluation: How Do We Know a Visualization Is Good?" Placeholder `content/tutorials/evaluation/`. The "Convince [who] that your [what] is [good how]" fill-in-the-blanks frame looks like the page's organizing device.
 
 ## 2. Course fit (agent-filled)
 

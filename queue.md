@@ -35,11 +35,11 @@ Building Blocks pages
 
 ## Finish what's started
 
-- [ ] Encodings tutorial — review draft; pending edits: real terms for "Pareto mapping" + genai credit line; publish together with charts-are-encodings (cross-linked) (DRAFT, PLAN) — `content/modules/encodings/index.md`
+- [ ] Encodings tutorial — review draft; pending edits: real terms for "Pareto mapping" + genai credit line; publish together with charts-are-encodings (cross-linked) (DRAFT, PLAN) — `content/tutorials/encodings/index.md`
 - [ ] Charts Are Just Encodings in Disguise — review draft; decide merge-vs-differentiate with the old "Chart Typologies" idea. **New evidence** (`Workspace/Briefs/02-vis-basics.md`): the real argument is in lecture 2-M slides 5–38 (the LLM chart-naming experiment + the unemployment walkthrough), not 4-M — a tutorial's worth, which would swamp this 682-word snack. The compressed version here is the thin one and should probably become a pointer (DRAFT) — `content/snacks/charts-are-encodings/index.md`
-- [ ] Data Abstraction tutorial — review draft; verify NOIR cheat-sheet table; decide if NOIR splits into its own snack; wants figures (DRAFT, BRIEF, report in Workspace/Briefs/) — `content/modules/data-abstraction/index.md`
+- [ ] Data Abstraction tutorial — review draft; verify NOIR cheat-sheet table; decide if NOIR splits into its own snack; wants figures (DRAFT, BRIEF, report in Workspace/Briefs/) — `content/tutorials/data-abstraction/index.md`
 - [ ] Pie Chart Experiment — long-standing draft snack; the perception/evaluation pages will want to link it (DRAFT) — `content/snacks/pie-chart-experiment/index.md`
-- [ ] My Favorite Visualization: rivers & mountains comparison — draft critique (DRAFT) — `content/critiques/260520-compare-rivers/index.md`
+- [ ] My Favorite Visualization: rivers & mountains comparison — draft critique (DRAFT) — `content/snacks/260520-compare-rivers/index.md`
 - [ ] Re-Papering rant — draft explains the whole re-papering section; publish when first re-paperings do (DRAFT) — `content/rants/repapering/index.md`
 - [ ] Problem Space paper page — replace the NotebookLM notes with a real page (DRAFT, SUMM) — `content/papers/problem-space/index.md`
 
@@ -51,7 +51,8 @@ Building Blocks pages
   - [ ] Is a stop sign a visualization? — definition-edges snack; the brief argues it may belong *in* Why Visualize instead (definition judged by usefulness, not correctness) (BRIEF, MINE)
 - [ ] Most important principles — "if you read only one page" snack; relation to Tutorial 0 needs deciding — may be the same page
 - [ ] "Vis Basics" / What Different Charts Make Easy to See — 2-M slides 5–38: LLM chart-naming experiment, gallery critique, unemployment-by-state walkthrough. **Destination undecided on purpose: own page, the body of Tutorial 3 (1,061 words — it has the thesis and one example; this is the missing practice), or stay a lecture.** The fork is whether the LLM experiment gets published — as a lecture it's re-runnable yearly and improves; as a page it spoils a flagship exercise and dates. §1–4 done (BRIEF: vis-basics)
-- [ ] Landing page for the tutorials collection — blocked on the section-naming decision (PLAN)
+- [ ] **"Start here" prose in `content/tutorials/_index.md` — MIKE writes this.** No longer blocked: the structure is settled (2026-08-22). The collection is one `tutorials/` section — core sequence 1–4 (`weight` 1–4) reads in order, unordered deeper tail at `weight` 30+, Tableau class-support between. What's needed is the framing paragraph plus the ordered "start here" list; a tag can't carry order or "why this one next," so it's prose. Currently one sentence long — `content/tutorials/_index.md`
+- [ ] Give Tutorial 0 a `weight` when it's written (no weight today, so it sorts *last* in the collection — presumably wants 0) — `content/tutorials/0-how-to-vis/index.md`
 
 ## Lecture-derived tutorials, weeks 1–7 (briefs exist — fill §5–8 to unblock)
 

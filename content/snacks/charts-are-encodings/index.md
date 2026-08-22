@@ -10,7 +10,7 @@ A chart type is a bundle of encoding choices that someone found useful enough to
 
 <!--more-->
 
-This snack works through the idea of decomposing charts into encodings, which I introduce in {{<link "/modules/encodings">}}.
+This snack works through the idea of decomposing charts into encodings, which I introduce in {{<link "/tutorials/encodings">}}.
 
 Start with the most standard chart there is. A line chart is:
 

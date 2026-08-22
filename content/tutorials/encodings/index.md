@@ -2,6 +2,7 @@
 title = 'Encodings: Building Blocks for Visualizations'
 date = 2026-07-17T15:00:00-05:00
 draft = true
+weight = 30
 tags = ["encodings", "channels", "building-blocks"]
 resourcethumb = "four-channels.png"
 +++

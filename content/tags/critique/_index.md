@@ -4,8 +4,10 @@ date = 2024-08-11T09:08:00-05:00
 draft = false
 +++
 
-[Critiques](/critiques/) - are examinations of specific visualizations. The idea of a critique is to examine something closely to learn from it (not just to criticize). The pages here aren't typical critiques - they are more "lessons built around an example." 
+**Critiques** are examinations of specific visualizations. The idea of a critique is to examine something closely to learn from it (not just to criticize). The pages tagged here aren't typical critiques - they are more "lessons built around an example." 
 
 In many cases, I also use **redesign** where I try to explore alterntives as a way to learn. 
+
+Critique is a *kind* of snack rather than a separate part of the site: a page can be a critique and also be about encodings, or about a paper, so it's a tag and not a section. Everything tagged here also lives in {{<link "snacks">}}.
 
 Learning to critique  - *that is, learning to learn by examining examples* - is a useful skill unto itself (one we emphasize is class). There is a {{<link page="4-critique" text="Tutorial on Critique">}} that gives some basic strategies for learning to learn from examples. It suggests a stylized way to do critique (that I recommend in class). The critiques here do not follow the formula - but they all are attempts to learn lessons by looking at examples.

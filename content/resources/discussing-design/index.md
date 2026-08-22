@@ -27,5 +27,5 @@ The book has great examples, and is presented in an interesting style with "cart
 
 The book is focused on more traditional critique settings: meetings where the designer reviews a design with critics with the goal of getting ideas for iterative improvement. The ideas apply more broadly.
 
-Part of the {{<link critiques>}} section of this site is for me to develop my own critique skills through practice. Hopefully, you will see me internalizing the lessons from Discussing Design.
+Part of the {{<link "/tags/critique">}} section of this site is for me to develop my own critique skills through practice. Hopefully, you will see me internalizing the lessons from Discussing Design.
 

@@ -2,6 +2,7 @@
 title = 'Data Abstraction: Describing Data So You Can Use It'
 date = 2026-07-17T18:00:00-05:00
 draft = true
+weight = 31
 tags = ["data-abstraction", "building-blocks"]
 +++
 
@@ -13,7 +14,7 @@ Before you can pick a visualization, you have to say what your data *is* - not "
 
 The goal is **learn once, apply often**. Every dataset is different in its details, but the *kinds* of data - and the properties that matter for visualization - are few and recurring. If you learn to see past the domain specifics ("median household income by county") to the abstract form ("a table, with a categorical key and a ratio value"), then everything you know about that form carries over to the next dataset that shares it.
 
-And the payoff is direct: **attributes connect directly to designs**. Whether a channel like position or color is a good fit depends on what the data can support, and that's a property of the data's abstract type, not its subject matter. This is the piece that makes the {{<link "/modules/encodings">}} page's advice - "match your channel to your data type" - actually stand up. You can't match to a data type until you can name the data type.
+And the payoff is direct: **attributes connect directly to designs**. Whether a channel like position or color is a good fit depends on what the data can support, and that's a property of the data's abstract type, not its subject matter. This is the piece that makes the {{<link "/tutorials/encodings">}} page's advice - "match your channel to your data type" - actually stand up. You can't match to a data type until you can name the data type.
 
 (There's an older reason too: the classic "chart type X for data type Y" rules. I'm wary of chart-type rules - they prevent the worst mistakes but don't help you think - but they, and modern automatic chart recommenders, both run on data abstraction under the hood.)
 

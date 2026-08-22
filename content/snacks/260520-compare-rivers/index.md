@@ -2,6 +2,7 @@
 title = 'My Favorite Visualization: Comparitive Map of Rivers and Mountains'
 date = 2026-05-20T06:43:41-05:00
 draft = true
+tags = ["critique"]
 resourcethumb = "0152008.jpg"
 +++
 

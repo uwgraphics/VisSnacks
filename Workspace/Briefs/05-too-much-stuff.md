@@ -2,7 +2,7 @@
 
 ## 1. The document (agent-filled)
 
-Tutorial plus two spin-off snacks. Working title: "Too Much Stuff: Visualizing More Than Fits." Placeholder `content/modules/too-much-stuff/`. Snack candidates: **"Where you put the bins changes the story"** (aliasing/bin-position, very self-contained) and **"Overdraw"** (what happens when marks pile up; transparency, ordering, density).
+Tutorial plus two spin-off snacks. Working title: "Too Much Stuff: Visualizing More Than Fits." Placeholder `content/tutorials/too-much-stuff/`. Snack candidates: **"Where you put the bins changes the story"** (aliasing/bin-position, very self-contained) and **"Overdraw"** (what happens when marks pile up; transparency, ordering, density).
 
 Two lectures of material — the tutorial carries challenges + strategies + "throwing information away wisely"; the snacks carry the deep dives.
 

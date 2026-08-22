@@ -45,7 +45,7 @@ of his time per brief.
 
 Two things learned the hard way and worth not re-deriving:
 
-- **An empty §5–8 does not block drafting.** `content/modules/data-abstraction/` was drafted
+- **An empty §5–8 does not block drafting.** `content/tutorials/data-abstraction/` was drafted
   from a brief with §5–8 completely blank. Filling those sections makes a page better; it isn't
   a gate. The real bottleneck is *review* of finished drafts.
 - **Record answers back into the brief.** When Mike settles a question, strike the question and

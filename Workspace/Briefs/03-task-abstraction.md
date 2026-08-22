@@ -2,7 +2,7 @@
 
 ## 1. The document (agent-filled)
 
-Tutorial. Working title: "Task Abstraction: Describing What We're Trying to Do." Placeholder location `content/modules/task-abstraction/`. This is the highest-leverage page in the set — "task first" is the site's most repeated theme and has no home page (the Tutorial 0 stub says only "Task/Objective/Goal - anything else is just in support of that").
+Tutorial. Working title: "Task Abstraction: Describing What We're Trying to Do." Placeholder location `content/tutorials/task-abstraction/`. This is the highest-leverage page in the set — "task first" is the site's most repeated theme and has no home page (the Tutorial 0 stub says only "Task/Objective/Goal - anything else is just in support of that").
 
 Related work item: finish {{< link "/papers/problem-space" >}} (assigned reading; current draft is NotebookLM notes). This page should link to it, not carry it.
 

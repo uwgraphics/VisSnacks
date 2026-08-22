@@ -3,7 +3,7 @@ title = 'Tutorial 4: Critique'
 date = 2024-08-31T06:18:16-05:00
 draft = false
 categories = []
-tags = ["critique"]
+tags = []
 toc = false
 weight = 4
 +++
@@ -12,7 +12,7 @@ weight = 4
 
 <!--more-->
 
-This tutorial will give you a quick guide on how to do critique with the goal of helping you get started at improving your critique practice, or at least to appreciate why the examples in {{<link "critiques">}} are the way they are. The simple "rules and formulas" here are good for beginners (including me) to get started. Maybe with practice, I won't need them - but I think that experienced designers have internalized the lessons.
+This tutorial will give you a quick guide on how to do critique with the goal of helping you get started at improving your critique practice, or at least to appreciate why the examples in {{<link "/tags/critique">}} are the way they are. The simple "rules and formulas" here are good for beginners (including me) to get started. Maybe with practice, I won't need them - but I think that experienced designers have internalized the lessons.
 
 > This tutorial is heavily influenced by Chapter 1 of *Discussing Design* (I describe the book at {{<link "discussing-design">}}). I used Claude to help me make sure this tutorial stands alone without it.
 
@@ -25,7 +25,7 @@ Designers and artists don’t own critique. Critique is for anyone who wants to 
 
 Critique also does something for a *group* that is easy to miss. The Discussing Design book (Chapter 1) lists team benefits: critique builds a shared vocabulary (groups that critique together end up talking about designs the same way), it finds consensus grounded in objectives (rather than in who argues loudest), and it directs iteration to where it is needed. In my class, the first one is part of a not-so-secret agenda: critiquing together is how we develop a shared vocabulary for talking about visualizations.
 
-What I've learned (see {{<anchorlink "Historical Note">}}) is that critique is a skill that you can get better at with practice. The {{<link critiques>}} are practice for me, as well a chance to look at some designs and learn from them. If you're trying to become better at Vis, I recommend trying to become better at critique.
+What I've learned (see {{<anchorlink "Historical Note">}}) is that critique is a skill that you can get better at with practice. The {{<link "/tags/critique">}} are practice for me, as well a chance to look at some designs and learn from them. If you're trying to become better at Vis, I recommend trying to become better at critique.
 
 ## Getting Started
 

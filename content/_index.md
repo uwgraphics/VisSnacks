@@ -22,7 +22,7 @@ What you'll find (the sections of the site)...
 
 + {{<link tutorials>}} - these are written "documents" that were originally created for my class, or that don't have the stylized form of the {{<link Snacks>}}. They tend to be longer. 
 
-+ {{<link critiques>}} - are examinations of specific visualizations. The idea of a critique is to examine something closely to learn from it (not just to criticize). 
++ {{<link "/tags/critique">}} - are examinations of specific visualizations. The idea of a critique is to examine something closely to learn from it (not just to criticize). 
 
 + {{<link papers>}} - are my summaries/discussions of papers (or other documents). The idea is that I read them, so you don't have to. In some cases, it's an opportunity for me to give you the short, informal version of something else I've written.
 

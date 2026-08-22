@@ -44,15 +44,25 @@ Cross-link generously to other pages with `{{< link >}}` — connecting ideas ac
 
 ## Section types
 
-All sections share the voice; they differ in form:
+All sections share the voice; they differ in form.
 
-- **Snacks** (`content/snacks/`) — the core stylized form: one idea, quick consumption, main message in the teaser, background after. Shortest.
-- **Tutorials** (`content/tutorials/`) — longer written "documents," often teaching a skill or concept in sequence. Numbered core-curriculum pages (`1-what-is-vis`, `4-critique`) carry `weight` for ordering.
-- **Critiques** (`content/critiques/`) — close examination of a specific visualization *to learn from it* (not just criticize). Use the stylized critique form from Tutorial 4: "If **objective** then **decision** could be informed by **principle**." Folders are date-prefixed: `YYMMDD-short-name/`.
-- **Papers** (`content/papers/`) — "I read it so you don't have to": informal summaries/discussions of papers, often Mike's own, with the story the paper couldn't tell. Include full citations with (web) and (doi) links.
+**Sections are deliberately few, because folders are expensive** (they set URLs, and outside pages link to them) **while front matter is free.** So *length and reader-intent* decide the section; everything else — is it a critique? is it about encodings? — is a tag. Restructured 2026-08-22; don't add a section without a strong reason.
+
+- **Snacks** (`content/snacks/`) — the core stylized form: one idea, quick consumption, main message in the teaser, background after. Shortest. This is the site's default home for a lesson, and it holds several *kinds* of lesson (see tags below).
+- **Tutorials** (`content/tutorials/`) — longer written "documents." Two groups in one collection: the **core sequence** (`1-what-is-vis` … `4-critique`, `weight` 1–4) which teaches *how to think* about visualization and is meant to be read in order; and an unordered **tail** (`weight` 30+) of deeper single-topic pages — the de-lectured class material — which teach *what to know* and build on the core. Tableau class-support pages sit between them (`weight` 10–20). Don't put sequence numbers in *titles* of tail pages; ordering lives in `weight`.
+- **Papers** (`content/papers/`) — "I read it so you don't have to": informal summaries/discussions of papers, often Mike's own, with the story the paper couldn't tell. Include full citations with (web) and (doi) links. Kept separate because it answers a different question ("what should I read") rather than "teach me something."
 - **Resources** (`content/resources/`) — descriptions of books and other helpful things, with honest assessments ("Is the book perfect? Not by a long shot.") and practical access notes.
 - **Rants** (`content/rants/`) — opinionated essays. Most opinion-forward; still constructive.
-- **Modules** (`content/modules/`) — lecture-replacement pages for the flipped CS765: one page per course module topic, drawing on the lecture *and* its readings. Unlike other pages, these **lean self-sufficient**: students are not expected to do the other readings, so the page carries the key content itself, with readings as "want more" pointers. Still snack-spirit: brief, key points first.
+
+**Kinds are tags, not sections.** A page can be several at once, which is exactly why they aren't folders:
+
+- `critique` — close examination of a specific visualization *to learn from it* (not just criticize). Lives in `content/snacks/`, folder date-prefixed `YYMMDD-short-name/`. Use the stylized critique form from Tutorial 4: "If **objective** then **decision** could be informed by **principle**." The tag's landing page is hand-authored at `content/tags/critique/_index.md`, and "Critiques" keeps its top-nav slot pointing there.
+- `with-data` — the data is provided so readers can re-design it themselves.
+- Topic tags (`encodings`, `data-abstraction`, `building-blocks`, …) are how a reader finds everything on a subject across sections.
+
+To hand-author a tag's landing page, add `content/tags/<tag>/_index.md` (see `critique` and `books` for the pattern). `{{<link "/tags/critique">}}` resolves — the `link` shortcode handles taxonomy term pages.
+
+**Lecture-replacement pages** (the tutorials tail, drawn from a CS765 lecture *and* its readings) differ from other pages in one way: they **lean self-sufficient**. Students aren't expected to do the other readings, so the page carries the key content itself, with readings as "want more" pointers. Still snack-spirit: brief, key points first.
 
 **Sidebars and sub-snacks.** When a page wants a multi-paragraph digression, three options in order of preference: (1) if the digression stands alone, make it its own short snack and replace it in the main page with one sentence of the key idea plus a link ("for more, see..."); (2) if it doesn't stand alone, put it in an `expand` box (a style cheat Mike uses a lot); (3) leave it inline only if it's short. Use the spin-off-snack move sparingly — links break flow — but remember the multi-paragraph digression breaks flow too.
 
@@ -78,7 +88,7 @@ weight = 5                          # numbered tutorials only
 - `rimage` — page-bundle image with click-to-zoom. Args: `src`, `caption`, `attr` (credit), `attrlink`, `width`. Images always get caption + attribution.
 - `quote` — attributed block quote: `{{< quote "Discussing Design, p. xi" >}}...{{< /quote >}}`
 - `expand` / `expand-boxed` — collapsible asides: `{{< expand "Yes, we did the statistics..." >}}...{{< /expand >}}`
-- `link` — internal cross-reference by page name or path: `{{< link "critiques" >}}`, `{{< link "/tutorials/4-critique" >}}`
+- `link` — internal cross-reference by page name or path: `{{< link "/tags/critique" >}}`, `{{< link "/tutorials/4-critique" >}}`
 - `anchorlink` — link to a heading on the same page.
 - `tooltip` — hover footnote: `{{< tooltip element="(I believe)" >}}...text...{{< /tooltip >}}`
 - `genai` — AI-disclosure box at the end of a page (see below).

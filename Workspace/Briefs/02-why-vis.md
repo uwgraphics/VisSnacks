@@ -6,7 +6,7 @@
 
 ## 1. The document (agent-filled)
 
-Tutorial-weight page, ~1,200–1,800 words. Working title: **"Why Visualize?"** Destination: `content/modules/why-vis/` (the placeholder folder, alongside the drafted `encodings/` and `data-abstraction/`).
+Tutorial-weight page, ~1,200–1,800 words. Working title: **"Why Visualize?"** Destination: `content/tutorials/why-vis/` (the tutorials tail, alongside the drafted `encodings/` and `data-abstraction/`).
 
 **Why this isn't redundant with Tutorial 1.** Tutorial 1 (6,700 words) answers *what* visualization is and *how* to do it. Its closing "Now What?" list, item 1, is verbatim:
 

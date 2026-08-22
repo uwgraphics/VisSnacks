@@ -40,9 +40,11 @@ enableInlineShortcodes = true
     url = "/papers/"
     name = "Papers"
     weight = 3
+# Critiques is a tag, not a section (the pages live in snacks/) — but it keeps
+# its top-nav slot, since nav prominence is independent of section membership.
 [[menu.main]]
     identifier = "critiques"
-    url = "/critiques/"
+    url = "/tags/critique/"
     name = "Critiques"
     weight = 3
 [[menu.main]]
@@ -68,8 +70,8 @@ customCss = ["css/tooltip.scss"]
 ImportantPages = ["/","1-what-is-vis","allpages"]
 ImportantPagesTitle = "Recommended Starting Points"
 thisweek = "this00.md"
-recentSections = ["snacks","tutorials", "critiques", "papers", "resources"]
-mainSections = ["snacks","tutorials", "critiques", "papers", "resources"]
+recentSections = ["snacks","tutorials", "papers", "resources"]
+mainSections = ["snacks","tutorials", "papers", "resources"]
 # this needs to be a SITE variable (for list.html)
 # this was depricated in Hugo 128
 # paginate = 15

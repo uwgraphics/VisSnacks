@@ -3,7 +3,7 @@ title = "A Robot Performance Graph Mistake"
 date = 2025-05-14T08:20:00-05:00
 draft = false
 resourcethumb = "results-wafr.png"
-tags = []
+tags = ["critique"]
 +++
 
 Don't make the wrong thing easy to see. Here's a real example from my own work where a seemingly innocent line graph was misleading, and needed some serious redesign.

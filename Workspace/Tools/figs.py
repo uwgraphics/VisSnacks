@@ -6,7 +6,7 @@ from pathlib import Path
 
 # Output bundles, resolved relative to the repo root (this file lives in Workspace/Tools/).
 ROOT=Path(__file__).resolve().parents[2]
-MOD=ROOT/"content/modules/encodings"
+MOD=ROOT/"content/tutorials/encodings"
 SNK=ROOT/"content/snacks/charts-are-encodings"
 for d in (MOD,SNK): d.mkdir(parents=True,exist_ok=True)
 plt.rcParams.update({"font.size":12,"axes.spines.top":False,"axes.spines.right":False,"figure.facecolor":"white","axes.facecolor":"white"})

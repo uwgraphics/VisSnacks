@@ -46,7 +46,7 @@ are not.
 
 ## Notes
 
-- **`figs.py` writes into tracked page bundles** (`content/modules/encodings/`,
+- **`figs.py` writes into tracked page bundles** (`content/tutorials/encodings/`,
   `content/snacks/charts-are-encodings/`) and will overwrite the committed PNGs. A
   different matplotlib version renders byte-different files, so expect image diffs after
   running it — check `git status` before committing. Paths resolve relative to the repo

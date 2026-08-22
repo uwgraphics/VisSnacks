@@ -25,6 +25,7 @@ Working material for the **re-papering** project lives in `Workspace/Re-Papering
 
 ## Site-specific notes
 
-- Internal links: use full logical paths in the `link` shortcode (`{{<link "/snacks/foo">}}`); bare names have failed to resolve for new/draft pages. Pages that cross-link must be published together (the shortcode errors on missing pages and breaks the build).
+- **Sections were restructured 2026-08-22 — `content/critiques/` and `content/modules/` no longer exist.** Critiques are now snacks tagged `critique` (with a hand-authored tag page at `content/tags/critique/_index.md`); the lecture-replacement pages are tutorials at `weight` 30+. Sections are few on purpose: folders set URLs that outside pages link to, so *length and reader-intent* pick the section and everything else is a tag. Details in STYLE-GUIDE.md, "Section types."
+- Internal links: use full logical paths in the `link` shortcode (`{{<link "/snacks/foo">}}`); bare names have failed to resolve for new/draft pages. Pages that cross-link must be published together (the shortcode errors on missing pages and breaks the build). Taxonomy term pages work too: `{{<link "/tags/critique">}}` (verified).
 - I can't run Hugo in the Cowork sandbox (no network for the binary); ask Mike to run `build.sh` / `hugo serve -D`, or run it directly when in Claude Code with local shell access.
 - pip in the sandbox needs `--break-system-packages`; python-pptx and matplotlib are the workhorses (see `Workspace/Tools/` — deck-mining and figure scripts, with a README). Locally, use the `p314` conda env. Note `tools/` at the repo root is a different thing: the site build/diff scripts.
