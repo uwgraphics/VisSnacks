@@ -26,14 +26,19 @@ where it belongs in the sequence. Several briefs can share a week (three come fr
 | `03-data-abstraction.md` | 3-W, first half |
 | `03-data-abstraction-draft-report.md` | — (verification list for the drafted page) |
 | `03-task-abstraction.md` | 3-W, second half |
+| `04-encodings-review.md` | 4-M + 4-2 (for the already-drafted pages) |
+| `04-encodings-practice.md` | 4-W slides 4–19 + 4-2 slides 3–68 |
+| `04-tableau-embodied.md` | 4-W slides 20–29 |
 | `05-implementation.md` | 5-M |
 | `05-too-much-stuff.md` | 5-W, 6-W |
 | `07-evaluation.md` | 7-M |
 
-No `04`: the encodings pages were the original pilot and predate the brief format — they were
-drafted from `_lecture_experiment/lecture-experiment.md` instead. Weeks 8–15 have no briefs
-yet; `_lecture_experiment/lecture-mining-plan.md` has the slide-level inventory they'd be
-built from.
+The encodings pages were the original pilot and predate the brief format (they were drafted
+from `_lecture_experiment/lecture-experiment.md`), so `04-encodings-review.md` is a
+*retrospective* brief: §1–4 record what the drafts exist as and what the decks contain that
+they missed, and §5–8 collect the review questions that were never asked. Weeks 8–15 have no
+briefs yet; `_lecture_experiment/lecture-mining-plan.md` has the slide-level inventory they'd
+be built from.
 
 ## How a brief works
 

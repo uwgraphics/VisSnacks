@@ -35,7 +35,7 @@ Building Blocks pages
 
 ## Finish what's started
 
-- [ ] Encodings tutorial — review draft; pending edits: real terms for "Pareto mapping" + genai credit line; publish together with charts-are-encodings (cross-linked) (DRAFT, PLAN) — `content/tutorials/encodings/index.md`
+- [ ] Encodings tutorial — review draft. **All open edits are now consolidated in `Workspace/Briefs/04-encodings-review.md`** (a retro-brief; these pages predate the brief format). Two findings from a deck nobody had extracted (4-2, "Encodings Practice", 9/28): your own slide defines **Pareto mapping** and flags it "(mike's term ?)" with three benefits better than the snack's wording — that pending edit is answered; and Cairo *TT* ch.5 vs Munzner ch.5 **contradict each other on hue's rank**, both required in Module 2, which the "Which Channel Is Best?" section should own. Still needs: genai credit line, parallel-coords "best of a bad lot" rewording, image provenance check; publish together with charts-are-encodings (cross-linked) (DRAFT, PLAN, BRIEF) — `content/tutorials/encodings/index.md`
 - [ ] Charts Are Just Encodings in Disguise — review draft; decide merge-vs-differentiate with the old "Chart Typologies" idea. **New evidence** (`Workspace/Briefs/02-vis-basics.md`): the real argument is in lecture 2-M slides 5–38 (the LLM chart-naming experiment + the unemployment walkthrough), not 4-M — a tutorial's worth, which would swamp this 682-word snack. The compressed version here is the thin one and should probably become a pointer (DRAFT) — `content/snacks/charts-are-encodings/index.md`
 - [ ] Data Abstraction tutorial — review draft; verify NOIR cheat-sheet table; decide if NOIR splits into its own snack; wants figures (DRAFT, BRIEF, report in Workspace/Briefs/) — `content/tutorials/data-abstraction/index.md`
 - [ ] Pie Chart Experiment — long-standing draft snack; the perception/evaluation pages will want to link it (DRAFT) — `content/snacks/pie-chart-experiment/index.md`
@@ -61,6 +61,8 @@ Building Blocks pages
 - [ ] Evaluation — nested model + "Convince [ ] that your [ ] is [ ]" (PLAN, BRIEF; Munzner ch. 4 + North + Cairo TT2 SUMM)
 - [ ] Implementation: choosing tools — timeless space-of-tools, expressiveness vs. ease (PLAN, BRIEF)
 - [ ] Learning from Tufte (carefully) / How to Read Tufte — snack; needs tone calibration (PLAN, BRIEF; Tufte VDQI ch. 1 + Cairo FA3 SUMM)
+- [ ] Encodings Practice: taking designs apart and putting them together — 4-W slides 4–19 + 4-2 slides 3–68. The compose half (2 numbers → scatterplot → parallel coords → +categorical → 3D) and the decompose half (Playfair, Minard, then Cairo's authors problem with "You can do better!"). Slide 60's "Lessons" is the thesis. **Answers `MODULE-DOCS-PLAN` item 6**: the 2-numbers exercise is a tutorial's worth, not a snack, so the encodings page's "Try It" box becomes a pointer. Watch: Dominik Moritz attribution on the decompositions (BRIEF: 04-encodings-practice)
+- [ ] Tableau is the theory, embodied — 4-W slides 20–29; promote off "someday"? It's the *only* genuinely new + small week-4 doc. Not about Tableau: it's the argument that the encodings framework is real enough that a commercial product runs on it ("blue = dimension, green = measure"; "get your data into the right form so the visualization it makes is the one you want"). Keep it UI-free so it doesn't rot (BRIEF: 04-tableau-embodied)
 
 ## Lecture-derived tutorials, weeks 8–15 (MINE has slide refs; briefs not yet made)
 

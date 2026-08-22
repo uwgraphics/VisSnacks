@@ -12,11 +12,13 @@ Prepared 2026-07-17 by Claude for the VisSnacks re-papering project. Each sectio
 
 ---
 
-**This file is now an index — the summaries moved to per-source files:**
+**This file is now an index — the summaries moved to per-source files. See `checklist.md` for current per-document status; this list is just where to find each one:**
 
-- `summaries-munzner.md` — Munzner chapters 1–14, complete (ch. 4, 6, 8–14 include "Figures worth borrowing" candidates)
-- `summaries-cairo.md` — Cairo chapters, complete (FA pref+1 through 6; TT 0, 1, 2, 5; the 07-18 additions include figure candidates)
-- `summaries-papers.md` — papers & posts (C&M ×2, Shneiderman, Amar, Problem Space, Mackinlay, Bertini done; North, Leek & Peng, Shmueli, Zgraggen pending)
-- `summaries-books-other.md` — Tufte VDQI ch. 1, Wexler primer (more Tufte/Ware pending)
+- `summaries-munzner.md` — Munzner, *Visualization Analysis and Design*, all 14 chapters (ch. 4, 6, 8–14 include "Figures worth borrowing" candidates)
+- `summaries-cairo.md` — Cairo, *The Functional Art* + *The Truthful Art*, all assigned chapters (several include figure candidates)
+- `summaries-tufte.md` — Tufte, all chapters covered so far: VDQI ch. 1–2, EI ch. 3 & 5, VE ch. 2, Beautiful Evidence ch. 5–6, plus the standalone "Cognitive Style of PowerPoint" essay
+- `summaries-ware.md` — Ware, *Visual Thinking for Information Design*, all 10 chapters (complete book coverage; ch. 11 is just the index)
+- `summaries-papers.md` — papers & posts: Cleveland & McGill ×2, Shneiderman, Amar, Problem Space, Mackinlay, Bertini, North, Rind et al. (Task Cube), Card/Mackinlay/Shneiderman, Shmueli, Leek & Peng, Zgraggen et al. — all done
+- `summaries-books-other.md` — Wexler primer (the only entry left here; Tufte moved out to its own file)
 
-See `status.md` for the batch plan and process rules.
+See `status.md` for process rules and history; see `checklist.md` for the live per-document tracker.

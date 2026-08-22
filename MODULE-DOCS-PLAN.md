@@ -27,9 +27,9 @@ Ordered by the course arc. ★ = drafting priority.
 
 3. ★ **Tutorial: Data Abstraction** — types of data (tables/fields/networks), attributes, NOIR, conversions. The course module page already promises a "data abstraction cheat sheet." NOIR may be the spin-off snack.
 4. ★ **Tutorial: Task Abstraction** — why task matters, the space of task descriptions, action×target, low-level tasks; "use formalisms when they are useful, don't get stuck on their details." Hardest without Mike; highest leverage. Related: finish **papers/problem-space** (assigned reading, currently a notes draft).
-5. **Tutorial: Encodings** — DRAFTED (`content/tutorials/encodings/`), plus drafted snack charts-are-encodings. Pending merge/differentiate decision vs. queue.md's "Chart Typologies" idea.
-6. **Snack: Composing designs (the 2-numbers exercise)** — currently folded into the encodings page as "Try It"; split only if that page needs shortening. Decide after review.
-7. **(No doc)** Tableau lecture — walkthrough tutorials exist; they're class-support, not VisSnacks-timeless. Possible someday-snack: "Tableau is the theory, embodied."
+5. **Tutorial: Encodings** — DRAFTED (`content/tutorials/encodings/`), plus drafted snack charts-are-encodings. Pending merge/differentiate decision vs. queue.md's "Chart Typologies" idea. Retro-brief now exists (`Workspace/Briefs/04-encodings-review.md`) consolidating every open review edit — these were the pilot pages and never got a brief.
+6. ~~**Snack: Composing designs (the 2-numbers exercise)** — split only if the encodings page needs shortening.~~ **REFRAMED 2026-08-22** after extracting 4-W and 4-2: this isn't a Try-It box's worth of material, it's a two-lecture progression (2 numbers → scatterplot → parallel coordinates → +categorical → 3D), and it's only *half* a document — the other half decomposes Playfair, Minard, and a Cairo design problem. Proposed as a tutorial, not a snack: `Workspace/Briefs/04-encodings-practice.md`. If it exists, the encodings page's "Try It" box becomes a pointer.
+7. **(No doc for the walkthrough)** Tableau lecture — the how-to is class-support, not VisSnacks-timeless, and two walkthrough tutorials already cover it. But the *someday-snack* now has a brief (`Workspace/Briefs/04-tableau-embodied.md`): "Tableau is the theory, embodied" isn't about Tableau, it's the argument that the encodings framework is real enough that a commercial product runs on it. Keep it UI-free and it doesn't rot. Smallest genuinely-new week-4 document.
 
 ### Module 3: Implementation and Scale
 
