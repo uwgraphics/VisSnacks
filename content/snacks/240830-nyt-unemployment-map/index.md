@@ -7,9 +7,9 @@ resourcethumb = "jobs-counties-country.png"
 tags = ["critique", "with-data"]
 +++
 
-Core lesson: think about what a visualization makes easy to see. Different representations make some things easier, and harder. And some issues with dealing with geographic data in the US. 
+Core lesson: think about what a visualization makes easy to see. Different representations make some things easier, and harder. And be careful when with dealing with geographic data in the US: populations and counties are spread unevenly.
 
-<!-- more -->
+<!--more-->
 
 This comes from a New York Times story from August, 2024 [The Geography of Unequal Recovery](https://www.nytimes.com/interactive/2024/08/27/business/economy/jobs-election-county.html). Curiously, this page doesn't show up well in my web browser, the images are from the mobile app (on an iPad).
 
