@@ -2,7 +2,7 @@
 
 One line per reading. `- [ ]` nothing done · `- [/]` summary generated · `- [!]` page drafted (draft:true) · `- [x]` page published.
 
-**Keep this up to date as we process documents** — flip the checkbox the moment a summary lands in `summaries-*.md` or a page's `draft` flag changes. This file is the source of truth for status; `status.md` holds the process rules and history instead of duplicating this list.
+**Keep this up to date as we process documents** — flip the checkbox the moment a summary lands in `PapersSummary/` or `BookSummaries/`, or a page's `draft` flag changes. This file is the source of truth for status; `status.md` holds the process rules and history instead of duplicating this list.
 
 ## Munzner, *Visualization Analysis and Design*
 

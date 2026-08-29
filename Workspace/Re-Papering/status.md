@@ -15,7 +15,7 @@ Updated 2026-08-22. This file lets a future session resume without rediscovery.
 
 ## Summary needed
 
-Nothing currently queued. The statistics pair (Shmueli; Leek & Peng; Zgraggen et al.) was summarized 2026-08-22 from local PDFs Mike placed in `_lecture_experiment/26Readings/`. The remaining Tufte chapters (VDQI ch. 2, EI ch. 3 & 5, VE ch. 2, Beautiful Evidence ch. 5 & 6, the PowerPoint essay) and all 10 chapters of Ware's *Visual Thinking for Information Design* were also summarized that same day — see `summaries-tufte.md` and `summaries-ware.md`.
+Nothing currently queued. The statistics pair (Shmueli; Leek & Peng; Zgraggen et al.) was summarized 2026-08-22 from local PDFs Mike placed in `_lecture_experiment/26Readings/`. The remaining Tufte chapters (VDQI ch. 2, EI ch. 3 & 5, VE ch. 2, Beautiful Evidence ch. 5 & 6, the PowerPoint essay) and all 10 chapters of Ware's *Visual Thinking for Information Design* were also summarized that same day — see `BookSummaries/tufte-*.md` and `BookSummaries/ware-*.md`.
 
 **Possible future batch (not requested yet, lower priority — used in Modules 5+):**
 
@@ -28,7 +28,7 @@ Lessons from a burned allocation (a Module-4 agent spent 22 tool calls in a retr
 1. **Use a cheaper model for summarizing.** Launch summary agents with `model: sonnet` — faithful summarization to the fixed format doesn't need the strong model. Reserve the strong model for voice-drafting and judgment work.
 2. **Hard fetch-failure policy in every agent prompt:** try each URL at most twice; if it fails, SKIP the document and say so in the report. No mirror-hunting, no Wayback, no extractor services unless an alternate URL was explicitly provided.
 3. **Eliminate web flakiness up front:** best of all, Mike drops the web-paper PDFs into a local folder first (this is how the Shmueli/Leek & Peng/Zgraggen statistics pair got done — placed in `_lecture_experiment/26Readings/`) so agents only read local files.
-4. **Agents save as they go:** each agent appends every finished summary to a scratch file before starting the next document, so a cutoff loses at most one document, not the batch.
+4. **One file per document, written directly — no scratch file.** Each summary is its own file: a paper/post goes in `PapersSummary/`, a book chapter in `BookSummaries/` (or `BookSummaries/other/` for a book we only have one chapter of) — see each directory's `README.md` for the naming convention (`author-year.md` / `author-book-chNN.md`) and pick the next name by pattern-matching the existing files. Write the finished summary straight to its real file the moment it's done, before starting the next document, so a cutoff loses at most one document, not the batch. Then flip its row in `checklist.md` from `[ ]` to `[/]`.
 5. **Run a summarizing batch from a fresh session** that reads only this file — an old session's context is enormous, and every tool call reprocesses all of it.
 
 ## File layout (for orientation)
@@ -36,8 +36,9 @@ Lessons from a burned allocation (a Module-4 agent spent 22 tool calls in a retr
 Re-papering lives in `Workspace/Re-Papering/` (this directory) and **is git-tracked**.
 
 - `checklist.md` — the per-document status tracker; check here first for what's done and what isn't.
-- `ai-summaries.md` — index only, points to the per-source files below.
-- `summaries-munzner.md`, `summaries-cairo.md`, `summaries-tufte.md`, `summaries-ware.md`, `summaries-papers.md`, `summaries-books-other.md` — the actual summaries, one `##` heading per reading.
+- `ai-summaries.md` — index only, points into the two directories below.
+- `PapersSummary/` — one file per paper/post (`author-year.md`); see `PapersSummary/README.md`.
+- `BookSummaries/` — one file per chapter (`author-book-chNN.md`), plus a `BookSummaries/other/` for books we only have a single chapter for; see `BookSummaries/README.md`. (Restructured 2026-08-28 from six monolithic `summaries-*.md` files, one `##` heading per reading, into one file per document — the papers file alone had grown to 451 lines / 15 readings.)
 - `queue.md` (repo root) — the page backlog; its "Re-paperings" section should track `checklist.md` (it currently still lists everything as unchecked, including readings that already have summaries ready).
 - `content/papers/`, `content/rants/repapering/` — where the finished re-papering posts go.
 

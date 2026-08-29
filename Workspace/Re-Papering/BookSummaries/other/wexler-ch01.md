@@ -1,10 +1,4 @@
-# AI Reading Summaries: Other Books (Wexler, ...)
-
-Provenance and format: see `ai-summaries.md` (the index). Summaries were produced by agents reading the actual documents; nothing from memory.
-
-Note: the Tufte chapter that used to be here ("Graphical Excellence," VDQI ch. 1) moved to `summaries-tufte.md` on 2026-08-22, once Tufte coverage grew past a single chapter — see that file for all Tufte summaries.
-
-## Wexler, Shaffer & Cotgreave, "Data Visualization: A Primer" (*The Big Book of Dashboards*, ch. 1)
+# Wexler, Shaffer & Cotgreave, "Data Visualization: A Primer" (*The Big Book of Dashboards*, ch. 1)
 
 **What it is:** The opening chapter of a practitioner's book of real-world dashboards: a fast, example-driven crash course in vis fundamentals — why visualize, preattentive attributes, data types, encodings, color, common chart types, and perceptual pitfalls — written so a business reader can understand the design choices in the rest of the book.
 

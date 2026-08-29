@@ -1,0 +1,28 @@
+# Gleicher, Riveiro, von Landesberger, Deussen, Chang & Gillmann, "A Problem Space for Designing Visualizations" (IEEE CG&A, 2023)
+
+*(Note: this is Mike's own paper — summarized straight; his personal take goes on the re-papering page separately. A papers/problem-space draft page already exists on the site.)*
+
+**What it is:** A viewpoint article proposing a **problem space** for visualization design: six axes — the journalistic **5 Ws and How** — for describing the *problem* a visualization must solve, deliberately kept independent of any solution.
+
+**AI summary:** The core tenet, borrowed from design and product-development literature, is the **separation of problem from solution**: articulating needs independently of how they'll be met focuses work on the right problems, frees the search for solutions from preconceptions, and enables communication and checking. The authors even note that presuming the answer will be "a visualization" already conflates problem and solution — "it might be better to call this a problem space of data analysis and communication problems." The framework adapts Schulz et al.'s "Design Space of Visualization Tasks" (which also used the 5Ws+H) but shifts the focus from formalizing *task* to broadly characterizing *the problem*.
+
+The six axes: **Who** has the problem (audience characteristics — expertise, motivation, spatial ability, accessibility — plus other stakeholders like developers and maintainers); **Why** do they need it (the goal — the axis that "most closely aligns with the common notion of task"); **What** is the data (form, but also semantics, scale, time-dependence); **When** in the analysis process (exploration vs. communication vs. justification suggest different designs); **Where** is the context (physical place, display, social setting, time pressure, stakes); and **How** do they expect to be helped — carefully defined as the users' *pre-conceived expectations* of a solution (design constraints or biases to acknowledge), not the solution itself. A useful practical trick appears under Why: asking "Why?" of an over-specific task description moves you up the abstraction ladder; asking "How?" moves you down — but risks smuggling the solution back in.
+
+The framework is grounded in three worked use cases — **keyhole surgery planning** (the running example), **hospital infection-pathway tracing**, and **investigative-journalism document exploration** — each walked through axis by axis. A self-assessment section evaluates the space against Kerracher and Kennedy's criteria (relevant, independent, thorough, complete, orthogonal, precise), with honest concessions: the axes are "ultimately inter-twined or at least correlated," and precision was not a goal. A sidebar surveys the task-abstraction literature (Wehrend & Lewis through Brehmer & Munzner and Schulz et al.), positioning task as "one of many aspects that must be considered." The intended uses: a **checklist** for design, evaluation, and documentation, and a **vocabulary** for articulating problems consistently.
+
+**What a student/VisSnacks reader should get out of it:**
+- The six questions — Who, Why, What, When, Where, How — as a checklist you can actually run before designing anything.
+- The module's headline point: **task (the Why) is just one axis of six**. Task abstraction, the subject of the other readings, characterizes the goal but not the audience, context, process phase, data realities, or user expectations.
+- The discipline of separating problem from solution — and the specific trap that "How" names: users and designers arrive with preconceptions that should be surfaced as constraints or biases, not silently baked in.
+- The "Why?/How?" laddering trick for finding the right level of task abstraction.
+- Uncertainty *about* the problem specification (unknown users, unknown display) is itself design-relevant information, distinct from uncertainty *in* the data.
+
+**Skim/skip guidance:** Read carefully: the introduction, Table 1, and the six axis sections (short, with the surgery example threaded through). The sidebar on task abstractions is an efficient map of this whole module's literature — worth careful reading as orientation. Skim the two additional use cases (they repeat the pattern) and the "Is the Problem Space Useful or Good?" self-evaluation, though note its candor about non-orthogonality.
+
+**Memorable specifics:**
+- Table 1, the six axes: **WHO** (who has the problem / will use it), **WHY** (objective), **WHAT** (data), **WHEN** (phase of analysis), **WHERE** (context), **HOW** (how they *expect* to be helped).
+- The one-sentence version: "a visualization is intended to help someone (the who) do something (the why) with the data (the what) in some phase of the analysis process (the when) and in some context (the where) using some method (the how)."
+- The Aristotle hook: the 5Ws trace back at least to Aristotle's rhetoric, who "argued that ignorance of any of these elements can lead to faulty reasoning."
+- The three use-case figures: surgery-planning multi-view tool (Fig. 1), infection-tracing dashboard (Fig. 2), journalism document-exploration dashboard (Fig. 3).
+
+**Caveats:** It's a viewpoint/position piece, not an empirical result — the framework is justified by the authors' design experience and post-hoc application to already-completed projects, which they acknowledge. The mapping onto the 5Ws is admitted to be "a little contrived," and the axes aren't truly orthogonal or precise (also admitted). It offers a checklist, not a method: it tells you what to consider, not how to get answers or convert them into a design. Readers sometimes expect a taxonomy with categories to fill in; deliberately, there isn't one.

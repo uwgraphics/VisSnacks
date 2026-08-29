@@ -1,0 +1,27 @@
+# Amar, Eagan & Stasko, "Low-Level Components of Analytic Activity in Information Visualization" (IEEE InfoVis, 2005)
+
+**What it is:** An empirically grounded taxonomy of **ten low-level analytic tasks** — the specific questions people actually ask of data — derived by affinity-diagramming ~200 analysis questions that students posed about five datasets.
+
+**AI summary:** The authors argue that existing task taxonomies (Wehrend & Lewis, Roth & Mattis, Zhou & Feiner, Shneiderman, Card, Chi) were built to serve *system design and presentation generation* rather than to describe user analysis. They frame this as **"representational primacy"** — a data-centric view that relies on user skill to generate insight — versus the **"analytic primacy"** they advocate: mapping visualization systems more closely to users' analytic goals. Motivating evidence includes studies where visualization tools produced insights domain experts didn't value, and commercial tools scoring only 68–75% accuracy on simple tasks.
+
+Their method is the memorable part: students in a Spring 2004 infovis course generated **196 valid analysis questions** about five datasets (cereals, mutual funds, cars, films, grocery surveys) that they then had to answer with commercial tools (Spotfire, Table Lens, InfoZoom, SeeIT). Affinity diagramming of the questions yielded **ten task primitives**, each given a **pro forma abstract** — a fill-in-the-blank template like "What are the values of attributes {X, Y, Z} in the data cases {A, B, C}?" — plus concrete example questions ("What is the mileage per gallon of the Audi TT?").
+
+The discussion section is where the thinking deepens. Real questions are often **compound tasks** — compositions of primitives (e.g., "Who starred in the most films in 1978?" = Retrieve Value + Compute Derived Value + Find Extremum). Some things are deliberately *excluded*: basic mathematical **comparison** is treated as a meta-operation below the taxonomy's level; **higher-level questions** ("How do mutual funds get rated?") sit above it; and questions with **uncertain criteria** ("Do cereals X, Y, Z sound tasty?") involve value judgments beyond the primitives. The authors explicitly position the set not as a "normative picture" but as **"a vocabulary for discussion"** and an informal checklist for evaluating what a system's representations and interactions actually support. They also candidly note methodological limits: students saw the tools before writing questions, and the glut of correlation questions may reflect Spotfire's scatterplots.
+
+**What a student/VisSnacks reader should get out of it:**
+- The ten tasks by name — this is the vocabulary that stuck, still used to organize perception studies and system evaluations today.
+- The level distinction: these are *low-level analytic questions*, sitting between high-level knowledge goals ("understand trends in movie popularity") above and perceptual/mathematical operations (comparison) below. Knowing which level you're talking about is most of the skill of task abstraction.
+- The idea of **composing primitives**: real tasks are compounds, and decomposing a fuzzy user question into primitives is exactly the abstraction exercise the course wants you to practice.
+- "Representational primacy" vs. "analytic primacy" — a compact way to say: start from what the user needs to find out, not from what the picture can show.
+- The taxonomy as *checklist and vocabulary*, not a completeness proof — the authors say so themselves.
+
+**Skim/skip guidance:** Read carefully: Sections 1, 3, 4 (the ten tasks with their pro forma abstracts — read all ten, they're short), and Section 5 (compound tasks and omissions — this is where the intellectual content is). Skim Section 2 (related-work tour of older taxonomies) and Section 6.1 (detailed comparison with Wehrend & Lewis). The methodological-concerns subsection (6.3) is worth a quick read as a model of honest self-critique.
+
+**Memorable specifics:**
+- The ten tasks: **Retrieve Value, Filter, Compute Derived Value, Find Extremum, Sort, Determine Range, Characterize Distribution, Find Anomalies, Cluster, Correlate**.
+- The corpus: 196 questions, five datasets — **cereals, mutual funds, cars, films, grocery surveys**.
+- Pro forma abstract format, e.g. Correlate: "What is the correlation between attributes X and Y over a given set S of data cases?"
+- The Filter subtlety: "Which cereals have *high* fiber?" is Filter (needs an operating definition, independent of other cases); "Which cereal has the *highest* fiber?" is Find Extremum (relative to the whole set).
+- Terms of art: **data case**, **attribute**, **aggregation function**; the framing pair **representational primacy / analytic primacy**.
+
+**Caveats:** The corpus is students-in-a-course, not professional analysts — the authors themselves speculate that experts doing exploratory hypothesis formation might yield different tasks, and that the tools shown in class biased the questions (lots of correlation because Spotfire has scatterplots). The set is explicitly not complete: comparison, higher-level exploration, and value-laden judgments are outside it, which is commonly forgotten when the ten tasks are treated as *the* task taxonomy. It also says nothing about interaction (no "zoom") by design — pairing it with Shneiderman is what gives coverage. And it's a vocabulary, not a design procedure: naming the task doesn't yet tell you the encoding.
