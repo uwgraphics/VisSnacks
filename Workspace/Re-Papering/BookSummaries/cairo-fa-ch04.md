@@ -1,5 +1,7 @@
 # Cairo, "The Complexity Challenge: Presentation and Exploration" (*The Functional Art*, ch. 4)
 
+- useful for the arguments about the utility of style (but not a replacement for other qualities)
+
 **What it is:** A short chapter that names the two jobs any graphic does — **present** and **explore** — and argues for pushing complexity/depth up to (but not past) what the space and audience allow, rather than defaulting to "simplification."
 
 **AI summary:** Cairo opens with the chapter's organizing claim: "a good graphic realizes two basic goals: It **presents** information, and it allows users to **explore** that information... a tool for the designer to communicate with readers, and a tool for readers to analyze what's being presented to them." He illustrates the failure mode first: his own fabricated "Games&Toys" line chart (Figure 4.1), dense with 3D bubbles and drop shadows but only one data series, which "presents information, but barely allows exploration" because **it wastes too much real estate (and the designer's time) on things that don't help readers understand the figures**. He contrasts this with three spartan scatterplots built from Wilkinson and Pickett's *The Spirit Level* data (Figure 4.2) correlating inequality with life expectancy, prison inmates, and teenage pregnancy — abstract, dense, but purpose-built to "allow readers to visualize relationships." The lesson: Figure 4.1 "is not a so-so graphic because of its style" — style isn't the problem, wasted space that doesn't aid understanding is.
