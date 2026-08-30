@@ -1,5 +1,9 @@
 # Cairo, "The Beauty Paradox: Art and Communication" (*The Functional Art*, ch. 3)
 
+- Complex example
+- Vis Wheel: gives us choices
+- Tufte vs. Holmes
+
 **What it is:** Cairo's chapter on the tension between complexity/depth and accessibility/appeal, culminating in an even-handed account of the Tufte–Holmes "chartjunk" war. Required reading, and the course's designated counterweight to Tufte.
 
 **AI summary:** The chapter opens with a newsroom war story: Cairo's dense, two-page Brazilian prison-population "Diagram" for *Época* (slopegraphs, paired bar comparisons of inmates vs. jail spaces per state) gets savaged in the Monday critique meeting as "horrible," too complex, "ugly," too dense — even though it later won a Malofiej award. Asking what "ugly" *meant* leads him to the **visualization wheel** (or *tension wheel*): six paired axes — **abstraction–figuration, functionality–decoration, density–lightness, multidimensionality–unidimensionality, originality–familiarity, novelty–redundancy** — where the upper hemisphere makes graphics "more complex and deeper" and the lower "more intelligible and shallower." He is explicit that it's a subjective planning aid, "a visualization for planning visualizations," not a measurement instrument. The governing rule: **"The complexity of a graphic should be adapted to the nature of your average reader"** — and his encode/decode diagram (Figure 3.9, "Designers encode, users decode") makes audience knowledge a design input. His polemical edge: **"too many communicators dumb down the data"** under the "our readers are idiots" mindset; the E.B. White epigraph ("No one can write decently who is distrustful of the reader's intelligence") is the antidote. Scientists/engineers gravitate to the upper wheel; artists, designers, and journalists to the lower (Figure 3.11).

@@ -77,6 +77,7 @@ One line per reading. `- [ ]` nothing done · `- [/]` summary generated · `- [!
 - [/] Shmueli — To Explain or to Predict? (2010)
 - [/] Leek & Peng — What is the Question? (2015)
 - [/] Zgraggen, Zhao, Zeleznik & Kraska — Investigating the Effect of the Multiple Comparisons Problem in Visual Analysis (2018)
+- [/] Franconeri, Padilla, Shah, Zacks & Hullman — The Science of Visual Data Communication: What Works (2021)
 
 ## Already-published re-papered snacks (no AI summary on file for these)
 

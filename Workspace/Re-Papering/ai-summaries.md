@@ -14,7 +14,7 @@ Prepared 2026-07-17 by Claude for the VisSnacks re-papering project. Each sectio
 
 **This file is now an index — the summaries moved to per-document files, one document per file, in two directories. See `checklist.md` for current per-document status; this list is just where to find each one:**
 
-- `PapersSummary/` — one file per paper/post, named `author-year.md`: Cleveland & McGill ×2, Shneiderman, Amar, Problem Space, Mackinlay, Bertini, North, Rind et al. (Task Cube), Card/Mackinlay/Shneiderman, Shmueli, Leek & Peng, Zgraggen et al. — all done. See `PapersSummary/README.md`.
+- `PapersSummary/` — one file per paper/post, named `author-year.md`: Cleveland & McGill ×2, Shneiderman, Amar, Problem Space, Mackinlay, Bertini, North, Rind et al. (Task Cube), Card/Mackinlay/Shneiderman, Shmueli, Leek & Peng, Zgraggen et al., Franconeri et al. (Science of Visual Data Communication) — all done. See `PapersSummary/README.md`.
 - `BookSummaries/` — one file per chapter, named `author-book-chNN.md`:
   - `munzner-*` — *Visualization Analysis and Design*, all 14 chapters (ch. 4, 6, 8–14 include "Figures worth borrowing" candidates)
   - `cairo-*` — *The Functional Art* + *The Truthful Art*, all assigned chapters (several include figure candidates)

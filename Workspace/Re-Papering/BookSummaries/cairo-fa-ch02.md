@@ -1,5 +1,8 @@
 # Cairo, "Forms and Functions: Visualization as a Technology" (*The Functional Art*, ch. 2)
 
+Core because it conveys the idea of purposeful design: data, task, viewer all matter
+
+
 **What it is:** The book's central design-principle chapter: what "form follows function" actually means for graphics, argued through a critique-and-redesign of a real newspaper infographic. Required reading.
 
 **AI summary:** The chapter's thesis is stated on page one: **"The function constrains the form."** Because an information graphic is designed to help readers complete intellectual tasks, choosing visual forms "should not be based on aesthetics and personal tastes alone." Cairo demonstrates with *Folha de São Paulo*'s "The Defense of the Neighbors" graphic (South American armed forces, arranged as soldier pictograms scattered around a map). He proposes an exercise for any graphic you encounter — **"What does the designer want me to do with this graphic?"** — and lists four candidate tasks: **present**, **compare**, **organize** (rank), and show **correlations**. The original accomplishes only the first: the pictogram columns don't share a baseline, so comparison fails; the map hogs space to tell readers what they already know. His redesigns walk through aligned pictograms, then plain bar charts, then — the key analytical move — **derived variables** (soldiers per 1,000 people, spending per capita) that flip the rankings and reveal Brazil is near the *bottom* in relative militarization, and finally a scatterplot for correlation. Moral: **"In most cases, there is not just one way of encoding a particular set of data properly"** — but you must first ask what questions readers will bring.
