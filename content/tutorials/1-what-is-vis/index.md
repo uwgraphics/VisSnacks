@@ -12,7 +12,7 @@ This tutorial gives you a sense of **my** thoughts on Visualization. I define vi
 This is the way that **I** like to think about visualization, and use to organize how I like to teach visualization. For an explicit statement of the philosophy (and a summary) and a history of this tutorial see {{<link "tutorials/0-preface">}}. This is a 2026 re-write, you can see the older (pre-2026) version at {{<link "obsolete/old-t1-what-is-vis">}}.
 
 {{<expand "Learning Goals (if you're using this in a class)">}}
-Update this after the draft is complete.
+**TODO: Update this after the draft is complete.**
 {{</expand>}}
 
 ## What is Visualization?
@@ -38,46 +38,39 @@ Implementations can take many forms. I'm not going to suggest you make snow scul
 
 > A side effect: I do not view implementation as central. It is not emphasized in my class, or these tutorials.
 
-### Is it any good?
+### Purposes
 
-**TODO: merge the is it good sections, bring in examples - use the example?**
+The important part of the definition is that it helps someone do something. What makes a picture a visualization is a sense of purpose: it is intended to be used for something.
 
+> Aside: For now, I am using the concepts of "purpose" (what the visualization is meant to "do") and "task" (a thing the viewer might want to achieve) loosely and somewhat interchangeably. 
 
-The important part of the definition is that it helps someone do something. What makes a picture a visualization is a sense of purpose: it's going to be used for something.
+There is a very broad range of purposes. It could be anything from compare values to catch the viewers intention or convey an emotion. 
 
 Central to my definition of visualization is that it focuses on this sense of purpose - the picture is meant to do something, so we should think about what it is trying to do to make sure it really can help someone do the thing it's meant to do.
 
-> Aside: **TODO: range of goals, tasks vs. purposes, aesthetics**
+### Effectiveness: Good Visualizations
 
 The definition doesn't necessary say that the visualization *succeeds* at helping someone do something. We can certainly have bad visualizations that don't help. *Effective visualizations* (good visualizations) are pictures that really do help their intended audience achieve the purpose.
 
-**Key point:** Effectiveness is relative to the purpose. **TODO**
+**Key point:** Effectiveness is relative to the purpose.
 
 Making visualizations isn't hard. Making *good* visualizations is hard.
 
-> Aside: In Munzner's book, she defines visualization as being "designed to be effective." In my mind, she is defining *good* visualizations - bad visualizations might not be effective, or might not be designed.
-
-My goal (in this page/site/class) is to teach you how to design/create *good* visualizations. With the emphasis on the "good" part - making bad visualizations doesn't have to be hard, and is probably not worth the effort.
-
-### What are good visualizations?
-
-To make a good visualization, we need to decide what a good visualization is. And then we can consider a process to make them.
-
-Defining "good" visualizations will be a major topic in this class. Evaluation considers how we decide if a visualization is good or not. At a high level, the definition of visualization provides an answer:
+Defining "good" visualizations is a topic unto itself. Evaluation considers how we decide if a visualization is good or not. At a high level, the definition of visualization provides an answer:
 
 > A **good** visualization is one that *effectively* serves its intended purpose (helping the audience do the thing the visualization was meant to help them do).
 
-Exactly how to measure whether a visualization does what it needs to do is more challenging, and is a topic we'll come back to.
+My goal (in this page/site/class) is to teach you how to design/create *good* visualizations. With the emphasis on the "good" part - making bad visualizations doesn't have to be hard, and is probably not worth the effort.
 
-Here's a second way to think about good visualizations:
+> Aside: In Munzner's book, she defines visualization as being "designed to be effective." In my mind, she is defining *good* visualizations - bad visualizations might not be effective, or might not be designed.
+
+Here is one way to think about good visualizations:
 
 > A **good** visualization is a picture that makes it easy for the viewer to see the thing they need to see (in order to do the thing the visualization was meant to help them do).
 
 This simple definition is something we will keep coming back to. The reason that we like visualizations is that pictures can make some things easy to see. The human visual system (it's more than just saying "our eyes") is remarkably good at looking at something and extracting some things from a picture, very quickly, and without much effort. A well chosen picture (i.e., a well designed visualization) can make useful things easy to see.
 
-This would be a great place for an example - but I am not putting it into the document. We'll look at a lot of examples over the course of the semester. Looking at and learning from examples will be one of our key tools for learning!
-
-So, if you want an easy way to assess a visualization, ask yourself "what does this picture let me see easily?"
+Thinking about "what is easy to see" is a simple operational strategy for designing and analyzing visualization. We will explore it in {{<link 3-easy-to-see>}}. Spoiler: it's a remarkably useful and powerful tool, despite being easy. 
 
 **Aside:** there might be other goals. I am assuming we are creating a visualization to communicate. If we had another intent we might prefer visualizations with different qualities, for example if our goal was to show off our programming skill, we might prefer fancier visualizations even if they communicate poorly. Arguably, even in this case the ideas apply: a fancy visualization might let the viewer see that the developer is a good programmer, even if it doesn't help the viewer learn anything about the data.
 
@@ -97,13 +90,9 @@ In some cases, a visualization can actively mislead someone. More often visualiz
 
 Again, this would be a great place for examples, but I am not putting them into the document now.
 
-**Dry without examples**
-
 It is tempting to list a bunch of rules that will help you avoid making a bad visualization. In most cases, you can figure out that the rule is trying to help you avoid making the wrong thing easy to see, or the right thing harder to see. But, rather than trying to learn a lot of specific rules of things to avoid (or to do), I think it's better to try to understand the general principles of what makes things easy (or hard) to see. This is why the class will focus on principles.
 
 ### Tasks as the Key
-
-**TODO - switching to TASK as terminology"**
 
 Let's try the lesson with an example...
 
@@ -127,30 +116,13 @@ Hopefully, I've convinced you that these two charts are good for different thing
 
 It is hard to say that one of these charts is better than the other. One is good for some things, the other is good for other things. If the purpose is to allow the viewer to quickly assess how much of the whole a group represents, then a TreeMap is great. If the purpose is to allow for getting specific values, then the TreeMap is not as good (for a variety of reasons we'll learn in class). The lesson here is that **task matters**. 
 
-I'll repeat this a lot: task matters. Don't solve the wrong problem well. 
+This example shows that different charts are good for different things. Often, design is a tradeoff: we need to make choices to support one task at the expense of others. 
 
-## Another way to look at things...
+I'll repeat this a lot: task matters. Don't solve the wrong problem well.
 
-
-
-## Fancy and Custom Visualizations
-
-**TODO: reconsider if this goes here** - short version (good doesn't mean fancy or novel)
-
-
-Note that a good visualization doesn't have to be fancy - it has to be effective / get the job done. In fact, using a standard design is often desirable: you don't need to teach people how to use a new design, and you can probably find an existing implementation.
-
-Here’s my favorite analogy. You go to the doctor’s office because you feel sick. The last thing you want to hear is "That’s a novel and interesting problem! We need to devise a novel treatment. Let’s write a grant proposal and hire some research assistants..." No, you want to hear "I’ve seen that before. No problem. Take two aspirin and see me in the morning."
-
-As visualization practitioners, our goal is to be able to look at a problem and make those kinds of prescriptions. *Task identification* and *abstraction* are key here. It’s how we can say "I’ve seen that before" and get to "take two scatterplots and see me in the morning."
-
-Most problems we encounter are similar to other common problems, and the answers have been well-tested over the years. We usually don't need a fancy new design: an existing, standard chart type probably will do the trick. Using a standard design has a lot of advantages: we don't need to invent it, we don't have to test it, we can use existing implementations, we don't need to train the viewers to interpret them, ...
-
-This might suggest that as a visualization expert, you need to learn many different kinds of charts and rules about when they are appropriate. However, another path is to understand the design of charts in terms of the basic building blocks, and the basic principles by which these building blocks are put together. This is the approach to how we design visualizations.
 
 
 ## How to make Visualizations: Design
-**TODO: consider if this is the right place**
 
 Design (as a verb) is another term that is difficult to define, but worth discussing. Defining design is a whole philosophical debate – but the definition I am about to give is one I like, and will work with for the moment. The dictionary definition says something about planning how to make something. For the purposes of class / our discussion, I will define design:
 
@@ -175,6 +147,4 @@ For this class or this website, the concept is that if you think about the choic
 
 {{<genai>}}
 The need to re-organize the old tutorials, and the strategy for doing so came from conversations with Claude. It helped me form the new outline. I wrote the draft by re-organizing old pieces. 
-
-Many of the examples were generated with AI tools - as described in the image credits.
 {{</genai>}}

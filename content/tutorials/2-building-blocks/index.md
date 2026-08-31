@@ -94,6 +94,20 @@ But there are things we can use that can hopefully help us make better choices. 
 
 ## Abstraction - A Key Building Block
 
+## Fancy and Custom Visualizations
+
+A good visualization doesn't have to be fancy - it has to be effective / get the job done. In fact, using a standard design is often desirable: you don't need to teach people how to use a new design, and you can probably find an existing implementation.
+
+Here’s my favorite analogy. You go to the doctor’s office because you feel sick. The last thing you want to hear is "That’s a novel and interesting problem! We need to devise a novel treatment. Let’s write a grant proposal and hire some research assistants..." No, you want to hear "I’ve seen that before. No problem. Take two aspirin and call me in the morning."
+
+As visualization practitioners, our goal is to be able to look at a problem and make those kinds of prescriptions. *Task identification* and *abstraction* are key here. It’s how we can say "I’ve seen that before" and get to "take two scatterplots and call me in the morning."
+
+Most problems we encounter are similar to other common problems, and the answers have been well-tested over the years. We usually don't need a fancy new design: an existing, standard chart type probably will do the trick. Using a standard design has a lot of advantages: we don't need to invent it, we don't have to test it, we can use existing implementations, we don't need to train the viewers to interpret them, ...
+
+This might suggest that as a visualization expert, you need to learn many different kinds of charts and rules about when they are appropriate. However, another path is to understand the design of charts in terms of the basic building blocks, and the basic principles by which these building blocks are put together. This is the approach to how we design visualizations.
+
+
+
 ### How do we think about tasks and data?
 
 The better that you understand what the visualization is trying to achieve (what will it help the viewer do), the more likely you will come up with a good solution. In the end, everything serves the tasks.
