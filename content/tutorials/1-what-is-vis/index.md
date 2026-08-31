@@ -42,9 +42,9 @@ Implementations can take many forms. I'm not going to suggest you make snow scul
 
 The important part of the definition is that it helps someone do something. What makes a picture a visualization is a sense of purpose: it is intended to be used for something.
 
-> Aside: For now, I am using the concepts of "purpose" (what the visualization is meant to "do") and "task" (a thing the viewer might want to achieve) loosely and somewhat interchangeably. 
+> **Aside:** For now, I am using the concepts of "purpose" (what the visualization is meant to "do") and "task" (a thing the viewer might want to achieve) loosely and somewhat interchangeably. 
 
-There is a very broad range of purposes. It could be anything from compare values to catch the viewers intention or convey an emotion. 
+There is a very broad range of purposes. It could be anything from comparing values to catching the viewers attention or conveying an emotion. 
 
 Central to my definition of visualization is that it focuses on this sense of purpose - the picture is meant to do something, so we should think about what it is trying to do to make sure it really can help someone do the thing it's meant to do.
 
@@ -62,7 +62,7 @@ Defining "good" visualizations is a topic unto itself. Evaluation considers how 
 
 My goal (in this page/site/class) is to teach you how to design/create *good* visualizations. With the emphasis on the "good" part - making bad visualizations doesn't have to be hard, and is probably not worth the effort.
 
-> Aside: In Munzner's book, she defines visualization as being "designed to be effective." In my mind, she is defining *good* visualizations - bad visualizations might not be effective, or might not be designed.
+> **Aside:** In Munzner's book, she defines visualization as being "designed to be effective." In my mind, she is defining *good* visualizations - bad visualizations might not be effective, or might not be designed.
 
 Here is one way to think about good visualizations:
 
@@ -72,25 +72,9 @@ This simple definition is something we will keep coming back to. The reason that
 
 Thinking about "what is easy to see" is a simple operational strategy for designing and analyzing visualization. We will explore it in {{<link 3-easy-to-see>}}. Spoiler: it's a remarkably useful and powerful tool, despite being easy. 
 
-**Aside:** there might be other goals. I am assuming we are creating a visualization to communicate. If we had another intent we might prefer visualizations with different qualities, for example if our goal was to show off our programming skill, we might prefer fancier visualizations even if they communicate poorly. Arguably, even in this case the ideas apply: a fancy visualization might let the viewer see that the developer is a good programmer, even if it doesn't help the viewer learn anything about the data.
+> **Aside:** The "what is easy to see?" works best with communicative goals. If we had another intent we might prefer visualizations with different qualities, for example if our goal was to show off our programming skill, we might prefer fancier visualizations even if they communicate poorly. Arguably, even in this case the ideas apply: a fancy visualization might let the viewer see that the developer is a good programmer, even if it doesn't help the viewer learn anything about the data.
 
-### Bad Visualizations
-
-Another way to think about wanting to make good visualizations is that we want to avoid bad ones. There are a few different types of "bad" visualizations - these are things we want to avoid.
-
-The definition of bad visualization is tricky, because there are many ways for a visualization to be bad. A few to consider...
-
-1. A bad visualization might fail to make things easy to see.
-2. A bad visualizatiom might make the wrong things easy to see.
-3. A bad visualization might make it easy to see something that isn't there.
-
-Notice how this connects to task. There is something that the viewer should see (in order to achieve their task). Maybe the visualization does not make it easy to see this. Worse, it might distract you: it makes something else easy to see. And, there is the really bad case where the visualization is actively misleading: the thing that is easy to see is actually wrong.
-
-In some cases, a visualization can actively mislead someone. More often visualizations just fail to make things easy to see.
-
-Again, this would be a great place for examples, but I am not putting them into the document now.
-
-It is tempting to list a bunch of rules that will help you avoid making a bad visualization. In most cases, you can figure out that the rule is trying to help you avoid making the wrong thing easy to see, or the right thing harder to see. But, rather than trying to learn a lot of specific rules of things to avoid (or to do), I think it's better to try to understand the general principles of what makes things easy (or hard) to see. This is why the class will focus on principles.
+Our goal is effectiveness. Fanciness, clever implementation, novelty, and beauty are not the goal — but they can be in service of it. A visualization that no one engages with doesn't help anyone, so "looks nice" isn't decoration layered on top of effectiveness; it's often part of it. The snow sculptures are doing real work: their novelty is what gets someone to stop and look.
 
 ### Tasks as the Key
 
@@ -104,7 +88,7 @@ Let me make a simpler example in English with some small fake data. I met with 7
 
 {{<rimage src="students-treemap.png" width="400" caption="A Tree Map made from Fake Data">}}
 
-Again, notice there are things you can tell pretty quickly. I spend a about half my time on each topic, although I spend a bit more on robots (orange) than vis (blue). You can tell I spent about a quarter of the time with Student 4 (upper right). Some things are less easy to see quickly, such as "which student did I spend the least amount of time with". The fact that these "tasks" are easier or harder is the nature of the design: TreeMaps are generally good for showing part/whole relationships. 
+Again, notice there are things you can tell pretty quickly. I spend a about half my time on each topic, although I spend a bit more on robots (orange) than vis (blue). You can tell I spent about a quarter of the time with Student 4 (upper right). Some things are less easy to see quickly, such as "which student did I spend the least amount of time with". The fact that these "tasks" are easier or harder is the nature of the design: TreeMaps are generally good for showing part/whole relationships, and less good for individual comparisons. 
 
 This point might be clearer with another chart of the same data:
 
@@ -120,7 +104,21 @@ This example shows that different charts are good for different things. Often, d
 
 I'll repeat this a lot: task matters. Don't solve the wrong problem well.
 
+### Bad Visualizations
 
+Another way to think about wanting to make good visualizations is that we want to avoid bad ones. There are a few different types of "bad" visualizations - these are things we want to avoid.
+
+The definition of bad visualization is tricky, because there are many ways for a visualization to be bad. A few to consider...
+
+1. A bad visualization might fail to make things easy to see.
+2. A bad visualization might make the wrong things easy to see.
+3. A bad visualization might make it easy to see something that isn't there.
+
+Notice how this connects to task. There is something that the viewer should see (in order to achieve their task). Maybe the visualization does not make it easy to see this. Worse, it might distract you: it makes something else easy to see. And, there is the really bad case where the visualization is actively misleading: the thing that is easy to see is actually wrong.
+
+In some cases, a visualization can actively mislead someone. More often visualizations just fail to make things easy to see.
+
+It is tempting to list a bunch of rules that will help you avoid making a bad visualization. In most cases, you can figure out that the rule is trying to help you avoid making the wrong thing easy to see, or the right thing harder to see. But, rather than trying to learn a lot of specific rules of things to avoid (or to do), I think it's better to try to understand the general principles of what makes things easy (or hard) to see. This is why the class will focus on principles.
 
 ## How to make Visualizations: Design
 
@@ -135,15 +133,11 @@ For this class or this website, the concept is that if you think about the choic
 
 ## Summary: Implications of the Definitions
 
-**TODO: too much in terms of class, this might be the right place to put it**
+My philosophy of how to do visualization, and how to teach it is based on the broad definition: A visualization is a picture with a purpose. An effective visualization is one that is designed to achieve its goals. The goals/purpose/tasks are central. We can often use the lens of "what does the picture make easy to see." 
 
-1. A core of this class will be understanding what makes for a good visualization, and what we can do to design them.
-2. Figuring out what good visualization to make (designing it) is important, we don't want to waste our time implementing bad visualizations.
-3. Understanding the principles and process of visualization can help us figure out what visualizations will be good before we invest too much energy in making them.
-4. Generating ideas for visualization and making sure they are good (and will lead to good designs when they are fully implemented) is my preferred approach. Finding ways to "prototype" ideas so we can assess them before investing too much energy is important.
-5. Implementating the design once you have it is not a focus in this class. It is a detail. A sometimes challenging detail. And it is definitely a practical concern: a great design isn't of much value if you can't make it real.
+{{<link 2-building-blocks>}} introduces my preferred way to think about how we design and analyze visualization: by thinking in terms of a set of building blocks. These include ways to abstract the tasks and data so we can define problems and connect them to solutions, and elements of visualizations that we can put together in principled ways to create designs. I believe that building blocks and principles are a better way to learn and practice visualization than trying to learn collections of chart types of design rules.
 
-
+{{<link 3-easy-to-see>}} explores how the simple "intuition-based" notion of visualization through the question "what is easy to see?" provides a powerful tool, and a good place to get started with visualization design.
 
 {{<genai>}}
 The need to re-organize the old tutorials, and the strategy for doing so came from conversations with Claude. It helped me form the new outline. I wrote the draft by re-organizing old pieces. 

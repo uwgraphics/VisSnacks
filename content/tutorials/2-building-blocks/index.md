@@ -9,24 +9,29 @@ This tutorial argues for thinking about visualizations in terms of a set of buil
 
 <!--more-->
 
-**TODO: Need some opening**
+In {{<link 1-what-is-vis>}}, I argued that our goal was to create *effective* visualizations: ones whose designs helped the viewers achieve their tasks. 
 
-**TODO: Premise - can derive charts/rules from building blocks**
+In this tutorial, I will try to explain how we can think about visualizations in order to design and analyze them. My premise is that we should think in terms of a set of building blocks, rather than the more conventional approach of chart types and rules. 
 
-**TODO: setup (at least example), chart types and example**
+The goal is to motivate the approach I take in my class and this website.
 
 
 ## Motivating the Building Blocks Approach
 
-**TODO: switch to bar chart example (snow)?**
+To start, let's re-visit an example from {{<link 1-what-is-vis>}}: the fake student data.
 
-To continue with the example, in the previous section I called the TreeMap by a standard name used for that design. And I made statements about what TreepMaps were (and were not) good for. 
+<div style="display:flex; align-items:flex-end;">
+{{<rimage width="45%" src="students-treemap.png" caption="A treemap of the fake data">}}
+{{<rimage width="45%" src="students-column.png" caption="A chart of the fake data">}}
+</div>
 
-This suggests a strategy for learning Visualization: learn a long list of chart types, learn what they are good for, learn how to make each one well. I think this is a terrible way to learn visualization. Instead, I prefer to teach visualization by understanding the principles (such as the importance of task) rather than as a long list of chart types. 
+I called the chart on the left a "TreeMap". And I said it was good for some things (e.g., seeing that the vis students got slightly less than half the time), and bad at others (e.g. figuring out which student got the least amount of time).
+
+This might suggest chart types as a strategy for learning Visualization: learn a long list of chart types, learn what they are good for, learn how to make each one well. This often involves a long list of rules. Visualization is often taught this way.
 
 Notice that I did not name the other chart. I would have called it a "bar chart" or maybe even a "vertical bar chart". But Excel uses the term "bar chart" for something else - it calls the thing above a "column chart." Amazingly, it works the same no matter what you call it. We might not agree what to name it, but we probably can agree on what it is good for.
 
- We can think of these charts not as their "types", but rather in terms of the building blocks that make them up. An example of a useful kind of building block is **encoding** - how a data element is translated to visual elements. Whether you call it a "vertical bar chart" or a "column chart", that chart encoded the values (in minutes) by the position of the top of the rectangle along the Y axis measured from X axis (a "common baseline"). For reasons we'll learn about later, we prefer to say "position on common baseline" rather than "height of rectangle" or even "area of rectangle" - even though, in this case, all three of these are actually proportional to the data.
+We can think of these charts not as their "types", but rather in terms of the building blocks that make them up. An example of a useful kind of building block is **encoding** - how a data element is translated to visual elements. Whether you call it a "vertical bar chart" or a "column chart", that chart encoded the values (in minutes) by the position of the top of the rectangle along the Y axis measured from X axis (a "common baseline"). For reasons we'll learn about later, we prefer to say "position on common baseline" rather than "height of rectangle" or even "area of rectangle" - even though, in this case, all three of these are actually proportional to the data.
 
 Some advantages to thinking in terms of encodings:
 
@@ -49,6 +54,36 @@ And, to add one more point about naming: here is another visualization of that s
 Yes, in my mind a table is a visualization. They are very good for some tasks. See {{<link "obsolete/old-t2-table-example">}} for an example of how the ideas discussed below can be applied to a table.
 
 But, the point... my "method" is to think in terms of building blocks and principles, not chart types. It doesn't matter what we call things, it matters that we make choices that serve the viewer's tasks.
+
+## Abstractions - Two Key Building Blocks
+
+The problems we need to solve are often very specific. In the examples above, my tasks and data were specifically about how much time I spent with students.
+
+Abstraction is what allows us to take specific problems and understand them in general ways. In the example, we don't need designs for student time allocation: we could describe the data in an abstract way (e.g. values for each element in a discrete set where the values make sense to add up to a whole) and tasks in an abstract way (e.g., find the smallest value). 
+
+Data and task abstraction are core concepts for visualization. The trick is to abstract in ways that are general enough so that they can match with other similar problems and solutions, but specific enough that we get useful matches. We will learn standard ways of doing this.
+
+An analogy: You go to the doctor’s office because you feel sick. You think you have some unique situation. The last thing you want to hear is "That’s a novel and interesting problem! We need to devise a novel treatment. Let’s write a grant proposal and hire some research assistants..." No, you want to hear "I’ve seen that before. No problem. Take two aspirin and call me in the morning."
+
+As visualization practitioners, our goal is to be able to look at a problem and make those kinds of prescriptions. *Task identification* and *abstraction* are key here. It’s how we can say "I’ve seen that before" and get to "take two scatterplots and call me in the morning."
+
+Many problems we encounter are similar to other common problems, and the answers have been well-tested over the years. We usually don't need a fancy new design: an existing, standard chart type probably will do the trick. Using a standard design has a lot of advantages: we don't need to invent it, we don't have to test it, we can use existing implementations, we don't need to train the viewers to interpret them, ...
+
+The abstractions work well at the building block level as well.
+
+Data abstraction is fairly standard - it's part of computer science or math. We'll review pieces useful for visualization. Tasks are trickier.
+
+> **Aside:** Even the term "task" is problematic. We will look at what it can mean, and how more precise terminology can be helpful. 
+
+### How do we think about tasks?
+
+The better that you understand what the visualization is trying to achieve (what will it help the viewer do), the more likely you will come up with a good solution. The goal is to have designs that serve the tasks.
+
+Note the plural: you may have a set of tasks. Often, there isn’t just one at a time. There are a set of things that a set of someones may want to do for a set of reasons. And maybe your solution will address many of these.
+
+Task is often an informal, fuzzy notion. It doesn’t always get explicitly written down or defined. But the clearer we are about it, the better off everything else will be. A visualization cannot be effetcive unless it has something to be effective at.
+
+While task is a central thing, it is also hard to talk about. Historically, we've lacked good ways to talk about task. We'll look at work that provides different ways to discuss task.
 
 ### The building blocks of designs
 
@@ -77,7 +112,7 @@ I find this list to be a useful way to organize the larger list of more specific
 
 We'll learn how to choose these different components, and use them together. We will look at visualizations and try to understand them in terms of these four components. We'll think about redesigning visualizations by changing the choices. We'll try to develop a sense of how to map tasks and user goals onto these kinds of choices.
 
-## How do we make good choices for design?
+### How do we make good choices for design?
 
 Creating a visualization is about making those choices for a design so that the result is effective for the task... but how can you choose wisely?
 
@@ -89,42 +124,6 @@ But there are things we can use that can hopefully help us make better choices. 
 + *Principles of Perception* - Understanding how people see (as in how the visual system works and how the brain interprets images) provides a lot of useful clues as to what designs will (and won't) work.
 + *Principles of Visual Design* - General ideas on how to make things that are "nice" visually and communicate effectively. These principles are the same if you're designing a visualization, a web page, your resume, ... - so they are good principles to learn!
 + *Examples* - Looking at existing examples - both good and bad - can help us. Sometimes, we can gain intuitions so we can make new designs. Other times, standard solutions provide us with answers, or at least a starting point.
-
-
-
-## Abstraction - A Key Building Block
-
-## Fancy and Custom Visualizations
-
-A good visualization doesn't have to be fancy - it has to be effective / get the job done. In fact, using a standard design is often desirable: you don't need to teach people how to use a new design, and you can probably find an existing implementation.
-
-Here’s my favorite analogy. You go to the doctor’s office because you feel sick. The last thing you want to hear is "That’s a novel and interesting problem! We need to devise a novel treatment. Let’s write a grant proposal and hire some research assistants..." No, you want to hear "I’ve seen that before. No problem. Take two aspirin and call me in the morning."
-
-As visualization practitioners, our goal is to be able to look at a problem and make those kinds of prescriptions. *Task identification* and *abstraction* are key here. It’s how we can say "I’ve seen that before" and get to "take two scatterplots and call me in the morning."
-
-Most problems we encounter are similar to other common problems, and the answers have been well-tested over the years. We usually don't need a fancy new design: an existing, standard chart type probably will do the trick. Using a standard design has a lot of advantages: we don't need to invent it, we don't have to test it, we can use existing implementations, we don't need to train the viewers to interpret them, ...
-
-This might suggest that as a visualization expert, you need to learn many different kinds of charts and rules about when they are appropriate. However, another path is to understand the design of charts in terms of the basic building blocks, and the basic principles by which these building blocks are put together. This is the approach to how we design visualizations.
-
-
-
-### How do we think about tasks and data?
-
-The better that you understand what the visualization is trying to achieve (what will it help the viewer do), the more likely you will come up with a good solution. In the end, everything serves the tasks.
-
-Note the plural: you may have a set of tasks. Often, there isn’t just one at a time. There are a set of things that a set of someones may want to do for a set of reasons. And maybe your solution will address many of these.
-
-I was going to say “it starts with the tasks,” but sometimes you start someplace else (like you have some data and say “I’d like to do something with it” – but even then, I would probably say you have a task: figure out what the right questions to ask are!). However, in those cases, it’s really important to remember that task is key: the sooner you get to “what is this thing going to do for someone,” the better off you are.
-
-This is also not to say that you need to fully understand the task at the beginning. Sometimes, your understanding of the task is hazy, or changes as you learn more (from later stages).
-
-Task is an informal, fuzzy notion. It doesn’t always get explicitly written down or defined. But the clearer you are about it, the better off everything else will be. You can’t succeed unless you have something to succeed at.
-
-One other detail on task: there is a range of kinds of tasks. There are abstract tasks and concrete application tasks. This is actually a spectrum/continuum.
-
-While task is the most central thing, it’s also hard to talk about. We lack good, rigorous ways to talk about it.  For the longest time, it meant that it didn’t get discussed enough (in the literature, in my class, in my work, ...). The fact that it is hard shouldn’t get in the way of us trying to get better at thinking about it. We particularly lack good ways to talk about different levels of task abstraction.
-
-**TODO: requires set up - maybe move doctor example here**
 
 ## How to Design and Make Visualizations (Process)
 
@@ -145,8 +144,9 @@ In the ideal world, you start at the top, and work your way down through the lis
 The steps are iterative: at the end of each step (ideally) you do some evaluation (e.g., critique) and maybe go back to a previous step.
 
 Sometimes the steps don't happen in order. For example, you really want to use a particular tool, try out a new algorithm, or make things a particular color, so you go looking for something to make with these details.
+Sometimes it seems like the data comes first: I got some data, I’d like to look at it. but even then, I argue that you have a task: figure out what the right questions to ask are, get a sense of what is there, etc. Often there is an iterative cycle - as the designer understands the data more, they can refine the task.
 
-Sometimes, the process seems to start with #2 (Data): one gets some data and needs to figure out what to do with it. But this is actually an initial task: find what is interesting in the data. Often there is an iterative cycle - as the designer understands the data more, they can refine the task.
+This is also not to say that you need to fully understand the task at the beginning. Sometimes, your understanding of the task is hazy, or changes as you learn more (from later stages).
 
 In a little more detail...
 
@@ -157,64 +157,8 @@ In a little more detail...
 
 Later in class, we'll see that this parallels Tamara Munzner's nested model for validation. (We'll read about it in her book, but was a [great paper first](https://www.cs.ubc.ca/nest/imager/tr/2009/NestedModel/ "The Nested Model Paper")). I think in terms of visualization design, not just validation (but evaluation is so important to design that it might not matter), so I adjusted the layers a bit.
 
-If all goes according to plan, you'll understand these 4 steps in the first few weeks of class.
+## Critique: Example-Driven Learning
 
-### Collaborative Process 
+**Critique** is the practice of examining something carefully to understand it and learn, often in a "discussion" format. Critique is a key tool in learning about Vis, and in improving design (for Vis, and in general). It is also a generally useful skill that can be learned with practice. {{<link 4-critique>}} provides a tutorial.
 
-**TODO: modernize or discard**
-
-Where I start...
-
-When I talk to a new (potential) domain collaborator, I always start with the question "tell me about your science." I want to know the big picture (the why) – because without it, it’s hard to have context.
-
-My first goal is to identify the problem that needs to be solved – it won’t help anyone if we solve the wrong problem. Don't spend time solving the wrong problem well.
-
-Usually people come thinking they want specific help – they want to start with the data, or worse, with the way they are looking at their data (can you make a better chart for me? not without understanding what you are trying to do, so I know what “better” means!) We will get to that, but I think its important to identify the task.
-
-I’ll stress this: if you want to be a visualization scientist (or more generally, a data scientist or computer scientist), one of the best skills you can have is to be able to help people identify their problems. I think it’s hard for people to identify their problems. Part of this is that people get so caught up in the details, that they lose sight of the big picture. Or that they are so set in how they do things that they lose the ability to imagine alternatives.
-
-And, as computer scientists (and/or mathematicians), we have a secret weapon: **abstraction.** This is something that we value/stress much more than other disciplines. For this task phase of visualization, abstraction is a key tool. If we can recognize the abstract task for which the real problem is an instance of, the path to solving it becomes much clearer.
-
-At one level each situation is different. Everyone thinks their problem is unique and special. The challenge is to have ways to think about visualization (data understanding) problems in a way that lets us see how they are similar to other problems. We need to hide the details of the specific problem. This is where abstraction comes in.
-
-## But what about implementation?
-
-**TODO: reevaluate this**
-
-Actually realizing the design is the last part. Well, not really, since usually the process of making a visualization is iterative: once you make something, you learn from it, and refine some of your earlier work, and try again.
-
-If you were thinking “this is a CS class, we should focus on implementation,” you will be disappointed. As I’ve said, this class is more about how to figure out what the right picture to make is (e.g. the design) than how to make it. It's a waste of energy to spend time making the wrong picture.
-
-In the ideal world, you can think about implementation last – it’s an afterthought. In practice, the constraints of having to implement things will probably influence the kinds of designs you will want to consider. A design becomes less attractive if it's too hard to build. In practice, there’s often a tradeoff between the practical issues of implementation and having the best design.
-
-Even within implementation, there is a spectrum of levels. I like to think of this as "fidelity of prototypes." In a sense, you can think of a back-of-the-napkin sketch as an implementation of a design. Most likely an incomplete, non-final one, but an concrete instantiation. It might be a good enough implementation that you can evaluate your design and decide if you want to pursue the design further (and make a higher-fidelity prototype). If you’re lucky, a crude prototype might just solve the actual problem.
-
-One thing I like to stress is the importance of prototyping to explore designs. It’s best to try out lots of ideas, and see if you can figure out their problems before investing a lot in implementing them. Good "Designers" (graphic designers, industrial designers, ...) usually like to explore an entire space of designs – by using very crude "implementations" (e.g. sketches).
-
-Data analysis tools – things like Excel (yes, Excel will turn out to be my favorite visualization tools) or Tableau or … – often let you prototype lots of different things with your data. This “playing” with data – re-ordering it, making various kinds of pictures with it, looking at it all kinds of different ways – is actually a form of rapid prototyping. You can explore a lot of designs easily – often to decide that they don’t solve your problem – but sometimes to see that some of the simple elements actually can help. This “playing with data” (if you can do it) is a lot like sketching a lot of visual designs.
-
-Having a good toolbox so that you can implement your designs is useful. If you don’t have one, you will be limited in what designs you can explore, and won’t be able to choose designs that you can’t realize (that’s not quite true: if you can come up with a great design, you may be able to get someone else to implement it). Part of my premise for this class (or at least this instantiation of it) is that we can all have different toolboxes – some students might be wizard programmers, some might be fabulous artists – but we all can have some common basic tools (e.g. sketching), and we can all explore designs using our respective toolboxes.
-
-Now, if you’re saying "but I want visualization to be about writing fancy programs using complex data analysis methods and algorithms and spiffy programming things ..." let me give you a bit of caution.
-
-Building a custom visualization solution by programming should be a last resort. You should really believe that your problem cannot be solved by some easier method. Going back to the medical analogy, writing a program for a new design is like inventing a completely new (and therefore untested) treatment. Yes, if your patient has a mysterious disease and is going to die you want to take these drastic measures. Or, you might do an experiment if you believe that you can afford the risk on this patient in order to learn something to save the next ones (this is the excuse we use as researchers).
-
-That said, all too often there are other factors that make us want to take the extreme measure. Sometimes, we just want to practice our inventive skills. Sometimes our "customers" think they want to have something novel (don’t make it look too easy!). Sometimes we really want to try out some implementation idea, or show off some challenging design idea. And sometimes, it might just be easier to re-implement a standard design than to figure out how to make an "easy" tool do what we want. (You’d be amazed how often I’ve found myself writing Python code for scatterplots because I wasn’t in the mood to wrestle with Excel). Sometimes, it’s hard to find a decent “easy” tool for something that should be easy (like graph layout).
-
-## Now What?
-
-To give you a sense of where this goes into my class (not necessarily in this order) ...
-
-1. We need to understand **why** we use visualization. Why can (well designed) pictures help people do things?
-2. We need to be prepared with **critique** and **redesign** techniques that we can use to explore the ideas by examining examples.
-3. We need to discuss **abstraction** so we can talk about tasks, data, and designs.
-4. We need to learn about **encodings** which are the building blocks that we use to make visualizations, so we can take designs apart and put them back together.
-5. We need to think about **evaluation** so we can assess whether or not we are making good visualizations.
-6. We need to learn about **perception** (how we see), since it helps us understand what is and isn't easy to see. **Color** is an important part of this.
-6. We need to consider **interaction** because it is a useful tool in designs.
-7. We need to think about some **core challenges** like scalability.
-8. We need to consider some examples of **challenging data types** (such as graphs and volumes)
-
-{{%genai%}}
-I used Generative Fill in Adobe Illustrator to create two of the position-on-common-axis charts (the ones that have clocks).
-{{%/genai%}}
+I mention it here because, like the building-blocks, it is central to my approach to teaching visualization, and I think it is central to the design process. 

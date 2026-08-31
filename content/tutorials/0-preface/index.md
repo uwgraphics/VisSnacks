@@ -1,5 +1,5 @@
 +++
-title = '0 Preface'
+title = 'Preface to the Visualization Tutorials'
 date = 2026-08-30T16:32:47-05:00
 draft = false
 weight = 0

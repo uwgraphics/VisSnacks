@@ -11,12 +11,12 @@ A surprising amount of visualization design and analysis can be wrapped up in th
 
 I am always looking for a shorcut that I can give to people to help them do Visualization better. Is there one easy thing that will help a lot? This is my current favorite: **Ask "What does this visualization make easy to see?"**
 
-The biggest short cut - Always emember the "prime directive:" **Task First!** (hopefully you got that from {{<link "1-what-is-vis">}}) - is harder to make direct use of. The "easy-to-see" shortcut is so simple, and can be used by everyone on day one (it is in {{<link page="1-what-is-vis" text="Tutorial 1">}}), but less prominent.
+The task focused approach to visualization (hopefully you got that from {{<link "1-what-is-vis">}}) can be hard to make direct use of. The "easy-to-see" shortcut is so simple, and can be used by everyone on day one.
 
 You can ask the question in both directions:
 
-1. Critique: Ask "What does this visualization make easy to see?" (and, correspondingly, "what does it *not* make easy to see?").
-2. Design: Ask "What do I want to make easy to see?" 
+1. Critique (analyzing a visualization): Ask "What does this visualization make easy to see?" (and, correspondingly, "what does it *not* make easy to see?").
+2. Design (examining a task/goal to create a visualization): Ask "What do I want to make easy to see?" 
 
 If the answers don't match, there is room for improvement...
 
@@ -40,16 +40,18 @@ Before reading further, try this yourself. List a bunch of things that are easy 
 
 For me, it jumps out at me that my state (Wisconsin) is pretty high on the right (home improvement) and low on the left (clean energy). Actually, I am one of those people who got that credit that year. Other stuff jumps out at me as well... for example, on the left, states at the bottom seem to be higher, whereas the north central and north east are high on the right. 
 
-Some questions are hard to answer (not easy to see). Where does Wisconsin rank among the highest? What states are high in both metrics? The answers are there - they are just hard to see. If we wanted our viewer to be able to see the answers to those kinds of questions.
+Some questions are hard to answer (not easy to see). Where does Wisconsin rank among the highest? What states are high in both metrics? The answers are there - they are just hard to see. If we wanted our viewer to be able to see the answers to those kinds of questions, we would need to change our design.
 
 ## Comparing Visualizations
 
 The "what does this make easy to see" becomes easier when you have two different visualizations of the same data. Using the simple example from {{<link 1-what-is-vis>}}:
 
-{{<rimage src="students-column.png" caption="A bar chart of the fake data">}}
-{{<rimage src="students-treemap.png" caption="A treemap of the fake data">}}
+<div style="display:flex; align-items:flex-end;">
+{{<rimage width="45%" src="students-column.png" caption="A bar chart of the fake data">}}
+{{<rimage width="45%" src="students-treemap.png" caption="A treemap of the fake data">}}
+</div>
 
-Even though I can't put them next to each other, they should be really easy to compare. Ask yourself: what can I see easily in the bar chart (but not the treemap)? What can I see easily in the treemap (but not the bar chart)? 
+Put next to each other, they should be really easy to compare. Ask yourself: what can I see easily in the bar chart (but not the treemap)? What can I see easily in the treemap (but not the bar chart)? 
 
 I believe that practicing to develop this skill is a good step in learning visualization.
 
