@@ -145,7 +145,7 @@ And, to add one more point about naming: here is another visualization of that s
 
 {{<rimage width="250" src="students-table.png" caption="A Chart made from (the same) Fake Data">}}
 
-Yes, in my mind a table is a visualization. They are very good for some tasks. See {{<link "2-table-example">}} for an example of how the ideas discussed below can be applied to a table.
+Yes, in my mind a table is a visualization. They are very good for some tasks. See {{<link "old-t2-table-example">}} for an example of how the ideas discussed below can be applied to a table.
 
 But, the point... my "method" is to think in terms of building blocks and principles, not chart types. It doesn't matter what we call things, it matters that we make choices that serve the viewer's tasks.
 
@@ -300,7 +300,7 @@ There are four main categories of things that we consider in designing a visuali
 
 Another way to think about this is as "re-design" rather than design. We start with some visualization (a design), pick one of its choices (one of the 4 kinds of building blocks), and change it. I like to think of these like moves in a turn-based game, at each step I pick one of these things to either add (or change, if I am doing redesign).
 
-For a simple example of applying these four design elements in a redesign see {{%link "2-table-example"%}}.
+For a simple example of applying these four design elements in a redesign see {{<link "old-t2-table-example">}}.
 
 Almost everything we do in designing a visualization turns out to be making one of those 4 kinds of choices. Almost every visualization can be thought of in terms of these 4 building blocks.
 
