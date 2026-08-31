@@ -81,13 +81,11 @@ The better that you understand what the visualization is trying to achieve (what
 
 Note the plural: you may have a set of tasks. Often, there isn’t just one at a time. There are a set of things that a set of someones may want to do for a set of reasons. And maybe your solution will address many of these.
 
-Task is often an informal, fuzzy notion. It doesn’t always get explicitly written down or defined. But the clearer we are about it, the better off everything else will be. A visualization cannot be effetcive unless it has something to be effective at.
+Task is often an informal, fuzzy notion. It doesn’t always get explicitly written down or defined. But the clearer we are about it, the better off everything else will be. A visualization cannot be effective unless it has something to be effective at.
 
 While task is a central thing, it is also hard to talk about. Historically, we've lacked good ways to talk about task. We'll look at work that provides different ways to discuss task.
 
 ### The building blocks of designs
-
-**TODO: need to smooth over that we introduced encodings first**
 
 A design is the plan for how you are going to turn the data into a "picture" that helps with the task. This is why it's so important to understand task and data before trying to make a design.
 
@@ -104,7 +102,7 @@ There are four main categories of things that we consider in designing a visuali
 
 Another way to think about this is as "re-design" rather than design. We start with some visualization (a design), pick one of its choices (one of the 4 kinds of building blocks), and change it. I like to think of these like moves in a turn-based game, at each step I pick one of these things to either add (or change, if I am doing redesign).
 
-For a simple example of applying these four design elements in a redesign see {{<link "old-t2-table-example">}}.
+For a simple example of applying these four design elements in a redesign see {{<link "obsolete/old-t2-table-example">}}.
 
 Much of designing a visualization turns out to be making one of those 4 kinds of choices. Almost every visualization can be thought of in terms of these 4 building blocks.
 

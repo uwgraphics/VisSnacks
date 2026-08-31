@@ -9,11 +9,7 @@ This tutorial gives you a sense of **my** thoughts on Visualization. I define vi
 
 <!--more-->
 
-This is the way that **I** like to think about visualization, and use to organize how I like to teach visualization. For an explicit statement of the philosophy (and a summary) and a history of this tutorial see {{<link "tutorials/0-preface">}}. This is a 2026 re-write, you can see the older (pre-2026) version at {{<link "obsolete/old-t1-what-is-vis">}}.
-
-{{<expand "Learning Goals (if you're using this in a class)">}}
-**TODO: Update this after the draft is complete.**
-{{</expand>}}
+This is the way that **I** like to think about visualization, and use to organize how I like to teach visualization. This is a 2026 re-write, you can see the older (pre-2026) version at {{<link "obsolete/old-t1-what-is-vis">}}.
 
 ## What is Visualization?
 

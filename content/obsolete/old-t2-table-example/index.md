@@ -5,6 +5,8 @@ draft: false
 categories: []
 tags: []
 weight: 2
+aliases:
+  - /tutorials/2-table-example/
 ---
 
 I will use a simple example (a data table) to show how the basic concepts of visualization can be applied. This is mainly to illustrate the "4 design moves" introduced in {{<link old-t1-what-is-vis>}}
