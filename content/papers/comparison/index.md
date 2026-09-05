@@ -6,9 +6,9 @@ draft = false
 
 Many (if not all) visualizations are about making comparisons in the data. I've spent a lot of effort to come up with ways of thinking about comparisons, or (if you prefer) to think about visualization in terms of comparison. These were summarized in a 2017 paper (it has a 2018 publication data) "Considerations for Visualizing Comparison". 
 
-The paper gives a "process" for developing a visualization in terms of comparison: first identify what the comparison problem is, figure out what the abstract comparative challenge is (number of items, size of items, complexity of relationships), choose a scalability strategy to address the challenge (scan sequentially, select subset, summarize somehow), and choose a comparative design (juxtaposition, superposition, explicit encoding). I call these last 3 the "three threes" and they give a categorization of comparative challenges and strategies.
-
 <!--more-->
+
+The paper gives a "process" for developing a visualization in terms of comparison: first identify what the comparison problem is, figure out what the abstract comparative challenge is (number of items, size of items, complexity of relationships), choose a scalability strategy to address the challenge (scan sequentially, select subset, summarize somehow), and choose a comparative design (juxtaposition, superposition, explicit encoding). I call these last 3 the "three threes" and they give a categorization of comparative challenges and strategies.
 
 ## What is this paper?
 

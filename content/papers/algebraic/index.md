@@ -6,11 +6,11 @@ draft = false
 
 The paper *An Algebraic Process for Visualization Design* by Gordon Kindlmann and Carlos Scheidegger is something that influenced my thinking a lot. It is a great example of visualization formalism that has a big and practical payoff in how we think about visualizations. It came back to mind recently. 
 
-The paper has a concise message that fits well in the "re-papering" format: changes to the data should correspond/correlate to changes in the visualization. The paper holds up well to time (it is from 2014). 
-
 <!--more-->
 
-Gordon Kindlmann and Carlos Scheidegger. 2014. An Algebraic Process for Visualization Design. *IEEE Transactions on Visualization and Computer Graphics* 20, 12 (December 2014), 2181–2190. [(doi)](https://doi.org/10.1109/TVCG.2014.2346325) 
+The paper has a concise message that fits well in the "re-papering" format: changes to the data should correspond/correlate to changes in the visualization. The paper holds up well to time (it is from 2014). 
+
++ Gordon Kindlmann and Carlos Scheidegger. 2014. An Algebraic Process for Visualization Design. *IEEE Transactions on Visualization and Computer Graphics* 20, 12 (December 2014), 2181–2190. [(doi)](https://doi.org/10.1109/TVCG.2014.2346325) 
 
 ## The Key Idea(s)
 
