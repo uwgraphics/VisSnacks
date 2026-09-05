@@ -78,6 +78,7 @@ One line per reading. `- [ ]` nothing done · `- [/]` summary generated · `- [!
 - [/] Leek & Peng — What is the Question? (2015)
 - [/] Zgraggen, Zhao, Zeleznik & Kraska — Investigating the Effect of the Multiple Comparisons Problem in Visual Analysis (2018)
 - [/] Franconeri, Padilla, Shah, Zacks & Hullman — The Science of Visual Data Communication: What Works (2021)
+- [/] Viégas & Wattenberg — Design and Redesign (2015)
 
 ## Already-published re-papered snacks (no AI summary on file for these)
 

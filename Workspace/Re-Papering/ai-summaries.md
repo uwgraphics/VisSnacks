@@ -6,7 +6,7 @@ Prepared 2026-07-17 by Claude for the VisSnacks re-papering project. Each sectio
 
 **Format per reading:** each reading is its own file (see the two directories below), titled with an `#` (H1) heading giving the full citation, followed by: What it is / AI summary / What a student-VisSnacks reader should get out of it / Skim-skip guidance / Memorable specifics / Caveats.
 
-**Coverage:** all Module 1 and Module 2 readings (weeks 1–4), 15 documents, plus one addition outside the original batch (Rind et al.'s Task Cube, added 2026-08-15 from a directly-supplied PDF — a task-abstraction paper relevant to Module 2 but not yet cross-checked against the course reading list). Not covered here (already have VisSnacks pages or deferred): the Discussing Design chapter (absorbed into Tutorial 4), Viegas & Wattenberg's Design and Redesign post, and the Modules 3–4 readings — which can be done the same way on request.
+**Coverage:** all Module 1 and Module 2 readings (weeks 1–4), 15 documents, plus one addition outside the original batch (Rind et al.'s Task Cube, added 2026-08-15 from a directly-supplied PDF — a task-abstraction paper relevant to Module 2 but not yet cross-checked against the course reading list). Not covered here (already have VisSnacks pages or deferred): the Discussing Design chapter (absorbed into Tutorial 4) and the Modules 3–4 readings — which can be done the same way on request. Viégas & Wattenberg's Design and Redesign post was added 2026-09-05 from a locally-supplied PDF (`/Users/gleicher/Projects/765-26/sources/Readings26/`, outside this repo) after the live Medium URL 403'd on fetch.
 
 **Contents:** Module 1 — Munzner ch. 1; Cairo FA preface+ch. 1, ch. 2, ch. 3; Tufte VDQI ch. 1; Wexler primer. Module 2 — Munzner ch. 2, 3, 5, 7; Cairo TT ch. 5; Cleveland & McGill 1984 and 1985; Shneiderman 1996; Amar/Eagan/Stasko 2005; Gleicher et al. Problem Space; Mackinlay 1986; Bertini expressiveness post. Also: Rind et al. 2016, Task Cube (outside the original batch, see Coverage note above).
 
@@ -14,7 +14,7 @@ Prepared 2026-07-17 by Claude for the VisSnacks re-papering project. Each sectio
 
 **This file is now an index — the summaries moved to per-document files, one document per file, in two directories. See `checklist.md` for current per-document status; this list is just where to find each one:**
 
-- `PapersSummary/` — one file per paper/post, named `author-year.md`: Cleveland & McGill ×2, Shneiderman, Amar, Problem Space, Mackinlay, Bertini, North, Rind et al. (Task Cube), Card/Mackinlay/Shneiderman, Shmueli, Leek & Peng, Zgraggen et al., Franconeri et al. (Science of Visual Data Communication) — all done. See `PapersSummary/README.md`.
+- `PapersSummary/` — one file per paper/post, named `author-year.md`: Cleveland & McGill ×2, Shneiderman, Amar, Problem Space, Mackinlay, Bertini, North, Rind et al. (Task Cube), Card/Mackinlay/Shneiderman, Shmueli, Leek & Peng, Zgraggen et al., Franconeri et al. (Science of Visual Data Communication), Viégas & Wattenberg (Design and Redesign) — all done. See `PapersSummary/README.md`.
 - `BookSummaries/` — one file per chapter, named `author-book-chNN.md`:
   - `munzner-*` — *Visualization Analysis and Design*, all 14 chapters (ch. 4, 6, 8–14 include "Figures worth borrowing" candidates)
   - `cairo-*` — *The Functional Art* + *The Truthful Art*, all assigned chapters (several include figure candidates)
