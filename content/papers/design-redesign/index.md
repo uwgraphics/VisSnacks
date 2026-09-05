@@ -16,7 +16,7 @@ I recommend that you (a student, or VisSnack reader) read this "essay" because i
 
 In the decade plus since this was published, the importance of visualization and the value of design in it have been well established. We have become much better at online discussions. The authors, and the others they refer to, have become key figures in the field.
 
-Reading the essay is worthwhile - the examples, and the writing is worth it. The historical context is a bit dated, but that might make this even more important. As a community, visualization research has learned from design practice. We all need to do this. 
+Reading the essay is worthwhile - the examples and the writing are worth it. The historical context is a bit dated, but that might make this even more important. As a community, visualization research has learned from design practice. We all need to do this. 
 
 ## Claude's Summary
 
@@ -47,3 +47,7 @@ Their proposed "rules of engagement" split into three: **maintain rigor** (state
 - Closing thesis: "We'll know that visualization has matured as a medium when we see as much criticism about content as we do today about technique."
 
 **Caveats:** It's a reflective essay by practitioners, not an empirical study — the "rules of engagement" are proposed norms, not tested ones, and the essay says so implicitly by framing them as suggestions. It's explicitly occasioned by, and partly a response to, a specific dispute Cairo was involved in (both the Lupi timeline and the Arab Spring timeline cases feature his redesigns), so it's worth reading as participants in a live disagreement working out principles in real time, not as disinterested observers. The essay predates (2015) the now-standard "roast/redesign" culture in the dataviz community, so some of its anxieties about public redesign as a novel, disorienting phenomenon read as more urgent than they might today — the field has since developed more of the social norms it was calling for.
+
+{{<genai>}}
+Claude wrote Claude's summary.
+{{</genai>}}
