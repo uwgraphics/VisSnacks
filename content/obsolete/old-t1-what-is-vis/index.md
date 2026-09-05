@@ -8,6 +8,7 @@ toc: false
 weight: 1
 ---
 
+**Obsolete:** This is an old version (pre- Fall 2026). The new version is: {{<link "tutorials/1-what-is-vis">}}.
 
 This gives you a sense of **my** thoughts on what Visualization is, and how we best go about creating them. By defining visualization in a clear and operational manner, we can better organize our thinking about what it means to do visualization well (which is our goal), how we should go about doing it, and what we need to learn to do it.
 

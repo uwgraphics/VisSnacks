@@ -9,6 +9,8 @@ aliases:
   - /tutorials/2-table-example/
 ---
 
+**Obsolete:** This is an old version (pre- Fall 2026). The new version is: {{<link "tutorials/2-building-blocks">}} uses other examples to make a broader point.
+
 I will use a simple example (a data table) to show how the basic concepts of visualization can be applied. This is mainly to illustrate the "4 design moves" introduced in {{<link old-t1-what-is-vis>}}
 
 <!--more-->
