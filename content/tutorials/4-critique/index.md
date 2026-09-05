@@ -14,7 +14,7 @@ weight = 4
 
 This tutorial will give you a quick guide on how to do critique with the goal of helping you get started at improving your critique practice, or at least to appreciate why the examples in {{<link "/tags/critique">}} are the way they are. The simple "rules and formulas" here are good for beginners (including me) to get started. Maybe with practice, I won't need them - but I think that experienced designers have internalized the lessons.
 
-> This tutorial is heavily influenced by Chapter 1 of *Discussing Design* (I describe the book at {{<link "discussing-design">}}). I used Claude to help me make sure this tutorial stands alone without it.
+> This tutorial is heavily influenced by Chapter 1 of *Discussing Design* (I describe the book at {{<link "resources/discussing-design">}}). I used Claude to help me make sure this tutorial stands alone without it.
 
 Critique is really useful for Vis. In the context of this site, I will use critique to analyze examples in order to try to distill their lessons, often to reinforce more general principles. In the practice of doing design, critique is often a way of understanding a prototype so that we can generate ideas on how we might iterate. Re-Design (see {{<anchorlink "Re-Design-And-Critique">}} below) often involves critique (at least implicitly), but not all critique involves re-design. 
 
@@ -24,6 +24,8 @@ Designers and artists don’t own critique. Critique is for anyone who wants to 
 {{</quote>}}
 
 Critique also does something for a *group* that is easy to miss. The Discussing Design book (Chapter 1) lists team benefits: critique builds a shared vocabulary (groups that critique together end up talking about designs the same way), it finds consensus grounded in objectives (rather than in who argues loudest), and it directs iteration to where it is needed. In my class, the first one is part of a not-so-secret agenda: critiquing together is how we develop a shared vocabulary for talking about visualizations.
+
+> Much about critique is top help **dialog** between a designer and critics. Here, I focus on critique as an analytic practice - how we can act as crtitics to learn from the example, even without the designer there. A surprising (for me) observation: the tools for good dialog are also useful for analysis.
 
 What I've learned (see {{<anchorlink "Historical Note">}}) is that critique is a skill that you can get better at with practice. The {{<link "/tags/critique">}} are practice for me, as well a chance to look at some designs and learn from them. If you're trying to become better at Vis, I recommend trying to become better at critique.
 
@@ -37,7 +39,16 @@ Critique is usually described as a conversation where the designer is present (t
 
 If you don't do critique carefully, things can go wrong: you can (1) upset the designer and/or (2) fail to have a productive conversation. Critiquing in a way that is kind to the designer prevents problem #1, but seems to also prevent problem #2. Two recommendations: (1) pretend that the designer is there (even if they aren't), and (2) critique the work, not the designer.
 
-In performing critique, I recommend setting a few ground rules (these are paraphrased from Irene, a former student in my class):
+In performing critique, I recommend setting a few ground rules (Italics explained in the aside - they come from the older version of the list):
+
+1. Critique as if the person is there (Critique the work, not the person). *It’s about the work, not the person*
+2. Understand/Examine first (Understand context and the object before reacting). *Know the purpose of the work.*
+3. Connect to intents (if you were trying to X then Y)
+4. Consider choices (what choice was made? how could the decision have been informed? (principles!) *Be specific about problems.*
+5.  Do not prescribe. *Don't Dictate.*
+
+{{<expand "Aside: Where does this come from?">}}
+This came from an original list made by a former student, Irene, who was trained as a designer (see the {{<anchorlink "Historical Note">}} below). It was focused on improving dialog.
 
 1. Know the purpose of the work
 2. Say something good
@@ -45,21 +56,18 @@ In performing critique, I recommend setting a few ground rules (these are paraph
 4. Don’t dictate
 5. It’s about the work, not the person
 
-Which I alter/re-order into a list of "advice":
+If you notice, #2 is missing - it gets folded into #2. I think that kindness to the designer really comes from the critic showing the designer that they really have taken the time to examine things. 
 
-1. Critique as if the person is there (Critique the work, not the person)
-2. Understand/Examine first (Understand context and the object before reacting)
-3. Connect to intents (if you were trying to X then Y)
-4. Consider choices (what choice was made? how could the decision have been informed? (principles!))
-5.  Do not prescribe
+So: don't start with bad news. You can start by demonstrating that you took the time the appreciate and understand the design and its context. To me, this seems better than the (all too common) patten: superfluous positive, BUT ...
+{{</expand>}}
 
-The Discussing Design book (Chapter 1) makes a distinction that helps organize all this advice: critique has two parts. **Critical thinking** is the analysis itself - examining whether the design's choices serve its objectives. **Delivery** is how you share that analysis with others. The advice above is mostly about delivery. The stylized formula (next) is a way to make sure the critical thinking is actually there - it is possible to be perfectly polite while saying nothing analytical.
+The Discussing Design book (Chapter 1) makes a distinction that helps organize all this advice: critique has two parts. **Critical thinking** is the analysis itself - examining whether the design's choices serve its objectives. **Delivery** is how you share that analysis with others. While the advice may seem to be about delivery, it actually helps with the critical thinking required for good delivery. The stylized formula (next) is a way to make sure the critical thinking is actually there - it is possible to be perfectly polite while saying nothing analytical.
 
 ### The Stylized Formula
 
 To make critique easier, I recommend starting with stating critique using a stylized formula. Everything you "say" should be in this stylized form. Once you get practice doing this form, you may learn to critique well without it - but the form is a nice set of "training wheels".
 
-The stylized form comes from the  {{<link discussing-design>}} book ([first chapter preview](https://cdn.oreillystatic.com/oreilly/booksamplers/9781491902400_sampler.pdf)). If you follow this stylized approach, you won't commit the worst mistakes, and will probably be steered towards effective critique:
+The stylized form comes from the  {{<link "resources/discussing-design">}} book ([first chapter preview](https://cdn.oreillystatic.com/oreilly/booksamplers/9781491902400_sampler.pdf)). If you follow this stylized approach, you won't commit the worst mistakes, and will probably be steered towards effective critique:
 
 1. Be clear about the objective.
 2. Be specific about the aspect of the design.
@@ -105,7 +113,7 @@ Let's try the stylized form...
 
 > If the goal is to create an image we can use for learning about visualization critique, a chart with too many things going on might be too distracting. Getting rid of extra objects can simplify the design and make it easier to identify specific features. 
 
-Notice how this is non-antagonistic. We give the designer an out "I wasn't trying to create an image for learning about visualization critique, I was trying to obey the prompt." The critique identifies the aspect and why it might be a problem. It tries to evoke the principle (too many things are distracting, simplicity makes it easier to identify things).
+Notice how this is non-antagonistic. We give the designer an out "I wasn't trying to create an image for learning about visualization critique, I was trying to obey the prompt." The critique identifies the aspect and why it might be a problem. It tries to evoke the principle (too many things are distracting, simplicity makes it easier to identify things). It might be a bit on the prescriptive side.
 
 {{<comment>}}
 OK... Here's another image from a slightly tuned prompt...
@@ -123,7 +131,7 @@ Sometimes, you might ignore the context. "I (as critic) don't care what this vis
 
 Also remember that objectives come in different flavors. Discussing Design (Chapter 1) distinguishes utility objectives (help someone do a task), measurable objectives (increase some number), and experiential objectives (make someone feel something). In the way I think about visualization, all are types of tasks: the first are the more common kind of tasks,  but "make the reader feel the scale of the problem" or "draw people into the article" can be considered tasks as well.
 
-### 2. Say Something Good
+### 2. Understand/Examine First (Say Something Good)
 
 The point here is to show understanding of the object. It's less about saying something nice to be kind to the designer (to warm them up before knocking them down), but rather to show that you have taken the effort to appreciate what has been done (for better or worse).
 
@@ -168,7 +176,7 @@ Notice how the stylized form steers away from the worst problems.
 
 ## Besides Critique
 
-The {{<link discussing-design>}} book emphasizes that critique is only one of many forms of dialog. Chapter 1 frames it as three forms of feedback: **reaction** (a gut response), **direction** (telling the designer what to do instead), and **critique** (analysis). The first two are what you usually get when you ask for "feedback" without being specific. One variant of reaction deserves special mention because it is so common in peer settings: *polite praise* - "looks great!" said because someone asked, not because of anything in the design. It feels good, costs nothing, and teaches nothing. If you catch yourself giving it, go back and examine the thing first.
+The {{<link "resources/discussing-design">}} book emphasizes that critique is only one of many forms of dialog. Chapter 1 frames it as three forms of feedback: **reaction** (a gut response), **direction** (telling the designer what to do instead), and **critique** (analysis). The first two are what you usually get when you ask for "feedback" without being specific. One variant of reaction deserves special mention because it is so common in peer settings: *polite praise* - "looks great!" said because someone asked, not because of anything in the design. It feels good, costs nothing, and teaches nothing. If you catch yourself giving it, go back and examine the thing first.
 
 This was good food for thought for me. Here is my list, adapted from theirs:
 
@@ -193,7 +201,15 @@ The stylized form can be helpful: it can point to specific choices that could be
 
 I recommend this posting (from two visualization experts) as a great discussion of redesign with good examples:
 
-+ **Design and Redesign** [(Medium posting)](https://medium.com/@hint_fm/design-and-redesign-4ab77206cf9) by Fernanda Viegas and Martin Wattenberg
++ **Design and Redesign** [(Medium posting)](https://medium.com/@hint_fm/design-and-redesign-4ab77206cf9) by Fernanda Viegas and Martin Wattenberg.
+
+## The Book
+
+Hopefully, this will inspire you to read the {{<link "resources/discussing-design">}} book. To help you see what you might get out of it, I had Claude make a summary of the book: {{<link "papers/discussing-design">}}.
+
+Claude recommends the book's list of 10 bad habits. (the appendix) I agree, this is a good way to think about how to critique by naming how NOT to critique.
+
+> The whole book as a checklist, and honestly the best five minutes a student can spend with it: **reacting** (verbalizing before analyzing), **being selfish** (feedback about you, not the work), **getting defensive** ("explain your work, do not defend it"), **starting from disparate foundations** (no shared objectives), **lacking focus**, **focusing only on what isn't working** (strengths are analysis too), **lack of discussion** (a to-do list over email isn't critique), **avoiding participation** (critique your own work alongside others), **problem solving** (mid-critique), **confusing critique with review** (approval ≠ analysis).
 
 ## Historical Note
 

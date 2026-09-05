@@ -16,7 +16,7 @@ weight = 4
 
 This tutorial will give you a quick guide on how to do critique with the goal of helping you get started at improving your critique practice, or at least to appreciate why the examples in {{<link "/tags/critique">}} are the way they are. The simple "rules and formulas" here are good for beginners (including me) to get started. Maybe with practice, I won't need them - but I think that experienced designers have internalized the lessons.
 
-> This tutorial is heavily influenced by Chapter 1 of *Discussing Design* (I describe the book at {{<link "discussing-design">}}). I used Claude to help me make sure this tutorial stands alone without it.
+> This tutorial is heavily influenced by Chapter 1 of *Discussing Design* (I describe the book at {{<link "resources/discussing-design">}}). I used Claude to help me make sure this tutorial stands alone without it.
 
 Critique is really useful for Vis. In the context of this site, I will use critique to analyze examples in order to try to distill their lessons, often to reinforce more general principles. In the practice of doing design, critique is often a way of understanding a prototype so that we can generate ideas on how we might iterate. Re-Design (see {{<anchorlink "Re-Design-And-Critique">}} below) often involves critique (at least implicitly), but not all critique involves re-design. 
 
@@ -61,7 +61,7 @@ The Discussing Design book (Chapter 1) makes a distinction that helps organize a
 
 To make critique easier, I recommend starting with stating critique using a stylized formula. Everything you "say" should be in this stylized form. Once you get practice doing this form, you may learn to critique well without it - but the form is a nice set of "training wheels".
 
-The stylized form comes from the  {{<link discussing-design>}} book ([first chapter preview](https://cdn.oreillystatic.com/oreilly/booksamplers/9781491902400_sampler.pdf)). If you follow this stylized approach, you won't commit the worst mistakes, and will probably be steered towards effective critique:
+The stylized form comes from the  {{<link "resources/discussing-design">}} book ([first chapter preview](https://cdn.oreillystatic.com/oreilly/booksamplers/9781491902400_sampler.pdf)). If you follow this stylized approach, you won't commit the worst mistakes, and will probably be steered towards effective critique:
 
 1. Be clear about the objective.
 2. Be specific about the aspect of the design.
@@ -170,7 +170,7 @@ Notice how the stylized form steers away from the worst problems.
 
 ## Besides Critique
 
-The {{<link discussing-design>}} book emphasizes that critique is only one of many forms of dialog. Chapter 1 frames it as three forms of feedback: **reaction** (a gut response), **direction** (telling the designer what to do instead), and **critique** (analysis). The first two are what you usually get when you ask for "feedback" without being specific. One variant of reaction deserves special mention because it is so common in peer settings: *polite praise* - "looks great!" said because someone asked, not because of anything in the design. It feels good, costs nothing, and teaches nothing. If you catch yourself giving it, go back and examine the thing first.
+The {{<link "resources/discussing-design">}} book emphasizes that critique is only one of many forms of dialog. Chapter 1 frames it as three forms of feedback: **reaction** (a gut response), **direction** (telling the designer what to do instead), and **critique** (analysis). The first two are what you usually get when you ask for "feedback" without being specific. One variant of reaction deserves special mention because it is so common in peer settings: *polite praise* - "looks great!" said because someone asked, not because of anything in the design. It feels good, costs nothing, and teaches nothing. If you catch yourself giving it, go back and examine the thing first.
 
 This was good food for thought for me. Here is my list, adapted from theirs:
 
