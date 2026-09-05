@@ -6,6 +6,8 @@ draft = false
 
 We often think of interaction as a solution to visualization problems as it has many upsides. However, there are costs to the user (beyond the obvious costs in terms of design, implementation and deployment). The paper "A Framework of Interaction Costs in Information Visualization" by Heidi Lam gives a nice way to think about these costs. It's an adaptation of earlier work in HCI, but she shows how appropriate it is. She validates the framework by applying it in a broad survey of visualization papers. 
 
+<!--more-->
+
 The framework has three "top level" categories of costs: costs to form goals, costs to plan and execute to achieve goals, and costs to evaluate how the goals are met. The seven interaction costs identified in the framework are (1) Decision costs to form goals; (2) System-power costs to form system operations; (3) Multiple input mode costs to form physical sequences; (4) Physical-motion costs to execute sequences; (5) Visual-cluttering costs to perceive state; (6) View-change costs to interpret perception; and (7) State-change costs to evaluate interpretation.
 
 ## What is this paper?
