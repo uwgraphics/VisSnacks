@@ -1,7 +1,7 @@
 +++
 title = 'Data Abstraction: A Cheat Sheet'
 date = 2026-09-06T11:00:00-05:00
-draft = true
+draft = false
 weight = 32
 tags = ["data-abstraction", "building-blocks"]
 +++
@@ -50,10 +50,11 @@ Some attributes *index* the data; others are *measured*.
 
 ### Sampling
 
-**Sampling** is measuring at a finite set of locations rather than everywhere. It is a statement about the *domain*, and it runs in both directions: on a continuous domain it makes the data discrete, on an already-discrete one it just makes the set smaller.
+**Sampling** is measuring at a finite set of locations rather than everywhere. It is a statement about the *domain*, and it runs in both directions: on a continuous domain it makes the data discrete, on an already-discrete one it just makes the set smaller. Either way, sampling is summarization: it throws away information. We need to use some other process to estimate what was lost (or that we never had).
 
-The first direction is the common one - we almost always represent a continuous field as a sampled table. Brightness can be measured anywhere on the screen, but we store it as a grid of pixels. Either way, sampling is inference (guess about the whole from a subset) or summary (throw information away on purpose).
+Sampling continuous fields is common: we almost always represent a continuous field as a sampled table. For example, brightness can be measured anywhere on the screen, but we store it as a grid of pixels. The *reconstruction* process rebuilds a continuous signal from the sample. The field of signal processing helps us understand this process.
 
+The second case - representing a large set by a smaller set - is common in statistics. For example, we cannot survey all people in the country or observe all species in the ocean; we can only see a subset (called a sample). Statistical *inference* allows us to try to understand the population from a sample.
 
 ## Describing Attributes
 
@@ -105,7 +106,6 @@ Other properties of attributes (and the sets of values they may take).
 - **Cyclic.** Hours, weekdays, months, compass bearings. The end connects back to the start.
 - **Cardinality.** How many distinct values the set has. It matters at every level, not just for nominal - a quantitative attribute with six distinct values behaves nothing like one with six million.
 - **Continuous vs. discrete.** Separate from the level of measurement, and from whether the *domain* is continuous.
-- **Part/whole.** Sometimes the meaningful quantity belongs to a *group* - market share only means something against a total.
 - **Hierarchical structure.** Some attributes aggregate: days into weeks into years, cities into states.
 
 Two cases carry enough extra baggage to be worth flagging:
@@ -129,10 +129,6 @@ Here are a few key type conversion transformations:
 | **Interpolation** | Invent values between measurements | Only if an in-between value is meaningful |
 | **Rank transformation** | Keep the order, discard the intervals | Ratio/interval → ordinal is lossy |
 
-### Part / Whole
-
-
-
 ### Discrete, Continuous, Interpolatable (Interpolable)
 
 The type of the domain and range work together. This turns out to be significant for visualization design.
@@ -143,10 +139,28 @@ An example: time is continuous. But we often discretize it into units (hours, da
 
 {{<rimage src="pitchbook-startups.png" caption="A figure that includes both discrete and continuous time correctly. On the left, the value is binned by year, so a bar chart is appropriate. On the right, it is a measurement at a given time, so it is interpolable and a line chart is appropriate.">}}
 
-Two examples that consider this are {{<link "app-time-graphs">}} and {{<link "cairo-discrete-line">}}.
+Two examples that consider this are {{<link "/snacks/app-time-graphs">}} and {{<link "/snacks/cairo-discrete-line">}}.
 
 **Warning:** while data properties (such as interpolability) should influence visualization design, they shouldn't be considered rules.
 
+### Part / Whole
+
+Sometimes a value only means something against a total: market share, share of the vote, percent of the budget. The interesting quantity belongs to the *group* rather than to any single item - "23%" isn't a fact about one company, it's a fact about that company's place among all of them.
+
+This is another property that involves the domain and the range together, and both halves have to hold:
+
+- **The range has to add up.** The values need to be a ratio quantity that is *additive* - counts, dollars, area, population. Averages, rates, and temperatures don't sum, so there's no whole for them to be part of.
+- **The domain has to be a partition** - *disjoint*, so nothing is counted twice, and *exhaustive*, so nothing is left out. This is the half that usually breaks. If survey respondents could pick more than one answer, the shares overlap and won't total. If the long tail got dropped and there's no "other" bucket, the whole is missing a piece.
+
+Part/whole often nests - counties inside states inside the country, subcategories inside categories - and then each level is its own partition. That nesting is what hierarchical part/whole forms are built on.
+
+A whole family of visual forms *asserts* that the parts make a whole: pie charts, stacked bars, mosaic plots, treemaps, a "percent of total" axis. The form makes that claim whether or not the data supports it, which is what's actually wrong with the classic bad pie chart - slices that don't reach 100%, or categories that overlap. The claim is in the picture, not in the numbers.
+
+Normalizing to shares is a **conversion**, and it costs something: proportions throw the magnitude away. Two pies with identical slices can come from wildly different totals, so a share is usually worth showing next to a size rather than instead of one.
+
+**Warning 1:** Just because data has a part/whole form doesn't mean that it should be displayed using a part/whole design. *Part/Whole Designs are only appropriate if both the data and the task apply.* See {{<link link="tutorials/1-what-is-vis" anchor="Tasks as the Key">}} for an example. 
+
+**Warning 2:** Part/Whole designs (such as pie charts) are very effective when both the data and tasks suggest them. They get a bad reputation because they are often applied in the wrong situations.
 
 ## What this buys you, and what it doesn't
 
