@@ -35,4 +35,14 @@ This is a good opportunity for comparitive visualization (comparing visualizatio
 
 Arguably, these are different data types: the step counts are discrete (so they need to be binned over periods of time), electric usage could be the rate (instantaneous usage) which is a continuous signal, and therefore the line graph is more appropriate. But the units on the graph are kilowatt hours (which are amounts, not rates) - it could be the per day usage. 
 
+{{<expand "The discrete vs. continuous time question">}}
+In the step count case, time is **discrete** - for each day there is one count. It doesn't make sense to say "what is the count at 10am vs 4pm" or "what is the count between 12 and 13.
+
+If the units were killowatts - the amount of energy being used at a given time, then time is **continuous**. We can ask for the value at any instant. Even if we averaged over the day - we could say it is discrete (each day has one average), but time is continuous (we could ask "what is the average between two days" - thinking of the 24 hours centered at midnight).
+
+The actual graph is "killowatt hours", which is the amount of energy used in a period of time. And it does change over the course of a day. So, I assume it is "the number of kWh in each hour" (or some unit of time).
+
+See {{<link data-abstraction-cheat-sheet>}} for a discussion.
+{{</expand>}}
+
 There are pros and cons to both designs (binned vs. continuous). The decision should really consider task, not just data type. 

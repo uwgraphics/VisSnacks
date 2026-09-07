@@ -14,13 +14,15 @@ Munzner's chapter 2 makes the case for why you'd want to describe data abstractl
 
 ## Where the data lives: dataset types
 
-*one sentence: where the data lives / where we measure*
+Any dataset needs two descriptions: how it is **organized** - where the measurements live - and what the **values** are. This section is organization; *Describing Attributes*, below, is values.
 
-- **Table** - a discrete set of items (rows), each with measured attributes (columns). Munzner counts **geometry** as a separate type, although it is a table where each item has a position.
-- **Field** - measurements over a *continuous* domain: temperature at every point in a room, brightness at every position on the screen. You measure "everywhere," not at named objects. *pixels are wrong since they are the discrete sampling*
+The **domain** is where you measure. The property that matters most about a domain is whether it is **discrete** (a countable set of objects) or **continuous** (you could have measured anywhere), and that split is what separates the first two types.
+
+- **Table** - a discrete set of items (rows), each with measured attributes (columns). Because the domain is discrete it can always be unrolled into 1D, though sometimes the set has structure of its own - a grid, or more generally a **lattice**.
+- **Field** - measurements over a *continuous* domain: temperature at every point in a room, brightness at every position on the screen. You measure "everywhere," not at named objects.
 - **Network** (graph) - two kinds of object: items, and the *links* between them. Either can carry attributes. A **tree** is the acyclic special case.
 
-*Note about tables: because it is discrete, it can always be unrolled into 1D. Sometimes there is structure to the discrete set (e.g., a grid). This is sometimes called a lattice.*
+Munzner counts **geometry** as a fourth type - items with explicit shape, like a country outline or a streamline. Mostly it behaves like a table whose items carry a position, with the caveat that a shape is more than a position once the item is a polygon rather than a point.
 
 The **dimensionality** of a field is its *domain* - where you measure - not what you measure there. A field can be 1D (a signal over time), 2D (an image), or 3D (a volume); at each location you might record one number (**scalar**), a direction and magnitude (**vector**), or more (**tensor**).
 
@@ -44,24 +46,23 @@ Some attributes *index* the data; others are *measured*.
 - In a field, **spatial position is the key**, and it's a quantitative one.
 - **Time-varying** data has time as a *key*; if time is a *value*, it isn't.
 
-**Rotation** - which attribute you treat as the key is a choice, not a property of the data. "For each day, what was the temperature" can become "for each temperature, which days." The non-standard rotation is sometimes the good one: John Snow's cholera map indexes deaths by *position* rather than by patient, and that reframing is the whole map.
-
-*hard to mention snow's example since the reader doesn't know it - also, snow's insight was to ignore time (most plots were time vs. death, he did place vs. deaths) - unclear if we want the whole aside here* 
+**Rotation** - which attribute you treat as the key is a choice, not a property of the data. "For each day, what was the temperature" can become "for each temperature, which days had it." The unusual rotation is sometimes the good one.
 
 ### Sampling
 
-*the concept of sampling is important because it gets at domain - in either tables (reduce size) or fields (makes discrete). get rid of the clothes thing. and it's not a lot. in the opposite direction - usually we represent continuous fields as a sampled table*
+**Sampling** is measuring at a finite set of locations rather than everywhere. It is a statement about the *domain*, and it runs in both directions: on a continuous domain it makes the data discrete, on an already-discrete one it just makes the set smaller.
 
-*maybe use the pixel example from above: brightness can be measured anywhere, but we represent it as a sampled grid*
-
-{{<expand "Sampling turns a field into a table">}}
-You can't measure a continuous field everywhere, and often you couldn't observe every location anyway - you don't poll every voter or inspect every phone call. So you **sample**: measure at a finite set of locations, which turns the field into a table. Sampling is either inference (guess about the whole from a subset) or summary (throw information away on purpose). Worth remembering because a lot of "table" data is a sampled field wearing a table's clothes.
-{{</expand>}}
+The first direction is the common one - we almost always represent a continuous field as a sampled table. Brightness can be measured anywhere on the screen, but we store it as a grid of pixels. Either way, sampling is inference (guess about the whole from a subset) or summary (throw information away on purpose).
 
 
 ## Describing Attributes
 
-*describe attribute description as the set of possible values that an attribute might have. levels of measurement describe the types of set by the operations on them*
+An attribute is described by the **set of possible values** it might take. Levels of measurement classify those sets by the operations they support.
+
+A value is not always a single number:
+
+- **Records** (or vectors) - one attribute holding several numbers at once: an RGB color, a 3D velocity, a block of survey responses. In a field these are the **scalar / vector / tensor** distinction; in a table they are just a column holding a tuple.
+- **Rich types** - values that are whole objects with their own structure: text, dates, images, geometry, URLs. These almost always get decomposed (a date into year, month, weekday) or reduced (text into a word count) before anything encodes them, and that decomposition is a design decision.
 
 ### Levels of measurement (NOIR)
 
@@ -77,24 +78,21 @@ What you measure has a **level of measurement**. The four classic levels go by t
 Some points:
 - **The levels are a ladder.** Each rung supports every operation below it, plus one more.
 - **Numbers lie about their level.** A student ID, a ZIP code, a jersey number, a department code - all stored as numbers, all nominal. "It's a number" is not "it's a ratio."
-- **The level is a property of the data, not the column type.** It's what you know about the values, not how they're stored. *not sure what you mean by this*
-- Interval and Ratio are sometimes grouped as **Quantitative**. Munzner Ch2 does this.
+- Interval and Ratio are sometimes grouped as **Quantitative**; Munzner ch. 2 does this. I keep them apart because the true zero is what licenses "twice as much," proportions, and a bar that starts at zero - none of which mean anything for temperature in °C.
 
 ### Categorical: nominal with a small closed set
 
-I use **categorical** more narrowly than most people do. For me it's a *subset* of nominal: a nominal attribute whose possible values form a **compact, finite, known set**.
+I use **categorical** more narrowly than most people do. For me it's a *subset* of nominal: a nominal attribute whose possible values form a **closed, finite set**.
 
-- **Nominal** says only "these are names, with no order." Names can be anything - free text, IDs, values you haven't seen yet.
-- **Categorical** adds that you can *enumerate* the possibilities. 
-
-*i sometimes include cases where you don't know what they are, but you know the set is closed. the set of counties*
+- **Nominal** says only "these are names, with no order." Names can be anything - free text, IDs, values nobody has seen yet.
+- **Categorical** adds that the set of possibilities is fixed. You don't have to be able to *list* them - I'd call the set of US counties categorical - but the set is closed, so a brand-new value is a surprise rather than a matter of course.
 
 The distinction is worth a separate word because the small closed set is what makes a whole set of moves available. You can give every value its own hue or shape, build a legend that fits on the page, facet one panel per value, or put them all on an axis. None of that survives contact with a nominal attribute of ten thousand distinct values, even though the *level* is identical. **Categorical implies set size; nominal doesn't.**
 
 {{<expand "Is this a real definition? Partly.">}}
-The distinction is real and standard; my *name* for it isn't. The usual term for the underlying property is **cardinality** - the number of distinct values - and the split shows up implemented all over the place under other names: R's `factor` (a declared, finite set of levels) versus `character` (arbitrary strings); SQL's `ENUM` versus `TEXT`; the way feature engineering separates ordinary categorical features from "high-cardinality" or identifier-like columns.
+The distinction is real; my *name* for it isn't, and the obvious candidate name doesn't work either. **Cardinality** is just the size of a set, and a set can have enormous or infinite cardinality, so cardinality alone isn't the property I'm after - I mean *small and finite* cardinality together with a closed set of possibilities.
 
-*I think this is wrong - cardinality is the measure of the set size (AFAIK). A set can have large or infinite cardinality*
+That combination is standard enough to be built into type systems, under other names: R's `factor` (a declared, finite set of levels) versus `character` (arbitrary strings); SQL's `ENUM` versus `TEXT`; the way feature engineering separates ordinary categorical features from "high-cardinality" or identifier-like columns.
 
 What's nonstandard is the nesting. Some statistical writing uses **categorical** as a synonym for nominal, or as the umbrella over nominal *and* ordinal - Munzner does the former, listing nominal as a margin synonym for categorical. So when you read "categorical" elsewhere, assume the broad meaning unless the author says otherwise, and don't expect anyone else to carry the set-size implication.
 {{</expand>}}
@@ -103,11 +101,9 @@ What's nonstandard is the nesting. Some statistical writing uses **categorical**
 
 Other properties of attributes (and the sets of values they may take).
 
-*does cardinality come in here? the number of possible values/set size - we already mentioned in above*
-
 - **Sequential vs. diverging.** A sequence runs one way (zero up to a max). Diverging data has a meaningful *middle* with distinct sides - elevation around sea level, profit around zero. The middle is a real property of the data.
 - **Cyclic.** Hours, weekdays, months, compass bearings. The end connects back to the start.
-- **Cardinality and set size.** How many distinct values, and is the set finite or open-ended.
+- **Cardinality.** How many distinct values the set has. It matters at every level, not just for nominal - a quantitative attribute with six distinct values behaves nothing like one with six million.
 - **Continuous vs. discrete.** Separate from the level of measurement, and from whether the *domain* is continuous.
 - **Part/whole.** Sometimes the meaningful quantity belongs to a *group* - market share only means something against a total.
 - **Hierarchical structure.** Some attributes aggregate: days into weeks into years, cities into states.
@@ -117,25 +113,46 @@ Two cases carry enough extra baggage to be worth flagging:
 - **Time** is nominally a 1D interval quantity, but it has cycles at several scales, irregular units, and a strong left-to-right convention. Rarely "just a number."
 - **Geographic position** is nominally 2D interval, but drags in projections, conventions, and every reader's prior expectations about maps.
 
-## Conversions
+### Conversions
 
 Moving data between types is often the right design move, not a compromise.
 
 - **Down-conversions are easy.** Discard the ordering (ordinal → nominal), or collapse a large set into a small one.
 - **Up-conversions are hard**, because they mean *imposing* structure that wasn't in the data - inventing an order for categories.
 
+Here are a few key type conversion transformations:
+
 | Conversion | What it does | The catch |
 |---|---|---|
 | **Discretization** | Continuous → discrete, by thresholding or rounding | Where you cut is a decision |
 | **Binning** + **aggregation** | Group like values into buckets, then summarize each | Bin choice can quietly change the story |
-| **Interpolation** | Invent values between measurements | Only if an in-between value is real |
+| **Interpolation** | Invent values between measurements | Only if an in-between value is meaningful |
 | **Rank transformation** | Keep the order, discard the intervals | Ratio/interval → ordinal is lossy |
+
+### Part / Whole
+
+
+
+### Discrete, Continuous, Interpolatable (Interpolable)
+
+The type of the domain and range work together. This turns out to be significant for visualization design.
+
+An example is the property of being **interpolatable** (*interpolable* is a standard alternate term): does it make sense to talk about the value between two measurements? There could have been a measurement there - we don't have it. We could estimate that value by *interpolation* (connecting the dots, although there are mathematically fancy ways to do this).
+
+An example: time is continuous. But we often discretize it into units (hours, days, seasons). Depending on what we're measuring, different operations make sense - and different visual forms imply that. If we are binning over the period, then time is discrete: it make sense to take about the count "in between days". If we have a measurement on each day, then it does make sense to take about "what would the measurement been in between". Note that this requires both the domain (time) and the value (binned vs. measured) to determine what makes sense.
+
+{{<rimage src="pitchbook-startups.png" caption="A figure that includes both discrete and continuous time correctly. On the left, the value is binned by year, so a bar chart is appropriate. On the right, it is a measurement at a given time, so it is interpolable and a line chart is appropriate.">}}
+
+Two examples that consider this are {{<link "app-time-graphs">}} and {{<link "cairo-discrete-line">}}.
+
+**Warning:** while data properties (such as interpolability) should influence visualization design, they shouldn't be considered rules.
+
 
 ## What this buys you, and what it doesn't
 
-The levels tell you which **operations are meaningful** on the values - which is what tells you whether a display's claim is honest.
+The levels tell you which **operations are meaningful** on the values. This can (should) influence the visual design - many of the worst problems come from data type / design mismatches. Task and semantics should also factor into design. Naive data type to chart recommendations are a starting point.
 
-They do not give you a lookup from data type to chart. Type *constrains* the space of honest designs without picking one out of it; what the viewer is trying to **do** usually does more of that work. (Munzner's 2.6 makes a version of this point: type and semantics are crosscutting, and neither dictates the other.) Task abstraction is the other half of this vocabulary, and gets its own page.
+Claude's summary: type *constrains* the space of honest designs without picking one out of it; what the viewer is trying to **do** usually does more of that work. (Munzner's 2.6 makes a version of this point: type and semantics are crosscutting, and neither dictates the other.) Task abstraction is the other half of this vocabulary, and gets its own page.
 
 ## Want more?
 

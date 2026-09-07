@@ -13,6 +13,8 @@
 - Key types (Task & Data) of abstraction
 - Why care about data abstractions (not just for rules)
 - Type vs. Semantics
+
+Data Abstractions:
 - Organization vs. Values
 - Domains
   - discrete vs. continuous
