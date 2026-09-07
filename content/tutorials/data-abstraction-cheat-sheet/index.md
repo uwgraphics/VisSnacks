@@ -14,7 +14,7 @@ Munzner's chapter 2 makes the case for why you'd want to describe data abstractl
 
 ## The terms at a glance
 
-**Organization** - [where the measurements live](#where-the-data-lives-dataset-types)
+**Organization** - {{<anchorlink "Where the data lives: dataset types" "where the measurements live">}}
 
 | Term | In one line |
 |---|---|
@@ -32,7 +32,7 @@ Munzner's chapter 2 makes the case for why you'd want to describe data abstractl
 | **Reconstruction** | Rebuilding a continuous signal from samples. |
 | **Inference** | Reasoning about a population from a sample. |
 
-**Attributes** - [what the values are](#describing-attributes)
+**Attributes** - {{<anchorlink "Describing Attributes" "what the values are">}}
 
 | Term | In one line |
 |---|---|
@@ -59,7 +59,7 @@ Munzner's chapter 2 makes the case for why you'd want to describe data abstractl
 | **Part / whole** | Values that only mean something against a total. |
 | **Partition** | Parts that are disjoint and exhaustive. |
 
-**Conversions** - [moving between types](#conversions)
+**Conversions** - {{<anchorlink "Conversions" "moving between types">}}
 
 | Term | In one line |
 |---|---|
@@ -220,13 +220,13 @@ This is another property that involves the domain and the range together, and bo
 
 Part/whole often nests - counties inside states inside the country, subcategories inside categories - and then each level is its own partition. That nesting is what hierarchical part/whole forms are built on.
 
-A whole family of visual forms *asserts* that the parts make a whole: pie charts, stacked bars, mosaic plots, treemaps, a "percent of total" axis. The form makes that claim whether or not the data supports it, which is what's actually wrong with the classic bad pie chart - slices that don't reach 100%, or categories that overlap. The claim is in the picture, not in the numbers.
+There is a whole family of designs for showing part/whole relationships, including pie charts, stacked bars, mosaic plots, and treemaps. These designs are often effective for showing part/whole relationships. However: they do not work for non-part/whole data; not only do they not make sense, but they also imply to the viewer that they should interpret the data as part/whole. Also, while these designs are often effective for part/whole *tasks* (e.g., determining what portion of the whole a part is), they are often less effective for other tasks (e.g., comparing parts). 
 
-Normalizing to shares is a **conversion**, and it costs something: proportions throw the magnitude away. Two pies with identical slices can come from wildly different totals, so a share is usually worth showing next to a size rather than instead of one.
-
-**Warning 1:** Just because data has a part/whole form doesn't mean that it should be displayed using a part/whole design. *Part/Whole Designs are only appropriate if both the data and the task apply.* See {{<link link="tutorials/1-what-is-vis" anchor="Tasks as the Key">}} for an example. 
+**Warning 1:** Just because data has a part/whole form doesn't mean that it should be displayed using a part/whole design. *Part/Whole Designs are only appropriate if both the data and the task apply.* See {{<link link="/tutorials/1-what-is-vis" anchor="Tasks as the Key">}} for an example. 
 
 **Warning 2:** Part/Whole designs (such as pie charts) are very effective when both the data and tasks suggest them. They get a bad reputation because they are often applied in the wrong situations.
+
+Normalizing to shares is a **conversion**, and it costs something: proportions throw the magnitude away. Two pies with identical slices can come from wildly different totals, so a share is usually worth showing next to a size rather than instead of one.
 
 ## What this buys you, and what it doesn't
 
