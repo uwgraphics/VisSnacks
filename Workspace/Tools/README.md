@@ -18,6 +18,7 @@ All four are short, single-purpose, and take file arguments (they glob fine:
 | `titles.py` | Lists just the slide titles (plus a slide count) for one or more decks. The fast way to find which deck covers a topic. |
 | `keyslides.py` | Scans decks for the slides that probably carry the point — matches `lesson\|takeaway\|summary\|key point\|warning\|advice\|main strateg\|important\|remember` and prints the first 500 chars of each hit. |
 | `figs.py` | Regenerates the matplotlib figures for the encodings pages: `four-channels.png` (same 5 numbers in position/length/area/luminance), `line-vs-dot.png`, `dot-lollipop-bar.png`, `alpha-vs-sorted.png`. |
+| `noir_ladder.py` | Draws the NOIR levels-of-measurement ladder for the data-abstraction cheat sheet: four rungs of accumulating operation chips, plus categorical as a closed-finite subset of nominal. Writes `noir-ladder.svg` and `.png` into `content/tutorials/data-abstraction-cheat-sheet/`; the page references the SVG. |
 
 ## Running them
 
@@ -51,6 +52,10 @@ are not.
   different matplotlib version renders byte-different files, so expect image diffs after
   running it — check `git status` before committing. Paths resolve relative to the repo
   root, so it can be run from anywhere.
+- **`noir_ladder.py` needs no deck** - it's pure matplotlib, so it runs anywhere. Like
+  `figs.py` it writes into a tracked page bundle and will overwrite the committed figure.
+  Only the SVG is referenced by the page, so the PNG stays unpublished (Hugo publishes a
+  bundle resource only when a shortcode links it) - it's there for previewing.
 - `titles.py` reads a python-pptx internal (`_sldIdLst`) just to get the slide count; it
   works today but is the thing most likely to break on a python-pptx upgrade.
 - Verified working 2026-08-15 against `01-W-WhatIsVis.pptx` with python-pptx 1.0.2 and

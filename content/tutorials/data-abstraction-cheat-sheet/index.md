@@ -12,6 +12,64 @@ The vocabulary for describing data abstractly defined concisely. These are the t
 
 Munzner's chapter 2 makes the case for why you'd want to describe data abstractly. The short version is that the *kinds* of data are few and recurring, so what you learn about a kind carries to the next dataset that shares it. These are the terms I like to use - and some of the quirks in how I like to use them.
 
+## The terms at a glance
+
+**Organization** - [where the measurements live](#where-the-data-lives-dataset-types)
+
+| Term | In one line |
+|---|---|
+| **Domain** | Where you measure. Discrete or continuous. |
+| **Table** | A discrete set of items, each with attributes. |
+| **Field** | Measurements over a continuous domain. |
+| **Network** | Items plus the links between them; a tree has no cycles. |
+| **Geometry** | Items with explicit shape - Munzner's fourth type. |
+| **Dimensionality** | How many dimensions the *domain* has, not the value. |
+| **Scalar / vector / tensor** | How much you record at each location. |
+| **Key / value** | The attributes that index, vs. the ones measured. |
+| **Flat / multidimensional table** | One key, vs. several keys jointly. |
+| **Rotation** | Treating a different attribute as the key. |
+| **Sampling** | Measuring at finitely many locations, not everywhere. |
+| **Reconstruction** | Rebuilding a continuous signal from samples. |
+| **Inference** | Reasoning about a population from a sample. |
+
+**Attributes** - [what the values are](#describing-attributes)
+
+| Term | In one line |
+|---|---|
+| **Attribute** | A measured property, described by its set of possible values. |
+| **Record / vector value** | One attribute holding several numbers at once. |
+| **Rich type** | A value that is a whole object: text, date, image, geometry. |
+| **Level of measurement** | Which operations the values support. NOIR, below. |
+| **Nominal** | Names, no order. `=` `≠` |
+| **Ordinal** | Ordered, no arithmetic. `<` `>` |
+| **Interval** | Differences mean something, zero is arbitrary. `+` `−` |
+| **Ratio** | True zero, so ratios mean something. `×` `÷` |
+| **Quantitative** | Interval and ratio, grouped together. |
+| **Categorical** | Nominal *and* a closed, finite value set. |
+| **Cardinality** | How many distinct values the set has. |
+| **Sequential / diverging** | Runs one way, vs. has a meaningful middle. |
+| **Cyclic** | The end wraps back around to the start. |
+| **Hierarchical** | Values that aggregate: days into weeks into years. |
+
+**Joint properties** - domain and range together
+
+| Term | In one line |
+|---|---|
+| **Interpolatable** | Whether a value *between* two measurements means anything. |
+| **Part / whole** | Values that only mean something against a total. |
+| **Partition** | Parts that are disjoint and exhaustive. |
+
+**Conversions** - [moving between types](#conversions)
+
+| Term | In one line |
+|---|---|
+| **Discretization** | Continuous → discrete, by thresholding or rounding. |
+| **Binning / aggregation** | Bucket like values, then summarize each bucket. |
+| **Interpolation** | Estimate the values between measurements. |
+| **Rank transformation** | Keep the order, discard the intervals. |
+| **Normalization** | Absolute values → shares. Loses magnitude. |
+
+
 ## Where the data lives: dataset types
 
 Any dataset needs two descriptions: how it is **organized** - where the measurements live - and what the **values** are. This section is organization; *Describing Attributes*, below, is values.
@@ -52,9 +110,15 @@ Some attributes *index* the data; others are *measured*.
 
 **Sampling** is measuring at a finite set of locations rather than everywhere. It is a statement about the *domain*, and it runs in both directions: on a continuous domain it makes the data discrete, on an already-discrete one it just makes the set smaller. Either way, sampling is summarization: it throws away information. We need to use some other process to estimate what was lost (or that we never had).
 
+{{<expand "More detail: Sampling and Reconstruction">}}
+While sampling is ubiquitous, it needs to be understood: it always involves trying to represent something big and (potentially) complicated with a small, discrete set. Almost always, something is lost. Statistics and signal processing both study this carefully.
+
 Sampling continuous fields is common: we almost always represent a continuous field as a sampled table. For example, brightness can be measured anywhere on the screen, but we store it as a grid of pixels. The *reconstruction* process rebuilds a continuous signal from the sample. The field of signal processing helps us understand this process.
 
+{{<rimage src="signal-sampling-color.svg" caption="Continuous phenomena (like the sine wave) can be sampled at discrete times. Reconstruction re-creates a continuous signal from the samples. If the signal is sampled sufficiently, reconstruction can be faithful; otherwise, aliasing occurs. The field of Signal Processing has elegant theory that explains all this." attr="Created by Claude from Gleicher's old slide.">}}
+
 The second case - representing a large set by a smaller set - is common in statistics. For example, we cannot survey all people in the country or observe all species in the ocean; we can only see a subset (called a sample). Statistical *inference* allows us to try to understand the population from a sample.
+{{</expand>}}
 
 ## Describing Attributes
 
@@ -75,6 +139,8 @@ What you measure has a **level of measurement**. The four classic levels go by t
 | **Ordinal** | Ordered, but no arithmetic. | `<`, `>`, rank, median | shirt sizes, Likert scales, letter grades |
 | **Interval** | Differences are meaningful; zero is arbitrary. | `+`, `−`, mean | temperature in °C/°F, calendar dates |
 | **Ratio** | True zero, so ratios are meaningful. | `×`, `÷` ("twice as much") | weight, distance, count, duration |
+
+{{<rimage src="noir-ladder.svg" caption="The four levels as a ladder: each rung supports every operation below it, plus one more. Categorical is a nominal attribute with the extra promise that its value set is closed and finite." width="100%" attr="Figure generated by Claude.">}}
 
 Some points:
 - **The levels are a ladder.** Each rung supports every operation below it, plus one more.
@@ -135,9 +201,9 @@ The type of the domain and range work together. This turns out to be significant
 
 An example is the property of being **interpolatable** (*interpolable* is a standard alternate term): does it make sense to talk about the value between two measurements? There could have been a measurement there - we don't have it. We could estimate that value by *interpolation* (connecting the dots, although there are mathematically fancy ways to do this).
 
-An example: time is continuous. But we often discretize it into units (hours, days, seasons). Depending on what we're measuring, different operations make sense - and different visual forms imply that. If we are binning over the period, then time is discrete: it make sense to take about the count "in between days". If we have a measurement on each day, then it does make sense to take about "what would the measurement been in between". Note that this requires both the domain (time) and the value (binned vs. measured) to determine what makes sense.
+An example: time is continuous. But we often discretize it into units (hours, days, seasons). Depending on what we're measuring, different operations make sense - and different visual forms imply that. If we are binning over the period, then time is discrete: it doesn't make sense to talk about the count "in between days". If we have a measurement on each day, then it does make sense to talk about "what the measurement would have been in between". Note that this requires both the domain (time) and the value (binned vs. measured) to determine what makes sense.
 
-{{<rimage src="pitchbook-startups.png" caption="A figure that includes both discrete and continuous time correctly. On the left, the value is binned by year, so a bar chart is appropriate. On the right, it is a measurement at a given time, so it is interpolable and a line chart is appropriate.">}}
+{{<rimage src="pitchbook-startups.png" width="500" caption="A figure that includes both discrete and continuous time over the same domain. On the left, the value is binned by year, so a bar chart is appropriate. On the right, it is a measurement at a given time, so it is interpolable and a line chart is appropriate." attr="Wall St. Journal, 2024." attrlink="https://www.wsj.com/tech/ai/artificial-intelligence-investing-charts-7b8e1a97">}}
 
 Two examples that consider this are {{<link "/snacks/app-time-graphs">}} and {{<link "/snacks/cairo-discrete-line">}}.
 
