@@ -79,6 +79,8 @@ One line per reading. `- [ ]` nothing done · `- [/]` summary generated · `- [!
 - [/] Zgraggen, Zhao, Zeleznik & Kraska — Investigating the Effect of the Multiple Comparisons Problem in Visual Analysis (2018)
 - [/] Franconeri, Padilla, Shah, Zacks & Hullman — The Science of Visual Data Communication: What Works (2021)
 - [/] Viégas & Wattenberg — Design and Redesign (2015)
+- [/] Heimerl, Chang, Sarikaya & Gleicher — Visual Designs for Binned Aggregation of Multi-Class Scatterplots (arXiv preprint, 2020)
+- [/] Sarikaya & Gleicher — Scatterplots: Tasks, Data, and Designs (IEEE TVCG, 2018)
 
 ## Already-published re-papered snacks (no AI summary on file for these)
 
