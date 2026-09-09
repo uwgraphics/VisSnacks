@@ -1,0 +1,20 @@
+{{/* look up a reading and put the html in the page
+
+    simplified from 765-26 - this doesn't take a kind
+    just a key
+
+    Each readings.yaml entry is a map: .html is the rendered citation,
+    alongside the individual fields (title, cfile, doi, url, ...).
+
+   */}}
+{{- $reading := .Get 0 -}}
+{{- $readinginfo := index hugo.Data.readings $reading -}}
+{{- if eq (printf "%T" $readinginfo) "string" -}}
+    {{- errorf "data/readings.yaml is in the old plain-string format; regenerate it with themes/559Theme/tools/seatable-to-readings.py (reading '%s' for %s at %s)" $reading .Page.File .Position -}}
+{{- else -}}
+    {{- with $readinginfo -}}
+        {{- .html | safeHTML -}}
+    {{- else -}}
+        {{- errorf "Reading '%s' not found in readings database (for %s at %s)" $reading .Page.File .Position -}}
+    {{- end -}}
+{{- end -}}

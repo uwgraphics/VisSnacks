@@ -1,0 +1,1285 @@
+39-studies:
+  html: 'Kennedy Elliot. <b>39 Studies about human perception in 30 minutes</b>. Medium
+    Posting. <a href="https://medium.com/@kennelliott/39-studies-about-human-perception-in-30-minutes-4728f9e31a73">(url)</a> '
+  title: 39 Studies about human perception in 30 minutes
+  url: https://medium.com/@kennelliott/39-studies-about-human-perception-in-30-minutes-4728f9e31a73
+CM84:
+  html: 'Cleveland and McGill. <b>Graphical Perception: Theory, Experimentation, and
+    Application to the Development of Graphical Methods</b>. <em>Journal of the American
+    Statistical Society</em> 79 (387), 1984. <a href="http://www.jstor.org.ezproxy.library.wisc.edu/stable/2288400">(url)</a> '
+  title: 'Graphical Perception: Theory, Experimentation, and Application to the Development
+    of Graphical Methods'
+  url: http://www.jstor.org.ezproxy.library.wisc.edu/stable/2288400
+CM85:
+  html: 'Cleveland and McGill. <b>Graphical Perception and Graphical Methods for Analyzing
+    Scientific Data**</b>. <em>Science</em> 229(4716), 1985. <a href="http://www.jstor.org.ezproxy.library.wisc.edu/stable/1695272">(url)</a> '
+  title: Graphical Perception and Graphical Methods for Analyzing Scientific Data**
+  url: http://www.jstor.org.ezproxy.library.wisc.edu/stable/1695272
+D3-paper:
+  html: 'Jeffrey Heer, Michael Bostock. <b>D3 Data-Driven Documents</b>. <em>IEEE
+    Transactions on Visualization and Computer Graphics</em> (Proc InfoVis 2011) 17(12).
+    <a href="http://vis.stanford.edu/papers/d3">(url)</a> '
+  title: D3 Data-Driven Documents
+  url: http://vis.stanford.edu/papers/d3
+Dashboards:1:
+  html: 'Steve Wexler, Jeffrey Shaffer and Andy Cotgreave. <b>Data Visualization:
+    A Primer</b>. First Chapter of <em>The Big Book of Dashboards</em>. <a href="https://onlinelibrary-wiley-com.ezproxy.library.wisc.edu/doi/book/10.1002/9781119283089">(UW
+    Library)</a> '
+  library: https://onlinelibrary-wiley-com.ezproxy.library.wisc.edu/doi/book/10.1002/9781119283089
+  subtitle: First Chapter of <em>The Big Book of Dashboards</em>
+  title: 'Data Visualization: A Primer'
+FA0:
+  html: 'Alberto Cairo. <b>The partnership of presentation and exploration</b>. Preface
+    of <em>The Functional Art</em>. '
+  subtitle: Preface of <em>The Functional Art</em>
+  title: The partnership of presentation and exploration
+FA1:
+  html: 'Alberto Cairo. <b>Why Visualize: From Information to Wisdom</b>. Chapter
+    1 of <em>The Functional Art</em>. <a href="http://ptgmedia.pearsoncmg.com/images/9780321834737/samplepages/0321834739.pdf">(web
+    pdf)</a> <a href="https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/the-functional-art/9780133041187">(UW
+    Library)</a> '
+  library: https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/the-functional-art/9780133041187
+  pdf: http://ptgmedia.pearsoncmg.com/images/9780321834737/samplepages/0321834739.pdf
+  subtitle: Chapter 1 of <em>The Functional Art</em>
+  title: 'Why Visualize: From Information to Wisdom'
+FA2:
+  html: 'Alberto Cairo. <b>Forms and Functions</b>. Chapter 2 of <em>The Functional
+    Art</em>. <a href="https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/the-functional-art/9780133041187">(UW
+    Library)</a> '
+  library: https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/the-functional-art/9780133041187
+  subtitle: Chapter 2 of <em>The Functional Art</em>
+  title: Forms and Functions
+FA3:
+  html: 'Alberto Cairo. <b>The Beauty Paradox</b>. Chapter 3 of <em>The Functional
+    Art</em>. <a href="https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/the-functional-art/9780133041187">(UW
+    Library)</a> '
+  library: https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/the-functional-art/9780133041187
+  subtitle: Chapter 3 of <em>The Functional Art</em>
+  title: The Beauty Paradox
+FA4:
+  html: 'Alberto Cairo. <b>The Complexity Challenge: Presentation and Exploration</b>.
+    Chapter 4 of <em>The Functional Art</em>. '
+  subtitle: Chapter 4 of <em>The Functional Art</em>
+  title: 'The Complexity Challenge: Presentation and Exploration'
+FA5:
+  html: 'Alberto Cairo. <b>The Eye and Visual Brain</b>. Chapter 5 of <em>The Functional
+    Art</em>. <a href="https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/the-functional-art/9780133041187">(UW
+    Library)</a> '
+  library: https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/the-functional-art/9780133041187
+  subtitle: Chapter 5 of <em>The Functional Art</em>
+  title: The Eye and Visual Brain
+FA6:
+  html: 'Alberto Cairo. <b>Visualizing for the Mind</b>. Chapter 6 of <em>The Functional
+    Art</em>. <a href="https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/the-functional-art/9780133041187">(UW
+    Library)</a> '
+  library: https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/the-functional-art/9780133041187
+  subtitle: Chapter 6 of <em>The Functional Art</em>
+  title: Visualizing for the Mind
+Heimerl:words:
+  doi: https://doi.org/10.1111/cgf.13417
+  html: "Florian Heimerl and Michael Gleicher. <b>Interactive Analysis of Word Vector\
+    \ Embeddings</b>. <em>Computer Graphics Forum</em> 37, 3 (June 2018), 253\u2013\
+    265. <a href=\"https://doi.org/10.1111/cgf.13417\">(doi)</a> <a href=\"https://graphics.cs.wisc.edu/Papers/2018/HG18/\"\
+    >(url)</a> "
+  title: Interactive Analysis of Word Vector Embeddings
+  url: https://graphics.cs.wisc.edu/Papers/2018/HG18/
+SurveyPerceptionStudies:
+  html: 'Ghulam Quadri and Paul Rosen. <b>A Survey of Perception-Based Visualization
+    Studies by Task</b>. <em>IEEE Transactions on Visualization and Computer Graphics</em>
+    28, 12 (December 2022). <a href="https://doi.org/10.1109/TVCG.2021.3098240">(web
+    pdf)</a> <a href="https://arxiv.org/abs/2107.07477">(url)</a> '
+  pdf: https://doi.org/10.1109/TVCG.2021.3098240
+  title: A Survey of Perception-Based Visualization Studies by Task
+  url: https://arxiv.org/abs/2107.07477
+TA0:
+  html: 'Alberto Cairo. <b>Introduction</b>. Intro (before Chapter 1) from <em>The
+    Truthful Art</em>. <a href="https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/the-truthful-art/9780133440492/">(UW
+    Library)</a> '
+  library: https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/the-truthful-art/9780133440492/
+  subtitle: Intro (before Chapter 1) from <em>The Truthful Art</em>
+  title: Introduction
+TA1:
+  html: 'Alberto Cairo. <b>What we talk about when we talk about Visualization</b>.
+    Chapter 1 of <em>The Truthful Art</em>. <a href="https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/the-truthful-art/9780133440492/">(UW
+    Library)</a> '
+  library: https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/the-truthful-art/9780133440492/
+  subtitle: Chapter 1 of <em>The Truthful Art</em>
+  title: What we talk about when we talk about Visualization
+TA2:
+  html: 'Alberto Cairo. <b>The five qualities of great visualizations</b>. Chapter
+    2 of <em>The Truthful Art</em>. <a href="https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/the-truthful-art/9780133440492/">(UW
+    Library)</a> '
+  library: https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/the-truthful-art/9780133440492/
+  subtitle: Chapter 2 of <em>The Truthful Art</em>
+  title: The five qualities of great visualizations
+TA5:
+  html: 'Alberto Cairo. <b>Basic Principles of Visualization</b>. Chapter 5 of <em>The
+    Truthful Art</em>. <a href="https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/the-truthful-art/9780133440492/">(UW
+    Library)</a> '
+  library: https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/the-truthful-art/9780133440492/
+  subtitle: Chapter 5 of <em>The Truthful Art</em>
+  title: Basic Principles of Visualization
+Treemaps1:
+  html: 'Michael Gleicher. <b>Treemaps 1 - Part/Whole Encodings</b>. A Three Part
+    Series on TreeMaps (and part whole encodings). <a href="https://mediaspace.wisc.edu/media/TreeMaps%20(1_3)%20-%20Part_Whole%20Encodings/1_ddia55oe">(video)</a> '
+  subtitle: A Three Part Series on TreeMaps (and part whole encodings)
+  title: Treemaps 1 - Part/Whole Encodings
+  video: https://mediaspace.wisc.edu/media/TreeMaps%20(1_3)%20-%20Part_Whole%20Encodings/1_ddia55oe
+Treemaps2:
+  html: 'Michael Gleicher. <b>Treemaps 2 - Encoding Part Whole Relationships</b>.
+    A Three Part Series on TreeMaps (and part whole encodings). <a href="https://mediaspace.wisc.edu/media/TreeMaps%20(2_3)%20-%20Encoding%20Part_Whole%20Relationsips/1_8greoyrq">(video)</a> '
+  subtitle: A Three Part Series on TreeMaps (and part whole encodings)
+  title: Treemaps 2 - Encoding Part Whole Relationships
+  video: https://mediaspace.wisc.edu/media/TreeMaps%20(2_3)%20-%20Encoding%20Part_Whole%20Relationsips/1_8greoyrq
+Treemaps3:
+  html: 'Michael Gleicher. <b>Treemaps 3 - Details and Algorithms</b>. A Three Part
+    Series on TreeMaps (and part whole encodings). <a href="https://mediaspace.wisc.edu/media/TreeMaps%20(3_3)%20-%20Details%20and%20Algorithms/1_syronnmt">(video)</a> '
+  subtitle: A Three Part Series on TreeMaps (and part whole encodings)
+  title: Treemaps 3 - Details and Algorithms
+  video: https://mediaspace.wisc.edu/media/TreeMaps%20(3_3)%20-%20Details%20and%20Algorithms/1_syronnmt
+Tufte:BE5:
+  html: 'Eduard Tufte. <b>Fundamental Principles of Analytical Design</b>. Chapter
+    5 of Tufte''s <em>Beautiful Evidence</em>. '
+  subtitle: Chapter 5 of Tufte's <em>Beautiful Evidence</em>
+  title: Fundamental Principles of Analytical Design
+Tufte:BE6:
+  html: 'Eduard Tufte. <b>Corruption in Evidence Presentations</b>. Chapter 6 of Tufte''s
+    <em>Beautiful Evidence</em>. '
+  subtitle: Chapter 6 of Tufte's <em>Beautiful Evidence</em>
+  title: Corruption in Evidence Presentations
+Tufte:EI5:
+  html: 'Eduard Tufte. <b>Color and Information</b>. Chapter 5 of Tufte''s <em>Envisioning
+    Information</em>. '
+  subtitle: Chapter 5 of Tufte's <em>Envisioning Information</em>
+  title: Color and Information
+Tufte:VDQI1:
+  html: 'Eduard Tufte. <b>Graphical Excellence</b>. Chapter 1 of Tufte''s <em>The
+    Visual Display of Quantitative Information</em>. '
+  subtitle: Chapter 1 of Tufte's <em>The Visual Display of Quantitative Information</em>
+  title: Graphical Excellence
+Tufte:VDQI2:
+  html: 'Eduard Tufte. <b>Graphical Integrity</b>. Chapter 2 of Tufte''s <em>The Visual
+    Display of Quantitative Information</em>. '
+  subtitle: Chapter 2 of Tufte's <em>The Visual Display of Quantitative Information</em>
+  title: Graphical Integrity
+Tufte:VE2:
+  html: "Eduard Tufte. <b>Visual Statistical Thinking</b>. Chapter 2 from Tufte\u2019\
+    s Visual Explanations. "
+  subtitle: "Chapter 2 from Tufte\u2019s Visual Explanations"
+  title: Visual Statistical Thinking
+VAD1:
+  html: 'Tamara Munzner. <b>What''s Vis</b>. Chapter 1 from Munzner''s <em>Visualization
+    Analysis &amp; Design</em>. <a href="https://www.youtube.com/watch?v=1GhZisgc6DI&list=PLT4XLHmqHJBeB5LwmRmo6ln-m7K3lGvrk&index=1&pp=iAQB">(video)</a>
+    <a href="https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511">(UW Library)</a> '
+  library: https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511
+  subtitle: Chapter 1 from Munzner's <em>Visualization Analysis &amp; Design</em>
+  title: What's Vis
+  video: https://www.youtube.com/watch?v=1GhZisgc6DI&list=PLT4XLHmqHJBeB5LwmRmo6ln-m7K3lGvrk&index=1&pp=iAQB
+VAD10:
+  html: 'Tamara Munzner. <b>Map Color and Other Channels</b>. Chapter 10 from Munzner''s
+    <em>Visualization Analysis &amp; Design</em>. <a href="https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511">(UW
+    Library)</a> '
+  library: https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511
+  subtitle: Chapter 10 from Munzner's <em>Visualization Analysis &amp; Design</em>
+  title: Map Color and Other Channels
+VAD11:
+  html: 'Tamara Munzner. <b>Maniplate View</b>. Chapter 11 from Munzner''s <em>Visualization
+    Analysis &amp; Design</em>. <a href="https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511">(UW
+    Library)</a> '
+  library: https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511
+  subtitle: Chapter 11 from Munzner's <em>Visualization Analysis &amp; Design</em>
+  title: Maniplate View
+VAD12:
+  html: 'Tamara Munzner. <b>Facet into Multiple Views</b>. Chapter 12 from Munzner''s
+    <em>Visualization Analysis &amp; Design</em>. <a href="https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511">(UW
+    Library)</a> '
+  library: https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511
+  subtitle: Chapter 12 from Munzner's <em>Visualization Analysis &amp; Design</em>
+  title: Facet into Multiple Views
+VAD13:
+  html: 'Tamara Munzner. <b>Reduce Items and Dimensions</b>. Chapter 13 from Munzner''s
+    <em>Visualization Analysis &amp; Design</em>. <a href="https://www.youtube.com/watch?v=3KjGpVo6JDU&list=PLT4XLHmqHJBeB5LwmRmo6ln-m7K3lGvrk&index=20">(video)</a>
+    <a href="https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511">(UW Library)</a> '
+  library: https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511
+  subtitle: Chapter 13 from Munzner's <em>Visualization Analysis &amp; Design</em>
+  title: Reduce Items and Dimensions
+  video: https://www.youtube.com/watch?v=3KjGpVo6JDU&list=PLT4XLHmqHJBeB5LwmRmo6ln-m7K3lGvrk&index=20
+VAD14:
+  html: 'Tamara Munzner. <b>Embed: Focus+Context</b>. Chapter 14 from Munzner''s <em>Visualization
+    Analysis &amp; Design</em>. <a href="https://www.youtube.com/watch?v=A6NfuuAlENc&list=PLT4XLHmqHJBeB5LwmRmo6ln-m7K3lGvrk&index=21&pp=iAQB">(video)</a>
+    <a href="https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511">(UW Library)</a> '
+  library: https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511
+  subtitle: Chapter 14 from Munzner's <em>Visualization Analysis &amp; Design</em>
+  title: 'Embed: Focus+Context'
+  video: https://www.youtube.com/watch?v=A6NfuuAlENc&list=PLT4XLHmqHJBeB5LwmRmo6ln-m7K3lGvrk&index=21&pp=iAQB
+VAD2:
+  html: 'Tamara Munzner. <b>What: Data Abstraction</b>. Chapter 2 from Munzner''s
+    <em>Visualization Analysis and Design</em>. <a href="https://www.youtube.com/watch?v=tBWMOSrASkE&list=PLT4XLHmqHJBeB5LwmRmo6ln-m7K3lGvrk&index=2&pp=iAQB">(video)</a>
+    <a href="https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511">(UW Library)</a> '
+  library: https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511
+  subtitle: Chapter 2 from Munzner's <em>Visualization Analysis and Design</em>
+  title: 'What: Data Abstraction'
+  video: https://www.youtube.com/watch?v=tBWMOSrASkE&list=PLT4XLHmqHJBeB5LwmRmo6ln-m7K3lGvrk&index=2&pp=iAQB
+VAD3:
+  html: 'Tamara Munzner. <b>Why: Task Abstraction</b>. Chapter 3 from Munzner''s <em>Visualization
+    Analysis and Design</em>. <a href="https://www.youtube.com/watch?v=pHljd-cgICY&list=PLT4XLHmqHJBeB5LwmRmo6ln-m7K3lGvrk&index=3&pp=iAQB">(video)</a>
+    <a href="https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511">(UW Library)</a> '
+  library: https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511
+  subtitle: Chapter 3 from Munzner's <em>Visualization Analysis and Design</em>
+  title: 'Why: Task Abstraction'
+  video: https://www.youtube.com/watch?v=pHljd-cgICY&list=PLT4XLHmqHJBeB5LwmRmo6ln-m7K3lGvrk&index=3&pp=iAQB
+VAD4:
+  html: 'Tamara Munzner. <b>Analysis</b>. Chapter 4 from Munzner''s <em>Visualization
+    Analysis &amp; Design</em>. <a href="https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511">(UW
+    Library)</a> '
+  library: https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511
+  subtitle: Chapter 4 from Munzner's <em>Visualization Analysis &amp; Design</em>
+  title: Analysis
+VAD5:
+  html: 'Tamara Munzner. <b>Marks and Channels</b>. Chapter 5 from Munzner''s <em>Visualization
+    Analysis &amp; Design</em>. <a href="https://www.youtube.com/watch?v=xplSAMwlTmY&list=PLT4XLHmqHJBeB5LwmRmo6ln-m7K3lGvrk&index=6">(video)</a>
+    <a href="https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511">(UW Library)</a> '
+  library: https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511
+  subtitle: Chapter 5 from Munzner's <em>Visualization Analysis &amp; Design</em>
+  title: Marks and Channels
+  video: https://www.youtube.com/watch?v=xplSAMwlTmY&list=PLT4XLHmqHJBeB5LwmRmo6ln-m7K3lGvrk&index=6
+VAD6:
+  html: 'Tamara Munzner. <b>Rules of Thumb</b>. Chapter 6 from Munzner''s <em>Visualization
+    Analysis &amp; Design</em>. <a href="https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511">(UW
+    Library)</a> '
+  library: https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511
+  subtitle: Chapter 6 from Munzner's <em>Visualization Analysis &amp; Design</em>
+  title: Rules of Thumb
+VAD7:
+  html: 'Tamara Munzner. <b>Arrange Tables</b>. Chapter 7 from Munzner''s <em>Visualization
+    Analysis &amp; Design</em>. <a href="https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511">(UW
+    Library)</a> '
+  library: https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511
+  subtitle: Chapter 7 from Munzner's <em>Visualization Analysis &amp; Design</em>
+  title: Arrange Tables
+VAD8:
+  html: 'Tamara Munzner. <b>Arrange Spatial Data</b>. Chapter 8 from Munzner''s <em>Visualization
+    Analysis &amp; Design</em>. <a href="https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511">(UW
+    Library)</a> '
+  library: https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511
+  subtitle: Chapter 8 from Munzner's <em>Visualization Analysis &amp; Design</em>
+  title: Arrange Spatial Data
+VAD9:
+  html: 'Tamara Munzner. <b>Arrange Networks and Trees</b>. Chapter 9 from Munzner''s
+    <em>Visualization Analysis &amp; Design</em>. <a href="https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511">(UW
+    Library)</a> '
+  library: https://doi-org.ezproxy.library.wisc.edu/10.1201/b17511
+  subtitle: Chapter 9 from Munzner's <em>Visualization Analysis &amp; Design</em>
+  title: Arrange Networks and Trees
+VS:T0:
+  html: '<b>Tutorial 0: What is Vis? What is Vis Snacks? (OBSOLETE)</b>. Vis Snacks
+    Tutorial 0. '
+  subtitle: Vis Snacks Tutorial 0
+  title: 'Tutorial 0: What is Vis? What is Vis Snacks? (OBSOLETE)'
+VS:T1:
+  html: 'Michael Gleicher. <b>Tutorial 1: What is Vis</b>. Vis Snacks Tutorial 1.
+    <a href="https://pages.graphics.cs.wisc.edu/VisSnacks/tutorials/1-what-is-vis/">(url)</a> '
+  subtitle: Vis Snacks Tutorial 1
+  title: 'Tutorial 1: What is Vis'
+  url: https://pages.graphics.cs.wisc.edu/VisSnacks/tutorials/1-what-is-vis/
+VS:T2-4Moves-Old:
+  html: 'Michael Gleicher. <b>Tutorial 2: A Simple Example 4 Design Moves on a Table
+    (OBSOLETE)</b>. Vis Snacks Tutorial 2. <a href="https://pages.graphics.cs.wisc.edu/VisSnacks/obsolete/old-t2-table-example/">(url)</a> '
+  subtitle: Vis Snacks Tutorial 2
+  title: 'Tutorial 2: A Simple Example 4 Design Moves on a Table (OBSOLETE)'
+  url: https://pages.graphics.cs.wisc.edu/VisSnacks/obsolete/old-t2-table-example/
+VS:T2-blocks:
+  html: 'Michael Gleicher. <b>Tutorial 2: How to Think about Visualization: Building
+    Blocks</b>. Vis Snacks Tutorial 2. <a href="https://pages.graphics.cs.wisc.edu/VisSnacks/tutorials/2-building-blocks/">(url)</a> '
+  subtitle: Vis Snacks Tutorial 2
+  title: 'Tutorial 2: How to Think about Visualization: Building Blocks'
+  url: https://pages.graphics.cs.wisc.edu/VisSnacks/tutorials/2-building-blocks/
+VS:T3:
+  html: 'Michael Gleicher. <b>Tutorial 3: What is Easy to See?</b>. Vis Snacks Tutorial
+    3. <a href="https://pages.graphics.cs.wisc.edu/VisSnacks/tutorials/3-easy-to-see/">(url)</a> '
+  subtitle: Vis Snacks Tutorial 3
+  title: 'Tutorial 3: What is Easy to See?'
+  url: https://pages.graphics.cs.wisc.edu/VisSnacks/tutorials/3-easy-to-see/
+VS:college-lines:
+  html: 'Michael Gleicher. <b>College Attendance Line Chart</b>. <a href="https://pages.graphics.cs.wisc.edu/VisSnacks/snacks/250517-college-line-chart/">(url)</a> '
+  title: College Attendance Line Chart
+  url: https://pages.graphics.cs.wisc.edu/VisSnacks/snacks/250517-college-line-chart/
+VS:data-abstraction:
+  html: 'Michael Gleicher. <b>Data Abstraction Cheat Sheet</b>. Vis Snacks Tutorial.
+    <a href="https://pages.graphics.cs.wisc.edu/VisSnacks/tutorials/data-abstraction-cheat-sheet/">(url)</a> '
+  subtitle: Vis Snacks Tutorial
+  title: Data Abstraction Cheat Sheet
+  url: https://pages.graphics.cs.wisc.edu/VisSnacks/tutorials/data-abstraction-cheat-sheet/
+VS:robot:
+  html: 'Michael Gleicher. <b>A Robot Performance Graph Mistake</b>. <a href="https://pages.graphics.cs.wisc.edu/VisSnacks/snacks/240830-yeping-axis/">(url)</a> '
+  title: A Robot Performance Graph Mistake
+  url: https://pages.graphics.cs.wisc.edu/VisSnacks/snacks/240830-yeping-axis/
+VS:route-maps:
+  html: 'Michael Gleicher. <b>Airline Route Maps: An interesting Solution to a Node-Link
+    Problem</b>. <a href="https://pages.graphics.cs.wisc.edu/VisSnacks/snacks/250624-routemap/">(url)</a> '
+  title: 'Airline Route Maps: An interesting Solution to a Node-Link Problem'
+  url: https://pages.graphics.cs.wisc.edu/VisSnacks/snacks/250624-routemap/
+VS:tableau-census:
+  html: 'Michael Gleicher. <b>Tableau Tutorial for CS765: Getting Started with Census
+    Data</b>. <a href="https://pages.graphics.cs.wisc.edu/VisSnacks/tutorials/tableau-tutorial/">(url)</a> '
+  title: 'Tableau Tutorial for CS765: Getting Started with Census Data'
+  url: https://pages.graphics.cs.wisc.edu/VisSnacks/tutorials/tableau-tutorial/
+VS:tableau-expectancy:
+  html: 'Michael Gleicher. <b>Tutorial Tableau Walkthrough 2: Life Expectancy</b>.
+    <a href="https://pages.graphics.cs.wisc.edu/VisSnacks/tutorials/tableau-walkthrough2-life-expectancy/">(url)</a> '
+  title: 'Tutorial Tableau Walkthrough 2: Life Expectancy'
+  url: https://pages.graphics.cs.wisc.edu/VisSnacks/tutorials/tableau-walkthrough2-life-expectancy/
+VS:time-graphs:
+  html: 'Michael Gleicher. <b>Phone App Time Graphs</b>. <a href="https://pages.graphics.cs.wisc.edu/VisSnacks/snacks/app-time-graphs/">(url)</a> '
+  title: Phone App Time Graphs
+  url: https://pages.graphics.cs.wisc.edu/VisSnacks/snacks/app-time-graphs/
+VS:unemployment:
+  html: 'Michael Gleicher. <b>Unemployment Changes Across The Country</b>. <a href="https://pages.graphics.cs.wisc.edu/VisSnacks/snacks/240830-nyt-unemployment-map/">(url)</a> '
+  title: Unemployment Changes Across The Country
+  url: https://pages.graphics.cs.wisc.edu/VisSnacks/snacks/240830-nyt-unemployment-map/
+Ware1:
+  html: 'Colin Ware. <b>Visual Queries</b>. Chapter 1 of <em>Visual Thinking for Design</em>. '
+  subtitle: Chapter 1 of <em>Visual Thinking for Design</em>
+  title: Visual Queries
+Ware10:
+  html: 'Colin Ware. <b>The Dance of Meaning</b>. Chapter 10 of <em>Visual Thinking
+    for Design</em>, or Chapter 10 of the newer <em>Visual Thinking for Information
+    Design</em>. '
+  subtitle: Chapter 10 of <em>Visual Thinking for Design</em>, or Chapter 10 of the
+    newer <em>Visual Thinking for Information Design</em>
+  title: The Dance of Meaning
+Ware2:
+  html: 'Colin Ware. <b>What We Can Easily See</b>. Chapter 2 of <em>Visual Thinking
+    for Design</em>. '
+  subtitle: Chapter 2 of <em>Visual Thinking for Design</em>
+  title: What We Can Easily See
+Ware3:
+  html: 'Colin Ware. <b>Structuring Two Dimensional Space</b>. Chapter 3 of <em>Visual
+    Thinking for Design</em>. '
+  subtitle: Chapter 3 of <em>Visual Thinking for Design</em>
+  title: Structuring Two Dimensional Space
+Ware4:
+  html: 'Colin Ware. <b>Color</b>. Chapter 4 of Ware''s <em>Visual Thinking for Design</em>. '
+  subtitle: Chapter 4 of Ware's <em>Visual Thinking for Design</em>
+  title: Color
+accessible-nlp:
+  doi: https://doi.org/10.1109/TVCG.2021.3114770/
+  html: 'Alan Lundgard, Arvind Satyanarayan. <b>Accessible Visualization via Natural
+    Language Descriptions: A Four-Level Model of Semantic Content</b>. <em>IEEE Trans.
+    Visualization &amp; Comp. Graphics</em> (Proc. InfoVis), 2022. <a href="https://doi.org/10.1109/TVCG.2021.3114770/">(doi)</a>
+    <a href="https://arxiv.org/pdf/2110.04406">(web pdf)</a> <a href="https://vis.csail.mit.edu/pubs/vis-text-model/">(url)</a> '
+  pdf: https://arxiv.org/pdf/2110.04406
+  title: 'Accessible Visualization via Natural Language Descriptions: A Four-Level
+    Model of Semantic Content'
+  url: https://vis.csail.mit.edu/pubs/vis-text-model/
+algebraic-vis:
+  doi: https://doi.org/10.1109/TVCG.2014.2346325
+  html: 'Gordon Kindlmann and Carlos Scheidegger. <b>An Algebraic Process for Visualization
+    Design</b>. <em>IEEE Transactions on Visualization and Computer Graphics</em>,
+    20(12) 2014.. <a href="https://doi.org/10.1109/TVCG.2014.2346325">(doi)</a> <a
+    href="https://vis.cs.ucdavis.edu/vis2014papers/TVCG/papers/2181_20tvcg12-kindlmann-2346325.pdf">(web
+    pdf)</a> <a href="https://pages.graphics.cs.wisc.edu/VisSnacks/papers/algebraic/">(Summary)</a> '
+  pdf: https://vis.cs.ucdavis.edu/vis2014papers/TVCG/papers/2181_20tvcg12-kindlmann-2346325.pdf
+  summary: https://pages.graphics.cs.wisc.edu/VisSnacks/papers/algebraic/
+  title: An Algebraic Process for Visualization Design
+beyond-memorability:
+  html: 'Michelle Borkin et. al.. <b>Beyond Memorability: Visualization Recognition
+    and Recall</b>. InfoVis 2015. <a href="http://vcg.seas.harvard.edu/files/pfister/files/infovis_submission251-camera.pdf">(url)</a> '
+  title: 'Beyond Memorability: Visualization Recognition and Recall'
+  url: http://vcg.seas.harvard.edu/files/pfister/files/infovis_submission251-camera.pdf
+card:
+  html: "Card, Mackinlay, and Schneiderman. <b>Information Visualization</b>. The\
+    \ first 17 pages of the Introduction to \u201CInformation Visualization: Using\
+    \ Visualization to Think. "
+  subtitle: "The first 17 pages of the Introduction to \u201CInformation Visualization:\
+    \ Using Visualization to Think"
+  title: Information Visualization
+color:brewer:
+  html: 'Cynthia Brewer and Mark Harrower. <b>ColorBrewer 2.0</b>. web tool. <a href="https://colorbrewer2.org/">(url)</a> '
+  subtitle: web tool
+  title: ColorBrewer 2.0
+  url: https://colorbrewer2.org/
+color:brewer99:
+  html: 'Cynthia Brewer. <b>Color Use Guidelines for Data Representation</b>. <em>Proceedings
+    of the Section on Statistical Graphics</em>, American Statistical Association,
+    1999, pp. 55-60.. <a href="http://www.personal.psu.edu/faculty/c/a/cab38/ColorSch/ASApaper.html">(url)</a> '
+  title: Color Use Guidelines for Data Representation
+  url: http://www.personal.psu.edu/faculty/c/a/cab38/ColorSch/ASApaper.html
+color:modeling:
+  doi: https://doi.org/10.1109/TVCG.2017.2744359
+  html: 'Danielle Szafir. <b>Modeling Color Difference for Visualization Design</b>.
+    <em>IEEE Transactions on Visualization and Computer Graphics</em>, 2018. In the
+    Proceedings of the 2017 IEEE VIS Conference. (best paper award winner).. <a href="https://doi.org/10.1109/TVCG.2017.2744359">(doi)</a>
+    <a href="https://danielleszafir.com/colordiff_vis2017.pdf">(web pdf)</a> '
+  pdf: https://danielleszafir.com/colordiff_vis2017.pdf
+  title: Modeling Color Difference for Visualization Design
+color:rainbowharmful:
+  doi: http://doi.org/10.1109/MCG.2007.323435
+  html: "Borland, D., &amp; Taylor, R.. <b>Rainbow Color Map (Still) Considered Harmful</b>.\
+    \ <em>IEEE Computer Graphics and Applications</em>, 27(2), 14\u201317. <a href=\"\
+    http://doi.org/10.1109/MCG.2007.323435\">(doi)</a> "
+  title: Rainbow Color Map (Still) Considered Harmful
+color:rainbownotallbad:
+  doi: https://doi.org/10.1109/MCG.2023.3246111
+  html: 'Colin Ware, Maureen Stone, Danielle Albers Szafir. <b>Rainbow Colormaps Are
+    Not All Bad</b>. IEEE Computer Graphics and Applications, Volume 43, Issue 3,
+    2023. <a href="https://doi.org/10.1109/MCG.2023.3246111">(doi)</a> <a href="https://ieeexplore.ieee.org/ielaam/38/10128888/10128890-aam.pdf">(web
+    pdf)</a> '
+  pdf: https://ieeexplore.ieee.org/ielaam/38/10128888/10128890-aam.pdf
+  title: Rainbow Colormaps Are Not All Bad
+color:smash1:
+  html: '<b>Color Theory for Designers, Part 1: The Meaning of Color</b>. Smashing
+    Magazine. <a href="http://www.smashingmagazine.com/2010/01/28/color-theory-for-designers-part-1-the-meaning-of-color/">(url)</a> '
+  title: 'Color Theory for Designers, Part 1: The Meaning of Color'
+  url: http://www.smashingmagazine.com/2010/01/28/color-theory-for-designers-part-1-the-meaning-of-color/
+color:smash2:
+  html: '<b>Color Theory for Designers, Part 2: Understanding Concepts and Terminology</b>.
+    Smashing Magazine. <a href="http://www.smashingmagazine.com/2010/02/02/color-theory-for-designers-part-2-understanding-concepts-and-terminology/">(url)</a> '
+  title: 'Color Theory for Designers, Part 2: Understanding Concepts and Terminology'
+  url: http://www.smashingmagazine.com/2010/02/02/color-theory-for-designers-part-2-understanding-concepts-and-terminology/
+color:smash3:
+  html: '<b>Color Theory for Designers, Part 3: How to Create Color Schemes</b>. Smashing
+    Magazine. <a href="https://www.smashingmagazine.com/2010/02/color-theory-for-designer-part-3-creating-your-own-color-palettes/">(url)</a> '
+  title: 'Color Theory for Designers, Part 3: How to Create Color Schemes'
+  url: https://www.smashingmagazine.com/2010/02/color-theory-for-designer-part-3-creating-your-own-color-palettes/
+comparisons17:
+  doi: https://doi.org/10.1109/TVCG.2017.2744199
+  html: 'Michael Gleicher. <b>Considerations for Visualizing Comparisons</b>. <em>IEEE
+    Transactions on Visualization and Computer Graphics</em> (Proc. InfoVis ''17),
+    2018. <a href="https://doi.org/10.1109/TVCG.2017.2744199">(doi)</a> <a href="https://graphics.cs.wisc.edu/Papers/2018/Gle18/">(url)</a>
+    <a href="https://pages.graphics.cs.wisc.edu/VisSnacks/papers/comparison/">(Summary)</a> '
+  summary: https://pages.graphics.cs.wisc.edu/VisSnacks/papers/comparison/
+  title: Considerations for Visualizing Comparisons
+  url: https://graphics.cs.wisc.edu/Papers/2018/Gle18/
+critique:
+  html: "Adam Conor and Aaron Irizarry. <b>Understanding Critique</b>. Chapter 1 of\
+    \ <em>Discussing Design</em> by Adam Conor and Aaron Irizarry, O\u2019Reilly Books,\
+    \ 2015. <a href=\"http://cdn.oreillystatic.com/oreilly/booksamplers/9781491902400_sampler.pdf\"\
+    >(web pdf)</a> "
+  pdf: http://cdn.oreillystatic.com/oreilly/booksamplers/9781491902400_sampler.pdf
+  subtitle: "Chapter 1 of <em>Discussing Design</em> by Adam Conor and Aaron Irizarry,\
+    \ O\u2019Reilly Books, 2015"
+  title: Understanding Critique
+crowdsource-perception:
+  html: 'Jeffrey Heer, Michael Bostock. <b>Crowdsourcing Graphical Perception: Using
+    Mechanical Turk to Assess Visualization Design</b>. <a href="http://vis.stanford.edu/files/2010-MTurk-CHI.pdf">(web
+    pdf)</a> '
+  pdf: http://vis.stanford.edu/files/2010-MTurk-CHI.pdf
+  title: 'Crowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization
+    Design'
+d3-gallery:
+  html: '<b>D3 Gallery</b>. <a href="https://observablehq.com/@d3/gallery">(web pdf)</a> '
+  pdf: https://observablehq.com/@d3/gallery
+  title: D3 Gallery
+dashboard-zoo-25:
+  doi: https://doi.org/10.1109/TVCG.2024.3490259
+  html: 'Arjun Srinivasan; Joanna Purich; Michael Correll; Leilani Battle; Vidya Setlur;
+    Anamaria Crisan. <b>From Dashboard Zoo to Census: A Case Study with Tableau Public</b>.
+    <em>IEEE Transactions on Visualization and Computer Graphics</em> (Volume: 31,
+    Issue: 9, September 2025). <a href="https://doi.org/10.1109/TVCG.2024.3490259">(doi)</a>
+    <a href="https://www.tableau.com/sites/default/files/2024-12/Analyzing_Dashboard_Design_in_the_Wild.pdf">(web
+    pdf)</a> <a href="https://www.tableau.com/research/publications/dashboard-zoo-census">(url)</a>
+    <a href="https://youtu.be/Ga7NSmKd54M?si=X2YQCA72JJAvDnO0&t=2843">(video)</a> '
+  pdf: https://www.tableau.com/sites/default/files/2024-12/Analyzing_Dashboard_Design_in_the_Wild.pdf
+  title: 'From Dashboard Zoo to Census: A Case Study with Tableau Public'
+  url: https://www.tableau.com/research/publications/dashboard-zoo-census
+  video: https://youtu.be/Ga7NSmKd54M?si=X2YQCA72JJAvDnO0&t=2843
+datacomics:
+  doi: https://doi.org/10.1109/MCG.2017.33
+  html: 'Benjamin Bach, Nathalie Riche, Sheelagh Carpendale, Hanspeter Pfister. <b>The
+    Emerging Genre of Data Comics</b>. <em>IEEE Computer Graphics and Applications</em>,
+    May/June 2017. <a href="https://doi.org/10.1109/MCG.2017.33">(doi)</a> <a href="https://aviz.fr/~bbach/datacomics/Bach2017datacomics.pdf">(web
+    pdf)</a> '
+  pdf: https://aviz.fr/~bbach/datacomics/Bach2017datacomics.pdf
+  title: The Emerging Genre of Data Comics
+deceptive-vis:
+  doi: http://doi.org/10.1145/2702123.2702608
+  html: "Pandey, A. V., Rall, K., Satterthwaite, M. L., Nov, O., &amp; Bertini, E..\
+    \ <b>How Deceptive are Deceptive Visualizations?: An Empirical Analysis of Common\
+    \ Distortion Techniques</b>. In Proceedings of the 33rd Annual ACM Conference\
+    \ on Human Factors in Computing Systems - CHI \u201915 (pp. 1469\u20131478). <a\
+    \ href=\"http://doi.org/10.1145/2702123.2702608\">(doi)</a> "
+  title: 'How Deceptive are Deceptive Visualizations?: An Empirical Analysis of Common
+    Distortion Techniques'
+decision-typology-25:
+  doi: https://doi.org/10.1109/TVCG.2025.3572842
+  html: 'Camelia D. Brumar; Sam Molnar; Gabriel Appleby; Kristi Potter; Remco Chang.
+    <b>A Typology of Decision-Making Tasks for Visualization</b>. <em>IEEE Transactions
+    on Visualization and Computer Graphics</em> (Volume: 31, Issue: 10, October 2025).
+    <a href="https://doi.org/10.1109/TVCG.2025.3572842">(doi)</a> <a href="https://arxiv.org/abs/2404.08812">(web
+    pdf)</a> <a href="https://arxiv.org/pdf/2404.08812">(url)</a> <a href="https://youtu.be/moykjX8QeZI?si=puNYY58D2UGFeoIm&t=2169">(video)</a> '
+  pdf: https://arxiv.org/abs/2404.08812
+  title: A Typology of Decision-Making Tasks for Visualization
+  url: https://arxiv.org/pdf/2404.08812
+  video: https://youtu.be/moykjX8QeZI?si=puNYY58D2UGFeoIm&t=2169
+des:composition:
+  html: 'Kadavy, David. <b>Composition and Design Principles</b>. Chapter 6 of <em>Design
+    for Hackers: Reverse Engineering Beauty</em>. '
+  subtitle: 'Chapter 6 of <em>Design for Hackers: Reverse Engineering Beauty</em>'
+  title: Composition and Design Principles
+des:hierarchy:
+  html: 'Kadavy, David. <b>Visual Hierarchy</b>. Chapter 7 of <em>Design for Hackers:
+    Reverse Engineering Beauty</em>. '
+  subtitle: 'Chapter 7 of <em>Design for Hackers: Reverse Engineering Beauty</em>'
+  title: Visual Hierarchy
+design-redesign:
+  html: 'Fernanda Viegas and Martin Wattenberg. <b>Design and Redesign</b>. Medium
+    Posting. <a href="https://medium.com/@hint_fm/design-and-redesign-4ab77206cf9">(url)</a>
+    <a href="https://pages.graphics.cs.wisc.edu/VisSnacks/papers/design-redesign/">(Summary)</a> '
+  summary: https://pages.graphics.cs.wisc.edu/VisSnacks/papers/design-redesign/
+  title: Design and Redesign
+  url: https://medium.com/@hint_fm/design-and-redesign-4ab77206cf9
+dichotomous:
+  doi: https://doi.org/10.1109/TVCG.2021.3073466
+  html: "Jouni Helske, Satu Helske, Matthew Cooper, Anders Ynnerman, and Lonni Besan\xE7\
+    on. <b>Can Visualization Alleviate Dichotomous Thinking? Effects of Visual Representations\
+    \ on the Cliff Effect</b>. <em>IEEE Transactions on Visualization and Computer\
+    \ Graphics</em>, 27, 8 (August 2021), 3397\u20133409. <a href=\"https://doi.org/10.1109/TVCG.2021.3073466\"\
+    >(doi)</a> "
+  title: Can Visualization Alleviate Dichotomous Thinking? Effects of Visual Representations
+    on the Cliff Effect
+dim-red-idyll:
+  html: 'Matthew Conlen and Fred Hohman. <b>The Beginner''s Guide to Dimensionality
+    Reduction</b>. An Idyll interactive workbook. <a href="https://idyll.pub/post/dimensionality-reduction-293e465c2a3443e8941b016d/">(url)</a> '
+  title: The Beginner's Guide to Dimensionality Reduction
+  url: https://idyll.pub/post/dimensionality-reduction-293e465c2a3443e8941b016d/
+draco:
+  doi: https://doi.org/10.1109/TVCG.2018.2865240
+  html: 'Dominik Moritz, Chenglong Wang, Gregory Nelson, Halden Lin, Adam M. Smith,
+    Bill Howe, Jeffrey Heer. <b>Formalizing Visualization Design Knowledge as Constraints:
+    Actionable and Extensible Models in Draco</b>. <em>IEEE Transactions on Visualization
+    and Computer Graphics</em>, (Proc InfoVis 2019), 25(1). <a href="https://doi.org/10.1109/TVCG.2018.2865240">(doi)</a>
+    <a href="https://idl.uw.edu/papers/draco">(url)</a> '
+  title: 'Formalizing Visualization Design Knowledge as Constraints: Actionable and
+    Extensible Models in Draco'
+  url: https://idl.uw.edu/papers/draco
+embcomp:
+  doi: https://doi.org/10.1109/TVCG.2020.3045918
+  html: "Florian Heimerl, Christoph Kralj, Torsten M\xF6ller, and Michael Gleicher.\
+    \ <b>embComp: Visual Interactive Comparison of Vector Embeddings</b>. <em>IEEE\
+    \ Transactions on Visualization and Computer Graphics</em> 28(8), (August 2022).\
+    \ <a href=\"https://doi.org/10.1109/TVCG.2020.3045918\">(doi)</a> <a href=\"https://graphics.cs.wisc.edu/Papers/2022/HCMG22/\"\
+    >(url)</a> "
+  title: 'embComp: Visual Interactive Comparison of Vector Embeddings'
+  url: https://graphics.cs.wisc.edu/Papers/2022/HCMG22/
+emp:proxies:
+  doi: https://doi.org/10.1109/TVCG.2020.3030429
+  html: 'Brian D. Ondov; Fumeng Yang; Matthew Kay; Niklas Elmqvist; Steven Franconeri.
+    <b>Revealing Perceptual Proxies with Adversarial Examples</b>. <em>EEE Transactions
+    on Visualization and Computer Graphics</em> ( Volume: 27, Issue: 2, February 2021).
+    <a href="https://doi.org/10.1109/TVCG.2020.3030429">(doi)</a> <a href="https://mucollective.northwestern.edu/files/2020-perceptual-proxies.pdf">(web
+    pdf)</a> '
+  pdf: https://mucollective.northwestern.edu/files/2020-perceptual-proxies.pdf
+  title: Revealing Perceptual Proxies with Adversarial Examples
+emp:rethinking:
+  doi: https://doi.org/10.1109/TVCG.2021.3114684
+  html: 'Caitlyn M. McColeman, Fumeng Yang, Steven Franconeri, Timothy F. Brady. <b>Rethinking
+    the Ranks of Visual Channels</b>. <em>IEEE Transactions on Visualization and Computer
+    Graphics</em> ( Volume: 28, Issue: 1, January 2022). <a href="https://doi.org/10.1109/TVCG.2021.3114684">(doi)</a>
+    <a href="https://arxiv.org/pdf/2107.11367">(web pdf)</a> <a href="https://arxiv.org/abs/2107.11367">(url)</a> '
+  pdf: https://arxiv.org/pdf/2107.11367
+  title: Rethinking the Ranks of Visual Channels
+  url: https://arxiv.org/abs/2107.11367
+enrico:data-moves:
+  html: "Enrico Bertini. <b>\u201CData Moves:\u201D The Power of Transitions Between\
+    \ Charts</b>. Fell in Love With Data Substack Posting. <a href=\"https://filwd.substack.com/p/data-moves-the-power-of-transitions\"\
+    >(url)</a> "
+  title: "\u201CData Moves:\u201D The Power of Transitions Between Charts"
+  url: https://filwd.substack.com/p/data-moves-the-power-of-transitions
+enrico:expressiveness:
+  html: 'Enrico Bertini. <b>Beyond Precision: Expressiveness in Visualization</b>.
+    Fell in Love With Data Substack Posting. <a href="https://filwd.substack.com/p/beyond-precision-expressiveness-in">(url)</a> '
+  title: 'Beyond Precision: Expressiveness in Visualization'
+  url: https://filwd.substack.com/p/beyond-precision-expressiveness-in
+enrico:shape0:
+  html: 'Enrico Bertini. <b>Shape the Data, Shape the Thinking</b>. Fell in Love With
+    Data Substack Posting. <a href="https://filwd.substack.com/p/shape-the-data-shape-the-thinking">(url)</a> '
+  title: Shape the Data, Shape the Thinking
+  url: https://filwd.substack.com/p/shape-the-data-shape-the-thinking
+enrico:shape1:
+  html: 'Enrico Bertini. <b>Shape the Data, Shape the Thinking #1: Selection and Aggregation</b>.
+    Fell in Love With Data Substack Posting. <a href="https://filwd.substack.com/p/shape-the-data-shape-the-thinking-10a">(url)</a> '
+  title: 'Shape the Data, Shape the Thinking #1: Selection and Aggregation'
+  url: https://filwd.substack.com/p/shape-the-data-shape-the-thinking-10a
+enrico:shape2:
+  html: 'Enrico Bertini. <b>Shape the Data, Shape the Thinking #2: Visualizing Statistical
+    Aggregations</b>. Fell in Love With Data Substack Posting. <a href="https://filwd.substack.com/p/shape-the-data-shape-the-thinking-4b9">(url)</a> '
+  title: 'Shape the Data, Shape the Thinking #2: Visualizing Statistical Aggregations'
+  url: https://filwd.substack.com/p/shape-the-data-shape-the-thinking-4b9
+enrico:shape3:
+  html: 'Enrico Bertini. <b>Shape the Data, Shape the Thinking #3: Data Filtering
+    and its Visual Effects</b>. Fell in Love With Data Substack Posting. <a href="https://filwd.substack.com/p/shape-the-data-shape-the-thinking-39c">(url)</a> '
+  title: 'Shape the Data, Shape the Thinking #3: Data Filtering and its Visual Effects'
+  url: https://filwd.substack.com/p/shape-the-data-shape-the-thinking-39c
+enrico:shape4:
+  html: 'Enrico Bertini. <b>Shape the Data, Shape the Thinking #4: Granularity and
+    Visual Patterns</b>. Fell in Love With Data Substack Posting. <a href="https://filwd.substack.com/p/shape-the-data-shape-the-thinking-66b">(url)</a> '
+  title: 'Shape the Data, Shape the Thinking #4: Granularity and Visual Patterns'
+  url: https://filwd.substack.com/p/shape-the-data-shape-the-thinking-66b
+enrico:titles1:
+  html: 'Enrico Bertini. <b>Titles in Data Visualization: Empirical Evidence</b>.
+    Fell in Love With Data Substack Posting. <a href="https://filwd.substack.com/p/titles-in-data-visualization-empirical">(url)</a> '
+  title: 'Titles in Data Visualization: Empirical Evidence'
+  url: https://filwd.substack.com/p/titles-in-data-visualization-empirical
+enrico:titles2:
+  html: 'Enrico Bertini. <b>Data Visualization Titles: A Taxonomy</b>. Fell in Love
+    With Data Substack Posting. <a href="https://filwd.substack.com/p/data-visualization-titles-a-taxonomy">(url)</a> '
+  title: 'Data Visualization Titles: A Taxonomy'
+  url: https://filwd.substack.com/p/data-visualization-titles-a-taxonomy
+ensemble:
+  doi: http://doi.org/10.1167/14.10.1056
+  html: "Albers, D., Correll, M., Gleicher, M., &amp; Franconeri, S.. <b>Ensemble\
+    \ Processing of Color and Shape: Beyond Mean Judgments</b>. <em>Journal of Vision</em>,\
+    \ 14(10), 1056\u20131056. <a href=\"http://doi.org/10.1167/14.10.1056\">(doi)</a>\
+    \ <a href=\"https://graphics.cs.wisc.edu/Papers/2016/AHGF16/\">(url)</a> "
+  title: 'Ensemble Processing of Color and Shape: Beyond Mean Judgments'
+  url: https://graphics.cs.wisc.edu/Papers/2016/AHGF16/
+ethics:
+  doi: https://doi.org/10.1145/3290605.3300418
+  html: 'Michael Correll. <b>Ethical Dimensions of Visualization Research</b>. CHI
+    ''19: Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems,
+    Paper No.: 188, Pages 1 - 13. <a href="https://doi.org/10.1145/3290605.3300418">(doi)</a>
+    <a href="https://arxiv.org/pdf/1811.07271">(web pdf)</a> <a href="https://arxiv.org/abs/1811.07271">(url)</a> '
+  pdf: https://arxiv.org/pdf/1811.07271
+  title: Ethical Dimensions of Visualization Research
+  url: https://arxiv.org/abs/1811.07271
+eval-classification:
+  doi: https://doi.org/10.1111/CGF.13167
+  html: "N. Kerracher and J. Kennedy. <b>Constructing and Evaluating Visualisation\
+    \ Task Classifications: Process and Considerations</b>. <em>Computer Graphics\
+    \ Forum</em> 36, 3 (2017), 47\u201359. <a href=\"https://doi.org/10.1111/CGF.13167\"\
+    >(doi)</a> "
+  title: 'Constructing and Evaluating Visualisation Task Classifications: Process
+    and Considerations'
+eval:DJ17:
+  html: 'Dragicevic, P., &amp; Jansen, Y.. <b>Blinded with Science or Informed by
+    Charts? A Replication Study</b>. <em>IEEE Transactions on Visualization and Computer
+    Graphics</em>, 24(1) (Proceedings InfoVis 2017). '
+  title: Blinded with Science or Informed by Charts? A Replication Study
+eval:empirical-studies:
+  doi: http://doi.org/10.1109/TVCG.2011.279
+  html: "Lam, H., Bertini, E., Isenberg, P., Plaisant, C., &amp; Carpendale, S.. <b>Empirical\
+    \ Studies in Information Visualization: Seven Scenarios</b>. <em>IEEE Transactions\
+    \ on Visualization and Computer Graphics</em>, 18(9), 1520\u20131536.. <a href=\"\
+    http://doi.org/10.1109/TVCG.2011.279\">(doi)</a> "
+  title: 'Empirical Studies in Information Visualization: Seven Scenarios'
+eval:few-usefuljunk:
+  html: 'Stephen Few. <b>Stephen Few''s Discussion of the Useful Junk paper</b>. <a
+    href="http://www.perceptualedge.com/articles/visual_business_intelligence/the_chartjunk_debate.pdf">(web
+    pdf)</a> '
+  pdf: http://www.perceptualedge.com/articles/visual_business_intelligence/the_chartjunk_debate.pdf
+  title: Stephen Few's Discussion of the Useful Junk paper
+eval:holism:
+  html: "Correll, M., Alexander, E., Albers Szafir, D., Sarikaya, A., Gleicher, M..\
+    \ <b>Navigating Reductionism and Holism in Evaluation</b>. Proceedings of the\
+    \ Fifth Workshop on Beyond Time and Errors Novel Evaluation Methods for Visualization\
+    \ \u2013 BELIV \u201914 (pp. 23\u201326). <a href=\"http://graphics.cs.wisc.edu/Papers/2014/CAASG14\"\
+    >(url)</a> "
+  title: Navigating Reductionism and Holism in Evaluation
+  url: http://graphics.cs.wisc.edu/Papers/2014/CAASG14
+eval:insight:
+  doi: http://dx.doi.org/10.1109/MCG.2006.70
+  html: 'Chris North. <b>Visualization Viewpoints: Toward Measuring Visualization
+    Insight</b>. <em>IEEE Computer Graphics &amp; Applications</em>, 26(3): 6-9, May/June
+    2006. <a href="http://dx.doi.org/10.1109/MCG.2006.70">(doi)</a> '
+  title: 'Visualization Viewpoints: Toward Measuring Visualization Insight'
+eval:usefuljunk:
+  doi: http://dx.doi.org/10.1145/1753326.1753716
+  html: 'Bateman, S., Mandryk, R.L., Gutwin, C., Genest, A.M., McDine, D., Brooks,
+    C.. <b>Useful Junk? The Effects of Visual Embellishment on Comprehension and Memorability
+    of Charts</b>. <em>ACM Conference on Human Factors in Computing Systems (CHI 2010)</em>,
+    Atlanta, GA, USA. 2573-2582 (Best paper award). <a href="http://dx.doi.org/10.1145/1753326.1753716">(doi)</a>
+    <a href="http://hci.usask.ca/publications/view.php?id=173">(url)</a> '
+  title: Useful Junk? The Effects of Visual Embellishment on Comprehension and Memorability
+    of Charts
+  url: http://hci.usask.ca/publications/view.php?id=173
+explain-predict:
+  doi: https://doi.org/10.1214/10-STS330
+  html: "Galit Shmueli. <b>To Explain or to Predict?</b>. <em>Statistical Science</em>\
+    \ 25, 3 (January 2010), 289\u2013310. <a href=\"https://doi.org/10.1214/10-STS330\"\
+    >(doi)</a> <a href=\"https://projecteuclid.org/journals/statistical-science/volume-25/issue-3/To-Explain-or-to-Predict/10.1214/10-STS330.full\"\
+    >(url)</a> <a href=\"https://www.youtube.com/watch?v=whD2sYFHW8c\">(video)</a> "
+  title: To Explain or to Predict?
+  url: https://projecteuclid.org/journals/statistical-science/volume-25/issue-3/To-Explain-or-to-Predict/10.1214/10-STS330.full
+  video: https://www.youtube.com/watch?v=whD2sYFHW8c
+eyeshaveit:
+  doi: http://doi.org/10.1109/VL.1996.545307
+  html: "Ben Shneiderman. <b>The eyes have it: a task by data type taxonomy for information\
+    \ visualizations</b>. <em>Proceedings of the 1996 IEEE Symposium on Visual Languages</em>\
+    \ (pp. 336\u2013343). <a href=\"http://doi.org/10.1109/VL.1996.545307\">(doi)</a>\
+    \ <a href=\"https://www.cs.umd.edu/~ben/papers/Shneiderman1996eyes.pdf\">(url)</a> "
+  title: 'The eyes have it: a task by data type taxonomy for information visualizations'
+  url: https://www.cs.umd.edu/~ben/papers/Shneiderman1996eyes.pdf
+fonts-for-vis:
+  html: 'Tiffany France. <b>Choosing Fonts for Your Data Visualization</b>. Nightingale
+    Online Magazine, June 2020. <a href="https://nightingaledvs.com/choosing-fonts-for-your-data-visualization/">(url)</a> '
+  title: Choosing Fonts for Your Data Visualization
+  url: https://nightingaledvs.com/choosing-fonts-for-your-data-visualization/
+galileos-telescope:
+  html: 'Kerry Magruder. <b>Galileo''s Telescopic Discoveries: Thinking Visually in
+    the History of Science</b>. Vis 2022 Capstone Presentation. <a href="https://www.youtube.com/watch?v=DF7kt4R-LIk">(video)</a> '
+  title: 'Galileo''s Telescopic Discoveries: Thinking Visually in the History of Science'
+  video: https://www.youtube.com/watch?v=DF7kt4R-LIk
+glyphs:
+  doi: https://doi.org/10.2312/conf/EG2013/stars/039-063
+  html: 'Rita Borgo, J. Kehrer, D. H. S. Chung, E. Maguire, R. S. Laramee, H. Hauser,
+    M. Ward, &amp; M. Chen. <b>Glyph-based Visualization: Foundations, Design Guidelines,
+    Techniques and Applications</b>. <em>Eurographics State of the Art Reports</em>,
+    2013. <a href="https://doi.org/10.2312/conf/EG2013/stars/039-063">(doi)</a> <a
+    href="https://diglib.eg.org/server/api/core/bitstreams/bf79708c-cfd6-4572-8f9f-acc29d3190c2/content">(web
+    pdf)</a> <a href="https://www.cg.tuwien.ac.at/research/publications/2013/borgo-2013-gly/">(url)</a> '
+  pdf: https://diglib.eg.org/server/api/core/bitstreams/bf79708c-cfd6-4572-8f9f-acc29d3190c2/content
+  title: 'Glyph-based Visualization: Foundations, Design Guidelines, Techniques and
+    Applications'
+  url: https://www.cg.tuwien.ac.at/research/publications/2013/borgo-2013-gly/
+glyphs-study:
+  doi: https://doi.org/10.1109/TVCG.2016.2549018
+  html: 'Johannes Fuchs; Petra Isenberg; Anastasia Bezerianos; Daniel Keim. <b>A Systematic
+    Review of Experimental Studies on Data Glyphs</b>. <em>IEEE Transactions on Visualization
+    and Computer Graphics</em>, 23(7) 2017.. <a href="https://doi.org/10.1109/TVCG.2016.2549018">(doi)</a>
+    <a href="https://inria.hal.science/hal-01378429/document">(web pdf)</a> '
+  pdf: https://inria.hal.science/hal-01378429/document
+  title: A Systematic Review of Experimental Studies on Data Glyphs
+graph-perception-survey:
+  doi: https://doi.org/10.1145/3544548.3581349
+  html: 'Zehua Zeng, Leilani Battle. <b>A Review and Collation of Graphical Perception
+    Knowledge for Visualization Recommendation</b>. CHI ''23: Proceedings of the 2023
+    CHI Conference on Human Factors in Computing Systems. <a href="https://doi.org/10.1145/3544548.3581349">(doi)</a> '
+  title: A Review and Collation of Graphical Perception Knowledge for Visualization
+    Recommendation
+graphs:15-views:
+  html: 'Tamara Munzner. <b>15 Views of a Node-Link Graph: An InfoVis Portfolio</b>.
+    Google TechTalks. <a href="http://www.cs.ubc.ca/~tmm/talks/nih06/nih06.pdf">(web
+    pdf)</a> <a href="https://youtu.be/lDltGVQp8bE">(video)</a> '
+  pdf: http://www.cs.ubc.ca/~tmm/talks/nih06/nih06.pdf
+  title: '15 Views of a Node-Link Graph: An InfoVis Portfolio'
+  video: https://youtu.be/lDltGVQp8bE
+graphs:Dwyer:
+  doi: http://doi.org/10.1111/j.1467-8659.2009.01449.x
+  html: "Dwyer, T.. <b>Scalable, Versatile and Simple Constrained Graph Layout</b>.\
+    \ Computer Graphics Forum, 28(3), 991\u2013998. <a href=\"http://doi.org/10.1111/j.1467-8659.2009.01449.x\"\
+    >(doi)</a> <a href=\"http://www.csse.monash.edu.au/%7Etdwyer/Dwyer2009FastConstraints.pdf\"\
+    >(web pdf)</a> "
+  pdf: http://www.csse.monash.edu.au/%7Etdwyer/Dwyer2009FastConstraints.pdf
+  title: Scalable, Versatile and Simple Constrained Graph Layout
+graphs:force-directed:
+  doi: https://doi.org/10.1201/b15385
+  html: "Kobourov, S.. <b>Force-Directed Drawing Algorithms</b>. In Handbook of Graph\
+    \ Drawing (pp. 383\u2013408). <a href=\"https://doi.org/10.1201/b15385\">(doi)</a>\
+    \ <a href=\"https://cs.brown.edu/people/rtamassi/gdhandbook/chapters/force-directed.pdf\"\
+    >(web pdf)</a> "
+  pdf: https://cs.brown.edu/people/rtamassi/gdhandbook/chapters/force-directed.pdf
+  title: Force-Directed Drawing Algorithms
+graphs:survey:
+  doi: https://doi.org/10.1177/1473871612455749
+  html: "Helen Gibson, Joe Faith, Paul Vickers. <b>A survey of two-dimensional graph\
+    \ layout techniques for information visualisation</b>. Information Visualization,\
+    \ 12(3\u20134), 324\u2013357. <a href=\"https://doi.org/10.1177/1473871612455749\"\
+    >(doi)</a> <a href=\"https://researchportal.northumbria.ac.uk/en/publications/a-survey-of-two-dimensional-graph-layout-techniques-for-informati\"\
+    >(url)</a> "
+  title: A survey of two-dimensional graph layout techniques for information visualisation
+  url: https://researchportal.northumbria.ac.uk/en/publications/a-survey-of-two-dimensional-graph-layout-techniques-for-informati
+healy11:
+  doi: http://doi.org/10.1109/TVCG.2011.127
+  html: "Healey, C. G., &amp; Enns, J. T.. <b>Attention and Visual Memory in Visualization\
+    \ and Computer Graphics</b>. <em>IEEE Transactions on Visualization and Computer\
+    \ Graphics</em>, 18(7), 1170\u20131188, 2011. <a href=\"http://doi.org/10.1109/TVCG.2011.127\"\
+    >(doi)</a> <a href=\"https://www.csc2.ncsu.edu/faculty/healey/download/tvcg.11.pdf\"\
+    >(web pdf)</a> "
+  pdf: https://www.csc2.ncsu.edu/faculty/healey/download/tvcg.11.pdf
+  title: Attention and Visual Memory in Visualization and Computer Graphics
+high-d-01:
+  html: 'Georges Grinstein, Marjan Trutschl, Urska Cvek. <b>High-Dimensional Visualizations</b>.
+    KDD approximately 2001. <a href="https://static.aminer.org/pdf/PDF/000/371/596/d_grand_tour_for_multidimensional_data_and_clusters.pdf">(web
+    pdf)</a> <a href="https://www.semanticscholar.org/paper/High-Dimensional-Visualizations-Grinstein-Trutschl/43f766c06e2a7770d9f37dcd9cfff5bd5dcfc22f">(url)</a> '
+  pdf: https://static.aminer.org/pdf/PDF/000/371/596/d_grand_tour_for_multidimensional_data_and_clusters.pdf
+  title: High-Dimensional Visualizations
+  url: https://www.semanticscholar.org/paper/High-Dimensional-Visualizations-Grinstein-Trutschl/43f766c06e2a7770d9f37dcd9cfff5bd5dcfc22f
+high-level-toolkit:
+  html: '<b>Read about some High Level Toolkit</b>. '
+  title: Read about some High Level Toolkit
+iceberg:
+  doi: https://doi.org/10.1109/TVCG.2024.3486613
+  html: 'Charles Berret and Tamara Munzner. <b>Iceberg Sensemaking: A Process Model
+    for Critical Data Analysis</b>. <em>IEEE Transactions on Visualization and Computer
+    Graphics</em> (Volume: 31, Issue: 9, September 2025). <a href="https://doi.org/10.1109/TVCG.2024.3486613">(doi)</a>
+    <a href="https://arxiv.org/pdf/2204.04758">(web pdf)</a> <a href="https://arxiv.org/abs/2204.04758">(url)</a>
+    <a href="https://youtu.be/moykjX8QeZI?si=AP7Us6wjdhKvHCKL&t=3655">(video)</a> '
+  pdf: https://arxiv.org/pdf/2204.04758
+  title: 'Iceberg Sensemaking: A Process Model for Critical Data Analysis'
+  url: https://arxiv.org/abs/2204.04758
+  video: https://youtu.be/moykjX8QeZI?si=AP7Us6wjdhKvHCKL&t=3655
+infographics-dictionary:
+  html: 'Harris, Robert. <b>Information Graphics: A Comprehensive Illustrated Reference**</b>.
+    <a href="https://search.library.wisc.edu/catalog/999938471602121">(UW Library)</a> '
+  library: https://search.library.wisc.edu/catalog/999938471602121
+  title: 'Information Graphics: A Comprehensive Illustrated Reference**'
+interaction:HS:
+  doi: http://doi.org/10.1145/2133806.2133821
+  html: 'Heer, J., &amp; Shneiderman, B.. <b>Interactive dynamics for visual analysis</b>.
+    <em>Communications of the ACM</em>, 55(4), 45. <a href="http://doi.org/10.1145/2133806.2133821">(doi)</a>
+    <a href="http://queue.acm.org/detail.cfm?id=2146416">(url)</a> '
+  title: Interactive dynamics for visual analysis
+  url: http://queue.acm.org/detail.cfm?id=2146416
+interaction:costs:
+  doi: http://doi.org/10.1109/TVCG.2008.109
+  html: "Heidi Lam. <b>A Framework of Interaction Costs in Information Visualization</b>.\
+    \ <em>IEEE Transactions on Visualization and Computer Graphics</em>, 14(6), 1149\u2013\
+    1156. <a href=\"http://doi.org/10.1109/TVCG.2008.109\">(doi)</a> <a href=\"https://ieeexplore-ieee-org.ezproxy.library.wisc.edu/document/4658124\"\
+    >(UW Library)</a> <a href=\"https://pages.graphics.cs.wisc.edu/VisSnacks/papers/interaction-costs/\"\
+    >(Summary)</a> "
+  library: https://ieeexplore-ieee-org.ezproxy.library.wisc.edu/document/4658124
+  summary: https://pages.graphics.cs.wisc.edu/VisSnacks/papers/interaction-costs/
+  title: A Framework of Interaction Costs in Information Visualization
+kosara:define-vis:
+  html: 'Robert Kosara. <b>What is Visualization? A Definition</b>. <a href="https://eagereyes.org/criticism/definition-of-visualization">(url)</a> '
+  title: What is Visualization? A Definition
+  url: https://eagereyes.org/criticism/definition-of-visualization
+kosara:vis-names:
+  html: 'Robert Kosara. <b>The Many Names of Visualization</b>. <a href="https://eagereyes.org/blog/2011/the-many-names-of-visualization">(url)</a> '
+  title: The Many Names of Visualization
+  url: https://eagereyes.org/blog/2011/the-many-names-of-visualization
+lowleveltasks:
+  doi: https://doi.org/10.1109/INFOVIS.2005.24
+  html: 'Amar, Eagan and Stasko. <b>Low-Level Components of Analytic Activity in Information
+    Visualization</b>. Proceedings <em>InfoVis 2005</em>. <a href="https://doi.org/10.1109/INFOVIS.2005.24">(doi)</a>
+    <a href="https://www.cc.gatech.edu/~stasko/papers/infovis05.pdf">(web pdf)</a> '
+  pdf: https://www.cc.gatech.edu/~stasko/papers/infovis05.pdf
+  title: Low-Level Components of Analytic Activity in Information Visualization
+mackinlay:
+  doi: https://doi.org/10.1145/22949.22950
+  html: 'Jock Mackinlay. <b>Automating the Design of Graphical Presentations of Relational
+    Information</b>. <em>ACM Transactions on Graphics</em>, 1986. <a href="https://doi.org/10.1145/22949.22950">(doi)</a>
+    <a href="https://research.tableau.com/sites/default/files/p110-mackinlay.pdf">(web
+    pdf)</a> '
+  pdf: https://research.tableau.com/sites/default/files/p110-mackinlay.pdf
+  title: Automating the Design of Graphical Presentations of Relational Information
+memorability:
+  html: 'Michelle Borkin et. al.. <b>What Makes a Visualization Memorable?</b>. InfoVis
+    2013. <a href="http://cvcl.mit.edu/papers/Borkin_etal_MemorableVisualization_TVCG2013.pdf">(url)</a> '
+  title: What Makes a Visualization Memorable?
+  url: http://cvcl.mit.edu/papers/Borkin_etal_MemorableVisualization_TVCG2013.pdf
+moritz:
+  html: 'Dominick Moritz. <b>Dominick Moritz''s Guest Lecture</b>. (video from CS765
+    2020 - in Kaltura Mediaspace). <a href="https://mediaspace.wisc.edu/media/9_30_2020%20-%20CS765_20%20Lectures%20-%20recording_9%20-%20Implementation%3A%20Dominick%20Moritz%20Guest%20Lecture/1_8hw4sp0e">(video)</a> '
+  subtitle: (video from CS765 2020 - in Kaltura Mediaspace)
+  title: Dominick Moritz's Guest Lecture
+  video: https://mediaspace.wisc.edu/media/9_30_2020%20-%20CS765_20%20Lectures%20-%20recording_9%20-%20Implementation%3A%20Dominick%20Moritz%20Guest%20Lecture/1_8hw4sp0e
+multi-comparisons:
+  doi: https://doi.org/10.1145/3173574.3174053
+  html: "Emanuel Zgraggen, Zheguang Zhao, Robert Zeleznik, and Tim Kraska. <b>Investigating\
+    \ the Effect of the Multiple Comparisons Problem in Visual Analysis</b>. <em>Proceedings\
+    \ of the 2018 CHI Conference on Human Factors in Computing Systems</em>  - CHI\
+    \ \u201918. <a href=\"https://doi.org/10.1145/3173574.3174053\">(doi)</a> <a href=\"\
+    https://dspace.mit.edu/handle/1721.1/137892\">(url)</a> "
+  title: Investigating the Effect of the Multiple Comparisons Problem in Visual Analysis
+  url: https://dspace.mit.edu/handle/1721.1/137892
+multi-level-tasks:
+  doi: https://doi.org/10.1109/tvcg.2013.124
+  html: 'Matthew Brehmer and Tamara Munzner. <b>A multi-level typology of abstract
+    visualization tasks</b>. <em>IEEE Transactions on Visualization and Computer Graphics</em>
+    (Volume: 19, Issue: 12, December 2013). <a href="https://doi.org/10.1109/tvcg.2013.124">(doi)</a>
+    <a href="https://www.cs.ubc.ca/labs/imager/tr/2013/MultiLevelTaskTypology/brehmer_infovis13-corrections.pdf">(web
+    pdf)</a> <a href="https://www.ubixgroup.ca/p/typology-visualization-tasks">(video)</a> '
+  pdf: https://www.cs.ubc.ca/labs/imager/tr/2013/MultiLevelTaskTypology/brehmer_infovis13-corrections.pdf
+  title: A multi-level typology of abstract visualization tasks
+  video: https://www.ubixgroup.ca/p/typology-visualization-tasks
+nested-model:
+  doi: http://doi.org/10.1109/TVCG.2009.111
+  html: "Tamara Munzner. <b>A Nested Model for Visualization Design and Validation</b>.\
+    \ <em>IEEE Transactions on Visualization and Computer Graphics</em>, 15(6), 921\u2013\
+    928. <a href=\"http://doi.org/10.1109/TVCG.2009.111\">(doi)</a> <a href=\"http://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/\"\
+    >(web pdf)</a> "
+  pdf: http://www.cs.ubc.ca/labs/imager/tr/2009/NestedModel/
+  title: A Nested Model for Visualization Design and Validation
+non-design:1:
+  html: 'Robin Williams. <b>Overview</b>. Chapter 1 and 6 of <em>The Non-Designers
+    Design Book</em>. '
+  subtitle: Chapter 1 and 6 of <em>The Non-Designers Design Book</em>
+  title: Overview
+non-design:2:
+  html: 'Robin Williams. <b>Promixity</b>. Chapter 2 of <em>The Non-Designers Design
+    Book</em>. '
+  subtitle: Chapter 2 of <em>The Non-Designers Design Book</em>
+  title: Promixity
+non-design:3:
+  html: 'Robin Williams. <b>Alignment</b>. Chapter 3 of <em>The Non-Designers Design
+    Book</em>. '
+  subtitle: Chapter 3 of <em>The Non-Designers Design Book</em>
+  title: Alignment
+non-design:4:
+  html: 'Robin Williams. <b>Repetition</b>. Chapter 4 of <em>The Non-Designers Design
+    Book</em>. '
+  subtitle: Chapter 4 of <em>The Non-Designers Design Book</em>
+  title: Repetition
+non-design:5:
+  html: 'Robin Williams. <b>Contrast</b>. Chapter 5 of <em>The Non-Designers Design
+    Book</em>. '
+  subtitle: Chapter 5 of <em>The Non-Designers Design Book</em>
+  title: Contrast
+ola-at-home:
+  html: 'Ola Rosling. <b>Ola Rosling Video at Home</b>. <a href="https://www.youtube.com/watch?v=0o0vn9PS-KY&feature=youtu.be">(video)</a> '
+  title: Ola Rosling Video at Home
+  video: https://www.youtube.com/watch?v=0o0vn9PS-KY&feature=youtu.be
+onset:
+  doi: https://doi.org/10.1109/TVCG.2014.2346249
+  html: 'Ramik Sadana, Timothy Major, Alistair Dove, and John Stasko. <b>OnSet: Tackling
+    Large-Scale Set Data</b>. <em>IEEE Transactions on Visualization and Computer
+    Graphics</em> 20(12), (Proc InfoVis ''14). <a href="https://doi.org/10.1109/TVCG.2014.2346249">(doi)</a>
+    <a href="http://www.cc.gatech.edu/~john.stasko/papers/infovis14-onset.pdf">(web
+    pdf)</a> <a href="https://sites.cc.gatech.edu/gvu/ii/setvis/">(url)</a> '
+  pdf: http://www.cc.gatech.edu/~john.stasko/papers/infovis14-onset.pdf
+  title: 'OnSet: Tackling Large-Scale Set Data'
+  url: https://sites.cc.gatech.edu/gvu/ii/setvis/
+pre-attention:
+  html: 'Chris Healey. <b>Pre-Attention Demos</b>. Chris Healey''s <a href="https://www.csc2.ncsu.edu/faculty/healey/PP/index.html">web
+    survey</a> of perceptual principles for vis. <a href="https://www.csc2.ncsu.edu/faculty/healey/PP/index.html">(url)</a> '
+  subtitle: Chris Healey's <a href="https://www.csc2.ncsu.edu/faculty/healey/PP/index.html">web
+    survey</a> of perceptual principles for vis
+  title: Pre-Attention Demos
+  url: https://www.csc2.ncsu.edu/faculty/healey/PP/index.html
+presentations:
+  html: 'Michael Gleicher. <b>Advice on Presentations</b>. CS777 Course Web from 2011.
+    <a href="https://pages.graphics.cs.wisc.edu/777-S11/2011/04/08/advice-on-presentations/">(url)</a> '
+  title: Advice on Presentations
+  url: https://pages.graphics.cs.wisc.edu/777-S11/2011/04/08/advice-on-presentations/
+presentations24:
+  html: 'Michael Gleicher. <b>Readings15: Uncertainty and Presentations</b>. CS765-24
+    Course Web. <a href="https://pages.graphics.cs.wisc.edu/765-24/all-readings/readings15/">(url)</a> '
+  title: 'Readings15: Uncertainty and Presentations'
+  url: https://pages.graphics.cs.wisc.edu/765-24/all-readings/readings15/
+probing-projections:
+  doi: https://doi.org/10.1109/TVCG.2015.2467717
+  html: "Julian Stahnke, Marian Dork, Boris Muller, and Andreas Thom. <b>Probing Projections:\
+    \ Interaction Techniques for Interpreting Arrangements and Errors of Dimensionality\
+    \ Reductions</b>. <em>IEEE transactions on visualization and computer graphics</em>\
+    \ 22, 1 (August 2015), 629\u2013638. <a href=\"https://doi.org/10.1109/TVCG.2015.2467717\"\
+    >(doi)</a> "
+  title: 'Probing Projections: Interaction Techniques for Interpreting Arrangements
+    and Errors of Dimensionality Reductions'
+problem-space:
+  doi: https://doi.org/10.1109/MCG.2023.3267213
+  html: "Michael Gleicher, Maria Riveiro, Tatiana von Landesberger, Oliver Deussen,\
+    \ Remco Chang and Christina Gillman. <b>A Problem Space for Designing Visualizations</b>.\
+    \ <em>IEEE Computer Graphics and Applications</em>, Volume 43, Number 4, page\
+    \ 111-120 \u2014 Jul 2023. <a href=\"https://doi.org/10.1109/MCG.2023.3267213\"\
+    >(doi)</a> <a href=\"https://graphics.cs.wisc.edu/Papers/2023/GRVDCG23/Problem-Space-Arxiv.pdf\"\
+    >(web pdf)</a> <a href=\"https://pages.graphics.cs.wisc.edu/VisSnacks/papers/problem-space/\"\
+    >(Summary)</a> "
+  pdf: https://graphics.cs.wisc.edu/Papers/2023/GRVDCG23/Problem-Space-Arxiv.pdf
+  summary: https://pages.graphics.cs.wisc.edu/VisSnacks/papers/problem-space/
+  title: A Problem Space for Designing Visualizations
+rhetoric:
+  doi: https://doi.org/10.1109/TVCG.2011.255
+  html: 'Jessica Hullman and Nick Diakopoulos. <b>Visualization Rhetoric: Framing
+    Effects in Narrative Visualization</b>. <em>IEEE Transactions on Visualization
+    and Computer Graphics</em>, 17(12) 2011.. <a href="https://doi.org/10.1109/TVCG.2011.255">(doi)</a>
+    <a href="https://mucollective.northwestern.edu/files/2011-VisRhetoric-InfoVis.pdf">(web
+    pdf)</a> '
+  pdf: https://mucollective.northwestern.edu/files/2011-VisRhetoric-InfoVis.pdf
+  title: 'Visualization Rhetoric: Framing Effects in Narrative Visualization'
+rosling1:
+  html: 'Hans Rosling. <b>The best stats you''ve ever seen</b>. Hans Rosling Example
+    Video 1. TED2006. <a href="http://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen">(video)</a> '
+  subtitle: Hans Rosling Example Video 1
+  title: The best stats you've ever seen
+  video: http://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen
+rosling2:
+  html: 'Hans Rosling. <b>New insights on poverty</b>. Hans Rosling Example Video
+    2. TED2007. <a href="http://www.ted.com/talks/hans_rosling_reveals_new_insights_on_poverty">(video)</a> '
+  subtitle: Hans Rosling Example Video 2
+  title: New insights on poverty
+  video: http://www.ted.com/talks/hans_rosling_reveals_new_insights_on_poverty
+rosling3:
+  html: 'Hans Rosling. <b>Let my dataset change your mindset</b>. TED2009. <a href="https://www.ted.com/talks/hans_rosling_let_my_dataset_change_your_mindset">(video)</a> '
+  title: Let my dataset change your mindset
+  video: https://www.ted.com/talks/hans_rosling_let_my_dataset_change_your_mindset
+rosling4:
+  html: "Hans Rosling. <b>The good news of the decade? We're winning the war against\
+    \ child mortality</b>. TEDxChange \u2022 September 2010. <a href=\"https://www.ted.com/talks/hans_rosling_the_good_news_of_the_decade_we_re_winning_the_war_against_child_mortality\"\
+    >(video)</a> "
+  title: The good news of the decade? We're winning the war against child mortality
+  video: https://www.ted.com/talks/hans_rosling_the_good_news_of_the_decade_we_re_winning_the_war_against_child_mortality
+rosling4minute:
+  html: 'Hans Rosling. <b>Hans Rosling''s 200 Countries, 200 Years, 4 Minutes - The
+    Joy of Stats - BBC</b>. BBC, The Joy of Stats, 2010. <a href="https://www.youtube.com/watch?v=jbkSRLYSojo">(video)</a> '
+  title: Hans Rosling's 200 Countries, 200 Years, 4 Minutes - The Joy of Stats - BBC
+  video: https://www.youtube.com/watch?v=jbkSRLYSojo
+scatterplots:
+  html: 'Sarikaya, A. and Gleicher, M.. <b>Scatterplots: Tasks, Data, and Designs</b>.
+    <em>IEEE Transactions on Visualization and Computer Graphics</em>, 24(1), Jan
+    2018. <a href="https://graphics.cs.wisc.edu/Papers/2018/SG18/">(url)</a> '
+  title: 'Scatterplots: Tasks, Data, and Designs'
+  url: https://graphics.cs.wisc.edu/Papers/2018/SG18/
+set-explorer:
+  html: '<b>Visual Techniques for Analysing Set-typed Data</b>. Keshif Gallery. <a
+    href="https://gallery.keshif.me/setvis">(url)</a> '
+  subtitle: Keshif Gallery
+  title: Visual Techniques for Analysing Set-typed Data
+  url: https://gallery.keshif.me/setvis
+sets:
+  doi: https://doi.org/10.1111/cgf.12722
+  html: 'Bilal Alsallakh, Luana Micallef, Wolfgang Aigner, Helwig Hauser, Silvia Miksch,
+    Peter Rodgers. <b>The State-of-the-Art of Set Visualization</b>. <em>Computer
+    Graphics Forum</em> 35(1) (EuroVis ''15 State of the Art Report). <a href="https://doi.org/10.1111/cgf.12722">(doi)</a>
+    <a href="https://scispace.com/pdf/the-state-of-the-art-of-set-visualization-1rw4imfamf.pdf">(web
+    pdf)</a> <a href="https://www.cvast.tuwien.ac.at/SetViz">(url)</a> '
+  pdf: https://scispace.com/pdf/the-state-of-the-art-of-set-visualization-1rw4imfamf.pdf
+  title: The State-of-the-Art of Set Visualization
+  url: https://www.cvast.tuwien.ac.at/SetViz
+showme:
+  doi: http://doi.org/10.1109/TVCG.2007.70594
+  html: 'Mackinlay, J., Hanrahan, P., &amp; Stolte, C.. <b>Show me: automatic presentation
+    for visual analysis</b>. <em>IEEE Transactions on Visualization and Computer Graphics</em>,
+    13(6), Dec 2007. <a href="http://doi.org/10.1109/TVCG.2007.70594">(doi)</a> <a
+    href="https://research.tableau.com/sites/default/files/200711-infovis-showme.pdf">(web
+    pdf)</a> '
+  pdf: https://research.tableau.com/sites/default/files/200711-infovis-showme.pdf
+  title: 'Show me: automatic presentation for visual analysis'
+smash:design1:
+  html: '<b>Design Principles 1: Visual Perception And The Principles Of Gestalt</b>.
+    Smashing Magazine. <a href="http://www.smashingmagazine.com/2014/03/28/design-principles-visual-perception-and-the-principles-of-gestalt/">(url)</a> '
+  title: 'Design Principles 1: Visual Perception And The Principles Of Gestalt'
+  url: http://www.smashingmagazine.com/2014/03/28/design-principles-visual-perception-and-the-principles-of-gestalt/
+smash:design2:
+  html: '<b>Design Principles 2: Space And The Figure-Ground Relationship</b>. Smashing
+    Magazine. <a href="http://www.smashingmagazine.com/2014/05/16/design-principles-space-figure-ground-relationship/">(url)</a> '
+  title: 'Design Principles 2: Space And The Figure-Ground Relationship'
+  url: http://www.smashingmagazine.com/2014/05/16/design-principles-space-figure-ground-relationship/
+smash:design3:
+  html: '<b>Design Principles 3: Connecting And Separating Elements Through Contrast
+    And Similarity</b>. Smashing Magazine. <a href="http://www.smashingmagazine.com/2014/09/22/design-principles-connecting-and-separating-elements-through-contrast-and-similarity/">(url)</a> '
+  title: 'Design Principles 3: Connecting And Separating Elements Through Contrast
+    And Similarity'
+  url: http://www.smashingmagazine.com/2014/09/22/design-principles-connecting-and-separating-elements-through-contrast-and-similarity/
+smash:design4:
+  html: '<b>Design Principles 4: Visual Weight And Direction</b>. Smashing Magazine.
+    <a href="http://www.smashingmagazine.com/2014/12/12/design-principles-visual-weight-direction/">(url)</a> '
+  title: 'Design Principles 4: Visual Weight And Direction'
+  url: http://www.smashingmagazine.com/2014/12/12/design-principles-visual-weight-direction/
+steve-video:
+  html: 'Steve Franconeri. <b>Thinking with Data Visualizations, Fast and Slow</b>.
+    Open Vis 2018 Conference Talk. <a href="https://www.youtube.com/watch?v=Jq2Rc0WlYTE">(video)</a> '
+  title: Thinking with Data Visualizations, Fast and Slow
+  video: https://www.youtube.com/watch?v=Jq2Rc0WlYTE
+stone-choices:
+  html: 'Maureen Stone. <b>Expert Color Choices for Presenting Data</b>. (originally
+    a web article, but no longer online). '
+  title: Expert Color Choices for Presenting Data
+summaries:
+  doi: http://dx.doi.org/10.1111/cgf.13408
+  html: 'Sarikaya, Gleicher and Szafir. <b>Design Factors for Summary Visualization
+    in Visual Analytics</b>. <em>Computer Graphics Forum</em> 37(3) (Proceedings EuroVis
+    2018). <a href="http://dx.doi.org/10.1111/cgf.13408">(doi)</a> <a href="https://graphics.cs.wisc.edu/Papers/2018/SGA18/">(url)</a> '
+  title: Design Factors for Summary Visualization in Visual Analytics
+  url: https://graphics.cs.wisc.edu/Papers/2018/SGA18/
+table-lens:
+  doi: https://doi.org/10.1145/191666.191776
+  html: 'Ramana Rao and Stuart Card. <b>The table lens: merging graphical and symbolic
+    representations in an interactive focus + context visualization for tabular information</b>.
+    CHI ''94: Proceedings of the SIGCHI Conference on Human Factors in Computing Syste.
+    <a href="https://doi.org/10.1145/191666.191776">(doi)</a> <a href="https://hci.stanford.edu/courses/cs448b/papers/Rao-TableLens.pdf">(url)</a>
+    <a href="https://www.youtube.com/watch?v=qWqTrRAC52U">(video)</a> '
+  title: 'The table lens: merging graphical and symbolic representations in an interactive
+    focus + context visualization for tabular information'
+  url: https://hci.stanford.edu/courses/cs448b/papers/Rao-TableLens.pdf
+  video: https://www.youtube.com/watch?v=qWqTrRAC52U
+taggle:
+  doi: http://dx.doi.org/10.1177/1473871619878085
+  html: 'Katarina Furmanova, Samuel Gratzl, Holger Stitz, Thomas Zichner, Miroslava
+    Jaresova, Alexander Lex, Marc Streit. <b>Taggle: Scalable Visualization of Tabular
+    Data through Aggregation</b>. <em>Information Visualization</em>, 19(2): 114-136,
+    2019. <a href="http://dx.doi.org/10.1177/1473871619878085">(doi)</a> <a href="https://sci.utah.edu/~vdl/papers/2017_preprint_taggle.pdf">(web
+    pdf)</a> <a href="https://vdl.sci.utah.edu/publications/2019_ivi_taggle/">(url)</a>
+    <a href="https://sci.utah.edu/~vdl/papers/2017_preprint_taggle.pdf">(video)</a> '
+  pdf: https://sci.utah.edu/~vdl/papers/2017_preprint_taggle.pdf
+  title: 'Taggle: Scalable Visualization of Tabular Data through Aggregation'
+  url: https://vdl.sci.utah.edu/publications/2019_ivi_taggle/
+  video: https://sci.utah.edu/~vdl/papers/2017_preprint_taggle.pdf
+taskcube:
+  doi: https://doi.org/10.1177/1473871615621602
+  html: "Alexander Rind, Wolfgang Aigner, Markus Wagner, Silvia Miksch, and Tim Lammarsch.\
+    \ <b>Task Cube: A three-dimensional conceptual space of user tasks in visualization\
+    \ design and evaluation</b>. <em>Information Visualization</em> 15(4) (October\
+    \ 2016), 288\u2013300. <a href=\"https://doi.org/10.1177/1473871615621602\">(doi)</a>\
+    \ <a href=\"https://www.cvast.tuwien.ac.at/sites/default/files/bibcite/433/PubDat_247156.pdf\"\
+    >(web pdf)</a> "
+  pdf: https://www.cvast.tuwien.ac.at/sites/default/files/bibcite/433/PubDat_247156.pdf
+  title: 'Task Cube: A three-dimensional conceptual space of user tasks in visualization
+    design and evaluation'
+tasks-data:
+  doi: https://doi.org/10.1111/cgf.13409
+  html: "Younghoon Kim and Jeffrey Heer. <b>Assessing Effects of Task and Data Distribution\
+    \ on the Effectiveness of Visual Encodings</b>. <em>Computer Graphics Forum</em>\
+    \ 37, 3 (2018), 157\u2013167. <a href=\"https://doi.org/10.1111/cgf.13409\">(doi)</a>\
+    \ <a href=\"https://idl.cs.washington.edu/files/2018-TaskDataEffectiveness-EuroVis.pdf\"\
+    >(web pdf)</a> "
+  pdf: https://idl.cs.washington.edu/files/2018-TaskDataEffectiveness-EuroVis.pdf
+  title: Assessing Effects of Task and Data Distribution on the Effectiveness of Visual
+    Encodings
+tasks:space:
+  doi: http://doi.org/10.1109/TVCG.2013.120
+  html: "Schulz, H.-J., Nocke, T., Heitzler, M., &amp; Schumann, H.. <b>A Design Space\
+    \ of Visualization Tasks</b>. <em>IEEE Transactions on Visualization and Computer\
+    \ Graphics</em>, 19(12), 2366\u20132375, Dec 2013. <a href=\"http://doi.org/10.1109/TVCG.2013.120\"\
+    >(doi)</a> <a href=\"http://vcg.informatik.uni-rostock.de/~hs162/pdf/taskds.pdf\"\
+    >(web pdf)</a> "
+  pdf: http://vcg.informatik.uni-rostock.de/~hs162/pdf/taskds.pdf
+  title: A Design Space of Visualization Tasks
+taxo-glyphs:
+  doi: https://doi-org.ezproxy.library.wisc.edu/10.1109/TVCG.2012.271
+  html: "Eamonn Maguire and Philippe Rocca-Serra and Susanna-Assunta Sansone and Jim\
+    \ Davies and Min Chen. <b>Taxonomy-Based Glyph Design\u2014with a Case Study on\
+    \ Visualizing Workflows of Biological Experiments</b>. <em>IEEE Transactions on\
+    \ Visualization and Computer Graphics</em>, 18(12) 2012.. <a href=\"https://doi-org.ezproxy.library.wisc.edu/10.1109/TVCG.2012.271\"\
+    >(doi)</a> <a href=\"https://www.cs.tufts.edu/comp/250VA/papers/maguire.pdf\"\
+    >(web pdf)</a> "
+  pdf: https://www.cs.tufts.edu/comp/250VA/papers/maguire.pdf
+  title: "Taxonomy-Based Glyph Design\u2014with a Case Study on Visualizing Workflows\
+    \ of Biological Experiments"
+text-functions-25:
+  html: 'Chase Stokes, Anjana Arunkumar, Marti A. Hearst, Lace Padilla. <b>An Analysis
+    of Text Functions in Information Visualization</b>. <em>IEEE VIs (Short Papers)</em>,
+    November 2025. <a href="https://arxiv.org/pdf/2507.12334">(web pdf)</a> <a href="https://arxiv.org/abs/2507.12334">(url)</a>
+    <a href="https://youtu.be/v-iY-PKyXHs?si=2igOFikFexoPYMr1&t=2858">(video)</a> '
+  pdf: https://arxiv.org/pdf/2507.12334
+  title: An Analysis of Text Functions in Information Visualization
+  url: https://arxiv.org/abs/2507.12334
+  video: https://youtu.be/v-iY-PKyXHs?si=2igOFikFexoPYMr1&t=2858
+treevis:
+  html: '<b>TreeVis.net</b>. <a href="http://treevis.net/">(url)</a> '
+  title: TreeVis.net
+  url: http://treevis.net/
+tsne-effectively:
+  doi: http://doi.org/10.23915/distill.00002
+  html: "Wattenberg, Martin and Vi\xE9gas, Fernanda and Johnson, Ian. <b>How to Use\
+    \ T-SNE Effectively</b>. Distill Interactive Journal. <a href=\"http://doi.org/10.23915/distill.00002\"\
+    >(doi)</a> <a href=\"https://distill.pub/2016/misread-tsne/\">(url)</a> "
+  title: How to Use T-SNE Effectively
+  url: https://distill.pub/2016/misread-tsne/
+umap:
+  html: 'Andy Coenen, Adam Pearce. <b>Understanding UMAP</b>. <a href="https://pair-code.github.io/understanding-umap/">(url)</a> '
+  title: Understanding UMAP
+  url: https://pair-code.github.io/understanding-umap/
+uncertainty:chapter:
+  html: 'Padilla, L., Kay, M. and Hullman, J.. <b>Uncertainty Visualization</b>. Chapter
+    22 of Computational Statistics in Data Science. <a href="https://osf.io/preprints/psyarxiv/ebd6r">(web
+    pdf)</a> <a href="http://space.ucmerced.edu/Downloads/publications/Uncertainty_Visualization_Padilla_Kay_Hullman_2022.pdf">(url)</a> '
+  pdf: https://osf.io/preprints/psyarxiv/ebd6r
+  title: Uncertainty Visualization
+  url: http://space.ucmerced.edu/Downloads/publications/Uncertainty_Visualization_Padilla_Kay_Hullman_2022.pdf
+uncertainty:sciam:
+  html: 'Jessica Hullman. <b>How to get better at Embracing Unknowns</b>. Scientific
+    American, Volume 29, Special Issue. <a href="http://users.eecs.northwestern.edu/~jhullman/sciam_hullman.pdf">(url)</a>
+    <a href="https://www.youtube.com/watch?v=pTVAn4oLvbc">(video)</a> '
+  title: How to get better at Embracing Unknowns
+  url: http://users.eecs.northwestern.edu/~jhullman/sciam_hullman.pdf
+  video: https://www.youtube.com/watch?v=pTVAn4oLvbc
+upset:
+  doi: https://doi.org/10.1109/TVCG.2014.2346248
+  html: 'Alexander Lex, Nils Gehlenborg, Hendrik Strobelt, Romain Vuillemot, and Hanspeter
+    Pfister. <b>UpSet: Visualization of Intersecting Sets</b>. <em>IEEE Transactions
+    on Visualization and Computer Graphics</em> 20(12), (Proc InfoVis ''14). <a href="https://doi.org/10.1109/TVCG.2014.2346248">(doi)</a>
+    <a href="https://sci.utah.edu/~vdl/papers/2014_infovis_upset.pdf">(web pdf)</a>
+    <a href="https://vdl.sci.utah.edu/publications/2014_infovis_upset/">(url)</a>
+    <a href="https://www.youtube.com/watch?v=-IfF2wGw7Qk">(video)</a> '
+  pdf: https://sci.utah.edu/~vdl/papers/2014_infovis_upset.pdf
+  title: 'UpSet: Visualization of Intersecting Sets'
+  url: https://vdl.sci.utah.edu/publications/2014_infovis_upset/
+  video: https://www.youtube.com/watch?v=-IfF2wGw7Qk
+vegalite:
+  html: 'Arvind Satyanarayan, Dominik Moritz, Kanit Wongsuphasawat, Jeffrey Heer.
+    <b>Vega-Lite: A Grammar of Interactive Graphics</b>. <em>IEEE Transactions on
+    Visualization and Computer Graphics</em> (Proc. InfoVis ''16), 2017. <a href="https://idl.cs.washington.edu/files/2017-VegaLite-InfoVis.pdf">(web
+    pdf)</a> <a href="https://idl.uw.edu/papers/vega-lite">(url)</a> '
+  pdf: https://idl.cs.washington.edu/files/2017-VegaLite-InfoVis.pdf
+  title: 'Vega-Lite: A Grammar of Interactive Graphics'
+  url: https://idl.uw.edu/papers/vega-lite
+vegalite-uw:
+  html: '<b>Vega Lite Tutorial</b>. UW Visualization Curriculum. <a href="https://github.com/uwdata/visualization-curriculum">(url)</a>
+    <a href="https://www.youtube.com/watch?v=9uaHRWj04D4">(video)</a> '
+  subtitle: UW Visualization Curriculum
+  title: Vega Lite Tutorial
+  url: https://github.com/uwdata/visualization-curriculum
+  video: https://www.youtube.com/watch?v=9uaHRWj04D4
+vis:catalog:
+  html: '<b>The Data Visualisation Catalogue</b>. <a href="https://datavizcatalogue.com/">(web
+    pdf)</a> '
+  pdf: https://datavizcatalogue.com/
+  title: The Data Visualisation Catalogue
+vis:web-catalog:
+  html: '<b>Data Vis Project</b>. <a href="https://datavizproject.com/">(url)</a> '
+  title: Data Vis Project
+  url: https://datavizproject.com/
+visual-hierarchy:
+  html: '<b>Visual Hierarchy</b>. Interaction Design Foundation. <a href="https://www.interaction-design.org/literature/topics/visual-hierarchy">(url)</a> '
+  title: Visual Hierarchy
+  url: https://www.interaction-design.org/literature/topics/visual-hierarchy
+visual-resources:
+  doi: http://doi.org/10.1093/oxfordhb/9780195376746.013.0010
+  html: "Steve Franconeri. <b>The Nature and Status of Visual Resources</b>. In D.\
+    \ Reisberg (Ed.), <em>The Oxford Handbook of Cognitive Psychology</em> (pp. 1\u2013\
+    16). Oxford University Press.. <a href=\"http://doi.org/10.1093/oxfordhb/9780195376746.013.0010\"\
+    >(doi)</a> <a href=\"http://viscog.psych.northwestern.edu/publications/Franconeri_VisualResources_Oxford.pdf\"\
+    >(web pdf)</a> "
+  pdf: http://viscog.psych.northwestern.edu/publications/Franconeri_VisualResources_Oxford.pdf
+  title: The Nature and Status of Visual Resources
+visualizationary-25:
+  doi: https://doi.org/10.1109/TVCG.2025.3579700
+  html: 'Sungbok Shin, Sanghyun Hong, Niklas Elmqvist. <b>Visualizationary: Automating
+    Design Feedback for Visualization Designers Using LLMs</b>. <em>IEEE Transactions
+    on Visualization and Computer Graphics</em> (Volume: 31, Issue: 10, October 2025).
+    <a href="https://doi.org/10.1109/TVCG.2025.3579700">(doi)</a> <a href="https://arxiv.org/pdf/2409.13109">(web
+    pdf)</a> <a href="https://arxiv.org/abs/2409.13109">(url)</a> <a href="https://youtu.be/2z0_8lHbM04?si=-Il0vn013P84F6y5&t=3077">(video)</a> '
+  pdf: https://arxiv.org/pdf/2409.13109
+  title: 'Visualizationary: Automating Design Feedback for Visualization Designers
+    Using LLMs'
+  url: https://arxiv.org/abs/2409.13109
+  video: https://youtu.be/2z0_8lHbM04?si=-Il0vn013P84F6y5&t=3077
+vs:critique:
+  html: 'Michael Gleicher. <b>Tutorial 4: Critique</b>. Vis Snacks Tutorial 4. <a
+    href="https://pages.graphics.cs.wisc.edu/VisSnacks/tutorials/4-critique/">(url)</a> '
+  subtitle: Vis Snacks Tutorial 4
+  title: 'Tutorial 4: Critique'
+  url: https://pages.graphics.cs.wisc.edu/VisSnacks/tutorials/4-critique/
+vtk-gallery:
+  html: '<b>VTK Gallery</b>. <a href="https://vtk.org/gallery/">(web pdf)</a> '
+  pdf: https://vtk.org/gallery/
+  title: VTK Gallery
+web:
+  html: 'Michael Gleicher. <b>Course Web</b>. Getting Started Pages. The Course Web
+    (everthing in getting started). <a href="getting-started">(url)</a> '
+  subtitle: Getting Started Pages
+  title: Course Web
+  url: getting-started
+what-is-question:
+  doi: https://doi.org/10.1126/science.aaa6146
+  html: "J. T. Leek and R. D. Peng. <b>What is the question?</b>. <em>Science</em>\
+    \ 347, 6228 (March 2015), 1314\u20131315. <a href=\"https://doi.org/10.1126/science.aaa6146\"\
+    >(doi)</a> <a href=\"https://www.aaas.org/sites/default/files/Stats_What_Question_2015.pdf?g_zGQR5m3rDJqwXqJ3DxLI5pXZ3hNdHk\"\
+    >(web pdf)</a> "
+  pdf: https://www.aaas.org/sites/default/files/Stats_What_Question_2015.pdf?g_zGQR5m3rDJqwXqJ3DxLI5pXZ3hNdHk
+  title: What is the question?
+what-works:
+  doi: https://doi.org/10.1177/15291006211051956
+  html: 'Steven Franconeri, Lace Padilla, Priti Shah  , Jeffrey Zacks, Jessica Hullman.
+    <b>The Science of Visual Data Communication: What Works</b>. <em>Psychological
+    Science in the Public Interest</em>, 22 (3)(December 2021). <a href="https://doi.org/10.1177/15291006211051956">(doi)</a>
+    <a href="https://par.nsf.gov/servlets/purl/10350294">(web pdf)</a> <a href="https://journals.sagepub.com/doi/epub/10.1177/15291006211051956">(url)</a> '
+  pdf: https://par.nsf.gov/servlets/purl/10350294
+  title: 'The Science of Visual Data Communication: What Works'
+  url: https://journals.sagepub.com/doi/epub/10.1177/15291006211051956
+why-as-why:
+  html: "Michael Gleicher. <b>Why ask why?</b>. Proceedings of the 2012 BELIV Workshop\
+    \ on Beyond Time and Errors \u2013 Novel Evaluation Methods for Visualization\
+    \ \u2013 BELIV \u201912 (pp. 1\u20133). <a href=\"https://graphics.cs.wisc.edu/Papers/2012/Gle12/\"\
+    >(url)</a> "
+  title: Why ask why?
+  url: https://graphics.cs.wisc.edu/Papers/2012/Gle12/
+wilke-uncertainty:
+  html: 'Claus O. Wilke. <b>Visualizing uncertainty</b>. Chapter 16 of <em>Fundamentals
+    of Data Visualization</em> (an O''Reily Book). <a href="https://clauswilke.com/dataviz/visualizing-uncertainty.html">(url)</a> '
+  subtitle: Chapter 16 of <em>Fundamentals of Data Visualization</em> (an O'Reily
+    Book)
+  title: Visualizing uncertainty
+  url: https://clauswilke.com/dataviz/visualizing-uncertainty.html
