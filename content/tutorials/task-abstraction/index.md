@@ -1,7 +1,7 @@
 +++
 title = 'Task Abstraction: A Cheat Sheet'
 date = 2026-09-07T07:40:41-05:00
-draft = true
+draft = false
 weight = 33
 tags = ["task-abstraction", "building-blocks"]
 +++
@@ -43,15 +43,21 @@ They make a series of distinctions:
 
 - Level of Abstraction: **Abstract** vs. **Concrete** - How generic is the description? Is it specific, or could it apply to many things.
 - Level of composition: **High-Level** vs. **Low-Level** - How "big" is the task? Is it some long-scale, multi-step process, or is it a small quick thing that is likely to be a step in a longer process.
-- Perspective: **Why (Objectives)** vs. **How (Actions)**
+- Perspective: **Why (Objectives)** vs. **How (Actions)** - objectives are questions on data (desired results), actions are steps towards objectives
 
-Some examples:
-- Find a vaccine for HIV - concrete, big
-- Identify an outlier - abstract, small, objective
+This is a 3 dimensional grid (hence, task cube). Here are examples of all of the combinations:
+
+|  |  | Low-level | High-level |
+|---|---|---|---|
+| **Objectives** *(why)* | Concrete | Which quarter had Google's largest revenue? | Find a vaccine for HIV |
+|  | Abstract | Find the maximum | Make an informed decision |
+| **Actions** *(how)* | Concrete | Drag the date slider to 2014 | Search a term, narrow by date, read the word cloud |
+|  | Abstract | Filter | Overview first, zoom and filter, then details-on-demand |
+
 
 ## Levels of Abstraction and Composition
 
-There are ranges of levels of abstraction and composition. Many levels can be useful, so it can be useful to take a task described one way, and re-describe it at another level. 
+Abstraction and composition are *scales* - you can slide a description along either one.
 
 For example:
 - Take an abstract task and give a more concrete example
