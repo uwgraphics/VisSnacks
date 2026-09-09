@@ -1,5 +1,5 @@
 +++
-title = 'Task Abstraction: A Cheat Sheet'
+title = 'Task Abstraction: A Crash Course'
 date = 2026-09-07T07:40:41-05:00
 draft = false
 weight = 33
@@ -20,9 +20,9 @@ My goal is to have ways for discussing the "problems" that visualizations are tr
 
 **One objection to get out of the way up front:** *"I don't have a task - I just want to look at my data."* That is still a task. Usually it means you haven't articulated a better description yet, and sometimes the honest description is "my task is to figure out what the right task is." Either way, you are better off saying so than deciding task doesn't apply to you. I make this point in {{<link "/tutorials/2-building-blocks">}} as well - it's worth repeating.
 
-I call it a "cheat sheet" because it's designed to be a quick summary of some of the main things you would get from reading a whole list of papers and fusing the ideas together. It's not trying to cover everything - it's just a slice across the landscape. It's the basics I think you need, and it might inspire you to read the original sources.
+This "crash course" is designed to be a quick summary of some of the main things you would get from reading a whole list of papers and fusing the ideas together. It's not trying to cover everything - it's just a slice across the landscape. It's the basics I think you need, and it might inspire you to read the original sources.
 
- In class, I try to connect these with examples from my own work.
+In class, I try to connect these with examples from my own work.
 
 ## The Cheat Code: Flexible Tools not Rigid Rules
 
