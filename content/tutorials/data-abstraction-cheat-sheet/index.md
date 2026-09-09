@@ -2,7 +2,7 @@
 title = 'Data Abstraction: A Cheat Sheet'
 date = 2026-09-06T11:00:00-05:00
 draft = false
-weight = 32
+weight = 11
 tags = ["data-abstraction", "building-blocks"]
 +++
 

@@ -5,7 +5,7 @@ draft = false
 categories = []
 tags = ["tableau"]
 toc = false
-weight = 20
+weight = 52
 +++
 
 A quick walkthrough of showing how to get started with Tableau. The data set is one we will use in CS765 Fall 2025: Life expectancy data from around the world. I won't get as far as making "good" visualizations - but it will give you some hints on how to get started with the data set, and with Tableau.

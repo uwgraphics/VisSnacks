@@ -2,9 +2,11 @@
 title = 'Data Abstraction: Describing Data So You Can Use It'
 date = 2026-07-17T18:00:00-05:00
 draft = true
-weight = 31
+weight = 101
 tags = ["data-abstraction", "building-blocks"]
 +++
+
+**Warning - this is the older Claude generated tutorial. It has been superceded by the "Cheat Sheet"**
 
 Before you can pick a visualization, you have to say what your data *is* - not "sales figures for the Milwaukee store," but the abstract version: a table of items with a few attributes, one of them a quantity. That abstract description is what connects to design choices, and it's the same handful of patterns over and over.
 

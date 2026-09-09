@@ -2,7 +2,7 @@
 title = 'Task Abstraction: A Crash Course'
 date = 2026-09-07T07:40:41-05:00
 draft = false
-weight = 33
+weight = 12
 tags = ["task-abstraction", "building-blocks"]
 +++
 
