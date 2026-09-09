@@ -44,4 +44,41 @@ Module 2 (Building Blocks), lecture 3-W second half. Module outcome #3: "underst
 
 ## 8. Anything else (MIKE)
 
--
+# A "checklist" from claude's initial feedback
+
+N = The big one, not shaped like a cheat sheet
+
+N.1 Not shaped like the other: I'm not concerned. The goal is to have two good documents. I am still experimenting with what is best.
+N.2 Agreed that it feels a little weird to organize by source, but I think this works because each set does go together. Put an explanation at the beginning of the section
+
+N.3 No to the major re-org.
+
+N.4 Targets are missing - not sure where to best fit these in. 
+N.5 Aspects beyond the verb — goal (exploratory/confirmatory/presentation), cardinality (single/multiple/all), phase, audience - those are good and missing N.6 need to bring them in.
+
+M = Your list of missing (keeping numbers)
+M.1 Targets - yes. Need them.
+M.2. My list of low level. Yes, although they are informal and hard to justify
+M.3 Yes I want the laddering - but not sure it's a great example
+M.4 Yes I want an overall example - I debated the O'Connor example, probably good to bring it in; although it spends a lot at very high levels
+M.5 Problem space needs to be added. Intended to do this.
+M.6 Composition - not sure where to bring it in
+M.7 Conclusion - I should write one
+M.8 Derive - seems like a smaller point, but there might be a need to explain many of the terms
+
+S = Smaller points
+S.1 Specific task lists - yes; I could add the scatterplots paper
+~~S.2 I did beef up the Mantra discussion~~
+S.3 I don't have a task - yes - I need to say this upfront, it is worth repeating
+S.4 cross links - yes - need this
+S.5 figures - yes. but less clear which ones
+
+M = Mechanical fixes
+M.1-M.5 - worth doing
+~~M.6 - I added spectrum, space, clustering~~
+
+A = Can't Answer
+~~A.1. drop "not rocket science" (intro gets sentiment)~~
+~~A.2. need to add problem space section, but doesn't need backstory~~
+~~A.3. copied quote in~~
+

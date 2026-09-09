@@ -24,6 +24,11 @@ Don't worry about pinning down the terms precisely, or having formal structures 
 
 View all of the previous task organization schemes as providing *vocabulary* for discussing what we are trying to do with a visualization, or what the visualization is meant to do. Each provides some tools that we can use in describing and analyzing "tasks". The better our toolbox, the better able we can be at describing and understanding the different scenarios that we want visualizations for, designing visualizations that fit them, and assessing whether or not our solutions work.
 
+- It is important to be able to talk about task.
+- It may or may not be important to have formalism for talking about tasks.
+- Use formalisms when they are useful. Don’t get stuck on their details.
+
+
 ## Why is this hard? The Dimensions of Task Abstraction
 
 The challenge of task is that there are many different things it can mean, and many different levels to look at it. The TaskCube paper by Rind et. al articulated this well. Understanding the different ways we might view tasks provides an interesting set of perspectives we can apply.
@@ -44,24 +49,21 @@ Different levels of abstraction:
 - Choose a transport option 
 - Select a train ticket between Frankfurt and Stuttgart on Aug 15
 
+## The Problem Space: Beyond Tasks
 
-{{<expand "The Readings - and what you might get from them">}}
+Task is only part of the description of "the problem" that a visualization might be addressing. We (some colleagues and I) suggested the idea of a *Problem Space* for visualization that considers different dimensions of scenarios that can (or should) influence visualization design. The paper is summarized at {{<link "/papers/problem-space">}} (the summary is probably sufficient).
 
-In a roughly recommended order...
-
-- {{<reading "taskcube">}}<br>
-  *Read this to get the perspective on why task abstraction is  tricky.*
-- Tamara Munzner, *Visualization Analysis and Design*, Ch 3 "Task Abstraction ({{<link "/resources/munzner">}})<br>*Read this to get a perspective on why task abstraction is  useful. The actual scheme she describes comes from a paper - but the book chapter is better at the "why is this useful to most people."*
-- {{<reading lowleveltasks>}}<br>*Read this to see a concrete scheme that has stood the test of time.*
-- {{<reading eyeshaveit>}}<br>*An early and influential paper. It is best known for the "Information Seeking Mantra" but also gets at the idea that there are common patterns for tasks and data.*
-- {{<reading problem-space>}}<br>*Shows that task isn't the only thing to consider. As an author, I can say this is one where reading the {{<link link="/papers/problem-space" text="summary">}} might be good enough.*
-- {{<reading "tasks:space">}}<br>*A paper that gets at the multi-faceted nature of task descriptions. This inspired the Problem Space paper above.*
-- {{<reading "scatterplots">}}<br>*An example of a task taxonomy that is specific to a type of data/chart. I am an author, so I am biased.*
-
-There are many others. 
-{{</expand>}}
+The problem space is defined using the 5Ws and an H from journalism (that actually dates back even farther):
+- **Who** has the problem / will be the viewer
+- **Why** are they using the visualization (this is the objective or task)
+- **What** are they looking at (the data)
+- **When** in the analysis process (what phase)
+- **Where** the context
+- **How** do they *expect* to be helped (not the actual solution)
 
 ## Example Task Organizing Schemes
+
+I provide some examples (taken from the reading list above) that give examples of task description concepts. While it is organized by the source, you can mix and match the different pieces.
 
 ### Organization Schemes: Taxonomies vs. Typologies vs. Categorizations
 
@@ -71,15 +73,16 @@ Historically, researchers used the term taxonomy to describe schemes for organiz
 - **Classification** - Groups things into categories where the categories are mutually exclusive and jointly exhaustive (every item has exactly one home). Usually has strictly defined rules for each category.
 - **Taxonomy** - A hierarchical classification where items are grouped based on observable characteristics into groupings with strict boundaries.
 - **Typology** - A grouping based on "ideal types" or characterizations. The boundaries between the categories may not be well defined.
+- **Spectrum** - A (conceptually) continuous dimension that something can be placed on.
+- **Space** - for example, a "Design Space" or a "Problem Space". This refers to a set of separate dimensions, each might be a spectrum or some categorization.
+- **Clustering** - a type of categorization where things are grouped by similarity.
 
 
 ### Schneiderman 1996: Task by Data Type Taxonomy
 
-+ Ben Shneiderman, "The Eyes Have It: A Task by Data Type Taxonomy for Information Visualizations" (IEEE Symposium on Visual Languages, 1996)
++ {{<reading eyeshaveit>}}
 
 By 1996, Ben Schneiderman was already famous. This paper was an invited survey where he tried to organize a zoo of different experimental designs into a framework. 
-
-This paper is is mainly famous for his *information seeking mantra*: **"Overview first, zoom and filter, then details-on-demand"**
 
 Notably, this paper tried to separate **data abstraction** from **task abstraction**. Neither list was very rigorous, but it was an important starting point for others. 
 
@@ -92,9 +95,13 @@ His list of tasks:
 - History
 - Extract
 
+This paper is is mainly famous for his *information seeking mantra*: **"Overview first, zoom and filter, then details-on-demand"**, which isn't strictly part of either taxonomy. However, the mantra teaches us a lesson: it isn't a universal law, it's a common pattern that he recommends considering.
+
 ### Amar, Eagan and Stasko: Low-Level Components of Analytic Activity
 
-This paper was one of the first *rigorous* task categorizations. They explicitly focused on the "low level" of tasks, creating a set of primitives that could be built into more complex operations. This list stands up well over time.
++ {{<reading lowleveltasks>}}
+
+This paper was one of the first *rigorous* task categorizations. They explicitly focused on the "low level" of tasks, creating a set of primitives that could be built into more complex operations. This list stands up well over time. It gets referred to a lot, and is often used as an organization scheme (for example, the paper [A Survey of Perception-Based Visualization Studies by Task](https://doi.org/10.1109/TVCG.2021.3098240) uses it to organize their survey).
 
 - Retrieve Value
 - Filter
@@ -108,6 +115,9 @@ This paper was one of the first *rigorous* task categorizations. They explicitly
 - Correlate
 
 ### Munzner 2014 (Book), Brehmer&Munzner 2013 (Multi-Level Typology)
+
++ {{<reading multi-level-tasks>}}
++ Tamara Munzner, *Visualization Analysis and Design*, Ch 3 "Task Abstraction" ({{<link "/resources/munzner">}})
 
 The paper was one of the first task categorizatons that acknowledged the multi-level nature of task, and tried to do things at multiple levels. It was also the first to be precise about terminology (it is a typology, not a taxonomy).
 
@@ -145,7 +155,7 @@ There are a different set of verbs for the actions performed with a visualizatio
   - change
   - filter
   - aggregate
-introduce
+- introduce
   - annotate
   - import
   - derive
@@ -166,3 +176,27 @@ They identify 5 different dimensions:
 - **Cardinality:** how many instances of the chosen target are considered  (single / multiple / all).
 
 Their list of 5 is motivated by the journalistic 5Ws and an H. This directly motivated our work in developing the Problem Space for Visualization.
+
+## Learning More 
+
+{{<expand "The Readings - and what you might get from them">}}
+
+In a roughly recommended order...
+
+- {{<reading "taskcube">}}<br>
+  *Read this to get the perspective on why task abstraction is  tricky.*
+- Tamara Munzner, *Visualization Analysis and Design*, Ch 3 "Task Abstraction" ({{<link "/resources/munzner">}})<br>*Read this to get a perspective on why task abstraction is  useful. The actual scheme she describes comes from a paper - but the book chapter is better at the "why is this useful to most people."*
+- {{<reading lowleveltasks>}}<br>*Read this to see a concrete scheme that has stood the test of time.*
+- {{<reading eyeshaveit>}}<br>*An early and influential paper. It is best known for the "Information Seeking Mantra" but also gets at the idea that there are common patterns for tasks and data.*
+- {{<reading problem-space>}}<br>*Shows that task isn't the only thing to consider. As an author, I can say this is one where reading the {{<link link="/papers/problem-space" text="summary">}} might be good enough.*
+- {{<reading "tasks:space">}}<br>*A paper that gets at the multi-faceted nature of task descriptions. This inspired the Problem Space paper above.*
+- {{<reading "scatterplots">}}<br>*An example of a task taxonomy that is specific to a type of data/chart. I am an author, so I am biased.*
+
+There are many others. 
+{{</expand>}}
+
+
+
+{{<genai>}}
+I wrote an initial draft, and then had Claude help me fill it in and complete it. I also used Claude to generate summaries of many of the sources so I could review them quickly.
+{{</genai>}}
