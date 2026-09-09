@@ -1,5 +1,5 @@
 +++
-title = 'Task Abstraction Cheat Sheet'
+title = 'Task Abstraction: A Cheat Sheet'
 date = 2026-09-07T07:40:41-05:00
 draft = true
 +++
@@ -22,7 +22,7 @@ I call it a "cheat sheet" because it's designed to be a quick summary of some of
 
 Don't worry about pinning down the terms precisely, or having formal structures to organize and group different tasks. View task abstraction as a toolbox - many different ways to describe and analyze what the viewer might want to do (or what we, as visualization designers, want to make a visualization to help the viewer do).
 
-View all of the previous task organization schemes as providing *vocabulary* for discussing what we are trying to do with visualizations. Each provides some tools that we can use in describing and analyzing "tasks". The better our toolbox, the better able we can be at describing and understanding the different scenarios that we want visualizations for, designing visualizations that fit them, and assessing whether or not our solutions work.
+View all of the previous task organization schemes as providing *vocabulary* for discussing what we are trying to do with a visualization, or what the visualization is meant to do. Each provides some tools that we can use in describing and analyzing "tasks". The better our toolbox, the better able we can be at describing and understanding the different scenarios that we want visualizations for, designing visualizations that fit them, and assessing whether or not our solutions work.
 
 ## Why is this hard? The Dimensions of Task Abstraction
 
@@ -30,9 +30,36 @@ The challenge of task is that there are many different things it can mean, and m
 
 They make a series of distinctions:
 
-- Level of Abstraction: **Abstract** vs. **Concrete**
-- Level of composition: **Big** vs. **Small**
+- Level of Abstraction: **Abstract** vs. **Concrete** - How generic is the description? Is it specific, or could it apply to many things.
+- Level of composition: **High-Level** vs. **Low-Level** - How "big" is the task? Is it some long-scale, multi-step process, or is it a small quick thing that is likely to be a step in a longer process.
 - Perspective: **Why (Objectives)** vs. **How (Actions)**
+
+Some examples:
+- Find a vaccine for HIV - concrete, big
+- Identify an outlier - abstract, small, objective
+
+Different levels of abstraction:
+- Make an informed decision
+- Select between options with different tradeoffs
+- Choose a transport option 
+- Select a train ticket between Frankfurt and Stuttgart on Aug 15
+
+
+{{<expand "The Readings - and what you might get from them">}}
+
+In a roughly recommended order...
+
+- {{<reading "taskcube">}}<br>
+  *Read this to get the perspective on why task abstraction is  tricky.*
+- Tamara Munzner, *Visualization Analysis and Design*, Ch 3 "Task Abstraction ({{<link "/resources/munzner">}})<br>*Read this to get a perspective on why task abstraction is  useful. The actual scheme she describes comes from a paper - but the book chapter is better at the "why is this useful to most people."*
+- {{<reading lowleveltasks>}}<br>*Read this to see a concrete scheme that has stood the test of time.*
+- {{<reading eyeshaveit>}}<br>*An early and influential paper. It is best known for the "Information Seeking Mantra" but also gets at the idea that there are common patterns for tasks and data.*
+- {{<reading problem-space>}}<br>*Shows that task isn't the only thing to consider. As an author, I can say this is one where reading the {{<link link="/papers/problem-space" text="summary">}} might be good enough.*
+- {{<reading "tasks:space">}}<br>*A paper that gets at the multi-faceted nature of task descriptions. This inspired the Problem Space paper above.*
+- {{<reading "scatterplots">}}<br>*An example of a task taxonomy that is specific to a type of data/chart. I am an author, so I am biased.*
+
+There are many others. 
+{{</expand>}}
 
 ## Example Task Organizing Schemes
 
