@@ -2,6 +2,8 @@ locale = "en-us"
 title = "Visualization Snacks"
 theme = ["559Theme"]
 
+ignoreFiles = ["/_lecture_experiment/","/.claude/","/.github/","/graveyard/","/Workspace/","/Tools/"]
+
 # Recent Hugo versions (v0.162.0+, CVE-2026-50133 fix) deny text/html content
 # files under content/ by default. The 559Theme ships content/search.html,
 # so we must allowlist exactly the content media types actually used here:

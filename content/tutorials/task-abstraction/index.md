@@ -18,7 +18,7 @@ The goal of task abstraction is to have a way to describe what the visualization
 
 My goal is to have ways for discussing the "problems" that visualizations are trying to address so that we can choose solutions that solve them. I am much less concerned about trying to put tasks into neat little boxes.
 
-**One objection to get out of the way up front:** *"I don't have a task - I just want to look at my data."* That is still a task. Usually it means you haven't articulated a better description yet, and sometimes the honest description is "my task is to figure out what the right task is." Either way, you are better off saying so than deciding task doesn't apply to you. I make this point in {{<link "/tutorials/2-building-blocks">}} as well - it's worth repeating.
+**One objection to get out of the way up front:** *"I don't have a task - I just want to look at my data."* That is still a task. Usually it means you haven't articulated a better description yet, and sometimes the honest description is "the task is to figure out what the right task is." Either way, you are better off saying so than deciding task doesn't apply to you. I make this point in {{<link "/tutorials/2-building-blocks">}} as well - it's worth repeating.
 
 This "crash course" is designed to be a quick summary of some of the main things you would get from reading a whole list of papers and fusing the ideas together. It's not trying to cover everything - it's just a slice across the landscape. It's the basics I think you need, and it might inspire you to read the original sources.
 
@@ -175,7 +175,7 @@ One thing I like about their approach is describing tasks in terms of actions an
 
 #### Actions: the "why" verbs
 
-The main part of actions are the "why" verbs, which they organize hierarchically. The three groups are three *independent* levels, not steps in a sequence: you can say something at all three at once.
+The main part of actions are the "why" verbs, which they organize hierarchically.
 
 - **Analyze** - the highest level: what are you doing with the visualization at all?
   - **Consume** - using information that is already there
@@ -210,9 +210,7 @@ Actions are only half of it. **Targets** are what the action is directed *at* - 
 
 (*Features* is deliberately open-ended - it means whatever pattern happens to matter for the task at hand. That vagueness is a bit of a cheat, but a useful one.)
 
-The pairing is the part I actually use. "Compare distributions," "identify an outlier," "summarize a trend" - a verb plus a noun is usually enough to be designable, where either one alone isn't. An action with no target is too vague to make a design decision from; a target with no action doesn't say what the viewer has to *do* with it.
-
-Notice also that the table's left column is a data abstraction: which targets are even on the menu depends on what kind of data you have. This is one of the cleanest places where the two abstractions meet.
+Pairings of an action and a target are a useful combination. "Compare distributions," "identify an outlier," "summarize a trend" - a verb plus a noun is usually enough to be designable, where either one alone isn't. An action with no target is too vague to make a design decision from; a target with no action doesn't say what the viewer has to *do* with it.
 
 #### The "how" verbs are a different axis
 
@@ -232,9 +230,9 @@ There is a separate set of verbs for what the viewer *does with the visualizatio
   - derive
   - record
 
-Confusingly, **annotate**, **record** and **derive** appear in *both* lists. That is deliberate rather than sloppy: in the "why" list they are goals (I am using this thing in order to end up with derived data), and in the "how" list they are methods (this thing gives me a way to derive). Same word, two different questions - so it's worth saying which list you are quoting from.
+Confusingly, **annotate**, **record** and **derive** appear in *both* lists. That is deliberate rather than sloppy: in the "why" list they are goals (I am using this thing in order to end up with derived data), and in the "how" list they are methods (this thing gives me a way to derive). 
 
-Munzner's refrain about these two lists is worth keeping: **why doesn't dictate how.** Wanting to *present* doesn't mean the result has to be static; wanting to *discover* doesn't imply any particular idiom. Keeping the goal and the design choice in separate boxes is most of the value of the split.
+Munzner's refrain about these two lists is worth keeping: **why doesn't dictate how.** Wanting to *present* doesn't mean the result has to be static; wanting to *discover* doesn't imply any particular idiom.
 
 ### Schulz et al. 2013: Design Space of Tasks
 
@@ -306,8 +304,11 @@ Each of these questions is a tool that you can use in understanding and describi
 
 Elsewhere on this site:
 
-- {{<link "/tutorials/data-abstraction-cheat-sheet">}} - the other half of this vocabulary. Task and data abstraction are meant to be used together; neither one picks a design on its own.
-- {{<link "/papers/problem-space">}} - the summary of the Problem Space paper, if the section above left you wanting the examples.
+- {{<link "/tutorials/data-abstraction-cheat-sheet">}} - Task and data abstraction are meant to be used together; neither one picks a design on its own.
+- {{<link "/papers/problem-space">}} - the summary of the Problem Space paper.
+
+Many of the {{<link "/snacks/">}} discuss task, and use task abstraction to different degrees. Some examples (available at the time of writing, selected by Claude):
+
 - {{<link "/snacks/app-time-graphs">}} - task-first critique in action: two "value over time" graphs, where the better one is better *because of* the task, not because of the data type.
 - {{<link "/snacks/250624-routemap">}} - a longer worked example of task (and data) driving an unusual design.
 
@@ -324,11 +325,11 @@ In a roughly recommended order...
 - {{<reading "tasks:space">}}<br>*A paper that gets at the multi-faceted nature of task descriptions. This inspired the Problem Space paper above.*
 - {{<reading "scatterplots">}}<br>*An example of a task taxonomy that is specific to a type of data/chart. I am an author, so I am biased.*
 
-There are many others. 
+There are many others. There are lots of papers on task abstraction.
 {{</expand>}}
 
 
 
 {{<genai>}}
-I wrote an initial draft, and then had Claude help me fill it in and complete it. I also used Claude to generate summaries of many of the sources so I could review them quickly.
+I wrote an initial draft, and then had Claude help me fill it in and complete it. I also used Claude to generate summaries of many of the sources so I could review them quickly. Claude also put things into tables. And, it kept trying to add things - some of which I didn't cut out.
 {{</genai>}}
