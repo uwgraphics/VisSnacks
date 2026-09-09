@@ -22,6 +22,8 @@ My goal is to have ways for discussing the "problems" that visualizations are tr
 
 I call it a "cheat sheet" because it's designed to be a quick summary of some of the main things you would get from reading a whole list of papers and fusing the ideas together. It's not trying to cover everything - it's just a slice across the landscape. It's the basics I think you need, and it might inspire you to read the original sources.
 
+ In class, I try to connect these with examples from my own work.
+
 ## The Cheat Code: Flexible Tools not Rigid Rules
 
 Don't worry about pinning down the terms precisely, or having formal structures to organize and group different tasks. View task abstraction as a toolbox - many different ways to describe and analyze what the viewer might want to do (or what we, as visualization designers, want to make a visualization to help the viewer do).
@@ -52,9 +54,9 @@ Some examples:
 There are ranges of levels of abstraction and composition. Many levels can be useful, so it can be useful to take a task described one way, and re-describe it at another level. 
 
 For example:
-- Take an abstract task and give a more concrete example example
+- Take an abstract task and give a more concrete example
 - Take a composed task and break it into smaller steps
-- Take a concrete task and and find a general (abstract) problem it is an instance of
+- Take a concrete task and find a general (abstract) problem it is an instance of
 - Group a set of small tasks into a single operation
 
 Different levels of abstraction. Note how with each, things become less abstract and lower level:
@@ -64,15 +66,26 @@ Different levels of abstraction. Note how with each, things become less abstract
 - Select a train ticket between Frankfurt and Stuttgart on Aug 15
 - Compare the prices between two tickets
 
-Example: "Make an informed decision" is an abstract, compount task. I can decompose it into steps: identify choices, get data about choies, make comparisons, ... I can pick a concrete example, e.g., decide how to get between two cities. 
+Example: "Make an informed decision" is an abstract, compound task. I can decompose it into steps: identify choices, get data about choices, make comparisons, ... I can pick a concrete example, e.g., decide how to get between two cities. 
 
 We often try to describe tasks at a level of abstraction and composition that makes the task match common patterns for which we have some design experience. If the task is too specific, it might seem unique and without precedent to inform our design. However, if we abstract incorrectly, we might throw away important features of the problem.
 
 ## Actions and Targets
 
-I often find it useful to think of tasks in terms as a pairing of an action (a verb) and a target (a noun, the object of the verb). Many task descriptions naturally have this form - e.g., "identify and outlier" or "choose a transport option". Munzner's chapter (below) emphasized thinking about these two pieces independently, and this strongly influenced my work (see {{<link "/papers/comparison">}}).
+I often find it useful to think of tasks in terms of a pairing of an action (a verb) and a target (a noun, the object of the verb). Many task descriptions naturally have this form - e.g., "identify an outlier" or "choose a transport option". Munzner's chapter (below) emphasized thinking about these two pieces independently, and this strongly influenced my work (see {{<link "/papers/comparison">}}).
 
 One piece of advice: try to understand both action and target. Either one can be made more or less abstract. 
+
+### What do you want to do with the target?
+
+The task lists from papers (below) often have lists of actions. Here is one that I made up that I phrase as "what to do with targets". It differs from the lists below (especially the Amar 2005 list) in that its centers on what the viewer does (or can do perceptually), rather than the result that they want. 
+
+- **Absolute judgment** - read a value off the display
+- **Relative judgment** - compare two things to each other
+- **Identify / find / match against a key** - pick out a specific thing
+- **Form groups / regions** - see what belongs with what
+- **Count / quantify** - how many are there
+- **Average / estimate statistics** - get a sense of a summary value
 
 ## The Problem Space: Beyond Tasks
 
@@ -257,11 +270,31 @@ Our task list was:
   - *Numerosity comparison* - which region has more points in it?
   - *Understand distances* - what does "close together" actually mean?
 
-While the list was derived for (and makes most sense for) scatterplots and scatterplot data, the tasks can be though of in a more generalized way. Some general lessons:
+While the list was derived for (and makes most sense for) scatterplots and scatterplot data, the tasks can be thought of in a more generalized way. Some general lessons:
 
-- The **extent** of the data: how much data do the tasks consider? **Object-centric** (about specific points) vs. **aggregate** (about properties of groups). Adrienko&Adrienko call this *elemental* vs. *synoptic*. 
+- The **extent** of the data: how much data do the tasks consider? **Object-centric** (about specific points) vs. **aggregate** (about properties of groups). Andrienko &amp; Andrienko call this *elemental* vs. *synoptic*. 
 - **Relations** among items - e.g., distances between pairs, similarity among groups, etc. Are often important in tasks. Sometimes these compound objects are targets themselves.
 - Problems and solutions are separate: the Scatterplots paper contains both, and shows how different tasks (problems) may be addressed by different design choices (solutions). 
+
+## Putting It to Use
+
+If you take one thing from this page, it's the cheat code at the top: these schemes are vocabulary, not rules. 
+
+Here's a summary:
+
+| Ask | The vocabulary | Where it's from |
+|---|---|---|
+| What is the **verb**? | analyze / search / query; or a low-level primitive | Munzner, Amar |
+| What is the **target** (noun)? | trends, outliers, values, distribution, correlation, topology, shape | Munzner |
+| How **abstract**? | concrete ↔ abstract | Task Cube |
+| How **big**? | low-level ↔ high-level; compose or decompose to move | Task Cube |
+| **Why or how**? | objective (the end) vs. action (the means) | Task Cube |
+| **How many** things at once? | single / multiple / all | Schulz |
+| How much data at once? | elemental (objects) ↔ synoptic (aggregates) | Andrienko, Scatterplots |
+| What is the work **for**? | exploratory / confirmatory / presentation | Schulz |
+| And **besides** task? | who, what, when, where, how | Problem Space |
+
+Each of these questions is a tool that you can use in understanding and describing tasks. 
 
 ## Learning More 
 
