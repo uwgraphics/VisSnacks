@@ -1,0 +1,102 @@
+check: proofread
+started: '2026-09-10T13:32:04'
+finished: '2026-09-10T13:33:16'
+dialect: hugo
+checkers:
+- typos
+- doubleword
+proposer: google/gemma-4-26b-a4b-it:nitro
+reasoning: 'off'
+target_root: /home/cat/Documents/FA26/VisSnacks
+n_files: 51
+n_files_skipped_unchanged: 0
+n_suggestions: 584
+by_severity:
+  error: 310
+  warn: 100
+  style: 174
+by_tier:
+  tier0: 45
+  tier1: 539
+merged: 32
+overlap_merged: 8
+memory_suppressed: 0
+dictionary_suppressed: 0
+dropped_masked: 11
+dropped_span_mismatch: 0
+skipped_no_replacement: {}
+propose_stats:
+  chunks: 208
+  calls: 217
+  jobs: 8
+  elapsed_seconds: 71.5
+  proposed: 600
+  anchored: 579
+  anchor_failures: 5
+  dropped_masked: 3
+  retried_chunks: 9
+  json_failures: 0
+  wall_seconds: 555.8
+  load_seconds: 0.0
+  prompt_seconds: 0.0
+  decode_seconds: 555.8
+  overhead_seconds: 0.0
+  prompt_tokens: 154692
+  eval_tokens: 25913
+  reasoning_tokens: 0
+  prompt_tok_per_s: 0.0
+  decode_tok_per_s: 46.6
+  cost_usd: 0.026477
+interrupted: false
+files:
+  content/_index.md: sha256:af191c29ff61fc30f8168215149f55e43e1442ab17ad99914aaf99eb746ef408
+  content/about/index.md: sha256:788364ce3d5f9078483df3d57c5d147789d53c8edc0703d2d6d55fd06e7d53ba
+  content/obsolete/old-critique/index.md: sha256:3d747872caa0867b27fbead0254ae30683b4d6145f0c45277cccccba7a59714a
+  content/obsolete/old-t1-what-is-vis/index.md: sha256:3a3e13abb891a301a7a512ac7020b4c10286a563468dc26837921127defc498d
+  content/obsolete/old-t2-table-example/index.md: sha256:6ffaa920a6748484e2d06b41698b291219d532f667a1d5abfe378f38c2b6ded1
+  content/obsolete/old-t2-table-example/old-table-example.md: sha256:f0d6fcd656187926c50e19d34b01ef040db24062a8772eb32da9889e4266adcc
+  content/papers/_index.md: sha256:f3a91998e4638cf63b7eea4313d127ee65f8255d77b4c7d867b3ee40ed4b880f
+  content/papers/algebraic/index.md: sha256:c3bc369bc17806423921d3c70708937e9869c74370d7daf93be7be5f65890304
+  content/papers/comparison/index.md: sha256:cb4104a366a6dc0d1cb6be80a105fdd790e213f8a7c4e8f5a916658299e5d7ef
+  content/papers/design-redesign/index.md: sha256:908ffcf0fb9b70ce19f278d42f95e03b93586bfd68aea027be438492c939be14
+  content/papers/discussing-design/index.md: sha256:9ecefa312317ec49b0387411544b929d61021d5dec8eb89aecd55dd39e297f59
+  content/papers/interaction-costs/index.md: sha256:3309d4a28c0d0d471b08b7c4d24d5312f80486c8164d2ef8be842eb53ed0e393
+  content/papers/problem-space/index.md: sha256:dabd87626225ae7bab2880cb46c14081cbc6bdc7673011d9ab4556ee51a1cced
+  content/rants/_index.md: sha256:a305817051290cf3ed1e32ddd8fa445e72875fc868e26c940600da0e73fd2fcd
+  content/rants/repapering/index.md: sha256:a149fd99dec9e852774f9507c1720cf2ed12b3bd0a1113e39bfc9c0448447cd9
+  content/resources/_index.md: sha256:6d58f1a71961a37ee2511757f57d02b674e08cdae7607aae84f1483cf652fadf
+  content/resources/bertin/index.md: sha256:54f232869e6937500ef5f1fca8e3714058d9b9a267ab43c3a6c858dec850f7a1
+  content/resources/books-first.md: sha256:0d5faa9db8cdda54bd322d3874c71d2282e25abc75392ff3b13c710167f100d2
+  content/resources/cairo/index.md: sha256:67782e11fbc9e93a48fba855e1825758d329da9f0a20a0a39aca43d0b109ce49
+  content/resources/design/index.md: sha256:c421ec55ccc72130ebedc6deb88efdd7e81674b6b6328680742a5a2e64eeb6d4
+  content/resources/discussing-design/index.md: sha256:1722e47aa0f6f294b06a247f1dc4e64a53430593de8fb7005aac4caf3142a46b
+  content/resources/munzner/index.md: sha256:09031b8783ade237924771412914b5bcb35f74f01680a663f0705464b77be8df
+  content/resources/tufte/index.md: sha256:49663f5ef15169f680425b57b0bfae5bdc3b256773a34abe9cc9943f87b5d14a
+  content/resources/visual-thinking/index.md: sha256:1134b7cf339f40454bfbafbc60c8239d3fd57daaa603f00eafa6a700663a3b1f
+  content/snacks/240830-nyt-unemployment-map/index.md: sha256:48e105d15615e8a21a6aa4ad7227aa459393f6065fef47bf85d5d93aa1ad5e1c
+  content/snacks/240830-yeping-axis/index.md: sha256:ada1645614aed0038b56460cce3d4d7b8fdc4900afcaa6b9289ba536076ef845
+  content/snacks/250517-college-line-chart/index.md: sha256:8845da1e379e79fad5b142e1c2246026b13c8b9554e03a0cfd735cc463370a1c
+  content/snacks/250624-routemap/index.md: sha256:f1900aead09c9450d63482def089c0ef2938a0bc49c3de0d9080477e99d0cb7d
+  content/snacks/260520-compare-rivers/index.md: sha256:41b13bcb8e7ec3f86625860096cab90d1b2d79e5c9ee183677c6ebb942e29721
+  content/snacks/260730-terrible-treemap/index.md: sha256:f1a248aeb1c635f911a20722c39757c39f25e6e6de5473507c1ef69cbd66dba8
+  content/snacks/_index.md: sha256:6212502460cd62745c00430e6c0d3034eed176c14d71e2f9b4a46a2c75791a14
+  content/snacks/app-time-graphs/index.md: sha256:9f55ed922ac2b11087d1657a8fa96fdf6f839a822753091fefa8421519ef9160
+  content/snacks/cairo-discrete-line/index.md: sha256:4c470c3dc87189a2bf5c5a4d50dc98a48fdd2d77a130f80e9c1a98026b8f931a
+  content/snacks/charts-are-encodings/index.md: sha256:04cff472fef460311746a33382edf6c2730f4a053d018c7f52e7cfc7284dbe18
+  content/snacks/pie-chart-experiment/index.md: sha256:94b5708087fbf192a0a9fe70344a85ca12083b6bd6f4fe91621be40ee838f870
+  content/tags/books/_index.md: sha256:cb54b206ce8ffd298cf02e604807d7418d2c0de88f3fdb8d1957df78c37cc0dc
+  content/tags/critique/_index.md: sha256:2610d36f7c97b9e54283edcbf4077733946f686fb96b732c9a741c570f89a447
+  content/tags/with-data/_index.md: sha256:cb0dfe6a5692506de8244ccf3959b2b54f20dc101bc010adf24c18322104e6e9
+  content/tutorials/0-preface/index.md: sha256:4601f2eeccfa0f4e77a915ade33ed162d51a8eb61fc21c0f6ee964adb14a889c
+  content/tutorials/1-what-is-vis/index.md: sha256:b96753b276c5b6e30763ca038c4b388add893f3a588fbc7acc9814e83357bfbd
+  content/tutorials/2-building-blocks/index.md: sha256:22c66ea9aa6cf04fb9636dc1997f619b31487f028be3f304d72a985948eae162
+  content/tutorials/3-easy-to-see/index.md: sha256:628aa741b01558caf7871b75e3ffab62dabd1dc2352107d88a96c68c3ec0dd09
+  content/tutorials/4-critique/index.md: sha256:fefe10be1bed62fa2b573ba9865e14d8a8dfa882a8e800cfdbd16fcbfede0c31
+  content/tutorials/_index.md: sha256:aa78651a2539e0f9f55c603d5c1351983a98d015ff65c6809bb03606c71776d8
+  content/tutorials/data-abstraction/index.md: sha256:ee748e9dfdafb575d1b8c41d42ab56b3349c07c5a373fb76b09a9f9f25f17602
+  content/tutorials/data-abstraction-cheat-sheet/index.md: sha256:fba4db2857a5d8742e58b48f57b2a1139a14418d9c80aad8500107bd75a21d3a
+  content/tutorials/encodings/index.md: sha256:be49fd8100f7be8d8ee110b49adbe407a847beb77b2bed5b531a9695bf6a9d7e
+  content/tutorials/tableau-tutorial/index.md: sha256:ce17b576eccfd820b645dafb09c2576d538beaf9d75bcd1d9629e6d1da39f747
+  content/tutorials/tableau-walkthrough2-life-expectancy/index.md: sha256:35b4f0b05c4d9101d6102ff12e14107e73fb0d64252f86b0f649fd30159b34f3
+  content/tutorials/task-abstraction/index.md: sha256:1d9adda70e5dd204021ccacde9cfd7b8a0269e49ce5520984ec6abf85905ab22
+  content/widgetlinks.md: sha256:e7fef821ea2cf2e40122e9c0ffa7d834aceb471526d4bd2ce9039fdf924070cf

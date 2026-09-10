@@ -9,7 +9,7 @@ aliases:
   - /tutorials/2-table-example/
 ---
 
-**Obsolete:** This is the old (pre- Fall 2026) Tutorial 2. The new tutorial 2 is: {{<link "tutorials/2-building-blocks">}} uses other examples to make a broader point.
+**Obsolete:** This is the old (pre-Fall 2026) Tutorial 2. The new tutorial 2 is: {{<link "tutorials/2-building-blocks">}} uses other examples to make a broader point.
 
 I will use a simple example (a data table) to show how the basic concepts of visualization can be applied. This is mainly to illustrate the "4 design moves" introduced in {{<link old-t1-what-is-vis>}}
 
@@ -23,13 +23,13 @@ Starting with the 4-step recipe from {{<link page="old-t1-what-is-vis" anchor="H
 
 + **The Task**: I need to look at the grade distribution for my class and get a sense if it’s reasonable / fair. (more tasks may emerge as I look at the data)
 
-+ **The Data/Resources**: I have a table of student names (not shown), scores and grades. It’s in an excel spreadsheet – so I’d prefer to keep things there. I don’t have very much development resources (this is often done at the grading deadline).
++ **The Data/Resources**: I have a table of student names (not shown), scores and grades. It’s in an Excel spreadsheet – so I’d prefer to keep things there. I don’t have very many development resources (this is often done at the grading deadline).
 
 + **The Design**: I have chosen to use a table, since it’s easy in Excel. And it may be good enough (especially with design tweaks). In this example, I focus on improving the table, rather than trying something completely different. A side note: tables are remarkably effective visualizations.
 
 + **The Details (including implementation)**: We'll change a lot of the design details, but the implementation will be Excel (since that's what I was using to do grading). A side effect of this: it shows that you can do useful visualization stuff with simple tools (this is all in Excel).
 
-Note that my task is a bit hazy, it will become clearer as we progressed.
+Note that my task is a bit hazy; it will become clearer as we progress.
 
 ## Design Aspects
 
@@ -54,7 +54,7 @@ Here are the first few rows:
 
 Note: you can click on the thumbnails to see the whole visualization. I do recommend that you look at them and get a sense of how they "work" (or not).
 
-Exercise here: think about what this "visualization" is good at (what tasks is supports well), before we move on to making it better for some other task. And think about what the viewer might want to see (that isn't easy to see).
+Exercise here: think about what this "visualization" is good at (what tasks it supports well), before we move on to making it better for some other task. And think about what the viewer might want to see (that isn't easy to see).
 
 This table has 57 rows (there were 62 students in the class - undergraduate classes used to be that small). The last column is the grade I am going to give them, which is created by rounding the “Average” column (which is why the grade column is called “Rounded”).
 
@@ -62,7 +62,7 @@ For my task, this table isn’t great – I want to know things like “Am I giv
 
 ## Move 1: Improve Layout
 
-For my first design move, I’m going to choose to change the layout (the positions of the elements). Right now I’m using the position on the Y axis to tell me student number. This is useful if I need to find a specific student, but less good for seeing the grade distribution. So, I will change the layout: I’ll sort by the average.
+For my first design move, I’m going to choose to change the layout (the positions of the elements). Right now I’m using the position on the Y axis to tell me the student number. This is useful if I need to find a specific student, but less good for seeing the grade distribution. So, I will change the layout: I’ll sort by the average.
 
 {{<rimage src="sorted.webp" width="250">}}
 
@@ -80,17 +80,17 @@ Technically, changing the layout is changing an encoding (we are encoding the va
 
 While the sorted table is better for understanding the distribution, it is still hard to assess the distribution in the thumbnail (or fitting the whole table to a small laptop screen). This would be worse in a larger class (where the table wouldn't be readable if I shrank it to fit on my screen).
 
-So, I’ll apply a color encoding – using excel’s color range feature – on the rounded grades.
+So, I’ll apply a color encoding – using Excel's color range feature – on the rounded grades.
 
 {{<rimage src="colored.webp" width="250">}}
 
-Now, I think I’m starting to win the game. I can really quickly see the proportion of each grade this distribution is giving – even in the thumbail! It’s pretty clear that there aren’t many As, but there aren’t many failures either.
+Now, I think I’m starting to win the game. I can really quickly see the proportion of each grade this distribution is giving – even in the thumbnail! It’s pretty clear that there aren’t many As, but there aren’t many failures either.
 
 But, it does raise a new question task: are there students who are being hurt by the rounding? This is somewhat easy to check, since I can look at people near the borders. But I can apply a visualization design move….
 
 ## Move 3: Transform Data (derive)
 
-I can make a new “derived” column that is the difference between the rounded grade and the average. This directly measures what rounding does to people. And to skip a step, I can color code it: I’ll use a red/blue diverging scale (you’ll learn about these later, but they are built into excel). That way, red means someone hurt by rounding, blue is someone helped.
+I can make a new “derived” column that is the difference between the rounded grade and the average. This directly measures what rounding does to people. And to skip a step, I can color-code it: I’ll use a red/blue diverging scale (you’ll learn about these later, but they are built into Excel). That way, red means someone hurt by rounding, blue is someone helped.
 
 {{<rimage src="transformed.webp" width="250">}}
 
@@ -106,4 +106,4 @@ I am not talking about interaction here - partially, because I am showing you st
 
 Hopefully, you now have a sense of what the 4 design moves are. And you’ve seen how we can change our design choices to make a visualization be more effective for a task. Along the way, you may have gotten a sense of how understanding task helps. And how effective designs can be simple – and done with existing tools.
 
-Note that the details of the implementation didn’t matter. I could have done this with a different spreadsheet program, or if I had more time, I could have written a Javascript program. In fact the details are really irrelevant: there’s no use telling you which buttons in Excel to push, since this was done with an old version of Excel (the features are still there – it’s just different to get at them).
+Note that the details of the implementation didn’t matter. I could have done this with a different spreadsheet program, or if I had more time, I could have written a Javascript program. In fact, the details are really irrelevant: there’s no use telling you which buttons in Excel to push, since this was done with an old version of Excel (the features are still there – it’s just different to get at them).

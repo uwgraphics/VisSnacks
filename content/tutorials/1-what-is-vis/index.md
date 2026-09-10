@@ -9,7 +9,7 @@ This tutorial gives you a sense of **my** thoughts on Visualization. I define vi
 
 <!--more-->
 
-This is the way that **I** like to think about visualization, and use to organize how I like to teach visualization. This is a 2026 re-write, you can see the older (pre-2026) version at {{<link "obsolete/old-t1-what-is-vis">}}.
+This is the way that **I** like to think about visualization, and use to organize how I like to teach visualization. This is a 2026 re-write; you can see the older (pre-2026) version at {{<link "obsolete/old-t1-what-is-vis">}}.
 
 ## What is Visualization?
 
@@ -22,9 +22,9 @@ All three of these parts (1) picture, (2) person, and (3) task are important and
 
 ### Pictures and Implementations
 
-First, there's the picture part. Basically, a visualization is something that you look at (it is "visual"). You might argue that we should relax the "look at" and bring other senses to bear (e.g., auralization to communicate data via sounds). However, while there are similarities between vision and other senses, there are enough differences that I think its best to focus on visual things (things we see) for this discussion (and the class).
+First, there's the picture part. Basically, a visualization is something that you look at (it is "visual"). You might argue that we should relax the "look at" and bring other senses to bear (e.g., auralization to communicate data via sounds). However, while there are similarities between vision and other senses, there are enough differences that I think it's best to focus on visual things (things we see) for this discussion (and the class).
 
-I am using the word picture (since that's usually what it is) as place holder, but it might be a moving picture (like an animation), or it might not be a picture in a traditional sense. For example:
+I am using the word picture (since that's usually what it is) as placeholder, but it might be a moving picture (like an animation), or it might not be a picture in a traditional sense. For example:
 
 {{<rimage src="snow-bar-chart.jpg" width="native" caption="One way to implement a bar chart." attr="from dataphys.org" attrlink="http://dataphys.org/list/a-snow-chart-of-mobility-in-science/" alt="Bar Chart of Snow">}}
 
@@ -40,13 +40,13 @@ The important part of the definition is that it helps someone do something. What
 
 > **Aside:** For now, I am using the concepts of "purpose" (what the visualization is meant to "do") and "task" (a thing the viewer might want to achieve) loosely and somewhat interchangeably. 
 
-There is a very broad range of purposes. It could be anything from comparing values to catching the viewers attention or conveying an emotion. 
+There is a very broad range of purposes. It could be anything from comparing values to catching the viewer's attention or conveying an emotion. 
 
 Central to my definition of visualization is that it focuses on this sense of purpose - the picture is meant to do something, so we should think about what it is trying to do to make sure it really can help someone do the thing it's meant to do.
 
 ### Effectiveness: Good Visualizations
 
-The definition doesn't necessary say that the visualization *succeeds* at helping someone do something. We can certainly have bad visualizations that don't help. *Effective visualizations* (good visualizations) are pictures that really do help their intended audience achieve the purpose.
+The definition doesn't necessarily say that the visualization *succeeds* at helping someone do something. We can certainly have bad visualizations that don't help. *Effective visualizations* (good visualizations) are pictures that really do help their intended audience achieve the purpose.
 
 **Key point:** Effectiveness is relative to the purpose.
 
@@ -64,7 +64,7 @@ Here is one way to think about good visualizations:
 
 > A **good** visualization is a picture that makes it easy for the viewer to see the thing they need to see (in order to do the thing the visualization was meant to help them do).
 
-This simple definition is something we will keep coming back to. The reason that we like visualizations is that pictures can make some things easy to see. The human visual system (it's more than just saying "our eyes") is remarkably good at looking at something and extracting some things from a picture, very quickly, and without much effort. A well chosen picture (i.e., a well designed visualization) can make useful things easy to see.
+This simple definition is something we will keep coming back to. The reason that we like visualizations is that pictures can make some things easy to see. The human visual system (it's more than just saying "our eyes") is remarkably good at looking at something and extracting some things from a picture, very quickly, and without much effort. A well-chosen picture (i.e., a well-designed visualization) can make useful things easy to see.
 
 Thinking about "what is easy to see" is a simple operational strategy for designing and analyzing visualization. We will explore it in {{<link 3-easy-to-see>}}. Spoiler: it's a remarkably useful and powerful tool, despite being easy. 
 
@@ -84,13 +84,13 @@ Let me make a simpler example in English with some small fake data. I met with 7
 
 {{<rimage src="students-treemap.png" width="400" caption="A Tree Map made from Fake Data">}}
 
-Again, notice there are things you can tell pretty quickly. I spend a about half my time on each topic, although I spend a bit more on robots (orange) than vis (blue). You can tell I spent about a quarter of the time with Student 4 (upper right). Some things are less easy to see quickly, such as "which student did I spend the least amount of time with". The fact that these "tasks" are easier or harder is the nature of the design: TreeMaps are generally good for showing part/whole relationships, and less good for individual comparisons. 
+Again, notice there are things you can tell pretty quickly. I spend about half my time on each topic, although I spend a bit more on robots (orange) than Vis (blue). You can tell I spent about a quarter of the time with Student 4 (upper right). Some things are less easy to see quickly, such as "which student did I spend the least amount of time with". The fact that these "tasks" are easier or harder is the nature of the design: TreeMaps are generally good for showing part/whole relationships, and less good for individual comparisons. 
 
 This point might be clearer with another chart of the same data:
 
 {{<rimage src="students-column.png" width="500" caption="A Chart made from Fake Data">}}
 
-This is a very familiar chart type. You can tell very quickly that Student 1 had the least amount of time, or that Student 6 got 30 minutes. In order to see "did I spend more time with orange or blue students" or "was blue about 50%" you would need to do some mental arithmetic.  
+This is a very familiar chart type. You can tell very quickly that Student 1 had the least amount of time, or that Student 6 got 30 minutes. In order to see "did I spend more time with orange or blue students" or "was blue about 50%", you would need to do some mental arithmetic.  
 
 Hopefully, I've convinced you that these two charts are good for different things. This is because of their design: one is designed for part/whole, the other for showing individual details. The design matters more than the implementation. Even if I made them in Legos, they would still serve the same tasks. The *designs* make some things easy to see (and other things less easy to see).
 
@@ -129,12 +129,12 @@ For this class or this website, the concept is that if you think about the choic
 
 ## Summary: Implications of the Definitions
 
-My philosophy of how to do visualization, and how to teach it is based on the broad definition: A visualization is a picture with a purpose. An effective visualization is one that is designed to achieve its goals. The goals/purpose/tasks are central. We can often use the lens of "what does the picture make easy to see." 
+My philosophy of how to do visualization and how to teach it is based on the broad definition: A visualization is a picture with a purpose. An effective visualization is one that is designed to achieve its goals. The goals/purpose/tasks are central. We can often use the lens of "what does the picture make easy to see?" 
 
-{{<link 2-building-blocks>}} introduces my preferred way to think about how we design and analyze visualization: by thinking in terms of a set of building blocks. These include ways to abstract the tasks and data so we can define problems and connect them to solutions, and elements of visualizations that we can put together in principled ways to create designs. I believe that building blocks and principles are a better way to learn and practice visualization than trying to learn collections of chart types of design rules.
+{{<link 2-building-blocks>}} introduces my preferred way to think about how we design and analyze visualization: by thinking in terms of a set of building blocks. These include ways to abstract the tasks and data so we can define problems and connect them to solutions, and elements of visualizations that we can put together in principled ways to create designs. I believe that building blocks and principles are a better way to learn and practice visualization than trying to learn collections of chart types or design rules.
 
 {{<link 3-easy-to-see>}} explores how the simple "intuition-based" notion of visualization through the question "what is easy to see?" provides a powerful tool, and a good place to get started with visualization design.
 
 {{<genai>}}
-The need to re-organize the old tutorials, and the strategy for doing so came from conversations with Claude. It helped me form the new outline. I wrote the draft by re-organizing old pieces. 
+The need to reorganize the old tutorials, and the strategy for doing so came from conversations with Claude. It helped me form the new outline. I wrote the draft by re-organizing old pieces. 
 {{</genai>}}

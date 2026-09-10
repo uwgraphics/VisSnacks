@@ -4,7 +4,7 @@ date = 2025-09-28T17:44:54-05:00
 draft = false
 +++
 
-Many (if not all) visualizations are about making comparisons in the data. I've spent a lot of effort to come up with ways of thinking about comparisons, or (if you prefer) to think about visualization in terms of comparison. These were summarized in a 2017 paper (it has a 2018 publication data) "Considerations for Visualizing Comparison". 
+Many (if not all) visualizations are about making comparisons in the data. I've spent a lot of effort to come up with ways of thinking about comparisons, or (if you prefer) to think about visualization in terms of comparison. These were summarized in a 2017 paper (it has a 2018 publication date) "Considerations for Visualizing Comparison". 
 
 <!--more-->
 
@@ -14,7 +14,7 @@ The paper gives a "process" for developing a visualization in terms of compariso
 
 It's hard for me to write about this paper - it's a big deal for me. But the actual paper dulls the story (in order to fit into the review process). 
 
-This paper is the result of a 10 year journey (more, because I've continued) to think about visualization in terms of comparison. I started trying to understand how to visualize comparisons. I quickly discovered that this was a good way to think about most visualization (or to put it differently, most visualization problems can be thought of as comparison).
+This paper is the result of a 10-year journey (more, because I've continued) to think about visualization in terms of comparison. I started trying to understand how to visualize comparisons. I quickly discovered that this was a good way to think about most visualization (or to put it differently, most visualization problems can be thought of as comparison).
 
 The basic "theory" (the three threes) was pretty much established in 2010 - there is a picture of me explaining it in a lecture in my 2010 class. It took me 7 more years to figure out how to get it into a paper. The ideas, and how I explained them, did evolve a bit. And I added the "Comparative Elements" piece (based on Munzner's ideas on describing tasks).
 
@@ -36,7 +36,7 @@ If you are trying to help someone visualize a comparison (and I would argue that
     - select a subset
     - summarize somehow (at the time, I didn't realize subsetting was a form of summarization)
 3. Then use this in a comparative design. Again, I categorized these into 3 buckets:
-    - juxtaposition (different coodinate systems)
+    - juxtaposition (different coordinate systems)
     - superposition (same coordinate system)
     - explicit encoding (figure out the relationship and show it directly)
 
@@ -63,19 +63,19 @@ While this paper gets cited a lot, I recommend the newer paper. I believe that t
 
 To make matters worse: of all of the three-threes, the designs are the most problematic. The papers (even the 2017 ones) define the categories in a problematic way - which some other papers have pointed out. I don't think it is wrong - just don't get too hung up on the precise definitions. It doesn't matter if you call something "juxtaposition" or "superposition" - it's more about the concepts.
 
-If you are going to read one, read the later comparison paper. I really believe it ("Considerations of comparisons") completely supercedes this one (the 2011 InfoVis journal survey).
+If you are going to read one, read the later comparison paper. I really believe it ("Considerations of comparisons") completely supersedes this one (the 2011 InfoVis journal survey).
 
 ## The Summaries Paper
 
-Just as we tried to validate the design categories with a survey in the 2011 paper, we tried to to see if the three scalability strategies help up (was there something I missed?). I challenged my (former) students to find a counter-example (they didn't). Instead, we wrote a survey paper further organizing things.
+Just as we tried to validate the design categories with a survey in the 2011 paper, we tried tried to see see if the three scalability strategies hold up (was there something I missed?). I challenged my (former) students to find a counter-example (they didn't). Instead, we wrote a survey paper further organizing things.
 
 - Alper Sarikaya, Michael Gleicher, and Danielle Albers Szafir. 2018. Design Factors for Summary Visualization in Visual Analytics. *Computer Graphics Forum* 37, 3 (June 2018), 145–156. (Proc. EuroVis 2018) [(web)](https://graphics.cs.wisc.edu/Papers/2018/SGA18/) [(doi)](https://doi.org/10.1111/cgf.13408)
 
-This paper isn't specific to comparison. It also focused on summarization (and considers subsets as a type of summarization). I like the framework a lot. The statistics of what they found in the survey was interesting too.
+This paper isn't specific to comparison. It also focused on summarization (and considers subsets as a type of summarization). I like the framework a lot. The statistics of what they found in the survey were interesting too.
 
 ## What does an LLM say?
 
-Here is what Gemini gave me when I gave it the PDF and asked it "Summarize this paper concisely".  (it provided citations into the text, which was handy - but hard to translate onto this page)
+Here is what Gemini gave me when I gave it the PDF and asked it "Summarize this paper concisely".  (It provided citations in the text, which was handy—but hard to translate onto this page)
 
 Based on the paper provided, here is a concise summary:
 
@@ -94,5 +94,5 @@ The proposed framework consists of four sequential considerations to help design
 The paper uses case studies, including the Sequence Surveyor and LayerCake visualization tools, to illustrate how this four-part framework can be practically applied to create and evaluate solutions for complex comparison problems.
 
 {{<genai>}}
-I asked Gemini to write the summary that I attributed to it. I used GitHub Copilot to remove the citatons.
+I asked Gemini to write the summary that I attributed to it. I used GitHub Copilot to remove the citations.
 {{</genai>}}

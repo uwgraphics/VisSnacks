@@ -35,17 +35,17 @@ We can think of these charts not as their "types", but rather in terms of the bu
 
 Some advantages to thinking in terms of encodings:
 
-- We can understand how the encodings communicate, which help us reason about whether using a particular encoding is likely to be effective for a particular task.
+- We can understand how the encodings communicate, which helps us reason about whether using a particular encoding is likely to be effective for a particular task.
 - We can use these understandings for many different possible charts.
 - We can mix and match encodings. (notice that in both charts, I encode "topic" with color)
 
-Once we learn that position along a common axis encodings are good for reading precise values and seeing the largest / smallest, then I will know that many different visualizations based on this will be good for those tasks. Color is good for showing a small set of categories and can be added to many kinds of charts (combined with other encodings).
+Once we learn that position along a common axis encodings are good for reading precise values and seeing the largest/smallest, we will know that many different visualizations based on this will be good for those tasks. Color is good for showing a small set of categories and can be added to many kinds of charts (combined with other encodings).
 
 Here are 9 different visualizations of this same data with "position on common axis" encodings:
 
 {{<rimage src="students-9-ai.png" width="700" caption="9 visualizations that use position-on-common-axis encodings to encode the same Fake Data. The left two on the bottom row were generated with AI fill in Adobe Illustrator and distorted the data. The amount of the distortion of the bottom center is shown by the bottom right visualization.">}}
 
-The key building block of the designs - position on common axis encodings - makes it possible for us to know what tasks they are all well suited for. For example, they are all good for quickly finding the biggest, or comparing two individuals. The differences in the visualizations do matter (e.g., the ones that don't correctly encode the data are problematic, the big circles create some ambiguity in values, etc.). Details are important, but only if you get the basics right. And those details can also be driven by principles (like, be careful about distorting the data).
+The key building block of the designs—position on common axis encodings—makes it possible for us to know what tasks they are all well suited for. For example, they are all good for quickly finding the biggest, or comparing two individuals. The differences in the visualizations do matter (e.g., the ones that don't correctly encode the data are problematic; the big circles create some ambiguity in values, etc.). Details are important, but only if you get the basics right. And those details can also be driven by principles (like, be careful about distorting the data).
 
 And, to add one more point about naming: here is another visualization of that same fake data:
 
@@ -53,13 +53,13 @@ And, to add one more point about naming: here is another visualization of that s
 
 Yes, in my mind a table is a visualization. They are very good for some tasks. See {{<link "obsolete/old-t2-table-example">}} for an example of how the ideas discussed below can be applied to a table.
 
-But, the point... my "method" is to think in terms of building blocks and principles, not chart types. It doesn't matter what we call things, it matters that we make choices that serve the viewer's tasks.
+But, the point... my "method" is to think in terms of building blocks and principles, not chart types. It doesn't matter what we call things; it matters that we make choices that serve the viewer's tasks.
 
 ## Abstractions - Two Key Building Blocks
 
 The problems we need to solve are often very specific. In the examples above, my tasks and data were specifically about how much time I spent with students.
 
-Abstraction is what allows us to take specific problems and understand them in general ways. In the example, we don't need designs for student time allocation: we could describe the data in an abstract way (e.g. values for each element in a discrete set where the values make sense to add up to a whole) and tasks in an abstract way (e.g., find the smallest value). 
+Abstraction is what allows us to take specific problems and understand them in general ways. In the example, we don't need designs for student time allocation: we could describe the data in an abstract way (e.g., values for each element in a discrete set where the values make sense to add up to a whole) and tasks in an abstract way (e.g., find the smallest value). 
 
 Data and task abstraction are core concepts for visualization. The trick is to abstract in ways that are general enough so that they can match with other similar problems and solutions, but specific enough that we get useful matches. We will learn standard ways of doing this.
 
@@ -79,7 +79,7 @@ Data abstraction is fairly standard - it's part of computer science or math. We'
 
 The better that you understand what the visualization is trying to achieve (what will it help the viewer do), the more likely you will come up with a good solution. The goal is to have designs that serve the tasks.
 
-Note the plural: you may have a set of tasks. Often, there isn’t just one at a time. There are a set of things that a set of someones may want to do for a set of reasons. And maybe your solution will address many of these.
+Note the plural: you may have a set of tasks. Often, there isn’t just one at a time. There is a set of things that a set of someones may want to do for a set of reasons. And maybe your solution will address many of these.
 
 Task is often an informal, fuzzy notion. It doesn’t always get explicitly written down or defined. But the clearer we are about it, the better off everything else will be. A visualization cannot be effective unless it has something to be effective at.
 
@@ -89,18 +89,18 @@ While task is a central thing, it is also hard to talk about. Historically, we'v
 
 A design is the plan for how you are going to turn the data into a "picture" that helps with the task. This is why it's so important to understand task and data before trying to make a design.
 
-One you know your task and your data, you can try to design a solution. I say "design" to explicitly separate the act of coming up with the idea and actually building it (implementation). Design is the act of making conscious choices to solve a problem.
+Once you know your task and your data, you can try to design a solution. I say "design" to explicitly separate the act of coming up with the idea and actually building it (implementation). Design is the act of making conscious choices to solve a problem.
 
-In terms of the class, a big part of what we’ll do is focus on design. What are the choices you can make, and how can you make good choices.
+In terms of the class, a big part of what we’ll do is focus on design. What are the choices you can make, and how can you make good choices?
 
 There are four main categories of things that we consider in designing a visualization. You can think of these as the kinds of choices you can make, or the kinds of building blocks you can build a visualization out of.
 
 1. **Data Transformations** - we compute some derived thing about the data that will be useful in one of the other steps.
-2. **Layout** - we decide where things go. Technically, this is a position encoding (see encodings below), but position is such an important thing, it gets it's own special category.
+2. **Layout** - we decide where things go. Technically, this is a position encoding (see encodings below), but position is such an important thing, it gets its own special category.
 3. **Encodings** - an encoding is how we choose to map a data variable to some "visual variable" (an attribute of what we see - like color). Position is a visual variable, but it's special enough that it becomes its own category (see layout).
 4. **Interaction** - taking user input is another thing you can do in a visualization. Often, input can be thought of as mapping input actions to changes in the visualization.
 
-Another way to think about this is as "re-design" rather than design. We start with some visualization (a design), pick one of its choices (one of the 4 kinds of building blocks), and change it. I like to think of these like moves in a turn-based game, at each step I pick one of these things to either add (or change, if I am doing redesign).
+Another way to think about this is as "re-design" rather than design. We start with some visualization (a design), pick one of its choices (one of the 4 kinds of building blocks), and change it. I like to think of these like moves in a turn-based game; at each step I pick one of these things to either add (or change, if I am doing redesign).
 
 For a simple example of applying these four design elements in a redesign see {{<link "obsolete/old-t2-table-example">}}.
 
@@ -116,7 +116,7 @@ Creating a visualization is about making those choices for a design so that the 
 
 Part of it is trial and error. Sorry. We learn by examples. Reflecting on examples that we make (prototyping), and examining examples of others carefully (critique).
 
-But there are things we can use that can hopefully help us make better choices. Some examples (which are, of course, things we'll study in class):
+But there are things we can use that can hopefully help us make better choices. Some examples (which we will study in class) include:
 
 + *Principles of Visualization* - Over time, people in the field have gotten some ideas about what works and what doesn't. Sometimes, this folklore is made up and may not be true. Other times, it comes from experience or has been proven by experiments.
 + *Principles of Perception* - Understanding how people see (as in how the visual system works and how the brain interprets images) provides a lot of useful clues as to what designs will (and won't) work.
@@ -131,7 +131,7 @@ The description above leads to a pretty simple **recipe**. Basically, there are 
 2. *What* data are you trying to use to achieve this task?
 3. *How* are you going to use the data to help achieve the task?
 
-I split question 3 into two parts. There's a planning part, and a part where you make the plan more concrete by filling in the details. Which leads to **the four step recipe.**
+I split question 3 into two parts. There's a planning part, and a part where you make the plan more concrete by filling in the details. Which leads to **the four-step recipe.**
 
 1. Task
 2. Data / Resources
@@ -148,12 +148,12 @@ This is also not to say that you need to fully understand the task at the beginn
 
 In a little more detail...
 
-1. **Task** - understand what the purpose of the visualization. Who is it meant to help? What is it meant to help them do?
+1. **Task** - understand the purpose of the visualization. Who is it meant to help? What is it meant to help them do?
 2. **Data** - what resources are available to help achieve the task? The main thing is (usually) the data.
 3. **Design** - what is the strategy for mapping the data into something visual?
 4. **Details** - how will you make this strategy into a specific picture / system that produces pictures? What are the specific choices (e.g., colors, implementation, ...)
 
-Later in class, we'll see that this parallels Tamara Munzner's nested model for validation. (We'll read about it in her book, but was a [great paper first](https://www.cs.ubc.ca/nest/imager/tr/2009/NestedModel/ "The Nested Model Paper")). I think in terms of visualization design, not just validation (but evaluation is so important to design that it might not matter), so I adjusted the layers a bit.
+Later in class, we'll see that this parallels Tamara Munzner's nested model for validation. (We'll read about it in her book, but it was a [great paper first](https://www.cs.ubc.ca/nest/imager/tr/2009/NestedModel/ "The Nested Model Paper")). I think in terms of visualization design, not just validation (but evaluation is so important to design that it might not matter), so I adjusted the layers a bit.
 
 ## Critique: Example-Driven Learning
 

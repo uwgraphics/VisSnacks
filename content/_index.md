@@ -18,7 +18,7 @@ What I've found is the pieces I've created for the class I teach {{<visclass>}} 
 
 What you'll find (the sections of the site)...
 
-+ {{<link "Snacks">}} - these are the core "lessons" written explicitly for this site. The idea is to have a form that allows for quick consumption. The goal is to provide the main idea quickly, but then to provide the background afterwards. The why follows the what.
++ {{<link "Snacks">}} - these are the core "lessons" written explicitly for this site. The idea is to have a form that allows for quick consumption. The goal is to provide the main idea quickly, but then provide the background afterwards. The why follows the what.
 
 + {{<link tutorials>}} - these are written "documents" that were originally created for my class, or that don't have the stylized form of the {{<link Snacks>}}. They tend to be longer. 
 

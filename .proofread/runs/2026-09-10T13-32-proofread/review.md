@@ -1,0 +1,605 @@
+# Review — 2026-09-10T13-32-proofread
+
+- Accepted: 411
+- Rejected: 173
+- Marked (needs manual fix): 0
+- Pending: 0
+
+## Accepted
+
+- `content/_index.md` L21: `The goal is to provide the main idea quickly, but then to provide the background afterwards.` → `The goal is to provide the main idea quickly, but then provide the background afterwards.`
+- `content/obsolete/old-critique/index.md` L194: `comparitive` → `comparative critique`
+- `content/obsolete/old-critique/index.md` L17: `at improving your critique practice` → `improving your critique practice`
+- `content/obsolete/old-critique/index.md` L30: `as well a chance` → `as well as a chance`
+- `content/obsolete/old-critique/index.md` L34: `different than` → `different from`
+- `content/obsolete/old-critique/index.md` L62: `starting with stating critique` → `starting by stating the critique`
+- `content/obsolete/old-critique/index.md` L74: `The book teaches this with great cartoons, here is an example:` → `The book teaches this with great cartoons; here is an example:`
+- `content/obsolete/old-critique/index.md` L98: `polite) - Actually` → `polite)—actually`
+- `content/obsolete/old-critique/index.md` L110: `an out "I wasn't` → `an out: "I wasn't`
+- `content/obsolete/old-critique/index.md` L122: `For a Visualization` → `For a visualization`
+- `content/obsolete/old-critique/index.md` L124: `something that weren't trying to do` → `something they weren't trying to do`
+- `content/obsolete/old-critique/index.md` L126: `the first are the more common kind of tasks` → `the first is the more common kind of task`
+- `content/obsolete/old-critique/index.md` L144: `Or "why did you pick that."` → `Or "why did you pick that?"`
+- `content/obsolete/old-critique/index.md` L157: `different than` → `different from`
+- `content/obsolete/old-critique/index.md` L161: `The me the stylized form is:` → `The stylized form is:`
+- `content/obsolete/old-critique/index.md` L163: `start with the stylized form` → `start with the stylized form.`
+- `content/obsolete/old-critique/index.md` L167: `"If the goal was X" let's` → `"If the goal was X" lets`
+- `content/obsolete/old-critique/index.md` L178: `it to gain understanding` → `it is to gain understanding`
+- `content/obsolete/old-critique/index.md` L204: `get started to becoming` → `get started on becoming`
+- `content/obsolete/old-critique/index.md` L210: `discussing design` → `"Discussing Design"`
+- `content/obsolete/old-t1-what-is-vis/index.md` L17: `this document` → `This document`
+- `content/obsolete/old-t1-what-is-vis/index.md` L23: `A Good Visualization` → `A good visualization`
+- `content/obsolete/old-t1-what-is-vis/index.md` L48: `I point out this history, because it may explain` → `I point out this history because it may explain`
+- `content/obsolete/old-t1-what-is-vis/index.md` L48: `over-emphasis` → `overemphasis`
+- `content/obsolete/old-t1-what-is-vis/index.md` L50: `Hopefully you will see` → `Hopefully, you will see`
+- `content/obsolete/old-t1-what-is-vis/index.md` L69: `its best` → `it's best`
+- `content/obsolete/old-t1-what-is-vis/index.md` L71: `place holder` → `placeholder`
+- `content/obsolete/old-t1-what-is-vis/index.md` L87: `doesn't necessary say` → `doesn't necessarily say`
+- `content/obsolete/old-t1-what-is-vis/index.md` L107: `I spend a about half my time` → `I spend about half my time`
+- `content/obsolete/old-t1-what-is-vis/index.md` L107: `such as "which student did I spend the least amount of time with".` → `such as, "which student did I spend the least amount of time with?"`
+- `content/obsolete/old-t1-what-is-vis/index.md` L113: `In order to see "did I spend more time with orange or blue students" or "was blue about 50%" you would need` → `In order to see, "did I spend more time with orange or blue students?" or "was blue about 50%?" you would need`
+- `content/obsolete/old-t1-what-is-vis/index.md` L123: `TreepMaps` → `TreeMap`
+- `content/obsolete/old-t1-what-is-vis/index.md` L133: `which help us` → `which helps us`
+- `content/obsolete/old-t1-what-is-vis/index.md` L137: `Once we learn that position along a common axis encodings are good for reading precise values and seeing the largest / smallest, then I will know that many different visualizations based on this will be good for those tasks.` → `Once we learn that position along a common axis encodings are good for reading precise values and seeing the largest/smallest, I will know that many different visualizations based on this will be good for those tasks.`
+- `content/obsolete/old-t1-what-is-vis/index.md` L151: `It doesn't matter what we call things, it matters that we make choices` → `It doesn't matter what we call things; it matters that we make choices`
+- `content/obsolete/old-t1-what-is-vis/index.md` L161: `nice looking` → `nice-looking`
+- `content/obsolete/old-t1-what-is-vis/index.md` L177: `A well chosen picture` → `A well-chosen picture`
+- `content/obsolete/old-t1-what-is-vis/index.md` L177: `a well designed visualization` → `a well-designed visualization`
+- `content/obsolete/old-t1-what-is-vis/index.md` L179: `example - but` → `example—but`
+- `content/obsolete/old-t1-what-is-vis/index.md` L181: `ask yourself "what does this picture let me see easily?"` → `ask yourself, "What does this picture let me see easily?"`
+- `content/obsolete/old-t1-what-is-vis/index.md` L183: `If we had another intent we might prefer` → `If we had another intent, we might prefer`
+- `content/obsolete/old-t1-what-is-vis/index.md` L183: `for example if our goal was` → `for example, if our goal was`
+- `content/obsolete/old-t1-what-is-vis/index.md` L187: `visualizations - these` → `visualizations; these`
+- `content/obsolete/old-t1-what-is-vis/index.md` L192: `visualizatiom` → `visualization`
+- `content/obsolete/old-t1-what-is-vis/index.md` L206: `is important, we don't want` → `is important; we don't want`
+- `content/obsolete/old-t1-what-is-vis/index.md` L213: `fancy - it` → `fancy—it`
+- `content/obsolete/old-t1-what-is-vis/index.md` L238: `In the ideal world, you start at the top, and work your way down through the list.` → `In the ideal world, you start at the top and work your way down through the list.`
+- `content/obsolete/old-t1-what-is-vis/index.md` L247: `understand what the purpose of the visualization.` → `understand what the purpose of the visualization is.`
+- `content/obsolete/old-t1-what-is-vis/index.md` L250: `What are the specific choices (e.g., colors, implementation, ...)` → `What are the specific choices (e.g., colors, implementation, ...)?`
+- `content/obsolete/old-t1-what-is-vis/index.md` L279: `Usually people` → `Usually, people`
+- `content/obsolete/old-t1-what-is-vis/index.md` L279: `its important` → `it's important`
+- `content/obsolete/old-t1-what-is-vis/index.md` L281: `details, that they lose` → `details that they lose`
+- `content/obsolete/old-t1-what-is-vis/index.md` L283: `If we can recognize the abstract task for which the real problem is an instance of, the path to solving it becomes much clearer.` → `If we can recognize the abstract task of which the real problem is an instance, the path to solving it becomes much clearer.`
+- `content/obsolete/old-t1-what-is-vis/index.md` L291: `One you know` → `Once you know`
+- `content/obsolete/old-t1-what-is-vis/index.md` L293: `how can you make good choices.` → `how can you make good choices?`
+- `content/obsolete/old-t1-what-is-vis/index.md` L298: `it gets it's own` → `it gets its own`
+- `content/obsolete/old-t1-what-is-vis/index.md` L302: `game, at each step` → `game; at each step`
+- `content/obsolete/old-t1-what-is-vis/index.md` L333: `an concrete` → `a concrete`
+- `content/obsolete/old-t1-what-is-vis/index.md` L337: `favorite visualization tools` → `favorite visualization tool`
+- `content/obsolete/old-t1-what-is-vis/index.md` L337: `looking at it all kinds of different ways` → `looking at it in all kinds of different ways`
+- `content/obsolete/old-t1-what-is-vis/index.md` L339: `won’t be able to choose designs that you can’t realize` → `won’t be able to choose designs that you can't realize`
+- `content/obsolete/old-t1-what-is-vis/index.md` L351: `can (well designed) pictures` → `can (well-designed) pictures`
+- `content/obsolete/old-t1-what-is-vis/index.md` L357: `6. We need to consider` → `7. We need to consider`
+- `content/obsolete/old-t1-what-is-vis/index.md` L358: `7. We need to think` → `8. We need to think`
+- `content/obsolete/old-t1-what-is-vis/index.md` L359: `8. We need to consider some examples of **challenging data types** (such as graphs and volumes)` → `8. We need to consider some examples of **challenging data types** (such as graphs and volumes).`
+- `content/obsolete/old-t2-table-example/index.md` L12: `pre- Fall 2026` → `pre-Fall 2026`
+- `content/obsolete/old-t2-table-example/index.md` L26: `excel` → `Excel`
+- `content/obsolete/old-t2-table-example/index.md` L26: `much development resources` → `many development resources`
+- `content/obsolete/old-t2-table-example/index.md` L32: `hazy, it will` → `hazy; it will`
+- `content/obsolete/old-t2-table-example/index.md` L32: `as we progressed` → `as we progress`
+- `content/obsolete/old-t2-table-example/index.md` L57: `what tasks is supports well` → `what tasks it supports well`
+- `content/obsolete/old-t2-table-example/index.md` L65: `tell me student number` → `tell me the student number`
+- `content/obsolete/old-t2-table-example/index.md` L83: `excel’s` → `Excel's`
+- `content/obsolete/old-t2-table-example/index.md` L87: `thumbail` → `thumbnail`
+- `content/obsolete/old-t2-table-example/index.md` L93: `color code` → `color-code`
+- `content/obsolete/old-t2-table-example/index.md` L93: `excel` → `Excel`
+- `content/obsolete/old-t2-table-example/index.md` L109: `In fact the details` → `In fact, the details`
+- `content/obsolete/old-t2-table-example/old-table-example.md` L22: `I don’t have very much development resources` → `I don’t have many development resources`
+- `content/obsolete/old-t2-table-example/old-table-example.md` L28: `it will became clearer as we progressed` → `it will become clearer as we progress`
+- `content/obsolete/old-t2-table-example/old-table-example.md` L53: `what tasks is supports well` → `what tasks it supports well`
+- `content/obsolete/old-t2-table-example/old-table-example.md` L69: `thing about what we have made` → `think about what we have made`
+- `content/obsolete/old-t2-table-example/old-table-example.md` L79: `excel’s` → `Excel's`
+- `content/obsolete/old-t2-table-example/old-table-example.md` L83: `thumbail` → `thumbnail`
+- `content/obsolete/old-t2-table-example/old-table-example.md` L85: `question task` → `task`
+- `content/obsolete/old-t2-table-example/old-table-example.md` L103: `make a visualization be more effective` → `make a visualization more effective`
+- `content/obsolete/old-t2-table-example/old-table-example.md` L105: `In fact the details` → `In fact, the details`
+- `content/obsolete/old-t2-table-example/old-table-example.md` L105: `different to get at them` → `different to access them`
+- `content/papers/algebraic/index.md` L21: `obversations` → `observations`
+- `content/papers/algebraic/index.md` L11: `holds up well to time` → `has held up well over time`
+- `content/papers/algebraic/index.md` L17: `over-simplify` → `oversimplify`
+- `content/papers/algebraic/index.md` L21: `the viewers vision` → `the viewer's vision`
+- `content/papers/algebraic/index.md` L23: `the process` → `the process"`
+- `content/papers/algebraic/index.md` L39: `amount change in the visualization` → `amount of change in the data`
+- `content/papers/algebraic/index.md` L41: `seek - but` → `seek, but`
+- `content/papers/algebraic/index.md` L51: `summary "visual` → `summary, "visual`
+- `content/papers/algebraic/index.md` L65: `Unamiguity` → `unambiguity`
+- `content/papers/comparison/index.md` L39: `coodinate` → `coordinate`
+- `content/papers/comparison/index.md` L66: `supercedes` → `supersedes`
+- `content/papers/comparison/index.md` L70: `to to` → `tried to see`
+- `content/papers/comparison/index.md` L7: `publication data` → `publication date`
+- `content/papers/comparison/index.md` L17: `10 year journey` → `10-year journey`
+- `content/papers/comparison/index.md` L70: `help up` → `hold up`
+- `content/papers/comparison/index.md` L74: `The statistics of what they found in the survey was interesting too.` → `The statistics of what they found in the survey were interesting too.`
+- `content/papers/comparison/index.md` L78: `(it provided citations into the text, which was handy - but hard to translate onto this page)` → `(It provided citations in the text, which was handy—but hard to translate onto this page)`
+- `content/papers/comparison/index.md` L97: `citatons` → `citations`
+- `content/papers/design-redesign/index.md` L15: `re-design` → `redesign`
+- `content/papers/design-redesign/index.md` L15: `re-designing` → `redesigning`
+- `content/papers/design-redesign/index.md` L31: `as literary and film criticism already do` → `as literary and film criticism already does`
+- `content/papers/discussing-design/index.md` L32: `Bad critique is characterized (selfish, untimely, incomplete, preferential), then best practices for giving` → `Bad critique is characterized by being selfish, untimely, incomplete, or preferential; then, best practices for giving`
+- `content/papers/discussing-design/index.md` L34: `For students this is` → `For students, this is`
+- `content/papers/discussing-design/index.md` L37: `Bad-critique characteristics` → `Bad critique characteristics`
+- `content/papers/discussing-design/index.md` L50: `without them critique` → `without them, critique`
+- `content/papers/discussing-design/index.md` L69: `avoid problem solving` → `avoid problem-solving`
+- `content/papers/discussing-design/index.md` L95: `problem solving` → `problem-solving`
+- `content/papers/interaction-costs/index.md` L7: `visualization problems as it has many upsides` → `visualization problems, as it has many upsides`
+- `content/papers/interaction-costs/index.md` L15: `arw` → `are`
+- `content/papers/interaction-costs/index.md` L23: `make the system to it` → `make the system do it`
+- `content/papers/interaction-costs/index.md` L23: `Each part of these` → `Each of these parts`
+- `content/papers/interaction-costs/index.md` L27: `The HCI literature (most famously seminal work by Don Norman - that I mainly know through his popular press book "The Design of Everyday Things")` → `The HCI literature (most famously the seminal work by Don Norman, which I mainly know through his popular press book "The Design of Everyday Things")`
+- `content/papers/interaction-costs/index.md` L29: `each is identified as a "cost":` → `each of which is identified as a "cost":`
+- `content/papers/interaction-costs/index.md` L33: `left-over` → `leftover`
+- `content/papers/interaction-costs/index.md` L63: `for the What does an LLM say?.` → `for the 'What does an LLM say?' prompt.`
+- `content/papers/problem-space/index.md` L100: `User's analytic sophistication` → `Users' analytic sophistication`
+- `content/rants/_index.md` L7: `monologing` → `monologuing`
+- `content/rants/repapering/index.md` L24: `different than` → `different from`
+- `content/rants/repapering/index.md` L25: `there is certain kinds of evidence` → `there are certain kinds of evidence`
+- `content/rants/repapering/index.md` L27: `diffuse criticism` → `defuse criticism`
+- `content/resources/_index.md` L7: `books - but` → `books—but`
+- `content/resources/_index.md` L9: `Note, that` → `Note that`
+- `content/resources/_index.md` L7: `the web site` → `the website`
+- `content/resources/bertin/index.md` L24: `becuase` → `because`
+- `content/resources/bertin/index.md` L10: `visualization, before` → `visualization before`
+- `content/resources/bertin/index.md` L24: `It's a well-produced book, the images are wonderful.` → `It's a well-produced book; the images are wonderful.`
+- `content/resources/bertin/index.md` L26: `wisconsin student` → `Wisconsin student`
+- `content/resources/books-first.md` L16: `discssion` → `discussion`
+- `content/resources/books-first.md` L8: `the **The Truthful Art**` → `**The Truthful Art**`
+- `content/resources/books-first.md` L14: `is, of course, depends` → `of course, depends`
+- `content/resources/books-first.md` L21: `on high on your list` → `high on your list`
+- `content/resources/cairo/index.md` L15: `art are` → `are`
+- `content/resources/cairo/index.md` L17: `open minded` → `open-minded`
+- `content/resources/cairo/index.md` L17: `prospective` → `perspective`
+- `content/resources/design/index.md` L15: `we'll` → `We'll`
+- `content/resources/design/index.md` L19: `an hour lesson` → `an hour-long lesson`
+- `content/resources/design/index.md` L19: `A single hour lesson` → `A single hour-long lesson`
+- `content/resources/design/index.md` L21: `how it covers it yet` → `how it covers them yet`
+- `content/resources/discussing-design/index.md` L20: `Critique isn’t a ‘design’ skill, it’s a life skill.` → `Critique isn’t a ‘design’ skill; it’s a life skill.`
+- `content/resources/discussing-design/index.md` L24: `if its for you` → `if it's for you`
+- `content/resources/munzner/index.md` L18: `in an-browser` → `an in-browser`
+- `content/resources/munzner/index.md` L23: `graduate level` → `graduate-level`
+- `content/resources/tufte/index.md` L18: `dialog` → `dialogue`
+- `content/resources/tufte/index.md` L20: `buy your own copy` → `buy your own copies`
+- `content/resources/tufte/index.md` L22: `well thought out` → `well-thought-out`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L71: `chloropleth` → `choropleth`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L95: `comparitive` → `comparative`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L101: `comparitive` → `comparative`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L101: `excersize` → `exercise`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L10: `when with dealing` → `when dealing`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L14: `August, 2024` → `August 2024`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L14: `web browser, the images` → `web browser; the images`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L20: `and makes the point` → `which makes the point`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L26: `there intent` → `their intent`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L28: `jums` → `jumps`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L41: `kindof` → `kind of`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L49: `had to tell` → `hard to tell`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L49: `a small county (where a few people can make a big difference).` → `a small county (where a few people can make a big difference) can skew the results.`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L51: `Clark county` → `Clark County`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L53: `be aware which message` → `be aware of which message`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L57: `exact same, data` → `exact same data`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L67: `knows its a FIPS code` → `knows it's a FIPS code`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L85: `a small changes` → `small changes`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L85: `changes in number of people employed is affected` → `changes in number of people employed are affected`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L87: `o n` → `on`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L91: `kindof` → `kind of`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L93: `the size of the dots let me know` → `the size of the dots lets me know`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L101: `What does the dots make easier to see?` → `What do the dots make easier to see?`
+- `content/snacks/240830-yeping-axis/index.md` L9: `misleading, and needed` → `misleading and needed`
+- `content/snacks/240830-yeping-axis/index.md` L13: `critique), it both` → `critique); it both`
+- `content/snacks/240830-yeping-axis/index.md` L19: `truncating Axes` → `truncating axes`
+- `content/snacks/240830-yeping-axis/index.md` L27: `robotics, let's` → `robotics; let's`
+- `content/snacks/240830-yeping-axis/index.md` L66: `Be careful when truncating axes is a corallary to the more fundamental principle` → `Being careful when truncating axes is a corollary to the more fundamental principle`
+- `content/snacks/250517-college-line-chart/index.md` L11: `Trucation` → `Axis Truncation`
+- `content/snacks/250517-college-line-chart/index.md` L39: `trucation` → `truncation`
+- `content/snacks/250517-college-line-chart/index.md` L39: `exagerated` → `exaggerated`
+- `content/snacks/250517-college-line-chart/index.md` L114: `trucated` → `truncated`
+- `content/snacks/250517-college-line-chart/index.md` L114: `because because` → `because`
+- `content/snacks/250517-college-line-chart/index.md` L13: `New York Times, this is` → `New York Times; this is`
+- `content/snacks/250517-college-line-chart/index.md` L16: `it's choices` → `its choices`
+- `content/snacks/250517-college-line-chart/index.md` L55: `while in other one group dominates the differences` → `while in others one group dominates the differences`
+- `content/snacks/250517-college-line-chart/index.md` L59: `then it show those relationships` → `then it shows those relationships`
+- `content/snacks/250517-college-line-chart/index.md` L66: `the relative trends for men and women are different - in fact they generally seem to be in opposition` → `the relative trends for men and women are different; in fact, they generally seem to be in opposition`
+- `content/snacks/250517-college-line-chart/index.md` L74: `This is, arguably a place` → `This is arguably a place`
+- `content/snacks/250517-college-line-chart/index.md` L74: `truncated their axis` → `truncated their axes`
+- `content/snacks/250517-college-line-chart/index.md` L85: `one off spikes` → `one-off spikes`
+- `content/snacks/250517-college-line-chart/index.md` L87: `if the axes is misread` → `if the axis is misread`
+- `content/snacks/250517-college-line-chart/index.md` L89: `over emphasize` → `overemphasize`
+- `content/snacks/250517-college-line-chart/index.md` L95: `In the New York Times, they colored the lines, in the BLS chart they use line patterns` → `In the New York Times, they colored the lines; in the BLS chart, they use line patterns`
+- `content/snacks/250517-college-line-chart/index.md` L99: `the viewer *should* look at the key - but` → `the viewer *should* look at the key—but`
+- `content/snacks/250517-college-line-chart/index.md` L103: `rammifications` → `ramifications`
+- `content/snacks/250517-college-line-chart/index.md` L108: `The viewer gain` → `The viewer gains`
+- `content/snacks/250517-college-line-chart/index.md` L114: `achieving both goals 2 and 3 are tricky` → `achieving both goals 2 and 3 is tricky`
+- `content/snacks/250517-college-line-chart/index.md` L114: `groups) vary` → `groups) varies`
+- `content/snacks/250517-college-line-chart/index.md` L116: `two things, maybe` → `two things; maybe`
+- `content/snacks/250517-college-line-chart/index.md` L116: `its a percentage` → `it's a percentage`
+- `content/snacks/250624-routemap/index.md` L91: `resillience` → `resilience`
+- `content/snacks/250624-routemap/index.md` L75: `there there` → `there`
+- `content/snacks/250624-routemap/index.md` L13: `(avoid peeking at the radically different design below)` → `(Avoid peeking at the radically different design below)`
+- `content/snacks/250624-routemap/index.md` L49: `Part of the reason this design works (to the extent it does) are properties of the data.` → `Part of the reason this design works (to the extent it does) is the properties of the data.`
+- `content/snacks/250624-routemap/index.md` L75: `practice,the` → `practice, the`
+- `content/snacks/250624-routemap/index.md` L79: `I want to get a sense of where the airline goes?` → `I want to get a sense of where the airline goes.`
+- `content/snacks/250624-routemap/index.md` L81: `its hard` → `it's hard`
+- `content/snacks/250624-routemap/index.md` L83: `problem - that` → `problem, which`
+- `content/snacks/250624-routemap/index.md` L91: `the maps reliance` → `the map's reliance`
+- `content/snacks/250624-routemap/index.md` L106: `to SVG version` → `to an SVG version`
+- `content/snacks/250624-routemap/index.md` L108: `gemini` → `Gemini`
+- `content/snacks/250624-routemap/index.md` L108: `Each city many have` → `Each city may have`
+- `content/snacks/260520-compare-rivers/index.md` L9: `Napolean` → `Napoleon's`
+- `content/snacks/260520-compare-rivers/index.md` L12: `comparitive` → `comparative`
+- `content/snacks/260520-compare-rivers/index.md` L37: `chanels` → `channels`
+- `content/snacks/260520-compare-rivers/index.md` L37: `is is` → `how it is truly designed`
+- `content/snacks/260520-compare-rivers/index.md` L10: `opportunity for me to my version` → `opportunity for me to show my version`
+- `content/snacks/260520-compare-rivers/index.md` L17: `Notice I didn't say it was the best, I said it was my favorite.` → `Notice I didn't say it was the best; I said it was my favorite.`
+- `content/snacks/260520-compare-rivers/index.md` L17: `choose one, that it might` → `choose one that it might`
+- `content/snacks/260520-compare-rivers/index.md` L41: `makes this map works` → `makes this map work`
+- `content/snacks/260520-compare-rivers/index.md` L43: `great lakes` → `Great Lakes`
+- `content/snacks/260520-compare-rivers/index.md` L57: `each of the quadrant` → `each of the quadrants`
+- `content/snacks/260520-compare-rivers/index.md` L57: `the put things close enough` → `they put things close enough`
+- `content/snacks/260520-compare-rivers/index.md` L64: `kindof` → `kind of`
+- `content/snacks/260520-compare-rivers/index.md` L65: `comparisons are position on a common axis` → `comparisons are positioned on a common axis`
+- `content/snacks/260520-compare-rivers/index.md` L75: `colleagues office` → `colleague's office`
+- `content/snacks/260520-compare-rivers/index.md` L77: `Which one was the first to use this design.` → `Which one was the first to use this design?`
+- `content/snacks/260520-compare-rivers/index.md` L83: `As of the time I have written this, I still haven't picked one yet.` → `As of the time I wrote this, I still haven't picked one.`
+- `content/snacks/app-time-graphs/index.md` L34: `comparitive` → `comparative`
+- `content/snacks/app-time-graphs/index.md` L16: `nowawadays` → `nowadays`
+- `content/snacks/app-time-graphs/index.md` L34: `What are the different in choices in each design` → `What are the different choices in each design`
+- `content/snacks/app-time-graphs/index.md` L41: `killowatts` → `kilowatts`
+- `content/snacks/app-time-graphs/index.md` L43: `killowatt hours` → `kilowatt-hours`
+- `content/snacks/cairo-discrete-line/index.md` L18: `acceptible` → `acceptable`
+- `content/snacks/cairo-discrete-line/index.md` L33: `Chaging` → `Changing`
+- `content/snacks/cairo-discrete-line/index.md` L8: `neither interval or continuous` → `neither interval nor continuous`
+- `content/snacks/charts-are-encodings/index.md` L43: `X axis` → `X-axis`
+- `content/snacks/pie-chart-experiment/index.md` L35: `suprise` → `surprise`
+- `content/snacks/pie-chart-experiment/index.md` L42: `bootstap` → `bootstrap`
+- `content/snacks/pie-chart-experiment/index.md` L47: `Profilic` → `Prolific`
+- `content/snacks/pie-chart-experiment/index.md` L57: `bascially` → `basically`
+- `content/snacks/pie-chart-experiment/index.md` L22: `the the` → `the`
+- `content/snacks/pie-chart-experiment/index.md` L18: `paper worthy` → `paper-worthy`
+- `content/snacks/pie-chart-experiment/index.md` L20: `We ran these experiments are part of` → `We ran these experiments as part of`
+- `content/snacks/pie-chart-experiment/index.md` L20: `has lead us` → `has led us`
+- `content/snacks/pie-chart-experiment/index.md` L22: `justifyably` → `justifiably`
+- `content/snacks/pie-chart-experiment/index.md` L31: `Doing, we were` → `Though we were`
+- `content/snacks/pie-chart-experiment/index.md` L35: `I'm guessing, you` → `I'm guessing you`
+- `content/snacks/pie-chart-experiment/index.md` L40: `You shouldn't be convinced by the chart, you'll have to trust us` → `You shouldn't be convinced by the chart; you'll have to trust us`
+- `content/snacks/pie-chart-experiment/index.md` L44: `The data is not normally distributed, therefore, we used` → `The data is not normally distributed; therefore, we used`
+- `content/snacks/pie-chart-experiment/index.md` L53: `part whole` → `part-whole`
+- `content/snacks/pie-chart-experiment/index.md` L57: `part whole` → `part-whole`
+- `content/snacks/pie-chart-experiment/index.md` L59: `different than` → `different from`
+- `content/snacks/pie-chart-experiment/index.md` L61: `down sides` → `downsides`
+- `content/snacks/pie-chart-experiment/index.md` L63: `But, we only` → `But we only`
+- `content/tags/critique/_index.md` L9: `alterntives` → `alternatives`
+- `content/tags/critique/_index.md` L13: `is class` → `is in class`
+- `content/tutorials/0-preface/index.md` L29: `the the` → `the`
+- `content/tutorials/0-preface/index.md` L14: `The last of the original version is still available at` → `The last of the original versions is still available at`
+- `content/tutorials/0-preface/index.md` L21: `I point out this history, because` → `I point out this history because`
+- `content/tutorials/0-preface/index.md` L38: `A Good Visualization` → `A good visualization`
+- `content/tutorials/0-preface/index.md` L42: `4 step` → `4-step`
+- `content/tutorials/1-what-is-vis/index.md` L12: `This is a 2026 re-write, you can see the older (pre-2026) version at` → `This is a 2026 re-write; you can see the older (pre-2026) version at`
+- `content/tutorials/1-what-is-vis/index.md` L25: `its best` → `it's best`
+- `content/tutorials/1-what-is-vis/index.md` L27: `place holder` → `placeholder`
+- `content/tutorials/1-what-is-vis/index.md` L43: `viewers attention` → `viewer's attention`
+- `content/tutorials/1-what-is-vis/index.md` L49: `doesn't necessary say` → `doesn't necessarily say`
+- `content/tutorials/1-what-is-vis/index.md` L67: `A well chosen picture` → `A well-chosen picture`
+- `content/tutorials/1-what-is-vis/index.md` L67: `well designed visualization` → `well-designed visualization`
+- `content/tutorials/1-what-is-vis/index.md` L87: `I spend a about half my time` → `I spend about half my time`
+- `content/tutorials/1-what-is-vis/index.md` L87: `than vis (blue)` → `than Vis (blue)`
+- `content/tutorials/1-what-is-vis/index.md` L93: `In order to see "did I spend more time with orange or blue students" or "was blue about 50%" you would need` → `In order to see "did I spend more time with orange or blue students" or "was blue about 50%", you would need`
+- `content/tutorials/1-what-is-vis/index.md` L132: `how to do visualization, and how to teach it is based` → `how to do visualization and how to teach it is based`
+- `content/tutorials/1-what-is-vis/index.md` L132: `what does the picture make easy to see."` → `what does the picture make easy to see?"`
+- `content/tutorials/1-what-is-vis/index.md` L134: `collections of chart types of design rules` → `collections of chart types or design rules`
+- `content/tutorials/1-what-is-vis/index.md` L139: `re-organize` → `reorganize`
+- `content/tutorials/2-building-blocks/index.md` L38: `which help us` → `which helps us`
+- `content/tutorials/2-building-blocks/index.md` L42: `Once we learn that position along a common axis encodings are good for reading precise values and seeing the largest / smallest, then I will know that many different visualizations based on this will be good for those tasks.` → `Once we learn that position along a common axis encodings are good for reading precise values and seeing the largest/smallest, we will know that many different visualizations based on this will be good for those tasks.`
+- `content/tutorials/2-building-blocks/index.md` L48: `The key building block of the designs - position on common axis encodings - makes it possible` → `The key building block of the designs—position on common axis encodings—makes it possible`
+- `content/tutorials/2-building-blocks/index.md` L48: `the ones that don't correctly encode the data are problematic, the big circles create some ambiguity in values, etc.` → `the ones that don't correctly encode the data are problematic; the big circles create some ambiguity in values, etc.`
+- `content/tutorials/2-building-blocks/index.md` L56: `It doesn't matter what we call things, it matters that we make choices` → `It doesn't matter what we call things; it matters that we make choices`
+- `content/tutorials/2-building-blocks/index.md` L62: `e.g.` → `e.g.,`
+- `content/tutorials/2-building-blocks/index.md` L82: `There are a set of things` → `There is a set of things`
+- `content/tutorials/2-building-blocks/index.md` L92: `One you know` → `Once you know`
+- `content/tutorials/2-building-blocks/index.md` L94: `how can you make good choices.` → `how can you make good choices?`
+- `content/tutorials/2-building-blocks/index.md` L99: `it gets it's own` → `it gets its own`
+- `content/tutorials/2-building-blocks/index.md` L103: `game, at each step` → `game; at each step`
+- `content/tutorials/2-building-blocks/index.md` L119: `Some examples (which are, of course, things we'll study in class):` → `Some examples (which we will study in class) include:`
+- `content/tutorials/2-building-blocks/index.md` L134: `four step recipe` → `four-step recipe`
+- `content/tutorials/2-building-blocks/index.md` L151: `understand what the purpose of the visualization.` → `understand the purpose of the visualization.`
+- `content/tutorials/2-building-blocks/index.md` L156: `but was a [great paper first](` → `but it was a [great paper first](`
+- `content/tutorials/3-easy-to-see/index.md` L12: `shorcut` → `shortcut`
+- `content/tutorials/3-easy-to-see/index.md` L68: `prefered` → `preferred`
+- `content/tutorials/3-easy-to-see/index.md` L68: `make make` → `make`
+- `content/tutorials/3-easy-to-see/index.md` L31: `harder questions` → `harder question`
+- `content/tutorials/3-easy-to-see/index.md` L41: `For me, it jumps out at me` → `It jumps out at me`
+- `content/tutorials/3-easy-to-see/index.md` L41: `north central and north east` → `North Central and Northeast`
+- `content/tutorials/3-easy-to-see/index.md` L47: `The "what does this make easy to see" becomes` → `The question "What does this make easy to see?" becomes`
+- `content/tutorials/3-easy-to-see/index.md` L58: `Connecthing` → `Connecting`
+- `content/tutorials/3-easy-to-see/index.md` L64: `handwavy - this` → `handwavy—this`
+- `content/tutorials/3-easy-to-see/index.md` L69: `follow ons` → `follow-ons`
+- `content/tutorials/3-easy-to-see/index.md` L78: `what doesn't think visualization` → `what doesn't this visualization`
+- `content/tutorials/4-critique/index.md` L61: `patten` → `pattern`
+- `content/tutorials/4-critique/index.md` L200: `comparitive` → `comparative`
+- `content/tutorials/4-critique/index.md` L15: `at improving your critique practice` → `improving your critique practice`
+- `content/tutorials/4-critique/index.md` L23: `Critique isn’t a ‘design’ skill, it’s a life skill.` → `Critique isn’t a ‘design’ skill; it’s a life skill.`
+- `content/tutorials/4-critique/index.md` L28: `top help` → `to help`
+- `content/tutorials/4-critique/index.md` L28: `crtitics` → `critics`
+- `content/tutorials/4-critique/index.md` L30: `as well a chance` → `as well as a chance`
+- `content/tutorials/4-critique/index.md` L34: `different than` → `different from`
+- `content/tutorials/4-critique/index.md` L51: `dialog` → `dialogue`
+- `content/tutorials/4-critique/index.md` L61: `the time the appreciate` → `the time to appreciate`
+- `content/tutorials/4-critique/index.md` L68: `starting with stating critique` → `starting by stating the critique`
+- `content/tutorials/4-critique/index.md` L68: `Once you get practice doing this form` → `Once you get practice using this form`
+- `content/tutorials/4-critique/index.md` L80: `The book teaches this with great cartoons, here is an example:` → `The book teaches this with great cartoons; here is an example:`
+- `content/tutorials/4-critique/index.md` L116: `an out "I wasn't trying to create an image for learning about visualization critique, I was trying to obey the prompt."` → `an out: "I wasn't trying to create an image for learning about visualization critique; I was trying to obey the prompt."`
+- `content/tutorials/4-critique/index.md` L128: `For a Visualization, this usually means` → `For a visualization, this usually means`
+- `content/tutorials/4-critique/index.md` L128: `the visualization out of the context it is meant to appear` → `the visualization out of the context in which it is meant to appear`
+- `content/tutorials/4-critique/index.md` L130: `something that weren't trying to do` → `something they weren't trying to do`
+- `content/tutorials/4-critique/index.md` L132: `the first are the more common kind of tasks` → `the first are the more common kind of task`
+- `content/tutorials/4-critique/index.md` L150: `Or "why did you pick that."` → `Or "why did you pick that?"`
+- `content/tutorials/4-critique/index.md` L163: `Critique is different than assessment` → `Critique is different from assessment`
+- `content/tutorials/4-critique/index.md` L167: `The me the stylized form is:` → `The stylized form is:`
+- `content/tutorials/4-critique/index.md` L167: `If **objective** then **decision** could be **informed by principle.**` → `If **objective**, then **decision** could be **informed by principle**.`
+- `content/tutorials/4-critique/index.md` L169: `start with the stylized form` → `start with the stylized form.`
+- `content/tutorials/4-critique/index.md` L174: `The focus on a decision not only makes this about a specific aspect (giving the critique focus) but also steers towards something you can do something about.` → `The focus on a decision not only makes this about a specific aspect (giving the critique focus) but also steers towards something you can act upon.`
+- `content/tutorials/4-critique/index.md` L184: `it to gain understanding` → `it is to gain understanding`
+- `content/tutorials/4-critique/index.md` L210: `I agree, this is a good way` → `I agree; this is a good way`
+- `content/tutorials/4-critique/index.md` L218: `In my 2013 class I had a breakthrough` → `In my 2013 class, I had a breakthrough`
+- `content/tutorials/4-critique/index.md` L218: `get started to becoming better` → `get started on becoming better`
+- `content/tutorials/4-critique/index.md` L218: `path of becoming good` → `path to becoming good`
+- `content/tutorials/4-critique/index.md` L224: `discussing design` → `"Discussing Design"`
+- `content/tutorials/_index.md` L7: `Tutorials these are written` → `Tutorials: these are written`
+- `content/tutorials/data-abstraction/index.md` L9: `superceded` → `superseded`
+- `content/tutorials/data-abstraction/index.md` L41: `the good one - John Snow's` → `the good one—John Snow's`
+- `content/tutorials/data-abstraction/index.md` L70: `Diverging data wants a diverging encoding - this matters a lot for color, later.` → `Diverging data wants a diverging encoding; this matters a lot for color later.`
+- `content/tutorials/data-abstraction/index.md` L87: `The choice of bins can quietly change the whole story a chart tells, which is enough of a topic that it deserves its own discussion later on - I'll write that one up separately.` → `The choice of bins can quietly change the whole story a chart tells; it is a topic significant enough to deserve its own discussion later on—I'll write that one up separately.`
+- `content/tutorials/data-abstraction-cheat-sheet/index.md` L13: `use - and` → `use—and`
+- `content/tutorials/data-abstraction-cheat-sheet/index.md` L75: `This section is organization; *Describing Attributes*, below, is values.` → `This section is about organization; *Describing Attributes*, below, is about values.`
+- `content/tutorials/data-abstraction-cheat-sheet/index.md` L79: `Because the domain is discrete it can always be unrolled` → `Because the domain is discrete, it can always be unrolled`
+- `content/tutorials/data-abstraction-cheat-sheet/index.md` L79: `sometimes the set has structure of its own` → `sometimes the set has a structure of its own`
+- `content/tutorials/data-abstraction-cheat-sheet/index.md` L111: `on a continuous domain it makes the data discrete, on an already-discrete one it just makes the set smaller` → `on a continuous domain it makes the data discrete; on an already-discrete one it just makes the set smaller`
+- `content/tutorials/data-abstraction-cheat-sheet/index.md` L120: `The second case - representing a large set by a smaller set - is common` → `The second case—representing a large set by a smaller set—is common`
+- `content/tutorials/data-abstraction-cheat-sheet/index.md` L214: `single item - "23%"` → `single item—"23%"`
+- `content/tutorials/data-abstraction-cheat-sheet/index.md` L223: `However: they do not work` → `However, they do not work`
+- `content/tutorials/data-abstraction-cheat-sheet/index.md` L214: `one company, it's a fact` → `one company; it's a fact`
+- `content/tutorials/tableau-tutorial/index.md` L52: `interpretted` → `interpreted`
+- `content/tutorials/tableau-tutorial/index.md` L10: `targeted for` → `targeted at`
+- `content/tutorials/tableau-tutorial/index.md` L10: `Data set` → `dataset`
+- `content/tutorials/tableau-tutorial/index.md` L10: `Tableau, and the dataset` → `Tableau and the dataset`
+- `content/tutorials/tableau-tutorial/index.md` L35: `You can read about on the` → `You can read about it on the`
+- `content/tutorials/tableau-tutorial/index.md` L35: `although use this links here` → `although use these links here`
+- `content/tutorials/tableau-tutorial/index.md` L56: `In this view I will` → `In this view, I will`
+- `content/tutorials/tableau-tutorial/index.md` L59: `columns that should be integer codes (2003 Urban Influence Code - green arrow) is a real number` → `columns that should be integer codes (2003 Urban Influence Code - green arrow) are real numbers`
+- `content/tutorials/tableau-tutorial/index.md` L73: `set it's "Geographic Role"` → `set its "Geographic Role"`
+- `content/tutorials/tableau-tutorial/index.md` L96: `Notice that is has a globe` → `Notice that it has a globe`
+- `content/tutorials/tableau-tutorial/index.md` L98: `viola` → `voila`
+- `content/tutorials/tableau-tutorial/index.md` L102: `(before it was auto, so it made each data point a dot, now it makes each data point a mark shape)` → `(Before it was auto, so it made each data point a dot; now it makes each data point a mark shape)`
+- `content/tutorials/tableau-tutorial/index.md` L108: `I drag a variable into the "filters" section, I'll filter by state, so I'll drag the "State from the variables list to the Filters Section.` → `I drag a variable into the "filters" section. I'll filter by state, so I'll drag the "State" from the variables list to the Filters Section.`
+- `content/tutorials/tableau-tutorial/index.md` L116: `Apply. and now` → `Apply, and now`
+- `content/tutorials/tableau-tutorial/index.md` L159: `side by side` → `side-by-side`
+- `content/tutorials/tableau-tutorial/index.md` L163: `it's color area` → `its color area`
+- `content/tutorials/tableau-tutorial/index.md` L211: `It turns out, that this will be` → `It turns out that this will be`
+- `content/tutorials/tableau-tutorial/index.md` L223: `where it said` → `where it says`
+- `content/tutorials/tableau-tutorial/index.md` L233: `the X axis` → `the X-axis`
+- `content/tutorials/tableau-tutorial/index.md` L241: `using it's little triangle` → `using its little triangle`
+- `content/tutorials/tableau-tutorial/index.md` L261: `OK, Maybe` → `OK, maybe`
+- `content/tutorials/tableau-tutorial/index.md` L261: `tableau` → `Tableau`
+- `content/tutorials/tableau-tutorial/index.md` L265: `use a treemap is only appropriate` → `using a treemap is only appropriate`
+- `content/tutorials/tableau-tutorial/index.md` L279: `too small two write` → `too small to write`
+- `content/tutorials/tableau-tutorial/index.md` L286: `decent looking things` → `decent-looking things`
+- `content/tutorials/tableau-tutorial/index.md` L290: `Over the way` → `Along the way`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L127: `persistant` → `persistent`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L131: `perjorative` → `pejorative`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L19: `in to` → `into`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L48: `But, a few tweaks:` → `But a few tweaks:`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L51: `month/dat` → `month/date`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L62: `viola` → `voilà`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L83: `the subtleties of the blue shadings are hard to see on the small marks` → `the subtleties of the blue shading are hard to see on the small marks`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L88: `But, it was easy to make.` → `But it was easy to make.`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L94: `But, (1) it might` → `But (1) it might`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L115: `life expectance` → `life expectancy`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L125: `multiplies by 72` → `multiplied by 72`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L125: `the number show up` → `the numbers show up`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L127: `one off` → `one-off`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L131: `that they tangle together that it's hard to see much in any one` → `that they tangle together, making it hard to see much in any one`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L131: `useless - but it goes` → `useless, but it goes`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L131: `categories` → `category`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L145: `decide where to look farther` → `decide where to look further`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L147: `visualization, is that` → `visualization is that`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L157: `convenient with the data in the form of the data` → `convenient for the data in its current form`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L159: `- we could easily` → `, we could easily`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L159: `(of course, if we had wide data, it would be harder for questions that were year centric).` → `(Of course, if we had wide data, it would be harder for questions that were year-centric).`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L161: `There are ways to do this in Tableau, it's just beyond my skillset at the moment.` → `There are ways to do this in Tableau; it's just beyond my skillset at the moment.`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L169: `Sorting the chart's X as by the change` → `Sorting the chart's X-axis by the change`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L178: `It's answer` → `Its answer`
+- `content/tutorials/task-abstraction/index.md` L17: `that is allows` → `that it allows`
+- `content/tutorials/task-abstraction/index.md` L19: `ways for discussing` → `ways to discuss`
+- `content/tutorials/task-abstraction/index.md` L40: `Rind et. al` → `Rind et al.`
+- `content/tutorials/task-abstraction/index.md` L44: `Is it specific, or could it apply to many things.` → `Is it specific, or could it apply to many things?`
+- `content/tutorials/task-abstraction/index.md` L46: `objectives are questions on data (desired results), actions are steps towards objectives` → `Objectives are questions on data (desired results); actions are steps towards objectives.`
+- `content/tutorials/task-abstraction/index.md` L87: `its centers` → `it centers`
+- `content/tutorials/task-abstraction/index.md` L112: `While it is organized` → `While they are organized`
+- `content/tutorials/task-abstraction/index.md` L123: `each might be` → `each of which might be`
+- `content/tutorials/task-abstraction/index.md` L124: `a type of categorization` → `A type of categorization`
+- `content/tutorials/task-abstraction/index.md` L241: `rather than trying to find a single category for it` → `rather than trying to find a single category for them`
+- `content/tutorials/task-abstraction/index.md` L308: `the summary of the Problem Space paper.` → `The summary of the Problem Space paper.`
+- `content/tutorials/task-abstraction/index.md` L321: `why is this useful to most people.` → `why is this useful to most people?`
+
+## Marked — needs manual fix
+
+_None_
+
+## Rejected
+
+- `content/_index.md` L15: `take a class, or do extensive reading, or search through the endless resources`
+- `content/about/index.md` L16: `Some of the images are used from elsewhere, I have tried to provide proper credit and do not make any claims to them.`
+- `content/about/index.md` L18: `The parts that I created, and hold the copyright to, I release under`
+- `content/obsolete/old-critique/index.md` L25: `Critique isn’t a ‘design’ skill, it’s a life skill.`
+- `content/obsolete/old-critique/index.md` L36: `some thing`
+- `content/obsolete/old-critique/index.md` L50: `Which I alter/re-order into a list of "advice":`
+- `content/obsolete/old-critique/index.md` L62: `without it - but`
+- `content/obsolete/old-critique/index.md` L92: `In class I say`
+- `content/obsolete/old-critique/index.md` L98: `if the designer was a person`
+- `content/obsolete/old-critique/index.md` L98: `upset - it doesn't`
+- `content/obsolete/old-critique/index.md` L122: `out of the context`
+- `content/obsolete/old-critique/index.md` L126: `tasks,  but`
+- `content/obsolete/old-critique/index.md` L163: `critiquers`
+- `content/obsolete/old-critique/index.md` L168: `something you can do something about`
+- `content/obsolete/old-critique/index.md` L178: `although, the process`
+- `content/obsolete/old-critique/index.md` L208: `But, the activity`
+- `content/obsolete/old-t1-what-is-vis/index.md` L209: `Implementating`
+- `content/obsolete/old-t1-what-is-vis/index.md` L153: `Design
+
+Design`
+- `content/obsolete/old-t1-what-is-vis/index.md` L27: `4 step`
+- `content/obsolete/old-t1-what-is-vis/index.md` L29: `4 components`
+- `content/obsolete/old-t1-what-is-vis/index.md` L75: `lego model`
+- `content/obsolete/old-t1-what-is-vis/index.md` L77: `Legos`
+- `content/obsolete/old-t1-what-is-vis/index.md` L137: `the largest / smallest`
+- `content/obsolete/old-t1-what-is-vis/index.md` L151: `But, the point...`
+- `content/obsolete/old-t1-what-is-vis/index.md` L183: `even in this case the ideas apply`
+- `content/obsolete/old-t1-what-is-vis/index.md` L195: `connects to task`
+- `content/obsolete/old-t1-what-is-vis/index.md` L195: `And, there is`
+- `content/obsolete/old-t1-what-is-vis/index.md` L201: `rules of things`
+- `content/obsolete/old-t1-what-is-vis/index.md` L219: `we don't need to train the viewers to interpret them, ...`
+- `content/obsolete/old-t1-what-is-vis/index.md` L231: `Which leads to **the four step recipe.**`
+- `content/obsolete/old-t1-what-is-vis/index.md` L260: `a set of someones`
+- `content/obsolete/old-t1-what-is-vis/index.md` L262: `it’s really important to remember that task is key`
+- `content/obsolete/old-t1-what-is-vis/index.md` L266: `Task is an informal`
+- `content/obsolete/old-t1-what-is-vis/index.md` L275: `it’s hard to have context`
+- `content/obsolete/old-t1-what-is-vis/index.md` L316: `Reflecting on examples that we make (prototyping), and examining examples of others carefully (critique).`
+- `content/obsolete/old-t1-what-is-vis/index.md` L323: `Sometimes, we can gain intuitions so we can make new designs.`
+- `content/obsolete/old-t1-what-is-vis/index.md` L343: `if your patient has a mysterious disease and is going to die you want to take these drastic measures`
+- `content/obsolete/old-t1-what-is-vis/index.md` L345: `the extreme measure`
+- `content/obsolete/old-t1-what-is-vis/index.md` L351: `(well designed)`
+- `content/obsolete/old-t2-table-example/index.md` L47: `the first thing that comes to mind. Just look at the table`
+- `content/obsolete/old-t2-table-example/index.md` L89: `But, it does raise`
+- `content/obsolete/old-t2-table-example/index.md` L93: `red means someone hurt by rounding, blue is someone helped`
+- `content/obsolete/old-t2-table-example/index.md` L107: `how understanding task helps`
+- `content/obsolete/old-t2-table-example/old-table-example.md` L79: `excel`
+- `content/obsolete/old-t2-table-example/old-table-example.md` L103: `how understanding task helps`
+- `content/papers/algebraic/index.md` L7: `influenced my thinking a lot`
+- `content/papers/algebraic/index.md` L51: `simple - and`
+- `content/papers/algebraic/index.md` L65: `nuance - which`
+- `content/papers/comparison/index.md` L11: `last 3`
+- `content/papers/comparison/index.md` L27: `not obviously comparison`
+- `content/papers/design-redesign/index.md` L25: `Prompted by an online critique Alberto Cairo posted of their work, plus the Twitter/blog fallout that followed.`
+- `content/papers/design-redesign/index.md` L29: `two intellectual cultures vis sits between`
+- `content/papers/design-redesign/index.md` L35: `the gold-standard redesign`
+- `content/papers/design-redesign/index.md` L49: `it's worth reading as participants`
+- `content/papers/discussing-design/index.md` L19: `The foundational chapter, and the one that carries almost the entire message a vis student needs — which is why it worked as the standalone assigned reading, and why its key ideas are now folded into VisSnacks Tutorial 4.`
+- `content/papers/discussing-design/index.md` L57: `The process chapter:`
+- `content/papers/discussing-design/index.md` L59: `critiqueable`
+- `content/papers/discussing-design/index.md` L69: `The facilitation chapter — written for whoever runs the session, which in 765's format is sometimes the instructor, sometimes a TA, and (in small groups) rotating students.`
+- `content/papers/discussing-design/index.md` L95: `The whole book as a checklist`
+- `content/papers/interaction-costs/index.md` L36: `the displays to change - the user`
+- `content/papers/problem-space/index.md` L25: `inter-twined`
+- `content/rants/_index.md` L7: `An opinion I have, an idea I have, commentary on something I saw, etc.`
+- `content/resources/books-first.md` L16: `some other book may actually be better suited for you`
+- `content/resources/cairo/index.md` L17: `ist`
+- `content/resources/cairo/index.md` L15: `what is his opinion`
+- `content/resources/discussing-design/index.md` L24: `its for you`
+- `content/resources/visual-thinking/index.md` L10: `appreciating how understanding how we see can help us be better designers`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L35: `differences in the number of counties always pops up`
+- `content/snacks/240830-nyt-unemployment-map/index.md` L45: `But the **huge** arrows in west Texas? (that has so many blue pixels it swamps out all the smaller orange arrows).`
+- `content/snacks/240830-yeping-axis/index.md` L66: `corallary`
+- `content/snacks/240830-yeping-axis/index.md` L66: `make the right thing easy to see, don't make the wrong thing easy to see`
+- `content/snacks/240830-yeping-axis/index.md` L70: `But, the big lesson`
+- `content/snacks/250624-routemap/index.md` L9: `importance of task and how understanding task and data`
+- `content/snacks/250624-routemap/index.md` L29: `The data is node (city) and links (flight routes).`
+- `content/snacks/250624-routemap/index.md` L37: `the overwhelmingness of the hairball`
+- `content/snacks/250624-routemap/index.md` L39: `on the airlines network`
+- `content/snacks/250624-routemap/index.md` L59: `detail close up`
+- `content/snacks/250624-routemap/index.md` L108: `ignore the gray background`
+- `content/snacks/260520-compare-rivers/index.md` L10: `for an example discussion`
+- `content/snacks/260520-compare-rivers/index.md` L19: `reasonable critique practice`
+- `content/snacks/260520-compare-rivers/index.md` L39: `rivers; not to navigate`
+- `content/snacks/260520-compare-rivers/index.md` L57: `the details of layout to facilitate comparison is a detail`
+- `content/snacks/260520-compare-rivers/index.md` L75: `Including a print on a colleagues office wall.`
+- `content/snacks/260520-compare-rivers/index.md` L77: `And found that people`
+- `content/snacks/260520-compare-rivers/index.md` L81: `And there was competition`
+- `content/snacks/260520-compare-rivers/index.md` L83: `And I started down`
+- `content/snacks/260520-compare-rivers/index.md` L83: `Either a real historic map, or a reproduction.`
+- `content/snacks/260520-compare-rivers/index.md` L87: `OK, maybe you don't care what I like: but I think you can learn from these examples.`
+- `content/snacks/app-time-graphs/index.md` L10: `snack`
+- `content/snacks/app-time-graphs/index.md` L43: `And it does change`
+- `content/snacks/cairo-discrete-line/index.md` L12: `That shows the principles in action.`
+- `content/snacks/cairo-discrete-line/index.md` L35: `Is this the wrong thing being easy to see?`
+- `content/snacks/charts-are-encodings/index.md` L53: `Decompose to the encodings`
+- `content/snacks/pie-chart-experiment/index.md` L18: `unto itself`
+- `content/snacks/pie-chart-experiment/index.md` L13: `pie charts(*)`
+- `content/tutorials/1-what-is-vis/index.md` L119: `Design
+
+Design`
+- `content/tutorials/1-what-is-vis/index.md` L31: `lego model`
+- `content/tutorials/1-what-is-vis/index.md` L45: `purpose - the`
+- `content/tutorials/1-what-is-vis/index.md` L59: `With the emphasis on the "good" part - making bad visualizations`
+- `content/tutorials/1-what-is-vis/index.md` L81: `although, it is cute`
+- `content/tutorials/1-what-is-vis/index.md` L81: `(although, it is cute)`
+- `content/tutorials/1-what-is-vis/index.md` L117: `rules of things to avoid`
+- `content/tutorials/1-what-is-vis/index.md` L139: `The need to re-organize the old tutorials, and the strategy for doing so came`
+- `content/tutorials/2-building-blocks/index.md` L56: `But, the point...`
+- `content/tutorials/2-building-blocks/index.md` L70: `them, ...`
+- `content/tutorials/2-building-blocks/index.md` L84: `Task is often`
+- `content/tutorials/2-building-blocks/index.md` L117: `Reflecting on examples that we make (prototyping), and examining examples of others carefully (critique).`
+- `content/tutorials/2-building-blocks/index.md` L134: `Which leads to **the four step recipe.**`
+- `content/tutorials/2-building-blocks/index.md` L145: `I got some data, I’d like to look at it. but even then`
+- `content/tutorials/2-building-blocks/index.md` L154: `implementation, ...`
+- `content/tutorials/2-building-blocks/index.md` L160: `provides a tutorial.`
+- `content/tutorials/3-easy-to-see/index.md` L12: `Visualization`
+- `content/tutorials/3-easy-to-see/index.md` L31: `process comes in`
+- `content/tutorials/3-easy-to-see/index.md` L71: `double edge`
+- `content/tutorials/3-easy-to-see/index.md` L75: `task,`
+- `content/tutorials/3-easy-to-see/index.md` L75: `non-task"`
+- `content/tutorials/4-critique/index.md` L28: `dialog`
+- `content/tutorials/4-critique/index.md` L36: `some thing`
+- `content/tutorials/4-critique/index.md` L68: `without it - but`
+- `content/tutorials/4-critique/index.md` L98: `In class I say`
+- `content/tutorials/4-critique/index.md` L104: `if the designer was a person`
+- `content/tutorials/4-critique/index.md` L148: `Not (just) to say what you think should have been done instead.`
+- `content/tutorials/4-critique/index.md` L184: `although, the process`
+- `content/tutorials/4-critique/index.md` L200: `where it is examined`
+- `content/tutorials/4-critique/index.md` L210: `(the appendix)`
+- `content/tutorials/4-critique/index.md` L220: `critique of others' critique`
+- `content/tutorials/4-critique/index.md` L222: `But, the activity`
+- `content/tutorials/data-abstraction/index.md` L58: `a jersey number tells you nothing you can add`
+- `content/tutorials/data-abstraction-cheat-sheet/index.md` L9: `The vocabulary for describing data abstractly defined concisely.`
+- `content/tutorials/data-abstraction-cheat-sheet/index.md` L81: `two kinds of object:`
+- `content/tutorials/data-abstraction-cheat-sheet/index.md` L200: `The type of the domain and range work together.`
+- `content/tutorials/data-abstraction-cheat-sheet/index.md` L223: `However: they do not work for non-part/whole data; not only do they not make sense, but they also imply to the viewer that they should interpret the data as part/whole.`
+- `content/tutorials/data-abstraction-cheat-sheet/index.md` L219: `the shares overlap and won't total`
+- `content/tutorials/data-abstraction-cheat-sheet/index.md` L219: `the whole is missing a piece`
+- `content/tutorials/data-abstraction-cheat-sheet/index.md` L223: `they also imply to the viewer that they should interpret`
+- `content/tutorials/data-abstraction-cheat-sheet/index.md` L239: `the motivation this page skips lives`
+- `content/tutorials/encodings/index.md` L10: `lets`
+- `content/tutorials/encodings/index.md` L32: `What Can We Encode With?`
+- `content/tutorials/encodings/index.md` L55: `cut through`
+- `content/tutorials/encodings/index.md` L85: `Which leads to my favorite piece of practical advice in this whole topic.`
+- `content/tutorials/encodings/index.md` L99: `it lets you decompose designs, compare choices, and generate designs the catalog doesn't have.`
+- `content/tutorials/tableau-tutorial/index.md` L10: `Class`
+- `content/tutorials/tableau-tutorial/index.md` L16: `big complicated system`
+- `content/tutorials/tableau-tutorial/index.md` L46: `And pick`
+- `content/tutorials/tableau-tutorial/index.md` L83: `Alabama, Alaska, Arizona (all the ones at the beginning of the alphabet).`
+- `content/tutorials/tableau-tutorial/index.md` L159: `to put two side by side`
+- `content/tutorials/tableau-tutorial/index.md` L213: `the 4 variables`
+- `content/tutorials/tableau-tutorial/index.md` L279: `But, I could drag state`
+- `content/tutorials/tableau-tutorial/index.md` L282: `Some Last Tips`
+- `content/tutorials/tableau-tutorial/index.md` L290: `tableau`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L11: `A quick walkthrough of showing how to get started with Tableau.`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L66: `a mark for which combinations`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L70: `more narrow`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L99: `In part to show how these things are easy to make - and to get a sense of what they are useful for.`
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` L105: `to pick map`
+- `content/tutorials/task-abstraction/index.md` L13: `Task is central`
+- `content/tutorials/task-abstraction/index.md` L13: `discuss task`
+- `content/tutorials/task-abstraction/index.md` L21: `deciding task doesn't`
+- `content/tutorials/task-abstraction/index.md` L29: `toolbox - many`
+- `content/tutorials/task-abstraction/index.md` L33: `talk about task`
+- `content/tutorials/task-abstraction/index.md` L45: `small quick thing`
+- `content/tutorials/task-abstraction/index.md` L68: `Different levels of abstraction. Note how with each, things become less abstract and lower level:`
+- `content/tutorials/task-abstraction/index.md` L60: `Abstraction and composition are *scales* - you can slide a description along either one.`
+- `content/tutorials/task-abstraction/index.md` L98: `Task is only part`
+- `content/tutorials/task-abstraction/index.md` L116: `structure - that`
+- `content/tutorials/task-abstraction/index.md` L116: `differences - but`
+- `content/tutorials/task-abstraction/index.md` L144: `it isn't a universal law, it's a common pattern`
+- `content/tutorials/task-abstraction/index.md` L150: `This paper was one of the first *rigorous* task categorizations.`
+- `content/tutorials/task-abstraction/index.md` L170: `nature of task`
+- `content/tutorials/task-abstraction/index.md` L178: `The main part of actions are`
+- `content/tutorials/task-abstraction/index.md` L241: `rather than trying to find a single category for it.`
+- `content/tutorials/task-abstraction/index.md` L280: `Are often important in tasks.`
+- `content/tutorials/task-abstraction/index.md` L334: `And, it kept trying to add things`
+

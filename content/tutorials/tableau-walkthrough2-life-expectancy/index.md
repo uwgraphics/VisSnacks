@@ -16,7 +16,7 @@ A quick walkthrough of showing how to get started with Tableau. The data set is 
 
 **Caveat 2:** A lot of this is "what are the easy visualizations to make" not necessarily "what are good visualizations to make." The goal here was to get an initial sense of a new data set (and some Tableau practice).
 
-**Caveat 3:** These are quick screen shots (since I often was trying to capture the interface). No effort went in to tuning things to make them look nice. If you are a student in class, you should make sure your visualizations (at least) have titles and captions and legends. Also you probably want to use export (rather than doing a screen capture) and not show the Tableau interface.
+**Caveat 3:** These are quick screen shots (since I often was trying to capture the interface). No effort went into tuning things to make them look nice. If you are a student in class, you should make sure your visualizations (at least) have titles and captions and legends. Also you probably want to use export (rather than doing a screen capture) and not show the Tableau interface.
 
 ## Step 1 - Get Some Data Into Tableau
 
@@ -45,10 +45,10 @@ It is pretty good at guessing what is in each column:
 
 {{<rimage src="column-guess.png">}}
 
-But, a few tweaks:
+But a few tweaks:
 
 1. Telling it that "Entity" and "Code" are countries will help it know to put things on the map (right now, it assumes they are strings). To do this, pick the type (it is text or "Abc") and change it to "Geographic Role - Country/Region".
-2. Turning the year into a date isn't useful (it will arbitrarily pick a month/dat) - but telling Tableau it is a whole number can help it make better decisions.
+2. Turning the year into a date isn't useful (it will arbitrarily pick a month/date) - but telling Tableau it is a whole number can help it make better decisions.
 {{<rimage src="country-region.png">}}
 3. I am changing the "Field Names" to something I like better (Country and Life Expectancy)
 {{<rimage src="column-rename.png">}}
@@ -59,7 +59,7 @@ Now we can make a visualization - my goal is to get a sense of what is in the da
 
 I'll click on Sheet 1 (at the bottom) to get a blank worksheet. 
 
-I'll drop country on the row shelf, and year on the column shelf, and viola! A visualization!
+I'll drop country on the row shelf, and year on the column shelf, and voilà! A visualization!
 
 {{<rimage src="first-vis.png">}}
 
@@ -80,18 +80,18 @@ Not an amazing visualization - but a useful one. I have a sense of how complete 
 An easy one: I'll color the marks by life expectancy...
 
 To do this...
-1. I drop Life Expectancy onto the color symbol (in the marks area). I see something quickly. The scale shows me quite a range (someplace had a 12 year life expectancy?) but it's hard to see much with the colors. (the subtleties of the blue shadings are hard to see on the small marks).
+1. I drop Life Expectancy onto the color symbol (in the marks area). I see something quickly. The scale shows me quite a range (someplace had a 12 year life expectancy?) but it's hard to see much with the colors. (the subtleties of the blue shading are hard to see on the small marks).
 2. I change the colors... (double click on the color legend). I am going to pick an orange-blue diverging scale - not that the data is diverging, but it gives me more variety in color (important given the small marks). I am also going to make it 6 steps (so there's no white in the middle).
 
 {{<rimage src="palette.png">}}
 
-I don't think this visualization is particularly effective for any particular task. But, it was easy to make. And for a quick glance "what's here", I think it is useful. 
+I don't think this visualization is particularly effective for any particular task. But it was easy to make. And for a quick glance "what's here", I think it is useful. 
 
 {{<rimage src="check-three.png">}}
 
 What does this let you see in the data?
 
-An important Tableau detail: notice that the aggregation here is **sum**, so each mark is **summing** all data that applies to it. In this chart, each mark is a specific year/country, so there should only be one number. But, (1) it might make more sense to pick the **maximum** aggregation (so we get just one), or we can pick the **count** aggregation to make sure that everything has 1 (or zero) data elements. (indeed, it does - phew!)
+An important Tableau detail: notice that the aggregation here is **sum**, so each mark is **summing** all data that applies to it. In this chart, each mark is a specific year/country, so there should only be one number. But (1) it might make more sense to pick the **maximum** aggregation (so we get just one), or we can pick the **count** aggregation to make sure that everything has 1 (or zero) data elements. (indeed, it does - phew!)
 
 
 ## Step 4 - Some Other Views
@@ -112,7 +112,7 @@ Now, we can drag the "life expectancy" field to color. When we do this, we have 
 
 {{<rimage src="map-1.png">}}
 
-Because the default aggregation is **sum**, what is being shown is the sum of the life expectance across the years. In most cases, this is similar to the average (because most countries have all 30 years) - but not all countries have 30 years. In fact, we can change sum to **count** to check this...
+Because the default aggregation is **sum**, what is being shown is the sum of the life expectancy across the years. In most cases, this is similar to the average (because most countries have all 30 years) - but not all countries have 30 years. In fact, we can change sum to **count** to check this...
 
 {{<rimage src="map-2.png">}}
 
@@ -122,13 +122,13 @@ Oh - a reminder that I forgot to put the filter on years (limiting myself to 195
 
 Putting the filter back is reassuring - all countries seem to have all 72 years.
 
-So, with the filter in place, a **sum** aggregation makes sense - it's basically the same as average, except that all the numbers are multiplies by 72. It looks better to pick **average** (so that the number show up nicely, and it is more obviously sensible). I am more curious about **minimum**...
+So, with the filter in place, a **sum** aggregation makes sense - it's basically the same as average, except that all the numbers are multiplied by 72. It looks better to pick **average** (so that the numbers show up nicely, and it is more obviously sensible). I am more curious about **minimum**...
 
-Yes, there is a country that in one year had a life expectance of 12 years. Pretty horrible... I wonder if that was just a one off or a persistant problem. I guess we need to look at things over time.
+Yes, there is a country that in one year had a life expectance of 12 years. Pretty horrible... I wonder if that was just a one-off or a persistent problem. I guess we need to look at things over time.
 
 ### 4.B Spaghetti Plot
 
-*Spaghetti plot* is a perjorative term for a line graph that includes so many lines that they tangle together that it's hard to see much in any one. That's not to say they are totally useless - but it goes in the "dump all the data and hope something comes out" categories.
+*Spaghetti plot* is a pejorative term for a line graph that includes so many lines that they tangle together, making it hard to see much in any one. That's not to say they are totally useless, but it goes in the "dump all the data and hope something comes out" category.
 
 It's easy to make with this data in Tableau, so I'll try it...
 
@@ -142,9 +142,9 @@ With this, you get a line graph - of the **sum** of all of the entries for the y
 
 {{<rimage src="lines-1.png">}}
 
-Take a minute to look at this. It's easy to see what's wrong. But think about what is right. What can we learn from this (admittedly problematic) visualization that can help us decide where to look farther.
+Take a minute to look at this. It's easy to see what's wrong. But think about what is right. What can we learn from this (admittedly problematic) visualization that can help us decide where to look further.
 
-One thing with a "bad" visualization, is that we can use Tableau's interactivity to help see through the mess. For example, I can click on one of the outliers to figure out what it is...
+One thing with a "bad" visualization is that we can use Tableau's interactivity to help see through the mess. For example, I can click on one of the outliers to figure out what it is...
 
 {{<rimage src="lines-2.png">}}
 
@@ -154,11 +154,11 @@ From here, I could try to improve things (for example, by focusing on particular
 
 ## Not So Easy...
 
-So far, I made visualizations that were convenient with the data in the form of the data (and my limited Tableau skills).
+So far, I made visualizations that were convenient for the data in its current form (and my limited Tableau skills).
 
-The "tall" form of the data makes some things tricky. For example, if I want to look at the differences between two years (which countries have the biggest gains between 2000 and 2018?), each "point" (for a country) requires two data elements (rows). If we had "wide" data (for example, a row per country, a column per year) - we could easily derive another column that is "delta 00 to 18". (of course, if we had wide data, it would be harder for questions that were year centric).
+The "tall" form of the data makes some things tricky. For example, if I want to look at the differences between two years (which countries have the biggest gains between 2000 and 2018?), each "point" (for a country) requires two data elements (rows). If we had "wide" data (for example, a row per country, a column per year) , we could easily derive another column that is "delta 00 to 18". (Of course, if we had wide data, it would be harder for questions that were year-centric).
 
-My Tableau skills don't give me an easy way to do the "compute something over several rows". To be honest, my fallback is to write a script (probably python) and compute a different data table in a convenient "wide" format. There are ways to do this in Tableau, it's just beyond my skillset at the moment. 
+My Tableau skills don't give me an easy way to do the "compute something over several rows". To be honest, my fallback is to write a script (probably python) and compute a different data table in a convenient "wide" format. There are ways to do this in Tableau; it's just beyond my skillset at the moment. 
 
 So, with a little help from a friendly chatbot (Gemini - see AI disclaimer below), I was able to make a chart of "which countries have the biggest change" by...
 
@@ -166,7 +166,7 @@ So, with a little help from a friendly chatbot (Gemini - see AI disclaimer below
 2. Defining a new calculated field "2021" (similar)
 3. Defining a new calculated field "Change" (and this is a tricky part) as `SUM([2021]) - SUM([1950])`. Note that this aggregates over all rows. I could have used Max instead
 4. Using this new field in a chart (dragging it to the row, with country as a column)
-5. Sorting the chart's X as by the change
+5. Sorting the chart's X-axis by the change
 
 {{<rimage src="change-1.png">}}
 
@@ -175,5 +175,5 @@ The new "change" variable can make a nice map as well...
 
 
 {{<genai>}}
-I asked Gemini for help to figure out how to show changes. It's answer had extra steps (that don't seem necessary), but it did give me the clue of first defining the "select one year" and then "aggregate over the non-null values of that". 
+I asked Gemini for help to figure out how to show changes. Its answer had extra steps (that don't seem necessary), but it did give me the clue of first defining the "select one year" and then "aggregate over the non-null values of that". 
 {{</genai>}}

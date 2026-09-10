@@ -7,7 +7,7 @@ categories = []
 weight = 51
 +++
 
-This is a tutorial on how to get started with Tableau. It is targeted for CS765 students (but should be OK for anyone). I am using the Census Data set I used in my 2024 Class. The tutorial will walk you through what I did to make a few initial pictures. This will show you some of the quirks of Tableau, and the dataset. 
+This is a tutorial on how to get started with Tableau. It is targeted at CS765 students (but should be OK for anyone). I am using the Census dataset I used in my 2024 Class. The tutorial will walk you through what I did to make a few initial pictures. This will show you some of the quirks of Tableau and the dataset. 
 
 <!--more-->
 
@@ -32,7 +32,7 @@ My (non-expert) take:
 {{<expand-boxed "About the data used in this tutorial">}}
 If you want to try this yourself (encouraged) with the same data I am using...
 
-This is a data set we created for a set of "Design Exercises" in my 2024 CS765 Data Visualization class. It is problematic in some ways - and should not be used for serious analysis. You can read about on the [CS765-24 Census Data Page](https://pages.graphics.cs.wisc.edu/765-24/pages/census-data/) - although use this links here to download it.
+This is a data set we created for a set of "Design Exercises" in my 2024 CS765 Data Visualization class. It is problematic in some ways - and should not be used for serious analysis. You can read about it on the [CS765-24 Census Data Page](https://pages.graphics.cs.wisc.edu/765-24/pages/census-data/) - although use these links here to download it.
 
 Briefly, the data set was pulled from [USDA Census Data](https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/) on September 6, 2024. Cat (the TA) joined the data based on FIPS code (see below) and removed aggregate regions (state and country level).
 
@@ -49,14 +49,14 @@ We start at the tableau start screen. I want to start by connecting to data, so 
 
 On the browser version of Tableau, adding a data file looks more like the below picture. {{<rimage src="1b-tableau_cloud_dataupload.png">}}
 
-Now I am in the "Data Source" view (I know this from looking at the lower left corner - red arrow below). In this view, I'll do some data cleaning to make sure Tableau has interpretted my CSV file correctly. Again, a key to Tableau is to get it to know about the data. 
+Now I am in the "Data Source" view (I know this from looking at the lower left corner - red arrow below). In this view, I'll do some data cleaning to make sure Tableau has interpreted my CSV file correctly. Again, a key to Tableau is to get it to know about the data. 
 
 {{<rimage src="2-data-source.png">}}
 
-In this view I will look at the data to see if there are problems that I should try to fix. Right in the first column (green arrow) I can see a problem: it is interpreting the "FIPS code" as a number (it should be a 5 character string with leading zeros). I'll come back to that later. But notice that Tableau did recognize that the "State" column is a geographic type.
+In this view, I will look at the data to see if there are problems that I should try to fix. Right in the first column (green arrow) I can see a problem: it is interpreting the "FIPS code" as a number (it should be a 5 character string with leading zeros). I'll come back to that later. But notice that Tableau did recognize that the "State" column is a geographic type.
 
 
-Scrolling to the right in the spreadsheet view, I notice that the columns that should be integer codes (2003 Urban Influence Code - green arrow) is a real number, not a discrete value. Rather than trying to convince Tableau to change all the columns, I try the magic "Use Data Interpreter" checkbox (red arrow). It changes those columns to integers (but not necessarily an ordinal variable, it's still numeric). I am not sure how to tell Tableau "this column is ordinal, not numeric/interval".
+Scrolling to the right in the spreadsheet view, I notice that the columns that should be integer codes (2003 Urban Influence Code - green arrow) are real numbers, not a discrete value. Rather than trying to convince Tableau to change all the columns, I try the magic "Use Data Interpreter" checkbox (red arrow). It changes those columns to integers (but not necessarily an ordinal variable, it's still numeric). I am not sure how to tell Tableau "this column is ordinal, not numeric/interval".
 
 {{<rimage src="3-data-interpreter.png">}}
 
@@ -70,7 +70,7 @@ My first goal is to make a map. To start with, I need a geographic variable. The
 
 I could try dropping it on the sheet (in the center of the sheet where it says "drop field here"). I get nothing useful - Tableau doesn't know that these numbers are county codes, so it decides that the right thing to do is to sum them together. Undo.
 
-I right click on the green "pill" around "FIP Stxt" (green arrow) and set it's "Geographic Role" (red arrow) to county. 
+I right click on the green "pill" around "FIP Stxt" (green arrow) and set its "Geographic Role" (red arrow) to county. 
 
 {{<rimage src="4-geographic.png">}}
 
@@ -93,19 +93,19 @@ To fix this, I searched for a solution and found a nice answer [here](https://he
 {{<rimage src="6-create-field.png">}}
 {{<rimage src="7-create-field.png">}}
 
-Notice that there is now a "FIPS" variable in the variable list. I right click on it and set its geographic role to county. Notice that is has a globe next to it, since it's a geographic variable.
+Notice that there is now a "FIPS" variable in the variable list. I right click on it and set its geographic role to county. Notice that it has a globe next to it, since it's a geographic variable.
 
-OK, now let's use this to make the map. We need to remove the FIP Stxt - in the "Marks Area" click on the blue pill "FIP Stxt" and press delete. Then drag FIPS from the variable list onto the map, and viola, we get dots for all the counties in the US! (including Alaska, Hawaii, and Puerto Rico)
+OK, now let's use this to make the map. We need to remove the FIP Stxt - in the "Marks Area" click on the blue pill "FIP Stxt" and press delete. Then drag FIPS from the variable list onto the map, and voila, we get dots for all the counties in the US! (including Alaska, Hawaii, and Puerto Rico)
 
 {{<rimage src="8-map-dots-arrows.png">}}
 
-Now, I want it to show me areas - not just dots. To do this, in the marks panel, I pick the Mark Type as Map. (before it was auto, so it made each data point a dot, now it makes each data point a mark shape).
+Now, I want it to show me areas - not just dots. To do this, in the marks panel, I pick the Mark Type as Map. (Before it was auto, so it made each data point a dot; now it makes each data point a mark shape).
 
 {{<rimage src="9-map-type.png">}}
 
 While I am at it, let me show another feature of Tableau - filtering. I want to limit myself to the continental US (remove Alaska, Hawaii and Puerto Rico) - since it will make the map more manageable (Alaska is big - and makes the rest of the country small). Mainly, I want an excuse to show off filtering.
 
-To filter, I drag a variable into the "filters" section, I'll filter by state, so I'll drag the "State from the variables list to the Filters Section.
+To filter, I drag a variable into the "filters" section. I'll filter by state, so I'll drag the "State" from the variables list to the Filters Section.
 
 {{<rimage src="10-filter.png">}}
 
@@ -113,7 +113,7 @@ When I do this, I get a dialog box to pick states.
 
 {{<rimage src="11-filter-dialog.png">}}
 
-I click all, then uncheck AK, HI, and PR. Then I press Apply. and now I have a much more manageable map. 
+I click all, then uncheck AK, HI, and PR. Then I press Apply, and now I have a much more manageable map. 
 
 (In a browser, it may be easier to select the "Exclude selected values" option, then select AK, HI, and PR.)
 
@@ -156,11 +156,11 @@ Much faster this time.
 
 {{<rimage src="15-map2.png">}}
 
-Now, to put two side by side. The trick here is that I want to have two things side by side in the "column" shelf. I notice that what's already there is "Longitude (generated)" so I drag that variable to the shelf so there are two of them, and, viola, two maps side by side!
+Now, to put two side-by-side. The trick here is that I want to have two things side by side in the "column" shelf. I notice that what's already there is "Longitude (generated)" so I drag that variable to the shelf so there are two of them, and, viola, two maps side by side!
 
 {{<rimage src="16-2maps.png">}}
 
-But they are still showing the same data! To fix this, notice that in the mark area, there are now three "regions": All, Longitude(generated), and Longitude(generate). (yes, the bottom two have the same name). I click on the first "Longitude generated" and drag "Unemployment Rate 2000" to it's color area.
+But they are still showing the same data! To fix this, notice that in the mark area, there are now three "regions": All, Longitude(generated), and Longitude(generate). (yes, the bottom two have the same name). I click on the first "Longitude generated" and drag "Unemployment Rate 2000" to its color area.
 
 {{<rimage src="17-2different-maps.png">}}
 
@@ -208,7 +208,7 @@ Or, I can drag another variable to one of those mark properties. Here I drag the
 
 **Goal:** Create a Bar Chart of the number of deaths in 2020, 2021, 2022 and 2023.
 
-It turns out, that this will be tricky in Tableau because of how the data is organized. 
+It turns out that this will be tricky in Tableau because of how the data is organized. 
 
 The first thing I tried to do is to select the 4 variables and drag them to the rows shelf. I get 4 bars, but each one is a separate graph (faceted). This faceting was great for the map, but here it's useless.
 
@@ -220,7 +220,7 @@ Instead, we start with one bar.
 
 {{<rimage src="25-bar-1.png">}}
 
-Now I drag the remaining fields to the axis (the Y-axis). I literally drop it on the axis label (where it said "Deaths 2020"). After dragging, the Y-Axis label changes its name to "Value" (and the X-Axis names become informative).
+Now I drag the remaining fields to the axis (the Y-axis). I literally drop it on the axis label (where it says "Deaths 2020"). After dragging, the Y-Axis label changes its name to "Value" (and the X-Axis names become informative).
 
 {{<rimage src="26-bar-2.png">}}
 
@@ -230,7 +230,7 @@ On our browser tests, this drag-and-drop interface didn't work. The best option 
 
 There is something weird here: notice that the number of deaths is really low for 2020. I am not sure what is happening, but I can guess (based on other census data). When the pandemic struck (March 2020), things shut down. Including the census. Lots of people were dying, but the census wasn't necessarily counting them correctly. 
 
-A bit about what Tableau is doing here... There is no variable for the X axis. If you look at the columns shelf, you'll notice that it is using the field "measure names." Tableau prefers to put one field on an axis (not multiple fields). This will make things tricky...
+A bit about what Tableau is doing here... There is no variable for the X-axis. If you look at the columns shelf, you'll notice that it is using the field "measure names." Tableau prefers to put one field on an axis (not multiple fields). This will make things tricky...
 
 ## A different bar chart
 
@@ -238,7 +238,7 @@ A bit about what Tableau is doing here... There is no variable for the X axis. I
 
 This bar chart lets me use Tableau in a more standard setting, where each column (bar) is a value, and the X-axis is one field.
 
-To start, I'll put the FIPS codes on the rows - but this will show the FIPS codes (because it's a dimension). I need to change it to a measure, and aggregate it by counting. To do that, I click on it (in the shelf, using it's little triangle) and change it to a Measure, and aggregate by counting. Note that I change it in the Shelf - not in the field list (because I only want to change it for this one usage).
+To start, I'll put the FIPS codes on the rows - but this will show the FIPS codes (because it's a dimension). I need to change it to a measure, and aggregate it by counting. To do that, I click on it (in the shelf, using its little triangle) and change it to a Measure, and aggregate by counting. Note that I change it in the Shelf - not in the field list (because I only want to change it for this one usage).
 
 {{<rimage src="27-count-counties.png">}}
 
@@ -258,11 +258,11 @@ And, just because I can... I can drop some categorical variable (field) onto the
 
 {{<rimage src="31-colorful.png">}}
 
-OK, Maybe that isn't a useful visualization. But it was easy enough to try. Notice that because each row of the data gets used once in the graph, tableau can slice things up very quickly. In the previous section, where each row of the data was being used for multiple fields, doing things like this can be a little trickier. 
+OK, maybe that isn't a useful visualization. But it was easy enough to try. Notice that because each row of the data gets used once in the graph, Tableau can slice things up very quickly. In the previous section, where each row of the data was being used for multiple fields, doing things like this can be a little trickier. 
 
 ## A TreeMap
 
-Making a TreeMap is easy in Tableau - it is almost too easy (you can make treemaps when they don't make sense). Remember, use a treemap is only appropriate for showing part/whole data and is generally only effective for part/whole questions.
+Making a TreeMap is easy in Tableau - it is almost too easy (you can make treemaps when they don't make sense). Remember, using a treemap is only appropriate for showing part/whole data and is generally only effective for part/whole questions.
 
 It is very easy to make a 1-level treemap using Tableau (pick a dimension and a measure and use "ShowMe").
 
@@ -276,18 +276,18 @@ Select State and "Census 2020 Pop" - click "Tree Map" from Show Me:
 Then make the "Area Name" (the individual counties) a secondary dimension (drag it to the marks panel below state).
 {{<rimage src="treemap-twolevel.png">}}.
 
-Notice that this is using the state for the name, and counties for division (which is OK, since the map is too small two write the county name in the square). But, I could drag state as a detail (make sure to put it above county!) - and have no names, or have the counties as a name.
+Notice that this is using the state for the name, and counties for division (which is OK, since the map is too small to write the county name in the square). But, I could drag state as a detail (make sure to put it above county!) - and have no names, or have the counties as a name.
 {{<rimage src="treemap-renamed.png">}}
 
 ## Some Last Tips for Class
 
 In the tutorial, the pictures I have given are screenshots - I am intentionally trying to show you the interface. In practice, if you want to turn in a decent picture use **export.** However, export is hidden - it is under the **Worksheet** menu (not the file menu). Use the "Export/Image..." option - you will get better pictures than screenshots. It provides some control over whether to include captions, labels, legends, etc.
 
-Tableau does give you control over captions, legends, axis labels, etc. It's worth trying to use these features to get decent looking things (it might take Tableau skill to get really nice annotations). One hint: the auto-generated captions and titles are probably not what you want to turn in for your "final" visualizations in class. Give thought to these things, and set them accordingly.
+Tableau does give you control over captions, legends, axis labels, etc. It's worth trying to use these features to get decent-looking things (it might take Tableau skill to get really nice annotations). One hint: the auto-generated captions and titles are probably not what you want to turn in for your "final" visualizations in class. Give thought to these things, and set them accordingly.
 
 ## Summary
 
-Now we've been through a basic walkthrough to make some charts in Tableau. Over the way, you've seen some tableau concepts:
+Now we've been through a basic walkthrough to make some charts in Tableau. Along the way, you've seen some tableau concepts:
 
 1. Loading and cleaning data
 2. Describing fields (variables)

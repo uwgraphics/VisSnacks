@@ -21,10 +21,10 @@ The goal of re-papering is to present what I think the "Vis Snacks reader" might
 - what evidence do you have to support this?
 
 The cynical view: Academic papers are written for an "adversarial" audience. They are written to convince the reviewers that the paper should be accepted. 
-They are written to convince other researchers that this work is different than what came before, and to help future authors differentiate themselves.
-They are written to convince skeptical readers that there is certain kinds of evidence
+They are written to convince other researchers that this work is different from what came before, and to help future authors differentiate themselves.
+They are written to convince skeptical readers that there are certain kinds of evidence
 
-- overly cautious and defensive; don't say anything you can't back up with evidence, and try to diffuse criticism before it happens
+- overly cautious and defensive; don't say anything you can't back up with evidence, and try to defuse criticism before it happens
 
 - The "style" of an academic paper is usually overly formal and impersonal.
 - Academic papers tend to emphasize novelty.

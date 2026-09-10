@@ -7,7 +7,7 @@ tags: [books]
 resourcethumb: bertin.jpg
 ---
 
-Jacques Bertin was a French cartographer who had lots of ideas about visualization, before there was a field of visualization. Many of the ideas we use in visualization today can be seen in his work, although reading these "original sources" can be challenging.
+Jacques Bertin was a French cartographer who had lots of ideas about visualization before there was a field of visualization. Many of the ideas we use in visualization today can be seen in his work, although reading these "original sources" can be challenging.
 
 <!--more-->
 
@@ -21,9 +21,9 @@ But, if you're really interested in visualization, the books are amazing. So man
 
 {{<rimage src="bertin.jpg" width="235" class="list__thumbnail" alt="Bertin Cover">}}
 
-Bertin's most famous book is **Semiology of Graphics.** It was published in 1967 as *Semiologie graphique: les diagrammes, les réseaux, les cartes*. There was a 1980s translation (published by the University of Wisconsin Press!), but it is out of print and hard to find. There is a 2010 translation that is printed in a really nice new edition by ESRI press (map makers). It's a well-produced book, the images are wonderful. The new translation is much better, but it still is hard to read (both because French doesn't translate well, and becuase the ideas are dense).
+Bertin's most famous book is **Semiology of Graphics.** It was published in 1967 as *Semiologie graphique: les diagrammes, les réseaux, les cartes*. There was a 1980s translation (published by the University of Wisconsin Press!), but it is out of print and hard to find. There is a 2010 translation that is printed in a really nice new edition by ESRI press (map makers). It's a well-produced book; the images are wonderful. The new translation is much better, but it still is hard to read (both because French doesn't translate well, and because the ideas are dense).
 
-You can [buy a copy on Amazon](https://amzn.to/3lbtNo6) or [see the publisher's page](https://esripress.esri.com/display/index.cfm?fuseaction=display&websiteID=190). If you're a wisconsin student, you can get it from the library [in the original French](https://search.library.wisc.edu/catalog/999622450602121).
+You can [buy a copy on Amazon](https://amzn.to/3lbtNo6) or [see the publisher's page](https://esripress.esri.com/display/index.cfm?fuseaction=display&websiteID=190). If you're a Wisconsin student, you can get it from the library [in the original French](https://search.library.wisc.edu/catalog/999622450602121).
 
 ### Graphics and Graphic Information Processing
 

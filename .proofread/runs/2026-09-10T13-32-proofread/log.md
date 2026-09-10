@@ -1,0 +1,72 @@
+# Proofread run — proofread
+
+- Started: 2026-09-10T13:32:04
+- Dialect: hugo
+- Checkers: typos, doubleword
+- Proposer (tier 1): google/gemma-4-26b-a4b-it:nitro
+- Files: 51
+- Suggestions: 584 (tier0=45, tier1=539; {'error': 310, 'warn': 100, 'style': 174})
+- Records merged (same location): 32
+- Tier-1 folded into tier-0 (overlap): 8
+- Suppressed by rejection memory: 0
+- Suppressed by dictionary: 0
+- Dropped (inside masked/code): 11
+- Dropped (span mismatch): 0
+- Tier-1: 600 proposed, 579 anchored, 5 anchoring failures, 3 dropped (masked span), 9 chunks retried, 0 JSON failures over 208 chunks (217 calls)
+- Tier-1 timing: 555.8s wall = 0.0s load + 0.0s prompt + 555.8s decode + 0.0s overhead
+- Tier-1 throughput: 25913 decode tokens @ 46.6 tok/s; 154692 prompt tokens @ 0.0 tok/s
+- Tier-1 per-call timing detail: `propose_timing.jsonl`
+
+## Per file
+
+- `content/_index.md` — 2 suggestions
+- `content/about/index.md` — 2 suggestions
+- `content/obsolete/old-critique/index.md` — 33 suggestions
+- `content/obsolete/old-t1-what-is-vis/index.md` — 69 suggestions
+- `content/obsolete/old-t2-table-example/index.md` — 16 suggestions
+- `content/obsolete/old-t2-table-example/old-table-example.md` — 12 suggestions
+- `content/papers/_index.md` — 0 suggestions
+- `content/papers/algebraic/index.md` — 13 suggestions
+- `content/papers/comparison/index.md` — 14 suggestions
+- `content/papers/design-redesign/index.md` — 7 suggestions
+- `content/papers/discussing-design/index.md` — 11 suggestions
+- `content/papers/interaction-costs/index.md` — 9 suggestions
+- `content/papers/problem-space/index.md` — 2 suggestions
+- `content/rants/_index.md` — 2 suggestions
+- `content/rants/repapering/index.md` — 3 suggestions
+- `content/resources/_index.md` — 3 suggestions
+- `content/resources/bertin/index.md` — 5 suggestions
+- `content/resources/books-first.md` — 6 suggestions
+- `content/resources/cairo/index.md` — 5 suggestions
+- `content/resources/design/index.md` — 4 suggestions
+- `content/resources/discussing-design/index.md` — 3 suggestions
+- `content/resources/munzner/index.md` — 2 suggestions
+- `content/resources/tufte/index.md` — 3 suggestions
+- `content/resources/visual-thinking/index.md` — 1 suggestions
+- `content/snacks/240830-nyt-unemployment-map/index.md` — 28 suggestions
+- `content/snacks/240830-yeping-axis/index.md` — 8 suggestions
+- `content/snacks/250517-college-line-chart/index.md` — 28 suggestions
+- `content/snacks/250624-routemap/index.md` — 20 suggestions
+- `content/snacks/260520-compare-rivers/index.md` — 30 suggestions
+- `content/snacks/260730-terrible-treemap/index.md` — 0 suggestions
+- `content/snacks/_index.md` — 0 suggestions
+- `content/snacks/app-time-graphs/index.md` — 8 suggestions
+- `content/snacks/cairo-discrete-line/index.md` — 7 suggestions
+- `content/snacks/charts-are-encodings/index.md` — 2 suggestions
+- `content/snacks/pie-chart-experiment/index.md` — 24 suggestions
+- `content/tags/books/_index.md` — 0 suggestions
+- `content/tags/critique/_index.md` — 3 suggestions
+- `content/tags/with-data/_index.md` — 0 suggestions
+- `content/tutorials/0-preface/index.md` — 6 suggestions
+- `content/tutorials/1-what-is-vis/index.md` — 22 suggestions
+- `content/tutorials/2-building-blocks/index.md` — 23 suggestions
+- `content/tutorials/3-easy-to-see/index.md` — 19 suggestions
+- `content/tutorials/4-critique/index.md` — 43 suggestions
+- `content/tutorials/_index.md` — 1 suggestions
+- `content/tutorials/data-abstraction/index.md` — 6 suggestions
+- `content/tutorials/data-abstraction-cheat-sheet/index.md` — 17 suggestions
+- `content/tutorials/encodings/index.md` — 5 suggestions
+- `content/tutorials/tableau-tutorial/index.md` — 36 suggestions
+- `content/tutorials/tableau-walkthrough2-life-expectancy/index.md` — 31 suggestions
+- `content/tutorials/task-abstraction/index.md` — 30 suggestions
+- `content/widgetlinks.md` — 0 suggestions

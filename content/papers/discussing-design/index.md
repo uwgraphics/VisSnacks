@@ -29,12 +29,12 @@ For students, the quietly important sections are the ones easy to skim past: *Cr
 
 ## Chapter 2: What Critique Looks Like (pp. 21–45)
 
-The practice chapter: two roles (giver, recipient), with **intent** as the hinge — the giver's proper intent is helping the designer understand the effects of their choices; the recipient's is understanding whether the design serves its objectives (not defending it). Bad critique is characterized (selfish, untimely, incomplete, preferential), then best practices for giving (lead with questions, use a filter, don't assume, don't invite yourself, talk about strengths, think about perspective) and receiving (the anti-patterns: asking without listening, asking for praise/validation, not asking at all; then: listen fully → ask clarifying questions, relate stray feedback back to objectives, and *participate in critiquing your own work*).
+The practice chapter: two roles (giver, recipient), with **intent** as the hinge — the giver's proper intent is helping the designer understand the effects of their choices; the recipient's is understanding whether the design serves its objectives (not defending it). Bad critique is characterized by being selfish, untimely, incomplete, or preferential; then, best practices for giving (lead with questions, use a filter, don't assume, don't invite yourself, talk about strengths, think about perspective) and receiving (the anti-patterns: asking without listening, asking for praise/validation, not asking at all; then: listen fully → ask clarifying questions, relate stray feedback back to objectives, and *participate in critiquing your own work*).
 
-For students this is the most directly actionable chapter after ch1, because 765 students occupy both roles twice per module (S4 draft critiques, peer video feedback). The receiving side is material the course has never assigned (it was outside the free chapter) — the biggest untapped vein in the book.
+For students, this is the most directly actionable chapter after ch1, because 765 students occupy both roles twice per module (S4 draft critiques, peer video feedback). The receiving side is material the course has never assigned (it was outside the free chapter) — the biggest untapped vein in the book.
 
 - Intent separates useful critique from performance, on both sides. (pp. 21–22)
-- Bad-critique characteristics: selfish, untimely, incomplete, preferential — recognizable instantly in peer-feedback settings. (pp. 22–28)
+- Bad critique characteristics: selfish, untimely, incomplete, preferential — recognizable instantly in peer-feedback settings. (pp. 22–28)
 - Giving: lead with questions; talk about strengths (analysis of what to *keep*, not politeness); don't assume the designer didn't consider your idea. (pp. 28–36)
 - Receiving: you asked for analysis, not applause — listen to understand, ask clarifying questions, don't defend. (pp. 36–41)
 - When feedback seems off-track, return to the objectives — either it connects, or you've discovered the group disagrees about objectives (also worth knowing). (pp. 41–42)
@@ -47,7 +47,7 @@ The conditions chapter. Mostly organizational (politics, territorialism, remote 
 For a student: the incremental/iterative distinction explains *why the course keeps making you revise things* (drafts, do-overs) — critique and iteration are two halves of one mechanism. The remote-critique section (pp. 71–75) is unexpectedly relevant: "collaboration is a mindset, not a result of co-location" applies directly to critiquing recorded video walkthroughs.
 
 - No iteration, no point: critique presumes willingness to rework, not just add. (pp. 50–55) *This is the intellectual justification for drafts and do-overs.*
-- Shared objectives are the foundation; without them critique degenerates into preference-swapping. (pp. 56–65) *In class, the formula's "if the objective is..." clause carries this.*
+- Shared objectives are the foundation; without them, critique degenerates into preference-swapping. (pp. 56–65) *In class, the formula's "if the objective is..." clause carries this.*
 - Personal barriers are real (fear, history, culture); safety is a precondition, and it is built, not assumed. (pp. 66–70)
 - Critique is a skill built by repetition — expect to be bad at it first. (p. 70)
 - Remote/asynchronous critique works if the mindset is right. (pp. 71–75) *Direct support for video-based peer feedback.*
@@ -66,7 +66,7 @@ The jewel for the course is **When Should You Critique?** (pp. 84 ff): a design 
 
 ## Chapter 5: Facilitating Critique (pp. 109–141)
 
-The facilitation chapter — written for whoever runs the session, which in 765's format is sometimes the instructor, sometimes a TA, and (in small groups) rotating students. The four rules (pp. 111–116) are the distilled classroom-usable core: **everyone is equal** (no rank in the room), **everyone is a critic** (participation isn't optional, and non-designers' analysis counts), **avoid problem solving** (analysis first; solutions are a different meeting — the hardest rule, since solving is instinctive), **don't rush decisions** (the output of critique is understanding, not a to-do list). Plus the optional "no 'I like/don't like'" rule — phrased in the book as a trainable constraint, matching the tutorial's "own your opinions."
+The facilitation chapter: written for whoever runs the session, which in 765's format is sometimes the instructor, sometimes a TA, and (in small groups) rotating students. The four rules (pp. 111–116) are the distilled classroom-usable core: **everyone is equal** (no rank in the room), **everyone is a critic** (participation isn't optional, and non-designers' analysis counts), **avoid problem-solving** (analysis first; solutions are a different meeting — the hardest rule, since solving is instinctive), **don't rush decisions** (the output of critique is understanding, not a to-do list). Plus the optional "no 'I like/don't like'" rule — phrased in the book as a trainable constraint, matching the tutorial's "own your opinions."
 
 The presenting-side prep is also useful for students: describe the objectives first, present the work quickly, be careful with constraints. And the collect-and-follow-up section (share notes, record open questions) maps to capturing ICE artifacts.
 
@@ -92,7 +92,7 @@ A recap chapter; nothing new. Skippable for students. Its one-line takeaway is t
 
 ## Appendix A: The 10 Bad Habits That Hurt Critique (pp. 175–179)
 
-The whole book as a checklist, and honestly the best five minutes a student can spend with it: **reacting** (verbalizing before analyzing), **being selfish** (feedback about you, not the work), **getting defensive** ("explain your work, do not defend it"), **starting from disparate foundations** (no shared objectives), **lacking focus**, **focusing only on what isn't working** (strengths are analysis too), **lack of discussion** (a to-do list over email isn't critique), **avoiding participation** (critique your own work alongside others), **problem solving** (mid-critique), **confusing critique with review** (approval ≠ analysis).
+The whole book as a checklist, and honestly the best five minutes a student can spend with it: **reacting** (verbalizing before analyzing), **being selfish** (feedback about you, not the work), **getting defensive** ("explain your work, do not defend it"), **starting from disparate foundations** (no shared objectives), **lacking focus**, **focusing only on what isn't working** (strengths are analysis too), **lack of discussion** (a to-do list over email isn't critique), **avoiding participation** (critique your own work alongside others), **problem-solving** (mid-critique), **confusing critique with review** (approval ≠ analysis).
 
 - This appendix could serve as the one assigned excerpt beyond the tutorial: short, self-contained, and both course messages are implicit in it.
 - "Explain your work, do not defend it" (p. 176) is the single most quotable line in the book for students presenting drafts.

@@ -15,12 +15,12 @@ This is the closest thing to a "primary textbook" for my class. The course share
 You can access this book online through the UW Library. For reasons I don't understand, there are two separate library records, each connecting with a different online publisher. I prefer the first one.
 
 1. The record for the physical book (from Taylor and Francis publishers) is [(link)](https://search.library.wisc.edu/catalog/9910211448302121/). This will lead you to Taylor and Francis EBooks where you can access the PDF and EPUB versions (you can either read in-browser or offline). The T&F ebook page is: [(link)](https://www-taylorfrancis-com.ezproxy.library.wisc.edu/books/mono/10.1201/b17511/visualization-analysis-design-tamara-munzner).
-2. There is a [link](https://search.library.wisc.edu/catalog/9913040404802121) for the "online only" version. But this leads to the O'Reilly online library, which only provides in an-browser reading experience (as far as I can tell). It is [(here)](https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/visualization-analysis-and/9781466508910/K14708_C000.xhtml) if you want it.
+2. There is a [link](https://search.library.wisc.edu/catalog/9913040404802121) for the "online only" version. But this leads to the O'Reilly online library, which only provides an in-browser reading experience (as far as I can tell). It is [(here)](https://learning-oreilly-com.ezproxy.library.wisc.edu/library/view/visualization-analysis-and/9781466508910/K14708_C000.xhtml) if you want it.
 {{</expand-boxed>}}
 
 {{<rimage src="vad.png" width="235" class="list__thumbnail" alt="Munzner Cover">}}
 
-This is a "graduate level computer science" textbook that shares a similar philosophy to how I like to think about (and teach) visualization. It’s really good at giving you a way to think about visualization, and some examples of how the ideas are applied. It is of limited use as a reference book, and it doesn’t talk about practical issues at all. Over the course of the semester we will read almost all chapters of Munzer’s book.
+This is a "graduate-level computer science" textbook that shares a similar philosophy to how I like to think about (and teach) visualization. It’s really good at giving you a way to think about visualization, and some examples of how the ideas are applied. It is of limited use as a reference book, and it doesn’t talk about practical issues at all. Over the course of the semester we will read almost all chapters of Munzer’s book.
 
 This book will give you a good way to think about visualization. It’s not about the details, or the specific techniques. It totally avoids the discussion of how to do implementation. Tamara (I refer to her by first name, since we’ve been friends for a long time) has thought long and hard about this stuff, and has a coherent way to talk about it.
 

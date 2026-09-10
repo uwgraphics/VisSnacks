@@ -14,7 +14,7 @@ weight = 4
 
 <!--more-->
 
-This tutorial will give you a quick guide on how to do critique with the goal of helping you get started at improving your critique practice, or at least to appreciate why the examples in {{<link "/tags/critique">}} are the way they are. The simple "rules and formulas" here are good for beginners (including me) to get started. Maybe with practice, I won't need them - but I think that experienced designers have internalized the lessons.
+This tutorial will give you a quick guide on how to do critique with the goal of helping you get started improving your critique practice, or at least to appreciate why the examples in {{<link "/tags/critique">}} are the way they are. The simple "rules and formulas" here are good for beginners (including me) to get started. Maybe with practice, I won't need them - but I think that experienced designers have internalized the lessons.
 
 > This tutorial is heavily influenced by Chapter 1 of *Discussing Design* (I describe the book at {{<link "resources/discussing-design">}}). I used Claude to help me make sure this tutorial stands alone without it.
 
@@ -27,11 +27,11 @@ Designers and artists don’t own critique. Critique is for anyone who wants to 
 
 Critique also does something for a *group* that is easy to miss. The Discussing Design book (Chapter 1) lists team benefits: critique builds a shared vocabulary (groups that critique together end up talking about designs the same way), it finds consensus grounded in objectives (rather than in who argues loudest), and it directs iteration to where it is needed. In my class, the first one is part of a not-so-secret agenda: critiquing together is how we develop a shared vocabulary for talking about visualizations.
 
-What I've learned (see {{<anchorlink "Historical Note">}}) is that critique is a skill that you can get better at with practice. The {{<link "/tags/critique">}} are practice for me, as well a chance to look at some designs and learn from them. If you're trying to become better at Vis, I recommend trying to become better at critique.
+What I've learned (see {{<anchorlink "Historical Note">}}) is that critique is a skill that you can get better at with practice. The {{<link "/tags/critique">}} are practice for me, as well as a chance to look at some designs and learn from them. If you're trying to become better at Vis, I recommend trying to become better at critique.
 
 ## Getting Started
 
-I emphasize that **critique** (examining and discussing something to learn from it) is different than **criticize** (identify/describe the faults in something).
+I emphasize that **critique** (examining and discussing something to learn from it) is different from **criticize** (identify/describe the faults in something).
 
 Central to critique is that there is some thing that you are examining to discuss. In our case, it will usually be a visualization. 
 
@@ -59,7 +59,7 @@ The Discussing Design book (Chapter 1) makes a distinction that helps organize a
 
 ### The Stylized Formula
 
-To make critique easier, I recommend starting with stating critique using a stylized formula. Everything you "say" should be in this stylized form. Once you get practice doing this form, you may learn to critique well without it - but the form is a nice set of "training wheels".
+To make critique easier, I recommend starting by stating the critique using a stylized formula. Everything you "say" should be in this stylized form. Once you get practice doing this form, you may learn to critique well without it - but the form is a nice set of "training wheels".
 
 The stylized form comes from the  {{<link "resources/discussing-design">}} book ([first chapter preview](https://cdn.oreillystatic.com/oreilly/booksamplers/9781491902400_sampler.pdf)). If you follow this stylized approach, you won't commit the worst mistakes, and will probably be steered towards effective critique:
 
@@ -71,7 +71,7 @@ This is very stylized, but it really does help us novice critiquers (judging fro
 
 If **objective** then **decision** could be informed by **principle.**
 
-The book teaches this with great cartoons, here is an example:
+The book teaches this with great cartoons; here is an example:
 
 {{<rimage src="discussing-design-alien-critique.png" caption="Stylized form of critique from the book Discussing Design." attr="From the book Discussing Design, used without permission." attrlink="http://www.discussingdesign.com/">}}
 
@@ -95,7 +95,7 @@ Let me try again...
 
 > The designer doesn't understand visualization. If they took a Vis class they should have learned that those extra things are bad.
 
-In some ways, this is worse: if the designer was a person, they would probably be upset - it doesn't help us to accuse them of what they don't know. I could imagine ChatGPT responding (if it wasn't so polite) - Actually, I have built all the materials from your classes into my model, and I intentionally added those extra things because they better responded to the prompt. 
+In some ways, this is worse: if the designer was a person, they would probably be upset - it doesn't help us to accuse them of what they don't know. I could imagine ChatGPT responding (if it wasn't so polite)—actually, I have built all the materials from your classes into my model, and I intentionally added those extra things because they better responded to the prompt. 
 
 Pure prescription wouldn't help either:
 
@@ -107,7 +107,7 @@ Let's try the stylized form...
 
 > If the goal is to create an image we can use for learning about visualization critique, a chart with too many things going on might be too distracting. Getting rid of extra objects can simplify the design and make it easier to identify specific features. 
 
-Notice how this is non-antagonistic. We give the designer an out "I wasn't trying to create an image for learning about visualization critique, I was trying to obey the prompt." The critique identifies the aspect and why it might be a problem. It tries to evoke the principle (too many things are distracting, simplicity makes it easier to identify things).
+Notice how this is non-antagonistic. We give the designer an out: "I wasn't trying to create an image for learning about visualization critique, I was trying to obey the prompt." The critique identifies the aspect and why it might be a problem. It tries to evoke the principle (too many things are distracting, simplicity makes it easier to identify things).
 
 {{<comment>}}
 OK... Here's another image from a slightly tuned prompt...
@@ -119,11 +119,11 @@ OK... Here's another image from a slightly tuned prompt...
 
 Understanding the context of the object - what was it intended for - is important because the design really needs to be examined in terms of how well it achieves its goals.
 
-For a Visualization, this usually means the task or message that the visualization is trying to convey, which often requires examining what the visualization is for. In doing visualization critiques, we often see the visualization out of the context it is meant to appear. For example, we see a figure from an article (newspaper or academic article) without the context of the story it is trying to support. We should establish enough of the "story" so that we can understand the visualization and its intended message/usage.
+For a visualization, this usually means the task or message that the visualization is trying to convey, which often requires examining what the visualization is for. In doing visualization critiques, we often see the visualization out of the context it is meant to appear. For example, we see a figure from an article (newspaper or academic article) without the context of the story it is trying to support. We should establish enough of the "story" so that we can understand the visualization and its intended message/usage.
 
-Sometimes, you might ignore the context. "I (as critic) don't care what this visualization is about, I want to use this as an opportunity to explore this element." But even in these cases, it is useful to have context/purpose as it helps avoiding other problems (like blaming the designer for something that weren't trying to do).
+Sometimes, you might ignore the context. "I (as critic) don't care what this visualization is about, I want to use this as an opportunity to explore this element." But even in these cases, it is useful to have context/purpose as it helps avoiding other problems (like blaming the designer for something they weren't trying to do).
 
-Also remember that objectives come in different flavors. Discussing Design (Chapter 1) distinguishes utility objectives (help someone do a task), measurable objectives (increase some number), and experiential objectives (make someone feel something). In the way I think about visualization, all are types of tasks: the first are the more common kind of tasks,  but "make the reader feel the scale of the problem" or "draw people into the article" can be considered tasks as well.
+Also remember that objectives come in different flavors. Discussing Design (Chapter 1) distinguishes utility objectives (help someone do a task), measurable objectives (increase some number), and experiential objectives (make someone feel something). In the way I think about visualization, all are types of tasks: the first is the more common kind of task,  but "make the reader feel the scale of the problem" or "draw people into the article" can be considered tasks as well.
 
 ### 2. Say Something Good
 
@@ -141,7 +141,7 @@ Vague and general statements are less easy to learn from or connect to principle
 
 The goal is to inform - to learn from the example. Not (just) to say what you think should have been done instead. 
 
-So often, a "you should X" could be responded to as "yeah, I tried that and here are a bunch of other problems that come up." Or "why did you pick that."
+So often, a "you should X" could be responded to as "yeah, I tried that and here are a bunch of other problems that come up." Or "why did you pick that?"
 
 Example to consider: If the goal is to draw attention to those key words, they should stand out from the rest of the text.
 
@@ -154,17 +154,17 @@ Keep focused on what you are critiquing. Good designers make bad things sometime
 
 If there is a problem, don't assume that the creator doesn't know better. If there is something good, don't assume that the creator has the same reasoning that you do. 
 
-Critique is different than assessment: if your goal is to judge the person/process (to give them/it a grade), then you are doing something different from critique.
+Critique is different from assessment: if your goal is to judge the person/process (to give them/it a grade), then you are doing something different from critique.
 
 ## Do I have to use the stylized form?
 
-The me the stylized form is: *If **objective** then **decision** could be **informed by principle.**
+The stylized form is: *If **objective** then **decision** could be **informed by principle.**
 
-Do you have to use this? No - I suspect expert critiquers (experienced designers) don't critique in this stylized way. But in my class, I force us all to start with the stylized form
+Do you have to use this? No - I suspect expert critiquers (experienced designers) don't critique in this stylized way. But in my class, I force us all to start with the stylized form.
 
 Notice how the stylized form steers away from the worst problems.
 
-- It gets away from offending the creator as it gives them an out. "If the goal was X" let's the creator say "that wasn't my goal" or even "that wasn't my priority".
+- It gets away from offending the creator as it gives them an out. "If the goal was X" lets the creator say "that wasn't my goal" or even "that wasn't my priority".
 - The focus on a decision not only makes this about a specific aspect (giving the critique focus) but also steers towards something you can do something about. 
 - Connecting the objective and decision keeps things on track - doing it with a principle helps provide rationale (so it is more than opinion) and helps bring in general principles so that learning can generalize beyond the examples. It also helps generate ideas (by suggesting options, rather than a specific choice).
 
@@ -175,7 +175,7 @@ The {{<link "resources/discussing-design">}} book emphasizes that critique is on
 This was good food for thought for me. Here is my list, adapted from theirs:
 
 - Critique is not **opinion.** You are entitled to your opinion and personal taste. But you should own it as your opinion. It's OK for you to say "I dislike purple text" or even "If your goal is to make things that everyone likes, consider that there are some people like me who dislike purple." I am allowed to dislike purple - but I should "own" that opinion.
-- Critique is not **assessment.** The goal of critique is not an absolute judgment of good or bad, it to gain understanding. Critique is about the object being critiqued (although, the process that made it might be relevant). Critique might be useful in assessment. For example, critique might point out how a design could be better informed by principles. Assessment could say "the student who made it was supposed to be considering those principles, so I can infer something about their understanding of the principles from the design."
+- Critique is not **assessment.** The goal of critique is not an absolute judgment of good or bad, it is to gain understanding. Critique is about the object being critiqued (although, the process that made it might be relevant). Critique might be useful in assessment. For example, critique might point out how a design could be better informed by principles. Assessment could say "the student who made it was supposed to be considering those principles, so I can infer something about their understanding of the principles from the design."
 - Critique is not **direction.** The goal is to understand the design, which might suggest alternatives. It shouldn't (just) be trying to prescribe an alternative. It's OK to make suggestions - but use them as a way to connect with principles. The designer may have already considered the alternatives. 
 - Critique is not the only kind of **feedback**. In fact, critique can be used for things other than feedback. 
 
@@ -191,7 +191,7 @@ One place where critique is powerful is in understanding a design to see what di
 
 Critique is a really powerful tool in doing re-design (or design iteration), because it helps understand the current design and how it might be improved (or the good things that should be preserved). 
 
-The stylized form can be helpful: it can point to specific choices that could be made differently, leading to different designs that can be critiqued (possibly in a comparitive crtitique where it is examined with alternatives to understand how to choose).
+The stylized form can be helpful: it can point to specific choices that could be made differently, leading to different designs that can be critiqued (possibly in a comparative critique crtitique where it is examined with alternatives to understand how to choose).
 
 I recommend this posting (from two visualization experts) as a great discussion of redesign with good examples:
 
@@ -201,13 +201,13 @@ I recommend this posting (from two visualization experts) as a great discussion 
 
 When I started teaching Vis, I appreciated critique as a key tool. I saw it as something that designers did well as part of their (iterative) process. I saw it as a big element of learning visualization. I observed in class that students who had formal design training (e.g., an undergraduate degree in Industrial Design or Architecture) were better at it.
 
-In my 2013 class I had a breakthrough: one of those students who was good at it (she had an undergraduate degree in Industrial Design) volunteered to do a project: design a single class to introduce Vis students (mostly Computer Scientists and Engineers) to critique. Her conjecture... a single class would help students get started to becoming better at critique. Ultimately, it's a skill that takes practice... but a little bit of instruction, and a little bit of intentional practice would set students on the path of becoming good at critique.
+In my 2013 class I had a breakthrough: one of those students who was good at it (she had an undergraduate degree in Industrial Design) volunteered to do a project: design a single class to introduce Vis students (mostly Computer Scientists and Engineers) to critique. Her conjecture... a single class would help students get started on becoming better at critique. Ultimately, it's a skill that takes practice... but a little bit of instruction, and a little bit of intentional practice would set students on the path of becoming good at critique.
 
 Her crash course in critique was a smashing success. It consisted of a brief "lecture" followed by practice, where students did critiques - and then did critique of others' critique. I thought it was fabulous - I learned a ton. And other students appreciated it too.
 
 Over the years, I evolved that exercise. The biggest difference: I now do it the first or second week of class so students have it as a tool for their learning. I've tuned the lecture part a bit and freshened the examples. But, the activity is pretty much the same. It forms the basis for this document. (If you are a student in my class, you will do this).
 
-A second improvement came when I discovered the book "discussing design". This is an entire book dedicated to teaching critique. The intro chapter (that the authors/publisher generously make available for free) is a fabulous tutorial on critique - I recommend it, and I have tried to bring its key ideas into this tutorial (with attribution) so that reading it is optional. The book gave me a structured "formula" for doing critique (Objective, Aspect, Inform/Principle).
+A second improvement came when I discovered the book ""Discussing Design"". This is an entire book dedicated to teaching critique. The intro chapter (that the authors/publisher generously make available for free) is a fabulous tutorial on critique - I recommend it, and I have tried to bring its key ideas into this tutorial (with attribution) so that reading it is optional. The book gave me a structured "formula" for doing critique (Objective, Aspect, Inform/Principle).
 
 Part of the Vis Snacks project is to force me to do more critique (in written form) in order to improve **my** critique practice. I invite you to critique along with me to improve yours. 
 

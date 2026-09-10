@@ -10,7 +10,7 @@ The vocabulary for describing data abstractly defined concisely. These are the t
 
 <!--more-->
 
-Munzner's chapter 2 makes the case for why you'd want to describe data abstractly. The short version is that the *kinds* of data are few and recurring, so what you learn about a kind carries to the next dataset that shares it. These are the terms I like to use - and some of the quirks in how I like to use them.
+Munzner's chapter 2 makes the case for why you'd want to describe data abstractly. The short version is that the *kinds* of data are few and recurring, so what you learn about a kind carries to the next dataset that shares it. These are the terms I like to use—and some of the quirks in how I like to use them.
 
 ## The terms at a glance
 
@@ -72,11 +72,11 @@ Munzner's chapter 2 makes the case for why you'd want to describe data abstractl
 
 ## Where the data lives: dataset types
 
-Any dataset needs two descriptions: how it is **organized** - where the measurements live - and what the **values** are. This section is organization; *Describing Attributes*, below, is values.
+Any dataset needs two descriptions: how it is **organized** - where the measurements live - and what the **values** are. This section is about organization; *Describing Attributes*, below, is about values.
 
 The **domain** is where you measure. The property that matters most about a domain is whether it is **discrete** (a countable set of objects) or **continuous** (you could have measured anywhere), and that split is what separates the first two types.
 
-- **Table** - a discrete set of items (rows), each with measured attributes (columns). Because the domain is discrete it can always be unrolled into 1D, though sometimes the set has structure of its own - a grid, or more generally a **lattice**.
+- **Table** - a discrete set of items (rows), each with measured attributes (columns). Because the domain is discrete, it can always be unrolled into 1D, though sometimes the set has a structure of its own - a grid, or more generally a **lattice**.
 - **Field** - measurements over a *continuous* domain: temperature at every point in a room, brightness at every position on the screen. You measure "everywhere," not at named objects.
 - **Network** (graph) - two kinds of object: items, and the *links* between them. Either can carry attributes. A **tree** is the acyclic special case.
 
@@ -108,7 +108,7 @@ Some attributes *index* the data; others are *measured*.
 
 ### Sampling
 
-**Sampling** is measuring at a finite set of locations rather than everywhere. It is a statement about the *domain*, and it runs in both directions: on a continuous domain it makes the data discrete, on an already-discrete one it just makes the set smaller. Either way, sampling is summarization: it throws away information. We need to use some other process to estimate what was lost (or that we never had).
+**Sampling** is measuring at a finite set of locations rather than everywhere. It is a statement about the *domain*, and it runs in both directions: on a continuous domain it makes the data discrete; on an already-discrete one it just makes the set smaller. Either way, sampling is summarization: it throws away information. We need to use some other process to estimate what was lost (or that we never had).
 
 {{<expand "More detail: Sampling and Reconstruction">}}
 While sampling is ubiquitous, it needs to be understood: it always involves trying to represent something big and (potentially) complicated with a small, discrete set. Almost always, something is lost. Statistics and signal processing both study this carefully.
@@ -117,7 +117,7 @@ Sampling continuous fields is common: we almost always represent a continuous fi
 
 {{<rimage src="signal-sampling-color.svg" caption="Continuous phenomena (like the sine wave) can be sampled at discrete times. Reconstruction re-creates a continuous signal from the samples. If the signal is sampled sufficiently, reconstruction can be faithful; otherwise, aliasing occurs. The field of Signal Processing has elegant theory that explains all this." attr="Created by Claude from Gleicher's old slide.">}}
 
-The second case - representing a large set by a smaller set - is common in statistics. For example, we cannot survey all people in the country or observe all species in the ocean; we can only see a subset (called a sample). Statistical *inference* allows us to try to understand the population from a sample.
+The second case—representing a large set by a smaller set—is common in statistics. For example, we cannot survey all people in the country or observe all species in the ocean; we can only see a subset (called a sample). Statistical *inference* allows us to try to understand the population from a sample.
 {{</expand>}}
 
 ## Describing Attributes
@@ -211,7 +211,7 @@ Two examples that consider this are {{<link "/snacks/app-time-graphs">}} and {{<
 
 ### Part / Whole
 
-Sometimes a value only means something against a total: market share, share of the vote, percent of the budget. The interesting quantity belongs to the *group* rather than to any single item - "23%" isn't a fact about one company, it's a fact about that company's place among all of them.
+Sometimes a value only means something against a total: market share, share of the vote, percent of the budget. The interesting quantity belongs to the *group* rather than to any single item—"23%" isn't a fact about one company; it's a fact about that company's place among all of them.
 
 This is another property that involves the domain and the range together, and both halves have to hold:
 
@@ -220,7 +220,7 @@ This is another property that involves the domain and the range together, and bo
 
 Part/whole often nests - counties inside states inside the country, subcategories inside categories - and then each level is its own partition. That nesting is what hierarchical part/whole forms are built on.
 
-There is a whole family of designs for showing part/whole relationships, including pie charts, stacked bars, mosaic plots, and treemaps. These designs are often effective for showing part/whole relationships. However: they do not work for non-part/whole data; not only do they not make sense, but they also imply to the viewer that they should interpret the data as part/whole. Also, while these designs are often effective for part/whole *tasks* (e.g., determining what portion of the whole a part is), they are often less effective for other tasks (e.g., comparing parts). 
+There is a whole family of designs for showing part/whole relationships, including pie charts, stacked bars, mosaic plots, and treemaps. These designs are often effective for showing part/whole relationships. However, they do not work for non-part/whole data; not only do they not make sense, but they also imply to the viewer that they should interpret the data as part/whole. Also, while these designs are often effective for part/whole *tasks* (e.g., determining what portion of the whole a part is), they are often less effective for other tasks (e.g., comparing parts). 
 
 **Warning 1:** Just because data has a part/whole form doesn't mean that it should be displayed using a part/whole design. *Part/Whole Designs are only appropriate if both the data and the task apply.* See {{<link link="/tutorials/1-what-is-vis" anchor="Tasks as the Key">}} for an example. 
 

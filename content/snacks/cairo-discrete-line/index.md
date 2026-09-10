@@ -5,7 +5,7 @@ draft = false
 resourcethumb = "cairo-discrete-lines.png"
 +++
 
-Line charts can be used (with caution) even when the X axis is neither interval or continuous.
+Line charts can be used (with caution) even when the X axis is neither interval nor continuous.
 
 <!--more-->
 
@@ -15,7 +15,7 @@ I hesitate to give "rules," especially in terms of chart types. But the guidance
 
 (Using the NOIR levels of measurements: Rational, Interval, Ordinal, Nominal/Categorical - see {{<link data-abstraction-cheat-sheet>}}).
 
-So the "rules" suggest that line designs are good when the X axis is continuous and interval, acceptible if the X axis is interval, can be used with caution if it is ordered, and should be avoided for nominal categorical.
+So the "rules" suggest that line designs are good when the X axis is continuous and interval, acceptable if the X axis is interval, can be used with caution if it is ordered, and should be avoided for nominal categorical.
 
 A student brought this example from Cairo's book:
 {{<rimage src="cairo-discrete-lines.png" width=400 caption="A line graph with a discrete axis." attr="Figure 5.17 of Cairo's *The Truthful Art*, p. 140.">}}
@@ -30,7 +30,7 @@ The student asked why connecting the dots was a valid choice (at first, he didn'
 
 4. I might argue it is an interval/continuous axis – if we think of it as “life stages” – it is totally sensible to think about being halfway between stage 1 and stage 2, or even the slope as "the rate of decrease in influence as we move between life stages".
 
-5. If we think of the X values as different dimensions, then this chart is parallel coordinates, rather than a line graph. Chaging its name doesn't change the chart - but it exposes a difference in *intent*. Parallel coordinates are an acceptable solution to the hard problem of mid-dimensional data.
+5. If we think of the X values as different dimensions, then this chart is parallel coordinates, rather than a line graph. Changing its name doesn't change the chart - but it exposes a difference in *intent*. Parallel coordinates are an acceptable solution to the hard problem of mid-dimensional data.
 
 One thing that strikes me in the image: my eye does follow the slopes. For example, the trend in the red line (Television) as we go from Xers, to Boomers, to Mature (3,4,5) is a pretty constant slope. Is this the wrong thing being easy to see? In this graph, I think that slopes could be meaningful - the rate at which things decrease as we move through life stages. It is not an unreasonable thing to think about (at least qualitatively).
 

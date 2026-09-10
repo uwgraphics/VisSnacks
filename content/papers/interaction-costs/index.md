@@ -4,7 +4,7 @@ date = 2025-11-21T17:06:14-06:00
 draft = false
 +++
 
-We often think of interaction as a solution to visualization problems as it has many upsides. However, there are costs to the user (beyond the obvious costs in terms of design, implementation and deployment). The paper "A Framework of Interaction Costs in Information Visualization" by Heidi Lam gives a nice way to think about these costs. It's an adaptation of earlier work in HCI, but she shows how appropriate it is. She validates the framework by applying it in a broad survey of visualization papers. 
+We often think of interaction as a solution to visualization problems, as it has many upsides. However, there are costs to the user (beyond the obvious costs in terms of design, implementation and deployment). The paper "A Framework of Interaction Costs in Information Visualization" by Heidi Lam gives a nice way to think about these costs. It's an adaptation of earlier work in HCI, but she shows how appropriate it is. She validates the framework by applying it in a broad survey of visualization papers. 
 
 <!--more-->
 
@@ -12,7 +12,7 @@ The framework has three "top level" categories of costs: costs to form goals, co
 
 ## What is this paper?
 
-This paper provides a framework for how we can think about interactions in terms of the "costs" to the user - what might be difficult for them, and where they might need to spend effort on the interaction. It is a good reminder that there arw downsides to interaction.
+This paper provides a framework for how we can think about interactions in terms of the "costs" to the user - what might be difficult for them, and where they might need to spend effort on the interaction. It is a good reminder that there are downsides to interaction.
 
 + Heidi Lam. **A Framework of Interaction Costs in Information Visualization**. _IEEE Transactions on Visualization and Computer Graphics_, 14(6), 1149–1156. [(doi)](http://doi.org/10.1109/TVCG.2008.109) [(UW Library)](https://ieeexplore-ieee-org.ezproxy.library.wisc.edu/document/4658124)
 
@@ -20,17 +20,17 @@ Most of the paper is a survey that tries to validate that the framework is an ap
 
 ## The Key Idea
 
-In order to use something that is interactive you need to (1) figure out what you want to do, (2) figure out how to make the system to it, (3) execute that plan, and (4) check that the system actually did what you wanted. Each part of these can pose challenges for the user.
+In order to use something that is interactive you need to (1) figure out what you want to do, (2) figure out how to make the system do it, (3) execute that plan, and (4) check that the system actually did what you wanted. Each of these parts can pose challenges for the user.
 
 The paper is a reminder that we need to consider all of these costs. In particular, it is easy to forget that it takes effort to figure out how to achieve goals using a system's capabilities.
 
-The HCI literature (most famously seminal work by Don Norman - that I mainly know through his popular press book "The Design of Everyday Things") describes this as the "Gulf of Execution" (a user needs to figure out how to make the system do what they want and execute the plan) and the "Gulf of Evaluation" (the user needs to figure out if they succeeded). This paper adds a third "Gulf" which is that the user needs to figure out what they want. 
+The HCI literature (most famously the seminal work by Don Norman, which I mainly know through his popular press book "The Design of Everyday Things") describes this as the "Gulf of Execution" (a user needs to figure out how to make the system do what they want and execute the plan) and the "Gulf of Evaluation" (the user needs to figure out if they succeeded). This paper adds a third "Gulf" which is that the user needs to figure out what they want. 
 
-The paper breaks the process into smaller steps, each is identified as a "cost":
+The paper breaks the process into smaller steps, each of which is identified as a "cost":
 
 1.  **Decision costs to form goals**: The user needs to figure out what they want.
 2.  **System-power costs to form system operations**: The user needs to figure out how to use the system's features to do what they want.
-3.  **Multiple input mode costs to form physical sequences**: The user needs to figure out how to actually operate the interface. This is a bit of a left-over from the HCI origins. In most cases for Vis this is just "I need to move the mouse".
+3.  **Multiple input mode costs to form physical sequences**: The user needs to figure out how to actually operate the interface. This is a bit of a leftover from the HCI origins. In most cases for Vis this is just "I need to move the mouse".
 4.  **Physical-motion costs to execute sequences**: The user actually has to perform the physical actions (like moving the mouse). Costs 2, 3, and 4 cover the **Gulf of Execution**.
 5.  **Visual-cluttering costs to perceive state**: The user needs to interpret the resulting display.
 6.  **View-change costs to interpret perception**: Interactions cause the displays to change - the user needs to figure out what those changes are and what they mean.
@@ -60,5 +60,5 @@ The framework of interaction costs identifies the following seven costs, inspire
 7.  **State-change costs to evaluate interpretation**: Costs associated with evaluating the outcome of an interaction or analysis, often requiring reflection on multiple data views or analysis states, necessitating support for refinding previously viewed data projections. Costs 5, 6, and 7 cover the **Gulf of Evaluation**.
 
 {{<genai>}}
-I loaded the paper into NotebookLM and used its summary for the What does an LLM say?. I also asked it to generate an SVG version of the figure, which wasn't that useful.
+I loaded the paper into NotebookLM and used its summary for the 'What does an LLM say?' prompt. I also asked it to generate an SVG version of the figure, which wasn't that useful.
 {{</genai>}}

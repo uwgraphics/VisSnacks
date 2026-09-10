@@ -10,7 +10,7 @@ Let's look at the "Airline Route Maps" (the ones that are in the back of an airl
 
 <!--more-->
 
-In the back of airline magazines (these seemed to have gone away), there was always a map that showed where the airline flew. For a big airline, with lots of cities and flights, these maps were usually total hairballs - and I used them as an example for that in class. Almost all of them were very similar in design. (avoid peeking at the radically different design below).
+In the back of airline magazines (these seemed to have gone away), there was always a map that showed where the airline flew. For a big airline, with lots of cities and flights, these maps were usually total hairballs - and I used them as an example for that in class. Almost all of them were very similar in design. (Avoid peeking at the radically different design below).
 
 Note: all these maps are circa 2013-2014, and most come from actual in-flight magazines (or the online versions). My circa 2013 cell phone camera wasn't up to today's standards.
 
@@ -46,7 +46,7 @@ Note how these critiques relate to task (obviously). There are things this map i
 
 I'd like to think the designer was conscious of this: they were trying to make a map to emphasize the richness of the network by conveying overwhelm. They weren't trying to make a practical route planning tool.
 
-Task is one important factor... but the data is also an important factor. Part of the reason this design works (to the extent it does) are properties of the data. The airline does go to a lot of places. It does have a rich network with lots of flights. It has a hub-and-spoke organization that dominates the patterns.
+Task is one important factor... but the data is also an important factor. Part of the reason this design works (to the extent it does) is the properties of the data. The airline does go to a lot of places. It does have a rich network with lots of flights. It has a hub-and-spoke organization that dominates the patterns.
 
 ## An Alternative?
 
@@ -72,15 +72,15 @@ First, let's think about some tasks...
 
 - I live in city X, where can I get to? Easy: I can find my city on the map and see what dots are there. There aren't that many colors to remember (since there aren't too many hubs). 
 
-- Where can I get to from Hub X? Somewhat easy: just look for where there there are dots of that color. In theory, this is a "pre-attentive" task (focus on a specific color); in practice,the colors might not be distinct enough.
+- Where can I get to from Hub X? Somewhat easy: just look for where there are dots of that color. In theory, this is a "pre-attentive" task (focus on a specific color); in practice, the colors might not be distinct enough.
 
 - Can I get from X to Y in 1 stop? Easy: look at the colors of the dots for X; look at the colors for the dots for Y; if the same color appears in both, then I can connect through that hub. With a conventional design, it requires tracing edges.
 
-- I want to get a sense of where the airline goes? Easy: see what cities have dots - they aren't obscured by the clutter of routes.
+- I want to get a sense of where the airline goes. Easy: see what cities have dots - they aren't obscured by the clutter of routes.
 
-- I want to get a sense of the network topology and how complex the network is (the "I want to impress the viewer that the airline has a big network" from above). OK: it isn't as obvious as with the route maps above: there isn't the sense of an overwhelming jumble, and its hard to see the "star" patterns of hub and spoke. But, this network isn't as overwhelming as the major US airlines above, and with the hubs all close together, it's not clear that they wouldn't all blur together if I tried the standard design.
+- I want to get a sense of the network topology and how complex the network is (the "I want to impress the viewer that the airline has a big network" from above). OK: it isn't as obvious as with the route maps above: there isn't the sense of an overwhelming jumble, and it's hard to see the "star" patterns of hub and spoke. But, this network isn't as overwhelming as the major US airlines above, and with the hubs all close together, it's not clear that they wouldn't all blur together if I tried the standard design.
 
-What impresses me about this design is that it provides a non-obvious and non-standard design (using color matching to encode connection) for a very standard network visualization problem - that actually does seem to address the important tasks.
+What impresses me about this design is that it provides a non-obvious and non-standard design (using color matching to encode connection) for a very standard network visualization problem, which actually does seem to address the important tasks.
 
 But a lesson here: this design only really works because it matches *both the tasks and the data.* If the network didn't have a hub and spoke topology, it wouldn't work (there is no way to encode connections between non-hubs). It's also not clear how it scales to a bigger network. 
 
@@ -88,7 +88,7 @@ Some critique points...
 
 - If the goal is to make something that is instantly recognizable and usable, the novel design may not be a good idea because it takes a bit of effort to figure out for the first time. However, this novelty might create engagement, and the determined viewer will be able to address some complex tasks.
 
-- If the goal is to make something robustly color-safe (both for color vision deficient viewers, but also resillience to color reproduction issues), the maps reliance on having a relatively large set of distinct colors (one per hub) may be problematic.
+- If the goal is to make something robustly color-safe (both for color vision deficient viewers, but also resilience to color reproduction issues), the map's reliance on having a relatively large set of distinct colors (one per hub) may be problematic.
 
 - If the goal is to scale to a larger number of hubs, the use of a distinct color per hub might put a constraint on how big the design can get. Also, the viewer has to remember the colors for each hub.
 
@@ -103,8 +103,8 @@ For me, the two big lessons:
 
 {{<genai>}}
 
-I used Gemini to convert my crappy cell-phone pictures of the Transavia map to SVG version. This worked amazingly well for the legend, so I got greedy and tried it for the whole map. It didn't work so well. To see as far as I was able to get (using my limited prompting skills and patience) you can look at [the best I was able to get]({{<resource-link "gemini-3.svg">}}).
+I used Gemini to convert my crappy cell-phone pictures of the Transavia map to an SVG version. This worked amazingly well for the legend, so I got greedy and tried it for the whole map. It didn't work so well. To see as far as I was able to get (using my limited prompting skills and patience) you can look at [the best I was able to get]({{<resource-link "gemini-3.svg">}}).
 
-I was slightly more successful at getting gemini to re-create the detail view. But it is clear that the washed out colors, overlapping dots, and indistinct patterns make it too hard for its vision model to identify the circles: {{<resource-link "transavia-detail-gemini.svg">}}. Even when the prompt said "Recreate this map as a resolution independent SVG image. Use circles for the colored circular marks next to each city. Match the colors and positions of the circles in the map as closely as possible. Each city many have more than one circle. Format the SVG file so that no line has more than 120 characters. ignore the gray background."
+I was slightly more successful at getting Gemini to re-create the detail view. But it is clear that the washed out colors, overlapping dots, and indistinct patterns make it too hard for its vision model to identify the circles: {{<resource-link "transavia-detail-gemini.svg">}}. Even when the prompt said "Recreate this map as a resolution independent SVG image. Use circles for the colored circular marks next to each city. Match the colors and positions of the circles in the map as closely as possible. Each city may have more than one circle. Format the SVG file so that no line has more than 120 characters. ignore the gray background."
 
 {{</genai>}}

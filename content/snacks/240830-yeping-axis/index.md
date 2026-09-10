@@ -6,17 +6,17 @@ resourcethumb = "results-wafr.png"
 tags = ["critique"]
 +++
 
-Don't make the wrong thing easy to see. Here's a real example from my own work where a seemingly innocent line graph was misleading, and needed some serious redesign.
+Don't make the wrong thing easy to see. Here's a real example from my own work where a seemingly innocent line graph was misleading and needed some serious redesign.
 
 <!--more-->
 
-A cautionary tale... This is from one of my own (rejected) papers. My student (Yeping) made this figure, but I take responsibility for not catching the problem. Two reviewers explicitly called out a problem (discussed in this critique), it both led them to the wrong conclusion about our work, and made them think we were intentionally trying to mislead them...
+A cautionary tale... This is from one of my own (rejected) papers. My student (Yeping) made this figure, but I take responsibility for not catching the problem. Two reviewers explicitly called out a problem (discussed in this critique); it both led them to the wrong conclusion about our work, and made them think we were intentionally trying to mislead them...
 
 And the real problem was even deeper... It might seem that this is a simple case of (spoiler alert) axis truncation, but it really points out the importance of not making the wrong thing easy to see. 
 
 **Key Lesson (principle)**: Make the right thing easy to see. Don't make the wrong thing easy to see.
 
-**Lesson:** Beware truncating Axes
+**Lesson:** Beware truncating axes
 
 Here's a figure from a (rejected) paper submission that a student and I made to a robotics workshop: 
 
@@ -24,7 +24,7 @@ Here's a figure from a (rejected) paper submission that a student and I made to 
 
 This is a cool figure with a bunch of robots doing stuff (there are 6 experiments, although it is labeled as 3 experiments across 2 testbeds).  
 There are robots doing stuff! What's not to like? 
-The graphs show the performance of our new algorithm is way better than the baselines. But this isn't about the robotics, let's focus on one of the graphs...
+The graphs show the performance of our new algorithm is way better than the baselines. But this isn't about the robotics; let's focus on one of the graphs...
 
 {{<rimage src="results-wafr-graph.png" width="500" caption="A graph of the performance of our new algorithm. Our algorithm is the orange line, the baseline is green (and the blue dot). The algorithm is meant to minimize joint movement (shown on the Y axis).">}}
 
@@ -63,7 +63,7 @@ Here is the final figure, if you're curious...
 
 Don't make the wrong thing easy to see! 
 
-Be careful when truncating axes is a corallary to the more fundamental principle: make the right thing easy to see, don't make the wrong thing easy to see.
+Being careful when truncating axes is a corollary to the more fundamental principle: make the right thing easy to see, don't make the wrong thing easy to see.
 
 With an improved figure (and some other writing fixes), the paper was accepted at a journal. You can see the figure in the paper: Yeping Wang and Michael Gleicher. [Anytime Planning for End-Effector Trajectory Tracking](https://graphics.cs.wisc.edu/Papers/2025/WG25/). IEEE Robotics and Automation Letters, 10, 2025. [(DOI)](http://dx.doi.org/10.1109/LRA.2025.3540633).
 

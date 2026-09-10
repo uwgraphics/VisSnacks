@@ -40,7 +40,7 @@ Is the middle one a "lollipop chart"? (I think that's what it's called - the nam
 
 ## Ordering: The Choice the Chart Name Hides
 
-When the X axis is categorical, the categories have no inherent order - which means *you* get to choose one. That's a real design decision, and the chart type doesn't make it for you:
+When the X-axis is categorical, the categories have no inherent order - which means *you* get to choose one. That's a real design decision, and the chart type doesn't make it for you:
 
 {{<rimage src="alpha-vs-sorted.png" caption="Same bars, two orderings. Which nut ranks fourth? Which chart answers that faster? (Fake data.)" attr="Figure by Mike (well, his robot assistant).">}}
 

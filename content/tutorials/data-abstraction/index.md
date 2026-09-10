@@ -6,7 +6,7 @@ weight = 101
 tags = ["data-abstraction", "building-blocks"]
 +++
 
-**Warning - this is the older Claude generated tutorial. It has been superceded by the "Cheat Sheet"**
+**Warning - this is the older Claude generated tutorial. It has been superseded by the "Cheat Sheet"**
 
 Before you can pick a visualization, you have to say what your data *is* - not "sales figures for the Milwaukee store," but the abstract version: a table of items with a few attributes, one of them a quantity. That abstract description is what connects to design choices, and it's the same handful of patterns over and over.
 
@@ -38,7 +38,7 @@ One more distinction: multidimensional here refers to the *domain* - where you m
 
 In a table, some attributes *index* the data and others are *measured*. The index attributes are **keys** (the domain); the measured ones are **values** (the range). Statisticians call these independent and dependent variables; Tableau calls them dimensions and measures. Every day I check the temperature: the day is the key, the temperature is the value.
 
-Which attribute is the key isn't always fixed. You can **rotate** the organization: instead of "for each day, what was the temperature," ask "for each temperature, which days had it." Sometimes the non-standard rotation is the good one - John Snow's cholera map organized deaths by *position* rather than by patient, and that reframing is the whole point of the map.
+Which attribute is the key isn't always fixed. You can **rotate** the organization: instead of "for each day, what was the temperature," ask "for each temperature, which days had it." Sometimes the non-standard rotation is the good one—John Snow's cholera map organized deaths by *position* rather than by patient, and that reframing is the whole point of the map.
 
 {{<expand "Sampling turns fields into tables">}}
 You can't measure or draw a continuous field *everywhere* - there are infinitely many positions, and often you can't observe them all anyway (you don't poll every voter, count every plankton, or inspect every phone call). So you **sample**: measure at a finite set of locations. That turns a field into a table. Sampling is either inference ("guess about the whole from a subset") or summary ("throw information away on purpose") - which is where statistics and signal processing come in. This is worth remembering because a lot of "table" data is really a sampled field wearing a table's clothes.
@@ -67,7 +67,7 @@ I keep NOIR anyway, for two reasons. It's the vocabulary the rest of the world (
 
 The level of measurement isn't the only thing worth naming. A handful of other properties change design choices:
 
-- **Sequential vs. diverging.** A sequence runs one way (0 up to a max); diverging data has a meaningful *middle* with distinct above and below (elevation around sea level, profit around zero). Diverging data wants a diverging encoding - this matters a lot for color, later.
+- **Sequential vs. diverging.** A sequence runs one way (0 up to a max); diverging data has a meaningful *middle* with distinct above and below (elevation around sea level, profit around zero). Diverging data wants a diverging encoding; this matters a lot for color later.
 - **Cyclic.** Hours, weekdays, months wrap around. The end connects back to the start.
 - **Set size**, and whether values are **continuous or discrete**, **finite or infinite**.
 - **Part/whole.** Sometimes the interesting property belongs to a *group* of items - market share only means something relative to the total.
@@ -84,7 +84,7 @@ You can move data between types, and it's often the right design move. **Down-co
 The most common conversions worth knowing:
 
 - **Discretization** - turn continuous into discrete by thresholding or rounding.
-- **Binning** - put like things into buckets, then decide how to **aggregate** what lands in each. The choice of bins can quietly change the whole story a chart tells, which is enough of a topic that it deserves its own discussion later on - I'll write that one up separately.
+- **Binning** - put like things into buckets, then decide how to **aggregate** what lands in each. The choice of bins can quietly change the whole story a chart tells; it is a topic significant enough to deserve its own discussion later on—I'll write that one up separately.
 - **Interpolation** - the "connect the dots" question. Does a straight line between two measurements represent a real in-between value, or just a guess? (See the line-chart snack above - this is the same question from the other direction.)
 - **Rank transformation** - throw away the intervals, keep only the order.
 

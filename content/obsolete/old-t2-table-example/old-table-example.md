@@ -19,13 +19,13 @@ Starting with the basic points from {{%link "1-what-is-vis"%}}:
 
 + **The Task**: I need to look at the grade distribution for my class and get a sense if it’s reasonable / fair. (more tasks may emerge as I look at the data)
 
-+ **The Data/Resources**: I have a table of student names (not shown), scores and grades. It’s in an excel spreadsheet – so I’d prefer to keep things there. I don’t have very much development resources (this is often done at the grading deadline).
++ **The Data/Resources**: I have a table of student names (not shown), scores and grades. It’s in an excel spreadsheet – so I’d prefer to keep things there. I don’t have many development resources (this is often done at the grading deadline).
 
 + **The Design**: I have chosen to use a table, since it’s easy in excel. And it may be good enough (especially with design tweaks). In this example, I focus on improving the table, rather than trying something completely different. A side note: tables are remarkably effective visualizations.
 
 + **The Details (including implementation)**: We'll change a lot of the design details, but the implementation will be Excel (since that's what I was using to do grading). A side effect of this: it shows that you can do useful visualization stuff with simple tools (this is all in Excel).
 
-Note that my task is a bit hazy, it will became clearer as we progressed.
+Note that my task is a bit hazy, it will become clearer as we progress.
 
 ## Design Aspects
 
@@ -50,7 +50,7 @@ Here are the first few rows:
 
 Note: you can click on the thumbnails to see the whole visualization. I do recommend that you look at them and get a sense of how they "work" (or not).
 
-Exercise here: think about what this "visualization" is good at (what tasks is supports well), before we move on to making it better for some other task. And think about what the viewer might want to see (that isn't easy to see).
+Exercise here: think about what this "visualization" is good at (what tasks it supports well), before we move on to making it better for some other task. And think about what the viewer might want to see (that isn't easy to see).
 
 This table has 57 rows (there were 62 students in the class - undergraduate classes used to be that small). The last column is the grade I am going to give them, which is created by rounding the “Average” column (which is why the grade column is called “Rounded”).
 
@@ -66,7 +66,7 @@ While my task is hazy, I do know that many of my specific questions fall into th
 
 After applying this visualization, notice that some things are much easier to see / do. Notice how much faster you can count the number of As, or estimate the median score.
 
-Exercise here: thing about what we have made easier to do by this design decision, and what we might have made harder. There are some things that are easier to do with the initial design.
+Exercise here: think about what we have made easier to do by this design decision, and what we might have made harder. There are some things that are easier to do with the initial design.
 
 Actually, I accidentally chopped off the bottom 5 students because they didn't fit on the screen. That motivates the next change...
 
@@ -76,13 +76,13 @@ Technically, changing the layout is changing an encoding (we are encoding the va
 
 While the sorted table is better for understanding the distribution, it is still hard to assess the distribution in the thumbnail (or fitting the whole table to a small laptop screen). This would be worse in a larger class (where the table wouldn't be readable if I shrank it to fit on my screen).
 
-So, I’ll apply a color encoding – using excel’s color range feature – on the rounded grades.
+So, I’ll apply a color encoding – using Excel's color range feature – on the rounded grades.
 
 {{<rimage src="colored.webp" width="250">}}
 
-Now, I think I’m starting to win the game. I can really quickly see the proportion of each grade this distribution is giving – even in the thumbail! It’s pretty clear that there aren’t many As, but there aren’t many failures either.
+Now, I think I’m starting to win the game. I can really quickly see the proportion of each grade this distribution is giving – even in the thumbnail! It’s pretty clear that there aren’t many As, but there aren’t many failures either.
 
-But, it does raise a new question task: are there students who are being hurt by the rounding? This is somewhat easy to check, since I can look at people near the borders. But I can apply a visualization design move….
+But, it does raise a new task: are there students who are being hurt by the rounding? This is somewhat easy to check, since I can look at people near the borders. But I can apply a visualization design move….
 
 ## Move 3: Transform Data (derive)
 
@@ -100,6 +100,6 @@ I am not talking about interaction here - partially, because I am showing you st
 
 ## Lessons
 
-Hopefully, you now have a sense of what the 4 design moves are. And you’ve seen how we can change our design choices to make a visualization be more effective for a task. Along the way, you may have gotten a sense of how understanding task helps. And how effective designs can be simple – and done with existing tools.
+Hopefully, you now have a sense of what the 4 design moves are. And you’ve seen how we can change our design choices to make a visualization more effective for a task. Along the way, you may have gotten a sense of how understanding task helps. And how effective designs can be simple – and done with existing tools.
 
-Note that the details of the implementation didn’t matter. I could have done this with a different spreadsheet program, or if I had more time, I could have written a Javascript program. In fact the details are really irrelevant: there’s no use telling you which buttons in Excel to push, since this was done with an old version of Excel (the features are still there – it’s just different to get at them).
+Note that the details of the implementation didn’t matter. I could have done this with a different spreadsheet program, or if I had more time, I could have written a Javascript program. In fact, the details are really irrelevant: there’s no use telling you which buttons in Excel to push, since this was done with an old version of Excel (the features are still there – it’s just different to access them).

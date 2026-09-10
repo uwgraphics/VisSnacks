@@ -8,19 +8,19 @@ The paper *An Algebraic Process for Visualization Design* by Gordon Kindlmann an
 
 <!--more-->
 
-The paper has a concise message that fits well in the "re-papering" format: changes to the data should correspond/correlate to changes in the visualization. The paper holds up well to time (it is from 2014). 
+The paper has a concise message that fits well in the "re-papering" format: changes to the data should correspond/correlate to changes in the visualization. The paper has held up well over time (it is from 2014). 
 
 + Gordon Kindlmann and Carlos Scheidegger. 2014. An Algebraic Process for Visualization Design. *IEEE Transactions on Visualization and Computer Graphics* 20, 12 (December 2014), 2181–2190. [(doi)](https://doi.org/10.1109/TVCG.2014.2346325) 
 
 ## The Key Idea(s)
 
-There is a wonderfully simple and elegant idea here. I am going to over-simplify it for our purposes.
+There is a wonderfully simple and elegant idea here. I am going to oversimplify it for our purposes.
 
 > The amount of difference in the visualization should be correlated to the amount of difference in the data.
 
-Visualization can be viewed as a process/function that translates "data" into a visualization (or even beyond - what the viewer actually sees in the visualization). This might include many steps (measuring the world, organizing the obversations, transforming the data, making pictures, the viewers vision and interpretation, ...).
+Visualization can be viewed as a process/function that translates "data" into a visualization (or even beyond - what the viewer actually sees in the visualization). This might include many steps (measuring the world, organizing the observations, transforming the data, making pictures, the viewer's vision and interpretation, ...).
 
-We can write this as a simple "equation" where D is the data, V is the visualization, and f is "the process
+We can write this as a simple "equation" where D is the data, V is the visualization, and f is "the process"
 
 > V = f(D)
 
@@ -36,9 +36,9 @@ They break this into three cases:
 
 - Representation Invariance: For the "same" (or equivalent) data, the same visualization should be produced.
 - Unambiguity: For a given visualization, there should be only one set of data that could have produced it.
-- Visual Data Correspondence: The amount of change in the visualization should be proportional to the amount change in the visualization. 
+- Visual Data Correspondence: The amount of change in the visualization should be proportional to the amount of change in the data. 
 
-In retrospect, these may seem like obvious properties to seek - but the Algebraic Framework gives a nice formalism to state them and assess them.
+In retrospect, these may seem like obvious properties to seek, but the Algebraic Framework gives a nice formalism to state them and assess them.
 
 ## The Rest of The Paper
 
@@ -48,7 +48,7 @@ The paper has a set of simple examples, drawn from many different types of visua
 
 ## Do you still need to read this paper?
 
-The basic idea is simple - and you probably get it from my one sentence summary "visual changes should be proportional to data changes". However, the paper does such a nice job of expressing this concept with a formalism that I recommend reading it. The formalism allows the authors to get at nuance beyond my over-simplification. And they have good examples.
+The basic idea is simple - and you probably get it from my one sentence summary, "visual changes should be proportional to data changes". However, the paper does such a nice job of expressing this concept with a formalism that I recommend reading it. The formalism allows the authors to get at nuance beyond my over-simplification. And they have good examples.
 
 And it is a great example of an application of formalism for visualization.
 
@@ -62,7 +62,7 @@ If I ask for the key takeaways:
 
 > The main takeaway for students is to adopt the **algebraic visualization design process**, which relies on describing the relationships between **Data (D)**, **Representation (R)**, and **Visualization (V)** mathematically. Students should rigorously apply the three core design principles—**Representation Invariance** (ensuring visualizations are not affected by arbitrary choices, avoiding **hallucinators**), **Unambiguous Data Depiction** (ensuring data changes are visible, avoiding **confusers**), and **Visual-Data Correspondence** (matching important data transformations ($\alpha$) to clear visual changes ($\omega$))—to systematically evaluate visualizations, clarify tradeoffs, and improve their designs. This approach provides **explicit, unambiguous descriptions** that enrich pedagogy beyond traditional design maxims.
 
-In my mind, the 3 categories are all special cases of the third (representation invariance and Unamiguity are special cases of Correspondence), and I view data representation as part of the process. To me, this is nuance - which you will get from the paper.
+In my mind, the 3 categories are all special cases of the third (representation invariance and unambiguity are special cases of Correspondence), and I view data representation as part of the process. To me, this is nuance - which you will get from the paper.
 
 {{<genai>}}
 I used [NotebookLM](https://notebooklm.google.com) to generate the summaries I said come from NotebookLM.

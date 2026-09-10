@@ -14,9 +14,9 @@ Task is central to visualization: it's the thing that we are trying to help the 
 
 Even the term "task" itself is problematic. It is hard to pin down precisely. Different papers mean different things by the term "task".
 
-The goal of task abstraction is to have a way to describe what the visualization is trying to do (or to help the viewer do) in a manner that is specific enough to be meaningful, but broad and general enough that is allows for generalized thinking and for seeing similarities in problems and solutions.
+The goal of task abstraction is to have a way to describe what the visualization is trying to do (or to help the viewer do) in a manner that is specific enough to be meaningful, but broad and general enough that it allows for generalized thinking and for seeing similarities in problems and solutions.
 
-My goal is to have ways for discussing the "problems" that visualizations are trying to address so that we can choose solutions that solve them. I am much less concerned about trying to put tasks into neat little boxes.
+My goal is to have ways to discuss the "problems" that visualizations are trying to address so that we can choose solutions that solve them. I am much less concerned about trying to put tasks into neat little boxes.
 
 **One objection to get out of the way up front:** *"I don't have a task - I just want to look at my data."* That is still a task. Usually it means you haven't articulated a better description yet, and sometimes the honest description is "the task is to figure out what the right task is." Either way, you are better off saying so than deciding task doesn't apply to you. I make this point in {{<link "/tutorials/2-building-blocks">}} as well - it's worth repeating.
 
@@ -37,13 +37,13 @@ View all of the previous task organization schemes as providing *vocabulary* for
 
 ## Why is this hard? The Dimensions of Task Abstraction
 
-The challenge of task is that there are many different things it can mean, and many different levels to look at it. The TaskCube paper by Rind et. al articulated this well. Understanding the different ways we might view tasks provides an interesting set of perspectives we can apply.
+The challenge of task is that there are many different things it can mean, and many different levels to look at it. The TaskCube paper by Rind et al. articulated this well. Understanding the different ways we might view tasks provides an interesting set of perspectives we can apply.
 
 They make a series of distinctions:
 
-- Level of Abstraction: **Abstract** vs. **Concrete** - How generic is the description? Is it specific, or could it apply to many things.
+- Level of Abstraction: **Abstract** vs. **Concrete** - How generic is the description? Is it specific, or could it apply to many things?
 - Level of composition: **High-Level** vs. **Low-Level** - How "big" is the task? Is it some long-scale, multi-step process, or is it a small quick thing that is likely to be a step in a longer process.
-- Perspective: **Why (Objectives)** vs. **How (Actions)** - objectives are questions on data (desired results), actions are steps towards objectives
+- Perspective: **Why (Objectives)** vs. **How (Actions)** - Objectives are questions on data (desired results); actions are steps towards objectives.
 
 This is a 3 dimensional grid (hence, task cube). Here are examples of all of the combinations:
 
@@ -84,7 +84,7 @@ One piece of advice: try to understand both action and target. Either one can be
 
 ### What do you want to do with the target?
 
-The task lists from papers (below) often have lists of actions. Here is one that I made up that I phrase as "what to do with targets". It differs from the lists below (especially the Amar 2005 list) in that its centers on what the viewer does (or can do perceptually), rather than the result that they want. 
+The task lists from papers (below) often have lists of actions. Here is one that I made up that I phrase as "what to do with targets". It differs from the lists below (especially the Amar 2005 list) in that it centers on what the viewer does (or can do perceptually), rather than the result that they want. 
 
 - **Absolute judgment** - read a value off the display
 - **Relative judgment** - compare two things to each other
@@ -109,7 +109,7 @@ Takeaway: task is only one aspect of what we need to consider in designing visua
 
 ## Example Task Organizing Schemes
 
-I provide some examples (drawn from the readings listed at the end of this page) that give examples of task description concepts. While it is organized by the source, you can mix and match the different pieces.
+I provide some examples (drawn from the readings listed at the end of this page) that give examples of task description concepts. While they are organized by the source, you can mix and match the different pieces.
 
 ### Organization Schemes: Taxonomies vs. Typologies vs. Categorizations
 
@@ -120,8 +120,8 @@ Historically, researchers used the term taxonomy to describe schemes for organiz
 - **Taxonomy** - A hierarchical classification where items are grouped based on observable characteristics into groupings with strict boundaries.
 - **Typology** - A grouping based on "ideal types" or characterizations. The boundaries between the categories may not be well defined.
 - **Spectrum** - A (conceptually) continuous dimension that something can be placed on.
-- **Space** - for example, a "Design Space" or a "Problem Space". This refers to a set of separate dimensions, each might be a spectrum or some categorization.
-- **Clustering** - a type of categorization where things are grouped by similarity.
+- **Space** - For example, a "Design Space" or a "Problem Space". This refers to a set of separate dimensions, each of which might be a spectrum or some categorization.
+- **Clustering** - A type of categorization where things are grouped by similarity.
 
 
 ### Shneiderman 1996: Task by Data Type Taxonomy
@@ -238,7 +238,7 @@ Munzner's refrain about these two lists is worth keeping: **why doesn't dictate 
 
 The insight of this paper was to look at tasks not as a list (or tree), but as multiple dimensions to be considered. This creates a multi-dimensional space of tasks, which allows for a more meaningful and flexible way to organize them. 
 
-Importantly, it is an extremely useful view for description: describe the different aspects of the tasks, rather than trying to find a single category for it.
+Importantly, it is an extremely useful view for description: describe the different aspects of the tasks, rather than trying to find a single category for them.
 
 They identify 5 different dimensions:
 
@@ -305,7 +305,7 @@ Each of these questions is a tool that you can use in understanding and describi
 Elsewhere on this site:
 
 - {{<link "/tutorials/data-abstraction-cheat-sheet">}} - Task and data abstraction are meant to be used together; neither one picks a design on its own.
-- {{<link "/papers/problem-space">}} - the summary of the Problem Space paper.
+- {{<link "/papers/problem-space">}} - The summary of the Problem Space paper.
 
 Many of the {{<link "/snacks/">}} discuss task, and use task abstraction to different degrees. Some examples (available at the time of writing, selected by Claude):
 
@@ -318,7 +318,7 @@ In a roughly recommended order...
 
 - {{<reading "taskcube">}}<br>
   *Read this to get the perspective on why task abstraction is  tricky.*
-- Tamara Munzner, *Visualization Analysis and Design*, Ch 3 "Task Abstraction" ({{<link "/resources/munzner">}})<br>*Read this to get a perspective on why task abstraction is  useful. The actual scheme she describes comes from a paper - but the book chapter is better at the "why is this useful to most people."*
+- Tamara Munzner, *Visualization Analysis and Design*, Ch 3 "Task Abstraction" ({{<link "/resources/munzner">}})<br>*Read this to get a perspective on why task abstraction is  useful. The actual scheme she describes comes from a paper - but the book chapter is better at the "why is this useful to most people?"*
 - {{<reading lowleveltasks>}}<br>*Read this to see a concrete scheme that has stood the test of time.*
 - {{<reading eyeshaveit>}}<br>*An early and influential paper. It is best known for the "Information Seeking Mantra" but also gets at the idea that there are common patterns for tasks and data.*
 - {{<reading problem-space>}}<br>*Shows that task isn't the only thing to consider. As an author, I can say this is one where reading the {{<link link="/papers/problem-space" text="summary">}} might be good enough.*

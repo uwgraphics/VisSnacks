@@ -97,7 +97,7 @@ Here's a breakdown of the six axes:
 
 *   **WHO**
     *   **Focus**: The **intended audience or users** of the visualization, the people who have a need to see something in the data.
-    *   **Considerations**: User's analytic sophistication, motivation, spatial reasoning abilities, background knowledge, visual acuity, and accessibility (e.g., color vision deficiency).
+    *   **Considerations**: Users' analytic sophistication, motivation, spatial reasoning abilities, background knowledge, visual acuity, and accessibility (e.g., color vision deficiency).
     *   **Stakeholders**: Also includes other stakeholders beyond the ultimate users, such as developers, maintainers, analysts, decision-makers, writers, and readers.
     *   **Example**: In keyhole surgery planning, the "who" includes the clinician (medical expert) and potentially the patient. This led to a multi-view system familiar to clinicians. For infection tracing, users are infection control experts who expect familiar views like line charts and patient timelines. Journalists, working under time pressure and unwilling to learn complex new tools, were supported by popular dashboard designs and interactive filters.
 
