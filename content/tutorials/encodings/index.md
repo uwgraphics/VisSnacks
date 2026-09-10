@@ -1,7 +1,7 @@
 +++
 title = 'Encodings: Building Blocks for Visualizations'
 date = 2026-07-17T15:00:00-05:00
-draft = true
+draft = false
 weight = 30
 tags = ["encodings", "channels", "building-blocks"]
 resourcethumb = "four-channels.png"
@@ -11,7 +11,7 @@ Visualizations are built by **encoding** data into visual properties: position, 
 
 <!--more-->
 
-> **Warning: This was written by claude, based on the slides from class and access to the readings. I intended to edit it, but didn't have enough time. The content is fine - it just is Claude's voice (trying to write like me).
+> **Warning:** *This was written by Claude*, based on the slides from class and access to the readings. I intended to edit it, but didn't have enough time. The content is fine - it just is Claude's voice (trying to write like me).
 
 ## Building Blocks, Not Chart Types
 
