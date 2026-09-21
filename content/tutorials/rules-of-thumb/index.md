@@ -12,16 +12,16 @@ Don't think of these as universal laws. Think of them as "things I think are usu
 
 Some people call these "guidelines" or principles, or rules of thumb - but that term makes others cringe. I'll go with "slogans to think about when designing or critiquing visualizations."
 
-I am just dumping some here. This is the order I typed them, not necessarily importance. 
+I am just dumping some here. This is the order I typed them, not necessarily their importance. 
 
-1. **Task first: Know your purpose.** - Who, What, Where, Why, When and then How (but Why first).
-2. **Match designs to data.** But remember #1 - data is, at best, second. But so many "unforced errors" are mismatches of data and design.
+1. **Task first: Know your purpose.** - Who, What, Where, Why, When, and then How (but Why first).
+2. **Match designs to data.** But remember #1: data is, at best, second. However, so many "unforced errors" are mismatches of data and design.
 3. **The opposite of "designed" is "not designed."** (not necessarily bad design) - Make choices consciously.
 4. **Use part-whole designs (only) for part-whole tasks with part-whole data.**
 5. **Guide attention deliberately.**
 6. **Choose Color Carefully.** - Color is complicated. Every "rule" has exceptions. But many are true most of the time. *Use color with intent, not just for decoration.* Although, decoration can be an intent. 
 7. **Use ordered encodings for ordered things.** - This is a special case of #2, but comes up a lot with colors.
-8. **Be mindful of clutter.** - It's OK to add things to a visualization, just be aware that everything you add has a cost: make sure it's worth it. Simplification isn't necessarily improvement.
+8. **Be mindful of clutter.** - It's OK to add things to a visualization, just be aware that everything you add has a cost: make sure it is worth it. Simplification isn't necessarily improvement.
 9. **Prefer effective encodings.** - In general, precise encodings are effective for many tasks. Use good encodings first.
 10. **Beware unintentional distortions, especially illusions.**
 11. **Be careful with Axis Truncation.** - Axis truncation should be used with care: sometimes it is important to expose detail, sometimes it is misleading. While there are general patterns (e.g., avoid truncating bar charts since it messes up their redundant length encoding), there are exceptions.
