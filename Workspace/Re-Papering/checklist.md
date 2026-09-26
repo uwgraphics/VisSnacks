@@ -84,6 +84,11 @@ One line per reading. `- [ ]` nothing done · `- [/]` summary generated · `- [!
 - [/] Heimerl, Chang, Sarikaya & Gleicher — Visual Designs for Binned Aggregation of Multi-Class Scatterplots (arXiv preprint, 2020)
 - [/] Sarikaya & Gleicher — Scatterplots: Tasks, Data, and Designs (IEEE TVCG, 2018)
 - [/] Sarikaya, Gleicher & Szafir — Design Factors for Summary Visualization in Visual Analytics (Computer Graphics Forum / EuroVis, 2018)
+- [/] Satyanarayan, Moritz, Wongsuphasawat & Heer — Vega-Lite: A Grammar of Interactive Graphics (IEEE TVCG / InfoVis, 2017)
+- [/] Moritz, Wang, Nelson, Lin, Smith, Howe & Heer — Formalizing Visualization Design Knowledge as Constraints: Actionable and Extensible Models in Draco (IEEE TVCG / InfoVis, 2019)
+- [/] Heer & Shneiderman — Interactive Dynamics for Visual Analysis (Communications of the ACM, 2012)
+- [/] Fuchs, Isenberg, Bezerianos & Keim — A Systematic Review of Experimental Studies on Data Glyphs (IEEE TVCG, 2017)
+- [/] Borgo, Kehrer, Chung, Maguire, Laramee, Hauser, Ward & Chen — Glyph-based Visualization: Foundations, Design Guidelines, Techniques and Applications (Eurographics STAR, 2013)
 
 ## Already-published re-papered snacks (no AI summary on file for these)
 
