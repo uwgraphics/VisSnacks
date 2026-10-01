@@ -89,6 +89,7 @@ One line per reading. `- [ ]` nothing done · `- [/]` summary generated · `- [!
 - [/] Heer & Shneiderman — Interactive Dynamics for Visual Analysis (Communications of the ACM, 2012)
 - [/] Fuchs, Isenberg, Bezerianos & Keim — A Systematic Review of Experimental Studies on Data Glyphs (IEEE TVCG, 2017)
 - [/] Borgo, Kehrer, Chung, Maguire, Laramee, Hauser, Ward & Chen — Glyph-based Visualization: Foundations, Design Guidelines, Techniques and Applications (Eurographics STAR, 2013)
+- [/] Wickham — A Layered Grammar of Graphics (Journal of Computational and Graphical Statistics, 2010)
 
 ## Already-published re-papered snacks (no AI summary on file for these)
 
