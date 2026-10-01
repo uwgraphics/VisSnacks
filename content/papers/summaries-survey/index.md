@@ -15,7 +15,7 @@ This is a paper that I wrote with my students (although, at the time, Danielle h
 
 I recommend this paper because it provides an examination of the strategies used to summarize data. Summarization is a key step in many visualizations: we often have "too much stuff" and summarization is the key way to handle that.
 
-{{<rimage src="summaries-fig1.png" caption="Figure from the paper that shows the process of applying summarization in visualization and the categorizations established in the paper." attr="From the paper" attrlink="https://graphics.cs.wisc.edu/Papers/2018/SGA18/">}}
+{{<rimage src="summaries-fig1.png" width="600" caption="Figure from the paper that shows the process of applying summarization in visualization and the categorizations established in the paper." attr="From the paper" attrlink="https://graphics.cs.wisc.edu/Papers/2018/SGA18/">}}
 
 I think that the categorization is useful because it helps show the range of options to consider. When doing design, you need to pick one - being aware of the options so you (as designer) can make an explicit choices is valuable. The paper looks at many examples, and finds some statistical trends in how things are used. Some of these observations are interesting, but to me, the main thing is the overall categorization and the insights on how to understand the different approaches.
 
