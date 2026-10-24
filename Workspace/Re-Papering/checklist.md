@@ -90,6 +90,13 @@ One line per reading. `- [ ]` nothing done · `- [/]` summary generated · `- [!
 - [/] Fuchs, Isenberg, Bezerianos & Keim — A Systematic Review of Experimental Studies on Data Glyphs (IEEE TVCG, 2017)
 - [/] Borgo, Kehrer, Chung, Maguire, Laramee, Hauser, Ward & Chen — Glyph-based Visualization: Foundations, Design Guidelines, Techniques and Applications (Eurographics STAR, 2013)
 - [/] Wickham — A Layered Grammar of Graphics (Journal of Computational and Graphical Statistics, 2010)
+- [/] Dimara, Franconeri, Plaisant, Bezerianos & Dragicevic — A Task-based Taxonomy of Cognitive Biases for Information Visualization (IEEE TVCG, 2020)
+- [/] Xiong, Van Weelden & Franconeri — The Curse of Knowledge in Visual Data Communication (IEEE TVCG, 2020)
+- [/] Dimara, Bezerianos & Dragicevic — The Attraction Effect in Information Visualization (IEEE TVCG, 2017)
+- [/] Ondov, Jardine, Elmqvist & Franconeri — Face to Face: Evaluating Visual Comparison (IEEE TVCG, 2019)
+- [/] Ondov, Yang, Kay, Elmqvist & Franconeri — Revealing Perceptual Proxies with Adversarial Examples (IEEE TVCG, 2021)
+- [/] Schloss — Perceptual and Cognitive Foundations of Information Visualization (Annual Review of Vision Science, 2025)
+- [/] Quadri & Rosen — A Survey of Perception-Based Visualization Studies by Task (IEEE TVCG, 2022)
 
 ## Already-published re-papered snacks (no AI summary on file for these)
 
