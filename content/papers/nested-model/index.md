@@ -1,5 +1,5 @@
 +++
-title = "The Nested Model, Broadly Viewed"
+title = "The Nested Model(s): A Reader's Guide"
 date = 2026-10-24T12:43:59-05:00
 draft = false
 tags = ["evaluation", "nested-model"]
@@ -110,7 +110,7 @@ The paper and the chapter share the core: the four levels, the threats, immediat
 
 **The book adds "angles of attack."** Problem-driven work starts at the top (a real user's problem) and works down. Technique-driven work starts at the idiom or algorithm level with a new idea. For the second kind, the advice is to state your assumptions about the level just above the one you are working on.
 
-**The book drops some things.** The paper has a short list of recommendations for authors and venues, and an unusually candid section on its own limitations: the model "errs on the side of oversimplifying the situation," and its assumption that complex sensemaking can be broken into low-level pieces "is unlikely to be completely true." The book leaves these out. I think the caveat is worth keeping.
+**The book drops some things.** The paper has a short list of recommendations for *visualization research* (authors and venues), and an unusually candid section on its own limitations: the model "errs on the side of oversimplifying the situation," and its assumption that complex sensemaking can be broken into low-level pieces "is unlikely to be completely true." The book leaves these out. I think the caveat is worth keeping.
 
 ## Beyond research papers: my version
 
@@ -156,7 +156,7 @@ The lines between my levels are fuzzy. Whether something is a key choice or a de
 {{<expand "What I wrote in a 2018 paper">}}
 The closest I came to writing my version down was in {{<link "/papers/comparison">}}. The paper's four considerations for comparison each fit a phase of design: identify the comparison's targets and actions (task), identify what makes it hard to scale (data abstraction), choose a strategy for handling the scale (design), and choose a visual design (details). A footnote says "My visualization class terms this Task, Data, Design, Details, but the names from Munzner's nested model also apply."
 
-Looking at it now, that version puts the line between Design and Details higher than I would today: the design is the strategy (scan, subset, or summarize), and even the encodings are details. It is a snapshot of my thinking at the time, and arguably a misremembering of Munzner's model.
+Looking at it now, that version puts the line between Design and Details higher than I would today: the design is the strategy (scan, subset, or summarize), and even the encodings are details. It is a snapshot of my thinking at the time, and focused on comparison.
 {{</expand>}}
 
 ## Using it
@@ -173,9 +173,9 @@ You will probably be asked to do this in class.
 
 ## Do you still need to read the originals?
 
-The book chapter: yes. It is the best explanation, and Figure 4.5 gets the key idea across. The examples at the end are worth skimming, if only for a taste of some historical visualization research.
+I recommend reading the book chapter as they get the ideas across more completely. The examples at the end are worth skimming, if only for a taste of some historical visualization research.
 
-The 2009 paper: if you plan to work in the field, you should see the original. For class, it is mostly redundant with the chapter, although its limitations section is worth a look.
+The 2009 paper: if you plan to work in the field, you should see the original since it is seminal. For class, it is mostly redundant with the chapter, although its limitations section is worth a look.
 
 {{<genai>}}
 Claude drafted this page from Mike's notes, course materials, and lecture slides, and from AI summaries of the Munzner paper and chapter, through a long conversation with Mike about what his version of the model actually is. Mike revised, substantially.
