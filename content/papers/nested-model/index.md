@@ -7,11 +7,15 @@ tags = ["evaluation", "nested-model"]
 
 Munzner's **nested model** splits visualization design into four levels, each with its own way of going wrong and its own kind of evidence that you got it right. It is one of the most important ideas in the field. But it isn't one paper: it's a paper, a book chapter, a follow-up paper, and (in my class) a version of my own that has drifted from all of them.
 
+Munzner's **nested model** is an approach to thinking about visualization validation that leads to design and evaluation process. It divides visualization design into four levels, each affecting the ones below (or inside) it (hence ``nested''). While the idea was originally described for describing how to validate visualization research, it generalizes to practical visualization design and beyond.
+
 <!--more-->
 
-[MIKE: note to the reader that we wrote this together.]
+Munzner's nested model is one of the most important concepts in visualization. I view it as one of the most insightful and elegant ideas in the field. However, it can be a little tricky to learn about because it has multiple sources, and its origins belie its general utility. 
 
-[MIKE: commentary on how core the idea is, and how profound/impactful it has been (on you, at least). Foreshadow "my version" at the end.]
+I wanted to write a tutorial summarizing the idea - but it isn't a paper summary, because there isn't a single paper to summarize. Instead, I worked with Claude to write this summary that tries to explain the various versions. In particular, to show how the original concepts focused on visualization research can be generalized to apply to visualization design in general.  I hope this summer not only conveys the basic ideas, but gives you a sense of the versions, and inspires you to read the original sources.
+
+This document also describes the version I try to teach in class that I haven't tried to pin down in writing before.
 
 ## What is this?
 
@@ -21,7 +25,7 @@ The nested model has three "official" sources, all from Tamara Munzner and her c
 + Tamara Munzner. 2014. *Visualization Analysis and Design*, Chapter 4: "Analysis: Four Levels for Validation." CRC Press. (See {{<link "/resources/munzner">}}.)
 + Miriah Meyer, Michael Sedlmair, P. Samuel Quinan, and Tamara Munzner. 2015. The nested blocks and guidelines model. *Information Visualization* 14, 3 (2015), 234–249. [(doi)](https://doi.org/10.1177/1473871613510429)
 
-The 2009 paper introduced the idea. The book chapter came later, explains it better, and uses the vocabulary of the rest of the book; it is the one to read. The 2015 paper (an earlier version appeared at a workshop in 2013) adds the idea of "blocks" and "guidelines," some of which the book picked up.
+The 2009 paper introduced the idea. The book chapter came later, explains it better, and uses the vocabulary of the rest of the book; it is the version I recommend. The 2015 paper (an earlier version appeared at a workshop in 2013) adds the idea of "blocks" and "guidelines," some of which the book picked up.
 
 One thing to know going in: the model was built for evaluating visualization *research*. The original paper is addressed to people writing and reviewing visualization papers. That is still a useful perspective, but it isn't the only one, and the last part of this page is about using the model more broadly.
 
@@ -46,6 +50,8 @@ The part of the model that makes it about *validation* is that each level has a 
 + **Downstream** validation requires the inner levels to be done first. You can't measure adoption of a tool nobody has built.
 
 The catch is that most of the convincing evidence for the outer levels is downstream. To learn whether you understood the problem, you need a working system in the hands of real users, and by then a poor result might be the fault of any level inside. (A bad encoding can make a perfectly good abstraction look wrong.)
+
+Importantly: validation of an inner layer says nothing about an outer layer. A great encoding design or algorithm won't help the user if you're solving the wrong problem.
 
 This figure is the summary of the whole idea (it is Figure 2 in the paper and Figure 4.5 in the book). Each box is a level. Inside each box, the validations above the inner box are immediate; the ones below it are downstream.
 
@@ -92,11 +98,9 @@ This figure is the summary of the whole idea (it is Figure 2 in the paper and Fi
 
 *Threats and validation at each of the four levels. Redrawn as text from Munzner, Visualization Analysis and Design, Figure 4.5 (originally Figure 2 of the 2009 paper); the "immediate/downstream" labels are added.*
 
-Two things in the figure are easy to miss. First, the abstraction level has no immediate validation at all: the only way to know you abstracted correctly is to give the finished thing to real users doing their own work. Second, informal usability testing is in the figure but deliberately not called validation. Munzner (quoting Andrews) puts it there because you should do it *before* a real study, not instead of one.
+A key lesson is the importance of *matching validation*: the evidence has to be at the level of the claim. If a paper claims a new encoding is better, timing the algorithm doesn't support that. If it claims to solve a real user's problem, a lab study where the experimenter chose the tasks doesn't support that either. No single project can validate everything at every level, so the point is to know which level you are claiming something about, and pick evidence that fits.
 
-The other big lesson is about **mismatches**: the evidence has to be at the level of the claim. If a paper claims a new encoding is better, timing the algorithm doesn't support that. If it claims to solve a real user's problem, a lab study where the experimenter chose the tasks doesn't support that either. No single project can validate everything at every level, so the point is to know which level you are claiming something about, and pick evidence that fits.
-
-Finally, the levels are a way to *analyze* a design, not a required order for doing it. Real design goes back and forth between the levels.
+Finally, the levels are a way to *analyze* a design, not a required order for doing it. Real design goes back and forth between the levels. However, starting from the outside in is the "standard" process.
 
 ## How the idea changed: paper, book, blocks
 
@@ -110,13 +114,9 @@ The paper and the chapter share the core: the four levels, the threats, immediat
 
 **The book drops some things.** The paper has a short list of recommendations for authors and venues, and an unusually candid section on its own limitations: the model "errs on the side of oversimplifying the situation," and its assumption that complex sensemaking can be broken into low-level pieces "is unlikely to be completely true." The book leaves these out. I think the caveat is worth keeping.
 
-[TODO: Meyer et al. 2015, what the blocks-and-guidelines paper adds beyond what the book uses. Waiting on the AI summary of the paper; don't write this from memory.]
-
 ## Beyond research papers: my version
 
-[MIKE: check this section's framing. It's drawn from what you said while we planned the page.]
-
-I have my own version of the nested model. It didn't come from a single decision. It drifted, slowly, as I tried to adapt Munzner's "how to evaluate visualization research" into what I needed: a way to think about *designing* visualizations, and evaluating visualizations rather than research contributions. Along the way I ended up with several versions, and I conflate them, so they get remixed. This is my attempt to pin one down.
+As much as I value and am inspired by Munzner's nested model, its emphasis on validating visualization research has always felt a little off, especially as I've tried to teach people to evaluation visualizations. Therefore, I have come up with my own. You may have seen it in {{<link "tutorials/2-building-blocks">}}. My nested model has evolved over the years, and here I try to pin it down.
 
 <div class="nm-fig nm-wide" role="figure" aria-label="My version of the nested model: Scenario, Abstraction, Design, Details, with the threat at each level">
 <div class="nm-l nm-l1">
@@ -124,10 +124,10 @@ I have my own version of the nested model. It didn't come from a single decision
 <p><span class="nm-k">Threat</span><span>You're solving the wrong problem.</span></p>
 <div class="nm-l nm-l2">
 <p><span class="nm-k">Abstraction</span><span>What is the generalized form? <span class="nm-tag">(Munzner: task and data abstraction)</span></span></p>
-<p><span class="nm-k">Threat</span><span>Excessive, insufficient, or incorrect abstraction.</span></p>
+<p><span class="nm-k">Threat</span><span>Your abstractions are excessive, insufficient, or incorrect.</span></p>
 <div class="nm-l nm-l3">
 <p><span class="nm-k">Design</span><span>What is the strategy for solving it? What are the key high-level choices? <span class="nm-tag">(Munzner: encoding/interaction idiom)</span></span></p>
-<p><span class="nm-k">Threat</span><span>Your key choices don't work for this task and data.</span></p>
+<p><span class="nm-k">Threat</span><span>Your key choices don't work for the scenario.</span></p>
 <div class="nm-l nm-l4">
 <p><span class="nm-k">Details</span><span>How do we make the design real? Implementation and smaller choices. <span class="nm-tag">(Munzner: algorithm)</span></span></p>
 <p><span class="nm-k">Threat</span><span>You executed it poorly, or missed chances to get the details right.</span></p>
@@ -139,17 +139,17 @@ I have my own version of the nested model. It didn't come from a single decision
 
 *My version of the nested model, with the threat at each level. The Munzner level each one replaces is in parentheses.*
 
-**Scenario** is the problem itself. The task is the key part, but who it is for, what resources they have (data, most of all), and when and where they will use it all matter as well. These are the axes of the {{<link "/papers/problem-space">}}, which also has a sixth, "how," that I leave out here because it confuses things. The scenario can place constraints on every level inside it. The threat is the same as Munzner's: you can do everything else well and still be solving the wrong problem.
+**Scenario** is the problem itself. The task is the key part, but who it is for, what resources they have (data, most of all), and when and where they will use it all matter as well. These are the axes of the {{<link "/papers/problem-space">}}, which also has a sixth, "how (does the audience expect to be helped)," that I leave out here because it confuses things. The scenario can place constraints on every level inside it. The threat is the same as Munzner's: you can do everything else well and still be solving the wrong problem.
 
-**Abstraction** restates the problem in a generalized form. That is what lets us apply design principles: the principles are written for abstract tasks and data types, not for your particular situation. There are three ways to get it wrong. The abstraction can be *excessive*, simplifying away something that matters. It can be *insufficient*, staying so specific that the problem seems unique and no principle applies. Or it can be *incorrect*, generalizing to the wrong thing, like Munzner's example of the "family tree" that is really a more general graph.
+**Abstraction** restates the problem in a generalized form. That is what lets us apply design principles: the principles are written for abstract tasks and data types, not for your particular situation. There are three main ways to get it wrong. The abstraction can be *excessive*, simplifying away something that matters. It can be *insufficient*, staying so specific that the problem seems unique and no principle applies. Or it can be *incorrect*, generalizing to the wrong thing, like Munzner's example of the "family tree" that is really a more general graph.
 
-**Design** and **Details** are where my version differs most from Munzner's. Design is the strategy: the key, high-level choices about how to solve the abstract problem. The choice to use a color encoding is a design choice. The threat is that those key choices don't work for this task and data.
+In {{<link "/tutorials/task-abstraction">}}, we distinguish *composition* (how big a task is) from *abstraction* (how generic it is). Both apply in this step: design requires both correctly breaking the problem into pieces and find generic ways to describe think about it.
 
-**Details** is everything it takes to make the design real: the smaller choices and the implementation. The specific colors are a detail, and so are the titles, the labels, the annotations, and the code. Munzner's inner level is the algorithm, which matters if you are building systems and often doesn't if you are making a chart. Details is a much bigger level, and for most of the visualizations you will make, it is where a lot of the work happens. The threat has two parts: you can execute poorly, but you can also miss chances. Details are a place to fail, and also a place to excel.
+**Design** and **Details** are where my version differs most from Munzner's. Design is the strategy: the key, high-level choices about how to solve the abstract problem. The choice to use a color encoding is a design choice, the specific colors are a detail. The threat is that those key choices don't work for this task and data.
 
-The lines between my levels are fuzzy. So are Munzner's. Whether something is a key choice or a detail depends on the visualization: a color can be a detail in one design and the whole point of another. That doesn't make the model less useful. It is a lens for asking "what kind of decision is this, and what kind of evidence would tell me it's right?"
+**Details** is everything it takes to make the design real: the smaller choices and the implementation. Implementation is a detail: the user won't care if you've implemented the wrong thing. Small choices like specific colors, the visual style, or the wording of labels are similar. Poor details can ruin everything downstream, but they only matter if the outer layers are right. The threat has two parts: you can execute poorly, but you can also miss chances. Details are a place to fail, and also a place to excel.
 
-[OPTIONAL: One related distinction: how *big* a task is (its composition level) is a different question from how *generic* its description is (its abstraction). Only the second is the step from Scenario to Abstraction. See {{<link "/tutorials/task-abstraction">}}.]
+The lines between my levels are fuzzy. Whether something is a key choice or a detail depends on the visualization: a color can be a detail in one design and the whole point of another. That doesn't make the model less useful. It is a lens for asking "what kind of decision is this, and what kind of evidence would tell me it's right?"
 
 **The recipe is not the model.** In {{<link "/tutorials/2-building-blocks">}} I give a four-step recipe: Task, Data, Design, Details. It came from the nested model, and it looks like the nested model, and I have been known to mix the two up. But they do different jobs. The recipe is the order you *work* in (with lots of going back). The model is the structure you *check* against: each level has its own threat and its own evidence. Data gets its own step in the recipe because gathering resources is a step. In the model, understanding the data is part of the scenario and the abstraction.
 
@@ -176,8 +176,6 @@ You will probably be asked to do this in class.
 The book chapter: yes. It is the best explanation, and Figure 4.5 gets the key idea across. The examples at the end are worth skimming, if only for a taste of some historical visualization research.
 
 The 2009 paper: if you plan to work in the field, you should see the original. For class, it is mostly redundant with the chapter, although its limitations section is worth a look.
-
-The blocks paper: optional. [TODO: revisit after summarizing.]
 
 {{<genai>}}
 [MIKE: adjust.] Claude drafted this page from Mike's notes, course materials, and lecture slides, and from AI summaries of the Munzner paper and chapter, through a long conversation with Mike about what his version of the model actually is. Mike edited.
