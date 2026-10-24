@@ -97,6 +97,8 @@ One line per reading. `- [ ]` nothing done · `- [/]` summary generated · `- [!
 - [/] Ondov, Yang, Kay, Elmqvist & Franconeri — Revealing Perceptual Proxies with Adversarial Examples (IEEE TVCG, 2021)
 - [/] Schloss — Perceptual and Cognitive Foundations of Information Visualization (Annual Review of Vision Science, 2025)
 - [/] Quadri & Rosen — A Survey of Perception-Based Visualization Studies by Task (IEEE TVCG, 2022)
+- [/] Munzner — A Nested Model for Visualization Design and Validation (IEEE TVCG, 2009)
+- [/] Meyer, Sedlmair, Quinan & Munzner — The Nested Blocks and Guidelines Model (Information Visualization, 2015)
 
 ## Already-published re-papered snacks (no AI summary on file for these)
 
