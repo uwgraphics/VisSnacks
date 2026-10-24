@@ -59,7 +59,8 @@ This figure is the summary of the whole idea (it is Figure 2 in the paper and Fi
 .nm-fig .nm-impl{background:#eee;border:1px dashed #888;padding:0.3rem 0.5rem;margin:0.3rem 0;font-weight:bold;}
 .nm-fig p{margin:0.15rem 0;color:#222;display:flex;gap:0.4em;}
 .nm-fig .nm-k{font-weight:bold;flex:0 0 5.5em;}
-@media (max-width:600px){.nm-fig{font-size:0.85rem;}.nm-fig .nm-l{padding:0.3rem 0.25rem 0.3rem 0.4rem;}.nm-fig .nm-k{flex-basis:4.6em;}}
+.nm-fig.nm-wide .nm-k{flex-basis:7em;}
+@media (max-width:600px){.nm-fig.nm-wide .nm-k{flex-basis:6.3em;}.nm-fig{font-size:0.85rem;}.nm-fig .nm-l{padding:0.3rem 0.25rem 0.3rem 0.4rem;}.nm-fig .nm-k{flex-basis:4.6em;}}
 .nm-fig .nm-note{font-style:italic;}
 .nm-fig .nm-tag{font-size:0.8em;color:#555;}
 </style>
@@ -117,16 +118,34 @@ The paper and the chapter share the core: the four levels, the threats, immediat
 
 I have my own version of the nested model. It didn't come from a single decision. It drifted, slowly, as I tried to adapt Munzner's "how to evaluate visualization research" into what I needed: a way to think about *designing* visualizations, and evaluating visualizations rather than research contributions. Along the way I ended up with several versions, and I conflate them, so they get remixed. This is my attempt to pin one down.
 
-| Munzner | My version | What changes |
-| --- | --- | --- |
-| Domain situation | **Scenario** | broadened to the whole problem space, including the resources available |
-| Task and data abstraction | **Abstraction** | the same idea |
-| Encoding and interaction idiom | **Design** | the *key* choices |
-| Algorithm | **Details** | everything else: specific design choices, and implementation |
+<div class="nm-fig nm-wide" role="figure" aria-label="My version of the nested model: Scenario, Abstraction, Design, Details, with the threat at each level">
+<div class="nm-l nm-l1">
+<p><span class="nm-k">Scenario</span><span>What is the problem? Who, why (the task), what (resources, such as data), when, and where. <span class="nm-tag">(Munzner: domain situation)</span></span></p>
+<p><span class="nm-k">Threat</span><span>You're solving the wrong problem.</span></p>
+<div class="nm-l nm-l2">
+<p><span class="nm-k">Abstraction</span><span>What is the generalized form? <span class="nm-tag">(Munzner: task and data abstraction)</span></span></p>
+<p><span class="nm-k">Threat</span><span>Excessive, insufficient, or incorrect abstraction.</span></p>
+<div class="nm-l nm-l3">
+<p><span class="nm-k">Design</span><span>What is the strategy for solving it? What are the key high-level choices? <span class="nm-tag">(Munzner: encoding/interaction idiom)</span></span></p>
+<p><span class="nm-k">Threat</span><span>Your key choices don't work for this task and data.</span></p>
+<div class="nm-l nm-l4">
+<p><span class="nm-k">Details</span><span>How do we make the design real? Implementation and smaller choices. <span class="nm-tag">(Munzner: algorithm)</span></span></p>
+<p><span class="nm-k">Threat</span><span>You executed it poorly, or missed chances to get the details right.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
 
-**Scenario** is the concrete situation: who, why, what data, when, where, and how they expect to be helped. That is the {{<link "/papers/problem-space">}}. The scenario can also place constraints on every layer inside it. "It has to work in Excel" is part of the scenario, even though what it constrains is a detail.
+*My version of the nested model, with the threat at each level. The Munzner level each one replaces is in parentheses.*
 
-**Design** and **Details** are where my version differs most from Munzner's. Her inner level is the algorithm, which matters if you are building systems, and often doesn't if you are making a chart. My inner level is everything below the key choices. The choice to use a color encoding is design; the choice of the specific colors is a detail. So are the titles, the labels, the annotations, and the code. Details is a much bigger level than Algorithm, and for most of the visualizations you will make, it is where a lot of the work (and a lot of the failures) happen.
+**Scenario** is the problem itself. The task is the key part, but who it is for, what resources they have (data, most of all), and when and where they will use it all matter as well. These are the axes of the {{<link "/papers/problem-space">}}, which also has a sixth, "how," that I leave out here because it confuses things. The scenario can place constraints on every level inside it. The threat is the same as Munzner's: you can do everything else well and still be solving the wrong problem.
+
+**Abstraction** restates the problem in a generalized form. That is what lets us apply design principles: the principles are written for abstract tasks and data types, not for your particular situation. There are three ways to get it wrong. The abstraction can be *excessive*, simplifying away something that matters. It can be *insufficient*, staying so specific that the problem seems unique and no principle applies. Or it can be *incorrect*, generalizing to the wrong thing, like Munzner's example of the "family tree" that is really a more general graph.
+
+**Design** and **Details** are where my version differs most from Munzner's. Design is the strategy: the key, high-level choices about how to solve the abstract problem. The choice to use a color encoding is a design choice. The threat is that those key choices don't work for this task and data.
+
+**Details** is everything it takes to make the design real: the smaller choices and the implementation. The specific colors are a detail, and so are the titles, the labels, the annotations, and the code. Munzner's inner level is the algorithm, which matters if you are building systems and often doesn't if you are making a chart. Details is a much bigger level, and for most of the visualizations you will make, it is where a lot of the work happens. The threat has two parts: you can execute poorly, but you can also miss chances. Details are a place to fail, and also a place to excel.
 
 The lines between my levels are fuzzy. So are Munzner's. Whether something is a key choice or a detail depends on the visualization: a color can be a detail in one design and the whole point of another. That doesn't make the model less useful. It is a lens for asking "what kind of decision is this, and what kind of evidence would tell me it's right?"
 
